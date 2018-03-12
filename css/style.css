@@ -1,0 +1,314 @@
+body,html{overflow: hidden;}
+/*product-box*/
+.product-box{width:375px; height:100%;overflow: hidden; position: fixed; top:0; right:0; left:0; margin: 0 auto;}
+.product-box .content{background-color: #fff;height:100%; width:100%; overflow: hidden; overflow-y: auto;padding-bottom:50px;-webkit-overflow-scrolling: touch; position:relative;}
+
+/*user-list*/
+.video-list{margin-bottom:15px;padding-top:10px;}
+.video-list ul{width:auto;margin:0;padding:0 6px;}
+.video-list ul li{	width: 80px;height: 127px;border-radius: 3px; list-style: none; overflow: hidden; position: relative;margin-right:5px;}
+.video-list ul li img{width: 80px;height: 127px;}
+.video-list ul li .username{color: #ffffff;font-size: 12px;font-weight: 600; position: absolute; top:3px; left:5px;z-index: 9;}
+.video-list ul li .mask{width:80px;height:127px; background-color: rgba(0, 0, 0, 0.36);border-radius: 3px;  position: absolute; top:0;left:0; z-index: 8;}
+.video-list ul li .video-play{width:42px;height: 42px; background: url("../images/paly-icon.png") 0 0 no-repeat; position: absolute; top:0;bottom:0;left:0; right:0;margin: auto; z-index: 9;}
+.video-list ul li:hover .video-play,.video-list ul li:active .video-play{background: url("../images/paly-active-icon.png") 0 0 no-repeat;}
+.user-list{display: block; overflow: hidden;width: 100%;padding:5px 6px;margin:0;}
+.user-list li{display: block; float: left; width:179px; height: 190px;border-radius: 3px;overflow: hidden;margin-right:5px;margin-bottom:5px;}
+.user-list li:nth-child(2n+0){margin-right: 0;}
+.user-list li a{display: block; position: relative; color: #ffffff;}
+.user-list li h3{position: absolute;font-size: 15px;font-weight: 600; top:6px; left:10px;z-index: 3;margin:0;}
+.user-list li p{position: absolute;font-size: 11px;font-weight: 500; top:27px; left:10px;z-index: 3;}
+.user-list li .mask{width: 179px; height: 190px; background-color:rgba(0, 0, 0, 0.3); z-index: 1;border-radius: 3px; position: absolute; top:0;left:0;}
+.user-list li img{width:100%; height:100%;border-radius: 3px;}
+
+/*chart-list*/
+.chart-list{display: block; overflow: hidden;width: 100%;padding:5px 0;margin:0;}
+.chart-list .no-data{padding: 40px;font-size: 14px;font-weight: 500;color: #9b9b9b; text-align: center;}
+.chart-list .item{width:100%; height:74px;padding:0; float: left; display: block;}
+.chart-list .item a{width:100%; height:74px; display: block; position: relative;padding-left:81px;padding-right:6px;padding-top:16px;}
+.chart-list .item a:hover{text-decoration: none;}
+.chart-list .item .img-circle{position: absolute; top:0px; bottom:0; left:15px; margin: auto 0; width:46px;height:46px;}
+.chart-list .item .user{color: #000;font-size: 15px;font-weight: 500; float: left;width:100%;}
+.chart-list .item .date{color: #b9b9b9;font-weight: 500;font-size: 11px;margin-left:10px;}
+.chart-list .item .corner{width: 20px;  height: 18px;  border-radius: 9px;  background-color: #e7427a; text-align: center; line-height: 18px;color: #ffffff;font-size: 12px; position: absolute; right:20px; top:0;bottom:0; margin: auto 0;}
+.chart-list .item .info{color: #7d7d7d;font-size: 13px;margin-top:6px;float: left;width:100%;}
+.chart-list .item .delete{width:57px;height:100%; display: block;background:#f2f2f2 url("../images/delete-bank-icon.png") center center no-repeat; background-size: 17px 17px;}
+
+
+/*chart-content*/
+.chart-content{width:100%; height:100%;overflow: hidden;}
+.chart-content .warning{position: fixed; top:0; left:0; right:0; margin: 0 auto;width: 375px;  height: 34px;  background-color: #e7427a;font-weight: 500;font-size: 14px;color: #ffffff; line-height:34px; text-align: center; }
+.chart-content .invitation{width:375px; height:108px; position: fixed; top:0;z-index: 9;padding-top:13px; text-align: center; left:0; font-weight: 500;right:0; margin:  0 auto;background-color: rgba(41, 41, 41, 0.9);}
+.chart-content .invitation h3{margin:0;font-size: 13px;color: #ffffff;  }
+.chart-content .invitation p{color: #9b9b9b;font-size: 12px;margin-top:5px;}
+.chart-content .invitation .btn{width: 101px;  height: 31px;  border-radius: 17px;padding:0; line-height: 31px;font-size: 13px; outline: none;margin: 2px  17px 0}
+.chart-content .invitation .btn-yes{color:#fff;border: solid 1px #ffffff; background-color: rgba(41, 41, 41, 0.9); }
+.chart-content .invitation .btn-deny{color: #292929;background-color: #9b9b9b;border: solid 1px #979797;}
+.chart-content .invitation .btn-yes:active{background-color: #e62565;border-color:#e62565;}
+.chart-content .input-bar{position: fixed; bottom:0; left:0; right:0;margin:0  auto;background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.0), #ffffff);width: 375px;min-height: 47px;}
+.chart-content .input-bar .top-bar{width: 375px;position: relative;height: 47px;}
+.chart-content .input-bar .top-bar .left-icon{width:26%;height:100%; padding-left:15px;padding-top:11px; overflow: hidden; position: absolute;top:0;left:0;}
+.chart-content .input-bar .top-bar .left-icon span{display: inline-block;width:25px; height:25px;}
+.chart-content .input-bar .top-bar .left-icon span input{font-size:100px; opacity: 0;}
+.chart-content .input-bar .top-bar .tog-icon{width:16%;height:100%; float: left; position: absolute; top:0; left:-200px;}
+.chart-content .input-bar .top-bar .tog-icon .btn{width:31px; height:27px; background: url("../images/tog-icon.png") center center no-repeat; background-size: 31px 27px;outline: none; position: absolute; bottom:7.5px; left:0; right:0; margin: 0 auto;}
+.chart-content .input-bar .top-bar .left-icon .camera{background: url("../images/ic1-camera@2x.png") center center no-repeat; background-size: 22px 20px;margin-right:12px;}
+.chart-content .input-bar .top-bar .left-icon .photo{background: url("../images/ic-2photo@2x.png") center center no-repeat; background-size: 21px 20px;}
+.chart-content .input-bar .top-bar .input{width:58%;height:100%; position: relative; position: absolute; top:0; right:16%;}
+.chart-content .input-bar .top-bar .input #textarea{width: 100%;min-height:36px;max-height:120px;border-radius: 18px;background-color: #f9f9f9;outline:none;border: solid 1px #dddddd;padding:7px 10px; position: absolute; bottom:6px;overflow: hidden;overflow-y:auto;margin-bottom:0;}
+.chart-content .input-bar .top-bar .input #textarea::before{content: '傳送聊天內容'; display: block; position: absolute; left:10px; top:7px; overflow: hidden;color: #b9b9b9;}
+.chart-content .input-bar .top-bar .input #textarea:focus::before{display: none;}
+.chart-content .input-bar .top-bar .input #textarea.hide-placeholder::before{display: none;}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */color: #b9b9b9; opacity:1;font-size: 14px;}
+::-moz-placeholder { /* Mozilla Firefox 19+ */  color: #b9b9b9;opacity:1;  font-size: 14px;}
+.chart-content .input-bar .top-bar .input textarea:-ms-input-placeholder{ color: #b9b9b9;opacity:1; font-size: 14px;}
+.chart-content .input-bar .top-bar .input textarea::-webkit-input-placeholder{ color: #b9b9b9;opacity:1;  font-size: 14px;}
+.chart-content .input-bar .top-bar .right-icon{width:16%;height:100%; text-align: center;padding-top:6px; position: absolute; top:0; right:0;}
+.chart-content .input-bar .top-bar .right-icon .gift-btn{display: inline-block; width:36px; outline: none; height:36px; border-radius: 100%; background:#fff url("../images/ic4-gift@2x.png") center center no-repeat; background-size: 19px 20px; border: solid 1px #dddddd;}
+.chart-content .input-bar .top-bar .right-icon .send-btn{width:36px; height:36px;background: url("../images/send@2x.png") center center no-repeat;background-size: 26px 21px;border:0; outline: none}
+.chart-content .input-bar.disabled{background-color: rgba(222, 221, 223, 0.7);}
+.chart-content .input-bar.disabled .left-icon,.chart-content .input-bar.disabled .input{opacity: 0.3;}
+.chart-content .input-bar .gift-tips{width:100%; height:61px;background-color: rgba(41, 41, 41, 0.9); position: absolute; bottom:47px;left:0; text-align: center;}
+.chart-content .input-bar .gift-tips h3{color: #ffffff;font-weight: 500;font-size: 14px;margin-top:10px;margin-bottom:5px;}
+.chart-content .input-bar .gift-tips p{color: #b9b9b9;font-weight: 500;font-size: 13px;margin:0;}
+.chart-content .input-bar .gift-tips b{border-color: rgba(41, 41, 41, 0.9) transparent transparent transparent;  border-style: solid;  border-width: 6px 5px 0 5px;  height: 0;  right:25px;  margin-left: -4px;  position: absolute;  bottom:-6px;  width: 0;}
+.chart-content .input-bar .input-tips{width:100%; height:34px;line-height:34px;background-color: rgba(41, 41, 41, 0.9); position: absolute; bottom:47px;left:0; text-align: center;color: #ffffff;font-weight: 500;font-size: 14px;}
+.chart-content .input-bar .input-tips b{border-color: rgba(41, 41, 41, 0.9) transparent transparent transparent;  border-style: solid;  border-width: 6px 5px 0 5px;  height: 0;  right:245px;  margin-left: -4px;  position: absolute;  bottom:-6px;  width: 0;}
+.chart-content .input-bar .gift-show{width:100%;height:115px; text-align: center;position: absolute;top:-114px;border-radius: 16px 16px 0 0;  background-color: rgba(249, 249, 249, 0.85);  border: solid 1px #dedddf;border-bottom:0;}
+.chart-content .input-bar .gift-show span{display: block; width:15px; height:15px; background: url("../images/gift-show-close-icon.png") center center no-repeat; background-size: 15px 15px; position: absolute; top:21.5px; right:21.5px;}
+.chart-content .input-bar .gift-list{overflow: hidden;background-color: #f9f9f9;padding:8px 10px;height:306px;overflow-y: auto;padding-bottom:75px; position: relative;-webkit-overflow-scrolling: touch;}
+.chart-content .input-bar .gift-list .gift{width:75px; text-align: center; float: left;margin-right:18px;margin-bottom:15px;}
+.chart-content .input-bar .gift-list .gift:nth-child(4n+0){margin-right: 0;}
+.chart-content .input-bar .gift-list .gift img{width:75px; height:75px;display: inline-block;}
+.chart-content .input-bar .gift-list .gift span{display: inline-block;position: relative;padding-left:20px;}
+.chart-content .input-bar .gift-list .gift span::before{display: block;width:14px; height:14px; background: url("../images/icon-small-coin@2x.png") center center no-repeat; content: ''; background-size: 14px 14px; position: absolute;left:0px;top:3px;}
+.chart-content .input-bar  .gift-explain{width: 375px;  height: 84px;background-color: rgba(249, 249, 249, 0.82);padding:10px 15px 0; position: fixed; bottom:0; left:0; right:0; margin: 0 auto;	border-top: solid 1px #dedddf;}
+.chart-content .input-bar  .gift-explain h3{color: #292929;font-weight: 500;font-size: 14px;margin:0;margin-bottom:7px;}
+.chart-content .input-bar  .gift-explain h3 span{font-size: 12px;}
+.chart-content .input-bar  .gift-explain p{color: #7d7d7d;font-weight: 500;font-size: 12px;margin-bottom:5px;}
+.chart-content .input-bar  .gift-explain p img{width:14px; height:14px;marign-right:5px;position: relative; top:-1px;margin-left:5px;}
+.chart-content .input-bar  .gift-explain p i{font-style: normal;color: #292929;font-weight: 500;font-size: 16px;}
+.chart-content .input-bar  .gift-explain a{display: block; position: absolute;bottom:9px; right:15px;width: 46px;  height: 22px;  border-radius: 11px;  background-color: #dedddf; text-align: center; line-height: 22px;color: #2e57a6;font-size: 13px;font-weight: 500;}
+.chart-content .chart-desc{display: block;width:100%; height:100%;overflow: hidden; overflow-y: auto;-webkit-overflow-scrolling: touch;}
+.chart-content .chart-desc ul{ margin:0; padding:20px 0; }
+.chart-content .chart-desc .gift{width:100%; height:100px;padding-left:55px; position: relative; overflow: hidden;margin-bottom:10px;}
+.chart-content .chart-desc .gift .img-circle{width:31px;height:31px; position: absolute; left:15px!important;bottom:17px!important; top: inherit!important;}
+.chart-content .chart-desc .gift .gift-content{ float: left;}
+.chart-content .chart-desc .gift .gift-content img{width:100px;}
+.chart-content .chart-desc .gift .info{font-size: 13px;font-weight: 500;color: #9b9b9b;padding-top:48px;margin-left:10px; float: left;}
+.chart-content .chart-desc .gift .info div{margin-top:3px; overflow: hidden;}
+.chart-content .chart-desc .gift .info span{color: #4a4a4a;font-size: 12px;margin-left:25px; position: relative; float: right;}
+.chart-content .chart-desc .gift .info span::before{display: block;width:14px; height:14px; background: url("../images/icon-small-coin@2x.png") center center no-repeat; content: ''; background-size: 14px 14px; position: absolute;left:-18px;top:1px;}
+.chart-content .chart-desc .gift.me{padding-left:0; padding-right:14px;}
+.chart-content .chart-desc .gift.me .gift-content,.chart-content .chart-desc .gift.me .info{float: right;width:75px;}
+.chart-content .chart-desc .invitation-tips{padding: 0 14px;margin-bottom:10px; text-align: center;}
+.chart-content .chart-desc .invitation-tips .info{width: 347px;  height: 46px;  border-radius: 18px;  background-color: #f9f9f9;font-weight: 500; text-align: center;padding-top:4px;}
+.chart-content .chart-desc .invitation-tips .info h3{font-size: 13px;color: #292929;margin:0;}
+.chart-content .chart-desc .invitation-tips .info p{font-size: 12px;color: #9b9b9b;margin:0;}
+.chart-content .chart-desc .invitation-tips .date{font-size: 12px;color: #9b9b9b;font-weight: 500;}
+.chart-content .chart-desc .me{text-align: right;padding:0 15px;margin-bottom:3px;position:relative; }
+.chart-content .chart-desc .me .message{width: auto; text-align: left; min-height: 32px;word-break: break-all;
+    word-wrap: break-word;  border-radius: 16px;  background-color: #f86093; display: inline-block;max-width: 60%;padding:6px 15px;color: #ffffff;font-size: 14px;}
+.chart-content .chart-desc .he{text-align: left;padding:0 15px;margin-bottom:3px; position: relative;padding-left:56px;}
+.chart-content .chart-desc .he .message{width: auto; text-align: left;min-height: 32px;word-break: break-all;
+    word-wrap: break-word;  border-radius: 16px;  background-color: #dedddf; position: relative; display: inline-block;max-width: 60%;padding:6px 15px;color: #292929;font-size: 14px;}
+.chart-content .chart-desc .he .img-circle{position: absolute; top:0; left:15px;}
+.chart-content .chart-desc .he .message img{width:100px; display: block;}
+.chart-content .chart-desc .me .message img{width:100px;display: block;}
+.chart-content .chart-desc .he:last-child .message::after{width:20px;height:20px; position: absolute; bottom:-2px;left:-7px;content: ''; display: block; background: url("../images/he-jt.png") center center no-repeat; background-size: 8px 17px;}
+.chart-content .chart-desc .me:last-child .message::after{width:20px;height:20px; position: absolute; bottom:-2px;right:8px;content: ''; display: block; background: url("../images/me-jt.png") center center no-repeat; background-size: 8px 17px;}
+.invitation-open{padding-top:120px!important;}
+
+
+/*btn-cos*/
+.btn-cos{width: 100%;  height: 42px;  border-radius: 29px;  border: solid 1px rgba(0, 0, 0, 0.76); margin:0 auto; display: block; outline: none!important; background-color: #fff;}
+.btn-cos img{margin-right:10px; position: relative; top:-2px;}
+.btn-cos:hover{background-color: #dddddd;}
+.btn-cos:active{background-color: #e62565;color: #fff;}
+
+/*user-info*/
+.user-info{}
+.user-info .banner{width:100%; height:398px; position: relative;}
+.user-info .banner .mask{width:100%; height:398px;background: linear-gradient(to bottom, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.49))!important;position: absolute;top:0; left:0;}
+.user-info .banner .popular-pagination{position: absolute; bottom:10px; left:0; right:0; margin: 0 auto; text-align: center; z-index: 9;}
+.user-info .banner .swiper-pagination-bullet{width: 7px;  height: 7px;   background-color: #292929; opacity: 1;}
+.user-info .banner .swiper-pagination-bullet-active{background-color: #dedddf;}
+.user-info .banner  .section{position: absolute;z-index: 10;height:80px;width:100%; top:285px;left:0; padding: 0 15px;}
+.user-info .banner  .section .username{	font-size: 20px;font-weight: 600;color: #ffffff;margin-bottom:9px;}
+.user-info .banner  .section p{color: #ffffff;	font-weight: 500;font-size: 13px;margin-bottom:3px; }
+.user-info .banner  .section .share{position: absolute; top:35px; right:15px;}
+.user-info .banner  .section .share a{margin-left: 20px;}
+.user-info .banner  .section .edit{display: block;position: absolute; top:35px; right:15px;width: 100px;  color: #ffffff;font-weight: 500;font-size: 13px; text-align:center; line-height: 34px; height: 34px;  border-radius: 17px;  background-color: rgba(74, 74, 74, 0.55);}
+.user-info .banner  .section .edit:hover{text-decoration: none;}
+.user-info .banner .operation{padding:15px;}
+.user-info .banner .operation .describe p{margin-bottom:3px;color: #292929;font-size: 13px;}
+.user-info .banner .operation .btn-cos{width: 335px;  height: 42px;  margin: 25px auto 0; }
+.user-info .banner .operation .account{overflow: hidden;width:100%;height:85px;margin: 43px 0 30px;}
+.user-info .banner .operation .account .item{	width: 165px;  height: 85px;  border-radius: 3px;  background-color: #f9f9f9; display:block; float: left;margin-right: 15px; text-align: center;}
+.user-info .banner .operation .account .item:last-child{margin-right: 0;}
+.user-info .banner .operation .account h3{font-size: 17px;font-size: 17px;color: #292929;}
+.user-info .banner .operation .account a{color: #7d7d7d;font-weight: 500;font-size: 13px; text-decoration: none;}
+.user-info .banner .operation .account a img{width:14px; position: relative;top:-2px;margin-right:3px;}
+.user-info .banner .operation .sub-title{color: #292929;font-weight: 500;	font-size: 15px; text-align: center;}
+.user-info .banner .operation .sub-title+.btn-cos{margin-top:15px;}
+.user-info .banner .operation .tips{text-align: center;	color: #9b9b9b;font-weight: 500;font-size: 12px;margin-top:10px; margin-bottom:20px;}
+.user-info .banner .operation .tips img{margin-right:3px; position: relative; top:-2px;}
+.user-info .banner .operation .btn-cos-group{margin-top:34px; text-align: center; overflow: hidden;}
+.user-info .banner .operation .btn-cos-group .btn-cos{width:165px; display: inline-block; float: left;margin-right: 15px;margin-top:0;}
+.user-info .banner .operation .btn-cos-group .btn-cos:last-child{margin-right: 0;}
+
+/*user-edit*/
+.icheckbox_radio{display: inline-block; *display: inline;  vertical-align: middle;  margin: 0;  padding: 0;  width: 18px;  height: 18px;  background: url("../images/radio-defult.png") 0 0 no-repeat;  background-size: 18px 18px;  border: none;  cursor: pointer;}
+.icheckbox_radio.checked{background: url("../images/radio-checked.png") 0 0 no-repeat;  background-size: 18px 18px;}
+.user-edit{}
+.user-edit .photo{border-bottom: solid 1px #dedddf;}
+.user-edit .photo .tit{color: #292929;font-weight: 500;font-size: 16px;padding:15px;}
+.user-edit .photo .photo-list{margin-top:5px;overflow: hidden;}
+.user-edit .photo .photo-list .item{width: 122px;  height: 122px;  border-radius: 2px;  background-color: #7d7d7d; float: left;margin-right:4px;margin-bottom:5px; position: relative;}
+.user-edit .photo .photo-list .item:nth-child(3n+0){margin-right: 0;}
+.user-edit .photo .photo-list .item .delete{position: absolute;width: 31px;  height: 31px; background: url("../images/delete-photo.png") 0 0 no-repeat; background-size: 31px 31px; display: block; bottom:0px; right:0px;}
+.user-edit .photo .add-btn{width:38px; height:38px; background: url("../images/add-icon.png")  0 0 no-repeat;background-size: 38px 38px; overflow: hidden; margin:30px auto;}
+.user-edit .photo .add-btn input{font-size: 100px;opacity: 0;}
+.user-edit .video{border-bottom: solid 1px #dedddf;}
+.user-edit .video .tit{color: #292929;font-weight: 500;font-size: 16px;padding:15px;}
+.user-edit .video .tit span{font-size: 13px;	font-weight: 500;color: #7d7d7d; margin-left:10px;}
+.user-edit .video .item{width:100%;height:179px;background-color: #7d7d7d; text-align: center;}
+.user-edit .video .item video{width:100%; height:100%;}
+.user-edit .video .add-btn{width:38px; height:38px; background: url("../images/add-icon.png")  0 0 no-repeat;background-size: 38px 38px; overflow: hidden; margin:30px auto;}
+.user-edit .video .add-btn input{font-size: 100px;opacity: 0;}
+.user-edit .form{margin-top:20px;padding: 0 15px;}
+.form-control{border:0 !important; box-shadow: none!important;}
+.user-edit .form .form-control{width:100%;height:50px; line-height: 50px;border-radius: 3px;background-color: #f9f9f9;}
+.user-edit .form label{margin-bottom:10px;	font-size: 16px;font-weight: 500;color: #292929; display: block;}
+.user-edit .form .sex{margin-top:20px;}
+.user-edit .form .sex .icheckbox_radio{margin-right: 10px; position: relative; top:-1px;}
+.user-edit .form .sex .radio{display: inline-block;margin-right:40px;}
+.user-edit .form .address{margin-top:40px;margin-bottom:20px;overflow: hidden;}
+.user-edit .form .select-group{}
+.user-edit .form .select-group .select2{width:166px; height:50px;margin-right: 13px; float: left;}
+.user-edit .form .select-group .select2:last-child{margin-right: 0;}
+.user-edit .form .select-group .select2-container .select2-selection--single{width:166px; height:50px;border-radius: 25px;outline: none;}
+.user-edit .form .select-group .select2-selection__rendered{width:166px; height:50px; line-height: 50px;color: #7d7d7d;font-weight: 500;font-size: 16px;padding-left:20px;}
+.user-edit .form .select-group .select2-selection__arrow{height:50px; background: url("../images/select2.png")  center center no-repeat; background-size: 15px 8px;right:20px;}
+.user-edit .form .select-group .select2-selection__arrow b{display: none;}
+.user-edit .form .select-group .select2-container--open .select2-selection__arrow{transform: rotate(180deg)}
+.select2-container--default .select2-dropdown{border-bottom:1px solid #aaa;border-radius: 4px;}
+.user-edit .btn-cos{border: solid 1px #292929;border-radius: 29px;height: 42px;font-weight: 500;width: 244px; margin: 40px auto 0; line-height: 30px; display: block;}
+
+/*get-money*/
+.get-money{position: relative;}
+.get-money .prompt{width: 375px;  height: 39px;  background-color: rgba(41, 41, 41, 0.9);color: #ffffff;font-weight: 500;font-size: 14px; text-align: center; line-height: 39px;}
+.get-money .head{padding:30px; border-bottom:1px solid #dedddf;}
+.get-money .head div:nth-child(1){	font-size: 14px;font-weight: 500;color: #9b9b9b;overflow: hidden;}
+.get-money .head div:nth-child(1) span{ display:block;float: right; background: url("../images/icon-small-coin@2x.png") 0 center  no-repeat; padding-left:20px; background-size: 14px 14px;}
+.get-money .head div:nth-child(2){text-align: center;padding:17px 0 30px;}
+.get-money .head div:nth-child(3){font-size: 14px;font-weight: 500;color: #9b9b9b;overflow: hidden; line-height: 30px;}
+.get-money .head div:nth-child(3) span{float: right;font-size: 15px;color: #292929;}
+.get-money .head div:nth-child(3) span i {font-style: normal;color: #292929;	font-size: 25px; position: relative; top:3px;}
+.get-money .head div:nth-child(4){color: #9b9b9b; text-align: right;font-size: 13px;  font-weight: 100;}
+.get-money .bank-account{}
+.get-money .bank-account .tit{font-size: 15px;font-weight: 500;color: #292929;padding: 12px 15px; border-bottom:1px solid #dedddf;}
+.get-money .bank-account .tit span{float: right;font-size: 13px;color: #7d7d7d;font-weight: 100; line-height: 26px;}
+.get-money .bank-account .card-list{padding: 0 20px;border-bottom:1px solid #dedddf;padding-bottom:40px;}
+.get-money .bank-account .card-list .tit{font-size: 14px;color: #292929;font-weight: 500;border-bottom:0;margin-bottom:20px;padding-left:0; display: none;}
+.get-money .bank-account .card-list .sub-tit{font-size: 14px;font-weight: 500;color: #292929;padding:11px 0 15px;}
+.get-money .bank-account .card-list .line{border-bottom:1px solid #dedddf;}
+.get-money .bank-account .card-list .add-bank{width: 99px;  height: 27px;  border-radius: 13.5px;  border: solid 1px #2e57a6;color: #2e57a6;line-height:30px;font-weight: 500;font-size: 13px; line-height: 27px; display: block; text-align: center;margin-top:15px;}
+.get-money .bank-account .card-list .btn{border: solid 1px #292929;border-radius: 29px;height: 42px;font-weight: 500;width: 244px; margin: 40px auto 0; line-height: 30px; display: block;}
+.get-money .bank-account .card-list .btn:hover{background-color: #dddddd;}
+.get-money .bank-account .card-list .btn:active{background-color: #e62565;color: #fff;}
+.get-money .bank-account .card-list .btn.disabled{border: solid 1px #9b9b9b;background-color: #dedddf;font-size: 14px;  color: #7d7d7d;  }
+.get-money .bank-account .card-list .list{margin:0; padding:0 0 10px; display: block;}
+.get-money .bank-account .card-list .list li{list-style: none;margin-bottom:10px; position: relative; overflow: hidden;}
+.get-money .bank-account .card-list .list li .bank-name{color: #292929;font-weight: 500;font-size: 16px;}
+.get-money .bank-account .card-list .list li .bank-name span{margin-left:20px;}
+.get-money .bank-account .card-list .list li .state{	font-size: 13px;font-weight: 500;color: #9b9b9b;margin-top:5px;}
+.get-money .bank-account .card-list .list li label{display: block; padding-left:35px; position: relative;}
+.get-money .bank-account .card-list .list li label .icheckbox_radio{position: absolute; left:0; top:0; bottom:0; margin: auto 0;}
+.get-money .bank-account .card-list .list li .delete{display: block; position: absolute;width:17px;height:17px; background: url("../images/delete-bank-icon.png")  0 0 no-repeat; background-size: 17px 17px; top:0; bottom:0; margin: auto 0;right:0;}
+.get-money .bank-account .input-group{margin-bottom:20px;overflow: hidden;display: none;}
+.get-money .bank-account .input-group label{font-size: 16px;font-weight: 500;color: #292929;margin-bottom:10px; display: block;}
+.get-money .bank-account .form-control{width: 335px;  height: 50px;  border-radius: 3px;  background-color: #f9f9f9;}
+.get-money .bank-account .input-group .select2{width:335px; height:50px;margin-right: 13px; float: left;}
+.get-money .bank-account .input-group .select2:last-child{margin-right: 0;}
+.get-money .bank-account .input-group .select2-container .select2-selection--single{width:335px; height:50px;border-radius: 25px;outline: none;}
+.get-money .bank-account .input-group .select2-selection__rendered{width:335px; height:50px; line-height: 50px;color: #7d7d7d;font-weight: 500;font-size: 16px;padding-left:20px;}
+.get-money .bank-account .input-group .select2-selection__arrow{height:50px; background: url("../images/select2.png")  center center no-repeat; background-size: 15px 8px;right:20px;}
+.get-money .bank-account .input-group .select2-selection__arrow b{display: none;}
+.get-money .bank-account .input-group .select2-container--open .select2-selection__arrow{transform: rotate(180deg)}
+.select2-container--default .select2-dropdown{border-bottom:1px solid #aaa;border-radius: 4px;}
+.get-money .history{}
+.get-money .history .tit{font-size: 15px;font-weight: 500;color: #292929;padding: 12px 15px; border-bottom:1px solid #dedddf;}
+.get-money .history .tit span{float: right;font-size: 13px;color: #9b9b9b;font-weight: 100; line-height: 24px;font-weight: 500;}
+.get-money .history .list{margin:0; padding:0; display: block;}
+.get-money .history .list .no-data{color: #9b9b9b;font-size: 14px;font-weight: 500;text-align: center;padding: 40px 0;}
+.get-money .history .list li{width:100%;height: 78px; background-color: #f9f9f9;padding: 16px 15px; position: relative;}
+.get-money .history .list .date{color: #292929;font-weight: 500;font-size: 16px;}
+.get-money .history .list .type{font-size: 14px;color: #7d7d7d;margin-top:5px;}
+.get-money .history .list .type span{margin-right:15px;}
+.get-money .history .list .money{position: absolute; right:15px;top:0; bottom:0; margin:auto 0; display: block; line-height: 78px; background: url("../images/icon-small-coin@2x.png") 0 center no-repeat; background-size: 14px 14px;padding-left:25px;}
+
+/*purchase*/
+.purchase{overflow: hidden;}
+.purchase .error{width: 375px;  height: 39px;  background-color: rgba(41, 41, 41, 0.9); position: fixed; top:0; left:0; right:0; margin: 0 auto;font-size: 14px;font-weight: 500;color: #ffffff; z-index: 9; text-align: center;line-height: 39px;}
+.purchase .balance{padding: 40px 0 7px 20px;color: #292929;font-weight: 500;font-size: 12px;border-bottom:1px solid #efefef;}
+.purchase .balance img{width:18px; height:18px;margin: 0 5px; position: relative; top:-2px;}
+.purchase .balance span{color: #000000;font-size: 20px; position: relative; top:3px;}
+.purchase .point .radio{width:100%; height:51px; border-bottom:1px solid #efefef;padding:15px 20px;margin-bottom:0;}
+.purchase .point .radio label{width:100%;padding-left:0;font-size: 16px;font-weight: 500;color: #000000;}
+.purchase .point .radio .icheckbox_radio{ position: relative; top:-2px;margin-right:20px;}
+.purchase .point .radio span{ width:60px;position: absolute; right:7px;top:0; bottom:0; margin: auto 0;margin-left:25px; line-height: 51px;}
+.purchase .point .radio span::before{display: block;width:14px; height:14px; background: url("../images/icon-small-coin@2x.png") center center no-repeat; content: ''; background-size: 14px 14px; position: absolute;left:-21px;top:19px;}
+.purchase .credit-card{padding: 20px;}
+.purchase .credit-card .tit{color: #191818;font-weight: 500;	font-size: 14px;margin-bottom:10px;}
+.purchase .credit-card .card-img{margin-bottom:15px;}
+.purchase .credit-card .card-img img{margin-right: 10px;}
+.purchase .card-number{margin-bottom:20px; overflow: hidden;}
+.purchase .card-number input{width: 77px;  height: 47px;  border-radius: 3px;  background-color: #f9f9f9; float: left;margin-right: 9px;}
+.purchase .card-number input:last-child{margin-right: 0;}
+.purchase .expire{margin-bottom:20px;}
+.purchase .expire input{width: 165px;  height: 47px;  border-radius: 3px;  background-color: #f9f9f9;}
+.purchase .cvc{margin-bottom:47px; position: relative;}
+.purchase .cvc input{width: 80px;  height: 47px;  border-radius: 3px;  background-color: #f9f9f9;}
+.purchase .cvc img{position: absolute; top:-26px; right:0;}
+.purchase .count-money{font-size: 14px;  font-weight: 500;color: #191818;border-bottom: solid 1px #4a4a4a;padding-bottom:10px;}
+.purchase .count-money span{float: right;color: #191818;font-size: 18px;position: relative; top:-2px;}
+.purchase .btn-submit{width: 244px;height: 42px; line-height: 42px;margin-top:30px;padding:0;font-size: 14px;font-weight: 500;}
+.purchase .kefu{width: 375px;  height: 42px;  background-color: #2e57a6;position: fixed; bottom:0; left:0; right:0; margin:0 auto; line-height: 42px;color: #ffffff;font-size: 13px;font-weight: 500; text-align: center; text-decoration: none;}
+.purchase .card-list{}
+.purchase .card-list ul{margin:0; padding:0; display: block;}
+.purchase .card-list li{list-style: none; position: relative;margin-bottom:22px;}
+.purchase .card-list li .icheckbox_radio{ position: relative; top:-2px;margin-right:14px;}
+.purchase .card-list li label{color: #7d7d7d;font-size: 14px;font-weight: 500;}
+.purchase .card-list li label img:last-child{margin-left:10px;}
+.purchase .card-list li .delete{width:20px;height:20px; display: block;background: url("../images/delete-bank-icon.png") center center no-repeat; background-size: 17px 17px; position: absolute; right:0; top:2px;}
+.purchase .add-card-btn{width: 88px; outline: none;  height: 27px;  border-radius: 13.5px;  background-color: #fff;margin:10px 0 30px; border: solid 1px #2e57a6; padding:0; line-height: 27px;color: #2e57a6;font-weight: 500;font-size: 13px;}
+.purchase .add-card-btn:active{outline: none;}
+
+
+/*footer*/
+footer{width: 375px;  height: 47px;  background-color: #ffffff; position: fixed;bottom:0; left:0; right:0; margin: 0 auto;padding: 0 40px;border-top: solid 1px #dedddf;}
+footer a{display: inline-block; width: 47px;height:47px;margin-right: 72px;}
+footer a:last-child{margin-right: 0;}
+footer .home{background: url("../images/ic1-home/off@2x.png") center center no-repeat; background-size: 27px 27px; }
+footer .message{background: url("../images/ic2-chatting/off@2x.png") center center no-repeat; background-size: 27px 27px; }
+footer .member{background: url("../images/ic3-member/off@2x.png") center center no-repeat; background-size: 27px 27px; }
+footer .home.active,footer .home:active{background: url("../images/ic1-home/on@2x.png") center center no-repeat; background-size: 27px 27px; }
+footer .message.active,footer .message:active{background: url("../images/ic2-chatting/on@2x.png") center center no-repeat; background-size: 27px 27px; }
+footer .member.active,footer .member:active{background: url("../images/ic3-member/on@2x.png") center center no-repeat; background-size: 27px 27px; }
+
+/*show-img-modal*/
+.show-img-modal{width:375px;height: 100%; position: fixed; top:0; left:0; right:0; bottom:0; margin: auto; background-color:rgba(0, 0, 0, 0.7); z-index: 999; display: none;}
+.show-img-modal .swiper-container{width:100%;height:100%;}
+.show-img-modal .swiper-zoom-container img{width:70%;}
+.show-img-modal .close{width:30px;height:30px;display: block; position: absolute; top:-5px; right:-5px; background-color: #000;border-radius: 100%; text-align: center; line-height: 30px; color: #fff; z-index: 9999;}
+
+/*show-video-modal*/
+.show-video-modal{width:375px;height: 100%; position: fixed; top:0; left:0; right:0; bottom:0; margin: auto; background-color:rgba(0, 0, 0, 0.7); z-index: 999; display: none;}
+.show-video-modal video{margin:0 auto; display: block;min-width: 375px;max-width:100%; position: absolute; top:0; bottom:0; left:0; right:0; margin: auto;}
+.show-video-modal .close{width:30px;height:30px;display: block; position: absolute; top:-5px; right:-5px; background-color: #000;border-radius: 100%; text-align: center; line-height: 30px; color: #fff; z-index: 9999;}
+
+
+
+
+

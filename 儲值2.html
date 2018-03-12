@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+	<head>
+		<meta charset="utf-8">
+		<meta content="yes" name="apple-mobile-web-app-capable">
+		<meta name="viewport" content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>儲值2</title>
+		<!-- Bootstrap -->
+		<link href="lib/bootstrap-3.3.7/css/bootstrap.min.css" rel="stylesheet">
+		<link href="lib/Swiper/css/swiper.min.css" rel="stylesheet">
+		<link href="lib/select2/dist/css/select2.min.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	</head>
+
+	<body>
+
+		<div class="product-box">
+			<div class="content">
+
+				<div class="purchase">
+					<div class="balance">
+						儲值餘額
+						<img src="images/Icon-big-coin@2x.png" alt="">
+						<span>35</span>
+					</div>
+					<div class="point">
+						<div class="radio">
+							<label>
+								<input checked type="radio" name="point">
+								NT$ 5000
+								<span>30000</span>
+							</label>
+						</div>
+						<div class="radio">
+							<label>
+								<input type="radio" name="point">
+								NT$ 2990
+								<span>14000</span>
+							</label>
+						</div>
+						<div class="radio">
+							<label>
+								<input type="radio" name="point">
+								NT$ 1490
+								<span>6500</span>
+							</label>
+						</div>
+						<div class="radio">
+							<label>
+								<input type="radio" name="point">
+								NT$ 590
+								<span>2400</span>
+							</label>
+						</div>
+						<div class="radio">
+							<label>
+								<input type="radio" name="point">
+								NT$ 300
+								<span>1100</span>
+							</label>
+						</div>
+						<div class="radio">
+							<label>
+								<input type="radio" name="point">
+								NT$ 150
+								<span>500</span>
+							</label>
+						</div>
+						<div class="radio">
+							<label>
+								<input type="radio" name="point">
+								NT$ 30
+								<span>100</span>
+							</label>
+						</div>
+					</div>
+					<div class="credit-card">
+						<div class="tit">信用卡付款</div>
+						<div class="card-list">
+							<ul>
+								<li>
+									<label class="radio">
+										<input checked type="radio" name="card">
+										<img src="images/dddd.png" alt="">
+										2356 VINCENT HSU 04/19
+										<img src="images/Mastercard.png" alt="">
+									</label>
+									<span class="delete"></span>
+								</li>
+							</ul>
+						</div>
+						<button class="btn add-card-btn">新增信用卡</button>
+						<div class="add-card" style="display: none;">
+							<div class="card-img">
+								<img src="images/Visa.png" alt="">
+								<img src="images/Mastercard.png" alt="">
+							</div>
+							<div class="tit">信用卡卡號</div>
+							<div class="card-number">
+								<input class="form-control" placeholder="1234" type="text">
+								<input class="form-control" placeholder="1234" type="text">
+								<input class="form-control" placeholder="1234" type="text">
+								<input class="form-control" placeholder="1234" type="text">
+							</div>
+							<div class="tit">信用卡有效日期</div>
+							<div class="expire">
+								<input class="form-control" placeholder="月/年"  type="text">
+							</div>
+							<div class="tit">信用卡背面後3碼</div>
+							<div class="cvc">
+								<input class="form-control" placeholder="CVC"  type="text">
+								<img src="images/Mastercard1.png" alt="">
+							</div>
+						</div>
+
+						<div class="count-money">
+							信用卡付款金額
+							<span>NT$ 200</span>
+						</div>
+						<button class="btn btn-cos btn-submit">確認購買</button>
+						<a class="kefu" href="javascript:void(0)">
+							若儲值出現問題，請點此聯繫客服人員。
+						</a>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<script src="js/jquery.min.js"></script>
+		<script src="lib/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+		<script src="lib/Swiper/js/swiper.min.js"></script>
+		<script src="lib/icheck-1.x/icheck.min.js"></script>
+		<script src="lib/select2/dist/js/select2.min.js"></script>
+		<script src="js/clipboard.min.js"></script>
+		<script src="js/js.js"></script>
+	</body>
+
+</html>

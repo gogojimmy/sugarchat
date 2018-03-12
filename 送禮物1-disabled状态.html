@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+	<head>
+		<meta charset="utf-8">
+		<meta content="yes" name="apple-mobile-web-app-capable">
+		<meta name="viewport" content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>送禮物1-disabled状态</title>
+		<!-- Bootstrap -->
+		<link href="lib/bootstrap-3.3.7/css/bootstrap.min.css" rel="stylesheet">
+		<link href="lib/Swiper/css/swiper.min.css" rel="stylesheet">
+		<link href="lib/select2/dist/css/select2.min.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	</head>
+
+	<body>
+
+		<div class="product-box ">
+			<div class="content">
+				<div class="chart-content">
+					<!--此处隐藏，请打开 去掉hidden-->
+					<div class="warning hidden">OP幣餘額不足，請儲值</div>
+					<div class="invitation">
+						<h3>Vincent Hsu 贈送禮物給 Cherie Lin</h3>
+						<p>接受禮物後，即可開啟雙方一對一聊天</p>
+						<button class="btn btn-yes">接受</button>
+						<button class="btn btn-deny">拒絕</button>
+					</div>
+					<div class="chart-desc">
+						<!--发送礼物聊天邀请时添加此类到ul占位invitation-open-->
+						<ul class="invitation-open">
+							<li class="gift he">
+								<img src="images/chart-tx.png" class="img-circle" alt="">
+								<div class="gift-content">
+									<img src="images/stickers/ic2-rose.png" alt="">
+								</div>
+								<div class="info">
+									Vincent Hsu
+									<div>贈送 <span>130</span></div>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="input-bar disabled">
+						<div class="top-bar">
+							<div class="left-icon">
+								<span class="camera">
+									<input disabled type="file">
+								</span>
+								<span class="photo">
+									<input disabled type="file" accept="image/*">
+								</span>
+							</div>
+							<div class="tog-icon">
+								<button class="btn"></button>
+							</div>
+							<div class="input">
+								<!--<textarea  name="" placeholder="傳送聊天內容" id="" cols="30" rows="10"></textarea>-->
+								<div id="textarea" class="" contenteditable="true">
+									<!--<span class="placeholder">傳送聊天內容</span>-->
+								</div>
+							</div>
+							<div class="right-icon">
+								<button class="gift-btn"></button>
+								<button class="send-btn" style="display: none;"></button>
+							</div>
+						</div>
+						<div class="clearfix"></div>
+
+						<div class="gift-tips">
+							<h3>想與欣賞的人一對一聊天，先選個禮物來表達心意吧！</h3>
+							<p>若對方拒絕或超過24小時未回應，將退還點數。</p>
+							<b></b>
+						</div>
+
+						<div class="input-tips hidden">
+							可以開始與您欣賞的人一對一聊天了！
+							<b></b>
+						</div>
+
+						<div class="gift-show"  style="display: none;">
+							<img src="images/stickers/ic1-lolipop.png" alt="">
+							<span></span>
+						</div>
+						<div class="gift-list" style="display: none;">
+							<div class="gift">
+								<img src="images/stickers/ic2-rose.png" alt="">
+								<span>130</span>
+							</div>
+							<div class="gift">
+								<img src="images/stickers/ic5-wine.png" alt="">
+								<span>140</span>
+							</div>
+							<div class="gift">
+								<img src="images/stickers/ic9-diamond.png" alt="">
+								<span>200</span>
+							</div>
+							<div class="gift">
+								<img src="images/stickers/ic6-champane.png" alt="">
+								<span>400</span>
+							</div>
+							<div class="gift">
+								<img src="images/stickers/ic12-castle.png" alt="">
+								<span>530</span>
+							</div>
+							<div class="gift">
+								<img src="images/stickers/ic11-car.png" alt="">
+								<span>640</span>
+							</div>
+							<div class="gift">
+								<img src="images/stickers/ic8-bag.png" alt="">
+								<span>800</span>
+							</div>
+							<div class="gift">
+								<img src="images/stickers/ic1-lolipop.png" alt="">
+								<span>900</span>
+							</div>
+							<div class="gift">
+								<img src="images/stickers/ic3-chocolate.png" alt="">
+								<span>1000</span>
+							</div>
+							<div class="gift">
+								<img src="images/stickers/ic10-ring.png" alt="">
+								<span>1200</span>
+							</div>
+							<div class="gift">
+								<img src="images/stickers/ic4-cake.png" alt="">
+								<span>1500</span>
+							</div>
+							<div class="gift">
+								<img src="images/stickers/ic7-lipstick.png" alt="">
+								<span>2000</span>
+							</div>
+							<div class="gift-explain">
+								<h3>請選擇您想要贈送的禮物 <span>（對方可兌換現金）</span></h3>
+								<p>若對方超過24小時未領取將全額退還金幣。</p>
+								<p>剩餘代幣
+									<span>
+										<img src="images/icon-small-coin@2x.png" alt="">
+										<i>130</i>
+									</span>
+								</p>
+								<a href="">儲值</a>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="js/jquery.min.js"></script>
+		<script src="lib/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+		<script src="lib/Swiper/js/swiper.min.js"></script>
+		<script src="lib/icheck-1.x/icheck.min.js"></script>
+		<script src="lib/select2/dist/js/select2.min.js"></script>
+		<script src="js/clipboard.min.js"></script>
+		<script src="js/js.js"></script>
+	</body>
+
+</html>

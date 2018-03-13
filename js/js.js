@@ -43,7 +43,7 @@ $(function(){
     })
 
     //radio -iCheck
-    $('input:radio').iCheck({
+    $('input:radio:visible').iCheck({
         radioClass: 'icheckbox_radio',
         increaseArea: '20%'
     });
@@ -78,6 +78,7 @@ $(function(){
 
     // 点击其他地方关闭礼物
     $(".chart-content .chart-desc").on('click', function(){
+        if($(".gift-list").css('display') == 'none') return;
         $(".gift-explain").hide();
         $(".gift-show").hide();
         $(".gift-list").slideUp(function(){
@@ -241,7 +242,7 @@ $(function(){
     });
 
     //查看视频
-    $(".chart-desc .message").delegate('.video', 'click', function(){
+    $(".chart-desc").delegate('.video-play', 'click', function(){
         var videoUrl = $(this).attr('data-video');
         var video = document.getElementById('video');
         video.src = videoUrl;
@@ -255,22 +256,41 @@ $(function(){
         $(this).parent().fadeOut();
     })
 
-    // 查看图片
-    $(".chart-desc .message").delegate('img','click', function(){
-        if($(this).hasClass('video')) return;
-        var url = $(this).attr('src');
-        $("#zoom-img").attr('src', url);
-        new Swiper('.show-img-modal .swiper-container',{
-            zoom : true,
-        });
-        $(".show-img-modal").fadeIn();
-
+    //發任務1 編輯新任務詳細規範
+    $(".mission .tips a").on('click', function(){
+        $(".mission .tips .pop").toggle();
     });
 
-    // 关闭查看图片
-    $(".show-img-modal .close").on('click', function(){
-        $(this).parent().fadeOut();
-    })
+    //發任務3 接收者打開內容詳細規範
+    $(".mission-content .tips a").on('click', function(){
+        $(".mission-content .tips .pop").toggle();
+    });
+
+    // 关闭tips
+    $(document).on('click', function(e){
+        if($(e.target).closest('.tip-btn').length==1) return;
+        if($(e.target).closest('.pop').length==0){
+            $(".mission .pop").hide();
+            $(".mission-content .tips .pop").hide();
+        }
+    });
+
+    // 弹出回应窗口
+    $(".mission-content .respond").animate({bottom: '47px'},500);
+
+    // 删除上传任务文件
+    $(".file-list .file").delegate('.delete', 'click', function(){
+        $(this).siblings('img').remove();
+        $(this).remove();
+    });
+
+    // 图片查看器 git https://github.com/appleple/SmartPhoto
+    $(".js-smartphoto,.photo-group").SmartPhoto();
+
+
+
+
+
 })
 
 

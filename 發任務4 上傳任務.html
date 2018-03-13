@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta content="yes" name="apple-mobile-web-app-capable">
+		<meta name="viewport" content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;">
+		<title>發任務4 上傳任務</title>
+		<!-- Bootstrap -->
+		<link href="lib/bootstrap-3.3.7/css/bootstrap.min.css" rel="stylesheet">
+		<link href="lib/Swiper/css/swiper.min.css" rel="stylesheet">
+		<link href="lib/select2/dist/css/select2.min.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	</head>
+
+	<body>
+
+		<div class="product-box">
+			<div class="content">
+				<div class="mission-content">
+					<div class="tit">
+						指定任務格式
+						<span><img width="24" src="images/video-icon.png" alt="">影片</span>
+						<a href="javascript:void(0);" data-toggle="modal" data-target=".confirm-report">檢舉</a>
+					</div>
+					<div class="sub-tit">任務內容</div>
+					<div class="con">
+						唱一首想念我的歌
+					</div>
+					<div class="gift">
+						<div class="tit">
+							任務獎勵
+							<p>完成任務即可領取任務獎勵！</p>
+						</div>
+						<div class="gift-content">
+							<img src="images/stickers/ic2-rose.png" alt="">
+							<div class="number">
+								玫瑰花
+								<p>130</p>
+							</div>
+						</div>
+					</div>
+					<div class="tips">
+						<a class="tip-btn" href="javascript:;">
+							<img src="images/help-icon.png" width="12" alt="">
+							詳細規範
+						</a>
+						<div class="pop">
+							<p>提醒您：</p>
+							<p>- 如若接受任務後未實際完成任務，卻濫用「已完成任務」來賺取任務獎勵，發任務者可向本公司檢舉。</p>
+							<p>- 被檢舉次數達３次者，將被封禁帳戶1~6個月，且無法使用相關服務。</p>
+							<p>- 如若有濫用功能及違法行為，請自行負責相關法令責任。</p>
+							<b></b>
+						</div>
+					</div>
+
+					<div class="upload">
+						<div class="tit">
+							上傳任務
+							<p>點此上傳照片或影片，完成任務</p>
+						</div>
+						<div class="file-list">
+							<div class="file">
+								<img src="images/sdfgsdfg.png" alt="">
+								<span class="delete"></span>
+							</div>
+							<div class="file">
+
+							</div>
+							<div class="file">
+
+							</div>
+							<div class="file">
+
+							</div>
+							<div class="file">
+
+							</div>
+							<div class="file">
+
+							</div>
+							<div class="file">
+
+							</div>
+							<div class="file">
+
+							</div>
+							<div class="file">
+
+							</div>
+						</div>
+						<span class="upload-btn">
+							<input type="file">
+						</span>
+					</div>
+					<div class="btn-box">
+						<button class="btn btn-cos">完成任務</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<footer>
+			<a class="home active" href=""></a>
+			<a class="message" href=""></a>
+			<a class="member" href=""></a>
+		</footer>
+
+		<!--确认框-->
+		<div class="modal fade confirm-report" tabindex="-1" role="dialog" aria-labelledby="confirm-report">
+			<div class="modal-dialog modal-sm report-modal" role="document">
+				<div class="modal-content">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<img src="images/modal-close.png" width="16" alt="">
+					</button>
+					<div class="desc">
+						若內容不當或並未確實完成任務，
+						您可對此提交的任務提出檢舉。
+					</div>
+					<button data-dismiss="modal" data-toggle="modal" data-target=".success-report" class="btn btn-report">確定檢舉</button>
+				</div>
+			</div>
+		</div>
+
+		<!--成功檢舉-->
+		<div class="modal fade success-report" tabindex="-1" role="dialog" aria-labelledby="success-report">
+			<div class="modal-dialog modal-sm report-modal" role="document">
+				<div class="modal-content">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<img src="images/modal-close.png" width="16" alt="">
+					</button>
+					<div class="desc text-center">
+						檢舉成功
+					</div>
+					<button style="margin-top:95px;" data-dismiss="modal" class="btn btn-report">關閉</button>
+				</div>
+			</div>
+		</div>
+
+		<script src="js/jquery.min.js"></script>
+		<script src="lib/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+		<script src="lib/Swiper/js/swiper.min.js"></script>
+		<script src="lib/icheck-1.x/icheck.min.js"></script>
+		<script src="lib/select2/dist/js/select2.min.js"></script>
+		<script src="js/clipboard.min.js"></script>
+		<script src="js/js.js"></script>
+	</body>
+
+</html>

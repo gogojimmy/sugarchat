@@ -45,8 +45,8 @@ body,html{overflow: hidden;}
 .chart-content .invitation .btn-yes{color:#fff;border: solid 1px #ffffff; background-color: rgba(41, 41, 41, 0.9); }
 .chart-content .invitation .btn-deny{color: #292929;background-color: #9b9b9b;border: solid 1px #979797;}
 .chart-content .invitation .btn-yes:active{background-color: #e62565;border-color:#e62565;}
-.chart-content .input-bar{position: fixed; bottom:0; left:0; right:0;margin:0  auto;background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.0), #ffffff);width: 375px;min-height: 47px;}
-.chart-content .input-bar .top-bar{width: 375px;position: relative;height: 47px;}
+.chart-content .input-bar{position: fixed; bottom:0; left:0; right:0;margin:0  auto;width: 375px;min-height: 47px;}
+.chart-content .input-bar .top-bar{width: 375px;position: relative;height: 47px;    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.0), #ffffff);}
 .chart-content .input-bar .top-bar .left-icon{width:26%;height:100%; padding-left:15px;padding-top:11px; overflow: hidden; position: absolute;top:0;left:0;}
 .chart-content .input-bar .top-bar .left-icon span{display: inline-block;width:25px; height:25px;}
 .chart-content .input-bar .top-bar .left-icon span input{font-size:100px; opacity: 0;}

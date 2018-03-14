@@ -323,10 +323,9 @@ $(function(){
 
 // 计算chart-content的高度和重置滚动条
 function setChartContent(){
-    var ftHeight = $(".input-bar").outerHeight();
     var ulHeight = $(".chart-desc ul").outerHeight();
-    var clintHeight = $(window).height();
-    $(".chart-desc").height(clintHeight-ftHeight).scrollTop(ulHeight - $(".chart-desc").outerHeight());
+    $(".chart-desc").css({'padding-bottom': $(".input-bar").outerHeight()});
+    $(".chart-desc").scrollTop(ulHeight - $(".chart-desc").outerHeight()+300);
 }
 
 //me send message

@@ -256,22 +256,17 @@ $(function(){
         $(this).parent().fadeOut();
     })
 
-    //發任務1 編輯新任務詳細規範
-    $(".mission .tips a").on('click', function(){
-        $(".mission .tips .pop").toggle();
+    //pop
+    $(".tip-btn").on('click', function(){
+        $(this).siblings(".pop").toggle();
     });
 
-    //發任務3 接收者打開內容詳細規範
-    $(".mission-content .tips a").on('click', function(){
-        $(".mission-content .tips .pop").toggle();
-    });
 
     // 关闭tips
     $(document).on('click', function(e){
         if($(e.target).closest('.tip-btn').length==1) return;
         if($(e.target).closest('.pop').length==0){
-            $(".mission .pop").hide();
-            $(".mission-content .tips .pop").hide();
+            $(".pop").hide();
         }
     });
 
@@ -285,11 +280,42 @@ $(function(){
     });
 
     // 图片查看器 git https://github.com/appleple/SmartPhoto
-    $(".js-smartphoto,.photo-group").SmartPhoto();
+    if($(".js-smartphoto,.photo-group").length>1){
+        $(".js-smartphoto,.photo-group").SmartPhoto();
+    }
 
 
 
+    // error-pop
+    var errPop = {};
+    errPop.show = function(content, bgColor,txtColor){
+        $(".error-pop").remove();
+        var pop = $("<div class='error-pop'></div>");
+        pop.html(content);
+        pop.css({'background-color':bgColor,'color':  txtColor});
+        $('body').append(pop);
+        setTimeout(function(){
+            $(".error-pop").fadeOut();
+        },5000)
+    }
+    errPop.hide = function(){
+        $(".error-pop").fadeOut();
+    }
+    window.errPop = errPop;
 
+    // loading
+    var loading = {}
+    loading.show = function(){
+        $("#loading").remove();
+        $('body').append('<div id="loading"></div>');
+    }
+    loading.hide = function(){
+        $("#loading").remove();
+    }
+    window.loading = loading;
+
+    //首次儲值 賺現金+點數 modal
+    $(".first-give-modal").modal('show');
 
 })
 

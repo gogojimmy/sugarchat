@@ -172,15 +172,16 @@ body,html{overflow: hidden;}
 .user-info .banner .operation{padding:15px;}
 .user-info .banner .operation .describe p{margin-bottom:3px;color: #292929;font-size: 13px;}
 .user-info .banner .operation .btn-cos{width: 335px;  height: 42px;  margin: 25px auto 0; }
-.user-info .banner .operation .account{overflow: hidden;width:100%;height:85px;margin: 43px 0 30px;}
-.user-info .banner .operation .account .item{	width: 165px;  height: 85px;  border-radius: 3px;  background-color: #f9f9f9; display:block; float: left;margin-right: 15px; text-align: center;}
+.user-info .banner .operation .account{width:100%;height:85px;margin: 43px 0 30px;}
+.user-info .banner .operation .account .item{	width: 165px;  height: 85px;  border-radius: 3px;  background-color: #f9f9f9; display:block; float: left;margin-right: 15px; text-align: center; position: relative;}
 .user-info .banner .operation .account .item:last-child{margin-right: 0;}
+.user-info .banner .operation .account .item .tip-btn{position: absolute;bottom:2px; right:2px;}
 .user-info .banner .operation .account h3{font-size: 17px;font-size: 17px;color: #292929;}
 .user-info .banner .operation .account a{color: #7d7d7d;font-weight: 500;font-size: 13px; text-decoration: none;}
 .user-info .banner .operation .account a img{width:14px; position: relative;top:-2px;margin-right:3px;}
 .user-info .banner .operation .sub-title{color: #292929;font-weight: 500;	font-size: 15px; text-align: center;}
 .user-info .banner .operation .sub-title+.btn-cos{margin-top:15px;}
-.user-info .banner .operation .tips{text-align: center;	color: #9b9b9b;font-weight: 500;font-size: 12px;margin-top:10px; margin-bottom:20px;}
+.user-info .banner .operation .tips{text-align: center;	color: #9b9b9b;font-weight: 500;font-size: 12px;margin-top:10px; margin-bottom:20px; position: relative;}
 .user-info .banner .operation .tips img{margin-right:3px; position: relative; top:-2px;}
 .user-info .banner .operation .btn-cos-group{margin-top:34px; text-align: center; overflow: hidden;}
 .user-info .banner .operation .btn-cos-group .btn-cos{width:165px; display: inline-block; float: left;margin-right: 15px;margin-top:0;}
@@ -236,8 +237,9 @@ body,html{overflow: hidden;}
 .get-money .head div:nth-child(3) span i {font-style: normal;color: #292929;	font-size: 25px; position: relative; top:3px;}
 .get-money .head div:nth-child(4){color: #9b9b9b; text-align: right;font-size: 13px;  font-weight: 100;}
 .get-money .bank-account{}
-.get-money .bank-account .tit{font-size: 15px;font-weight: 500;color: #292929;padding: 12px 15px; border-bottom:1px solid #dedddf;}
+.get-money .bank-account .tit{font-size: 15px;font-weight: 500;color: #292929;padding: 12px 15px; border-bottom:1px solid #dedddf; position: relative;}
 .get-money .bank-account .tit span{float: right;font-size: 13px;color: #7d7d7d;font-weight: 100; line-height: 26px;}
+.get-money .bank-account .tit
 .get-money .bank-account .card-list{padding: 0 20px;border-bottom:1px solid #dedddf;padding-bottom:40px;}
 .get-money .bank-account .card-list .tit{font-size: 14px;color: #292929;font-weight: 500;border-bottom:0;margin-bottom:20px;padding-left:0; display: none;}
 .get-money .bank-account .card-list .sub-tit{font-size: 14px;font-weight: 500;color: #292929;padding:11px 0 15px;}
@@ -279,15 +281,21 @@ body,html{overflow: hidden;}
 
 /*purchase*/
 .purchase{overflow: hidden;}
-.purchase .error{width: 375px;  height: 39px;  background-color: rgba(41, 41, 41, 0.9); position: fixed; top:0; left:0; right:0; margin: 0 auto;font-size: 14px;font-weight: 500;color: #ffffff; z-index: 9; text-align: center;line-height: 39px;}
-.purchase .balance{padding: 40px 0 7px 20px;color: #292929;font-weight: 500;font-size: 12px;border-bottom:1px solid #efefef;}
+.purchase .balance{padding: 10px 0 7px 20px;color: #292929;font-weight: 500;font-size: 12px;border-bottom:1px solid #efefef; position: relative;}
 .purchase .balance img{width:18px; height:18px;margin: 0 5px; position: relative; top:-2px;}
 .purchase .balance span{color: #000000;font-size: 20px; position: relative; top:3px;}
-.purchase .point .radio{width:100%; height:51px; border-bottom:1px solid #efefef;padding:15px 20px;margin-bottom:0;}
+.purchase .balance a{margin-left:10px; font-size:14px; font-weight: 500;color: #2E57A6;text-decoration: none}
+.purchase .balance i{float: right;margin-top:10px;margin-right:20px;}
+.purchase .balance i img{width:12px;height:12px;}
+.purchase .point .radio{width:100%; height:51px; border-bottom:1px solid #efefef;padding:15px 20px;margin-bottom:0;margin-top:0;}
 .purchase .point .radio label{width:100%;padding-left:0;font-size: 16px;font-weight: 500;color: #000000;}
 .purchase .point .radio .icheckbox_radio{ position: relative; top:-2px;margin-right:20px;}
-.purchase .point .radio span{ width:60px;position: absolute; right:7px;top:0; bottom:0; margin: auto 0;margin-left:25px; line-height: 51px;}
-.purchase .point .radio span::before{display: block;width:14px; height:14px; background: url("../images/icon-small-coin@2x.png") center center no-repeat; content: ''; background-size: 14px 14px; position: absolute;left:-21px;top:19px;}
+.purchase .point .radio em{ width:85px;position: absolute; right:7px;top:0; bottom:0; margin: auto 0;margin-left:25px; line-height: 51px; font-style: normal;}
+.purchase .point .radio span{position: relative;margin-left: 15px;}
+.purchase .point .radio span::before{display: block;width:14px; height:14px; background: url("../images/icon-small-coin@2x.png") center center no-repeat; content: ''; background-size: 14px 14px; position: absolute;left:-20px;top:3px;}
+.purchase .point .radio span i{color: #7D7D7D; font-size:12px; font-style: normal; font-weight: normal; position: relative;padding-left: 12px;margin-left:2px;}
+.purchase .point .radio span i.star::before{width:10px;height:10px; display: block; content: ''; position: absolute; left:0;top:0; background: url('../images/star.png')  0 0 no-repeat; background-size: 10px 10px;}
+.purchase .point .radio span i.tri::before{width:10px;height:9px; display: block; content: ''; position: absolute; left:0;top:1px; background: url('../images/triangle.png')  0 0 no-repeat; background-size: 10px 9px;}
 .purchase .credit-card{padding: 20px;}
 .purchase .credit-card .tit{color: #191818;font-weight: 500;	font-size: 14px;margin-bottom:10px;}
 .purchase .credit-card .card-img{margin-bottom:15px;}
@@ -331,9 +339,17 @@ footer .member.active,footer .member:active{background: url("../images/ic3-membe
 .show-video-modal video{margin:0 auto; display: block;min-width: 375px;max-width:100%; position: absolute; top:0; bottom:0; left:0; right:0; margin: auto;}
 .show-video-modal .close{width:30px;height:30px;display: block; position: absolute; top:-5px; right:-5px; background-color: #000;border-radius: 100%; text-align: center; line-height: 30px; color: #fff; z-index: 9999;}
 
+/*pop*/
+.pop{width:375px;height:182px;background-color: #2e57a6; position:absolute;padding:33px 12px;color: #ffffff;font-weight: 500;font-size: 13px;text-align: left;left:0; top:40px; display: none; z-index: 99; border-radius: 5px;}
+.pop b{border-color: rgba(47, 87, 166, 1) transparent transparent transparent;  border-style: solid;     transform: rotate(180deg); border-width: 6px 5px 0 5px;  height: 0;  right:30px;  margin-left: -4px;  position: absolute;  top:-6px;  width: 0;}
+/*error-pop*/
+.error-pop{width: 375px;  height: 39px;  background-color: rgba(41, 41, 41, 0.9); position: fixed; top:0; left:0; right:0; margin: 0 auto;font-size: 14px;font-weight: 500;color: #ffffff; z-index: 9; text-align: center;line-height: 39px;}
+
+
 /*mission*/
 .mission{padding:17px 0 0;}
-.mission .tit{color: #292929;font-weight: 500;font-size: 14px;padding:0 15px;}
+.mission .tit{color: #292929;font-weight: 500;font-size: 14px;padding:0 15px; overflow: hidden;}
+.mission .tit .tip-btn{float: right;}
 .mission .resources-type{margin:23px 0 30px;padding: 0 15px;}
 .mission .resources-type label{width:48%; display: inline-block;padding-left:25px;}
 .mission .resources-type img{margin: 0 10px 0 20px;}
@@ -343,8 +359,6 @@ footer .member.active,footer .member:active{background: url("../images/ic3-membe
 .mission .tips{text-align: right;padding:12px 15px 2px; position: relative;}
 .mission .tips a{color: #7d7d7d;font-weight: 500;font-size: 13px; text-decoration: none;}
 .mission .tips a img{position: relative;  top:-2px;margin-right:3px;}
-.mission .pop{width:375px;height:182px;background-color: #2e57a6; position:absolute;padding:33px 12px;color: #ffffff;font-weight: 500;font-size: 13px;text-align: left;left:0; top:40px; display: none; z-index: 99;}
-.mission .pop b{border-color: rgba(47, 87, 166, 1) transparent transparent transparent;  border-style: solid;     transform: rotate(180deg); border-width: 6px 5px 0 5px;  height: 0;  right:30px;  margin-left: -4px;  position: absolute;  top:-6px;  width: 0;}
 .mission .gift{margin-bottom:20px;}
 .mission .gift .tit{color: #292929;font-weight: 500;font-size: 14px;margin-bottom:14px;}
 .mission .gift .tit p{color: #9b9b9b;font-size: 13px; font-weight: normal;}
@@ -384,8 +398,6 @@ footer .member.active,footer .member:active{background: url("../images/ic3-membe
 .mission-content .tips{text-align: right;padding:12px 15px 2px; position: relative;}
 .mission-content .tips a{color: #7d7d7d;font-weight: 500;font-size: 13px; text-decoration: none;}
 .mission-content .tips a img{position: relative;  top:-2px;margin-right:3px;}
-.mission-content .pop{width:375px;height:200px;background-color: #2e57a6; position:absolute;padding:33px 12px;color: #ffffff;font-weight: 500;font-size: 13px;text-align: left;left:0; top:-193px;  z-index: 99; display: none;}
-.mission-content .pop b{border-color: rgba(47, 87, 166, 1) transparent transparent transparent;  border-style: solid;     border-width: 6px 5px 0 5px;  height: 0;  right:30px;  margin-left: -4px;  position: absolute;  bottom:-6px;  width: 0;}
 .mission-content .respond{	width: 375px;  height: 167px;  background-color: rgba(41, 41, 41, 0.9);margin-top:24px; position: fixed; bottom:-200px;left:0; right:0;margin: 0 auto; text-align: center; padding-top:40px; }
 .mission-content .respond .btn{outline: none;width: 159px;  height: 45px;  border-radius: 22.5px;  border: solid 1px #ffffff;color: #ffffff;font-size: 14px;  font-weight: 500; background-color: rgba(41, 41, 41, 0); margin: 0 8.5px;}
 .mission-content .respond div{color: #ffffff;font-weight: 500;font-size: 14px;margin-top:22px;}
@@ -409,6 +421,21 @@ footer .member.active,footer .member:active{background: url("../images/ic3-membe
 .report-modal .modal-content .btn{width: 244px;  height: 42px;  border-radius: 29px;  background-color: #2e57a6;  border: solid 1px #2e57a6;margin-top:71px;color: #ffffff;font-size: 14px;  font-weight: 500;margin-left: -20px; outline: none;}
 .report-modal .modal-content .close{position: absolute; top:18px; right:18px; outline: none;}
 
+/*--首次儲值 賺現金+點數 modal--*/
+.first-give-modal{margin:0px auto;}
+.first-give-modal .modal-content{width: 307px;  height: 348px;position: relative;margin: 120px auto;border-radius: 3px;border:0;background: #ffffff url("../images/first-give-modal-bg.png") center 33px no-repeat; background-size: 252px 168px;}
+.first-give-modal .modal-dialog{width: 307px;  height: 348px;margin: 0px auto; }
+.first-give-modal .modal-dialog .close{position: absolute; top:10px; right:10px; outline: none; opacity: 1;}
+.first-give-modal .desc{text-align: center;}
+.first-give-modal .desc h2{font-size:18px; font-weight: 500;color: #292929;padding-top:35px;}
+.first-give-modal .desc p{color: #292929;font-size: 14px;  font-weight: 500;}
+.first-give-modal .desc .give{margin-top:120px;}
+.first-give-modal .desc .give span{color: #292929;font-size: 14px;font-weight: 500; display: inline-block; width:130px;}
+.first-give-modal .desc .give span em{font-size: 11px; font-style: normal;}
+.first-give-modal .desc .give span i{font-size: 17px;font-style: normal; position: relative;}
+.first-give-modal .desc .give span:last-child i{padding-left:20px;}
+.first-give-modal .desc .give span:last-child i::before{display: block;width:14px; height:14px; background: url("../images/icon-small-coin@2x.png") center center no-repeat; content: ''; background-size: 14px 14px; position: absolute;left:0px;top:4px;}
+.first-give-modal .desc .btn{width: 244px;  height: 42px;  border-radius: 29px;  background-color: #e7427a;margin-top:30px;padding:0; line-height: 42px; color: #fff;}
 
 /*page-error*/
 .page-error{padding-top:100px;text-align: center;}
@@ -420,3 +447,22 @@ footer .member.active,footer .member:active{background: url("../images/ic3-membe
 .page-error .footer-logo{ text-align: center;margin-top:86px; display: inline-block;}
 .page-error .footer-logo img{width:150px;}
 
+/*give-out*/
+.give-out{}
+.give-out .give-count{padding:24px 15px;color: #292929;font-weight: 500;font-size: 14px; overflow: hidden; line-height: 26px}
+.give-out .give-count span{ float: right;font-size: 20px;position: relative;padding-left:20px;}
+.give-out .give-count span::before{display: block;width:14px; height:14px; background: url("../images/icon-small-coin@2x.png") center center no-repeat; content: ''; background-size: 14px 14px; position: absolute;left:0px;top:8px;}
+.give-out .balance{width: 375px;  height: 51px;  background-color: #f9f9f9;	border-bottom: solid 1px #dedddf; line-height: 51px;  padding: 0 15px;color: #9b9b9b;  font-size: 13px;font-weight: 500;overflow: hidden;}
+.give-out .balance a{width: 65px;  height: 27px;  border-radius: 13.5px;  border: solid 1px #2e57a6; float: right; line-height: 27px;font-size: 13px;	color: #2e57a6; text-align: center; text-decoration: none;margin-top:12px;}
+.give-out .give-list{margin:0;padding:0; display: block;padding:15px;}
+.give-out .give-list .no-data{font-size: 14px;  font-weight: 500;  color: #9b9b9b;margin-top:40px; text-align: center;  padding-left:0;}
+.give-out .give-list li{margin-bottom:30px;padding-left:71px; list-style: none;height:56px; position: relative;}
+.give-out .give-list li .img-circle{width:56px;height:56px; position: absolute;left:0;top:0;}
+.give-out .give-list li h3{color: #292929;font-weight: 500;font-size: 16px;padding-top:9px;margin-bottom:0;margin-top:0;}
+.give-out .give-list li p{font-size: 12px;  font-weight: 500;  color: #b9b9b9;margin-top:5px;}
+.give-out .give-list li p span{margin-right:10px;}
+.give-out .give-list li .b{position: absolute; top:0;right:0;line-height: 56px;padding-left:20px;}
+.give-out .give-list li .b::before{display: block;width:14px; height:14px; background: url("../images/icon-small-coin@2x.png") center center no-repeat; content: ''; background-size: 14px 14px; position: absolute;left:0px;top:21px;}
+
+/*loading*/
+#loading{width:375px;height:100%; background: rgba(0, 0, 0, 0.27) url("../images/loading-gif.gif") center center no-repeat; background-size: 50px 50px; position: fixed; top:0;left:0; right:0;margin:0 auto; z-index: 10000;}

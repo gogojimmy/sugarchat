@@ -239,11 +239,11 @@ body,html{overflow: hidden;}
 .get-money .bank-account{}
 .get-money .bank-account .tit{font-size: 15px;font-weight: 500;color: #292929;padding: 12px 15px; border-bottom:1px solid #dedddf; position: relative;}
 .get-money .bank-account .tit span{float: right;font-size: 13px;color: #7d7d7d;font-weight: 100; line-height: 26px;}
-.get-money .bank-account .card-list{padding: 0 20px;border-bottom:1px solid #dedddf;padding-bottom:40px;padding-left: 15px;}
+.get-money .bank-account .card-list{padding: 0 20px;padding-bottom:40px;padding-left: 15px;}
 .get-money .bank-account .card-list .tit{font-size: 14px;color: #292929;font-weight: 500;border-bottom:0;margin-bottom:20px;padding-left:0; display: none;}
 .get-money .bank-account .card-list .sub-tit{font-size: 14px;font-weight: 500;color: #292929;padding:11px 0 15px;}
 .get-money .bank-account .card-list .line{border-bottom:1px solid #dedddf;}
-.get-money .bank-account .card-list .add-bank{width: 99px;  height: 27px;  border-radius: 13.5px;  border: solid 1px #2e57a6;color: #2e57a6;line-height:30px;font-weight: 500;font-size: 13px; line-height: 27px; display: block; text-align: center;margin-top:15px;margin-left:15px;}
+.get-money .bank-account .card-list .add-bank{width: 99px;  height: 27px;  border-radius: 13.5px;  border: solid 1px #2e57a6;color: #2e57a6;line-height:30px;font-weight: 500;font-size: 13px; line-height: 27px; display: block; text-align: center;margin-top:15px;}
 .get-money .bank-account .card-list .btn{border: solid 1px #292929;border-radius: 29px;height: 42px;font-weight: 500;width: 244px; margin: 40px auto 0; line-height: 30px; display: block; outline: none}
 .get-money .bank-account .card-list .btn:hover{background-color: #dddddd;}
 .get-money .bank-account .card-list .btn:active{background-color: #e62565;color: #fff;}
@@ -268,7 +268,7 @@ body,html{overflow: hidden;}
 .get-money .bank-account .input-group .select2-container--open .select2-selection__arrow{transform: rotate(180deg)}
 .select2-container--default .select2-dropdown{border-bottom:1px solid #aaa;border-radius: 4px;}
 .get-money .history{}
-.get-money .history .tit{font-size: 15px;font-weight: 500;color: #292929;padding: 12px 15px; border-bottom:1px solid #dedddf; border-top:1px solid #dedddf;margin-top:40px;}
+.get-money .history .tit{font-size: 15px;font-weight: 500;color: #292929;padding: 12px 15px; border-bottom:1px solid #dedddf; border-top:1px solid #dedddf;}
 .get-money .history .tit span{float: right;font-size: 13px;color: #9b9b9b;font-weight: 100; line-height: 24px;font-weight: 500;}
 .get-money .history .list{margin:0; padding:0; display: block;}
 .get-money .history .list .no-data{color: #9b9b9b;font-size: 14px;font-weight: 500;text-align: center;padding: 40px 0;}

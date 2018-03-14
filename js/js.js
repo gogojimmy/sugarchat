@@ -258,6 +258,7 @@ $(function(){
 
     //pop
     $(".tip-btn").on('click', function(){
+        $(".pop").hide();
         $(this).siblings(".pop").toggle();
     });
 

@@ -50,7 +50,7 @@ body,html{overflow: hidden;}
 .chart-content .input-bar .top-bar .left-icon{width:26%;height:100%; padding-left:15px;padding-top:11px; overflow: hidden; position: absolute;top:0;left:0;}
 .chart-content .input-bar .top-bar .left-icon span{display: inline-block;width:25px; height:25px;}
 .chart-content .input-bar .top-bar .left-icon span input{font-size:100px; opacity: 0;}
-.chart-content .input-bar .top-bar .tog-icon{width:16%;height:100%; float: left; position: absolute; top:0; left:-200px;}
+.chart-content .input-bar .top-bar .tog-icon{width:16%;height:100%; float: left; position: absolute; top:0; left:-200px; display: none;}
 .chart-content .input-bar .top-bar .tog-icon .btn{width:31px; height:27px; background: url("../images/tog-icon.png") center center no-repeat; background-size: 31px 27px;outline: none; position: absolute; bottom:7.5px; left:0; right:0; margin: 0 auto;}
 .chart-content .input-bar .top-bar .left-icon .camera{background: url("../images/ic1-camera@2x.png") center center no-repeat; background-size: 22px 20px;margin-right:12px;}
 .chart-content .input-bar .top-bar .left-icon .photo{background: url("../images/ic-2photo@2x.png") center center no-repeat; background-size: 21px 20px;}

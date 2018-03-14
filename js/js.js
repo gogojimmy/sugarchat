@@ -159,8 +159,8 @@ $(function(){
         }
         // 判断是否超出换行
         if($(this).height()>36){
-            $(".left-icon").animate({'left': '-200px'}, 100);
-            $(".tog-icon").animate({'left': '0px'}, 100)
+            $(".left-icon").animate({'left': '-200px'}, 100).hide();
+            $(".tog-icon").show().animate({'left': '0px'}, 100)
             $(".input-bar .input").css({'width': '68%'})
         }
     });
@@ -174,8 +174,8 @@ $(function(){
     // 复位输入框
     $(".tog-icon").on('click', function(){
         $(".input-bar .input").css({'width': '58%'});
-        $(".tog-icon").animate({'left': '-200px'}, 100,function(){
-            $(".left-icon").animate({'left': '0px'}, 100)
+        $(".tog-icon").hide().animate({'left': '-200px'}, 100,function(){
+            $(".left-icon").show().animate({'left': '0px'}, 100);
         });
         // $("#textarea").focus();
     })

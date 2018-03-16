@@ -1,9 +1,14 @@
 body,html{overflow: hidden;}
+/*scrollbar*/
+*::-webkit-scrollbar {width:4px;background-color: #F5F5F5;}
+*::-webkit-scrollbar-track{ border-radius: 10px;  background-color: #F5F5F5; }
+*::-webkit-scrollbar-thumb{border-radius: 10px; background-color: #ccc;  }
+
 /*product-box*/
 .product-box{width:375px; height:100%;overflow: hidden; position: fixed; top:0; right:0; left:0; margin: 0 auto;}
 .product-box .content{background-color: #fff;height:100%; width:100%; overflow: hidden; overflow-y: auto;padding-bottom:50px;-webkit-overflow-scrolling: touch; position:relative;}
 
-/*user-list*/
+    /*user-list*/
 .video-list{margin-bottom:15px;padding-top:10px;}
 .video-list ul{width:auto;margin:0;padding:0 6px;}
 .video-list ul li{	width: 80px;height: 127px;border-radius: 3px; list-style: none; overflow: hidden; position: relative;margin-right:5px;}
@@ -287,8 +292,8 @@ body,html{overflow: hidden;}
 .purchase .balance a{margin-left:10px; font-size:14px; font-weight: 500;color: #2E57A6;text-decoration: none}
 .purchase .balance i{float: right;margin-top:10px;margin-right:20px;}
 .purchase .balance i img{width:12px;height:12px;}
-.purchase .point .radio{width:100%; height:51px; border-bottom:1px solid #efefef;padding:15px 20px;margin-bottom:0;margin-top:0;}
-.purchase .point .radio label{width:100%;padding-left:0;font-size: 16px;font-weight: 500;color: #000000;}
+.purchase .point .radio{width:100%; height:51px; border-bottom:1px solid #efefef;margin-bottom:0;margin-top:0;}
+.purchase .point .radio label{width:100%;font-size: 16px;font-weight: 500;color: #000000;padding: 15px 20px; display: block;}
 .purchase .point .radio .icheckbox_radio{ position: relative; top:-2px;margin-right:20px;}
 .purchase .point .radio em{ width:85px;position: absolute; right:7px;top:0; bottom:0; margin: auto 0;margin-left:25px; line-height: 51px; font-style: normal;}
 .purchase .point .radio span{position: relative;margin-left: 15px;}

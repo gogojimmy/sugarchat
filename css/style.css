@@ -83,6 +83,7 @@ body,html{overflow: hidden;}
 .chart-content .input-bar .gift-list .gift span{display: inline-block;position: relative;padding-left:20px;}
 .chart-content .input-bar .gift-list .gift span::before{display: block;width:14px; height:14px; background: url("../images/icon-small-coin@2x.png") center center no-repeat; content: ''; background-size: 14px 14px; position: absolute;left:0px;top:3px;}
 .chart-content .input-bar  .gift-explain{width: 375px;  height: 84px;background-color: rgba(249, 249, 249, 0.82);padding:10px 15px 0; position: fixed; bottom:0; left:0; right:0; margin: 0 auto;	border-top: solid 1px #dedddf;}
+.chart-content .input-bar  .gift-explain .tip-btn{ position: absolute; top:0; right:0; background: none;}
 .chart-content .input-bar  .gift-explain h3{color: #292929;font-weight: 500;font-size: 14px;margin:0;margin-bottom:7px;}
 .chart-content .input-bar  .gift-explain h3 span{font-size: 12px;}
 .chart-content .input-bar  .gift-explain p{color: #7d7d7d;font-weight: 500;font-size: 12px;margin-bottom:5px;}

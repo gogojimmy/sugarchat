@@ -463,5 +463,25 @@ footer .member.active,footer .member:active{background: url("../images/ic3-membe
 .give-out .give-list li .b{position: absolute; top:0;right:0;line-height: 56px;padding-left:20px;}
 .give-out .give-list li .b::before{display: block;width:14px; height:14px; background: url("../images/icon-small-coin@2x.png") center center no-repeat; content: ''; background-size: 14px 14px; position: absolute;left:0px;top:21px;}
 
+
+/*about*/
+.about{padding-top:45px;padding-bottom:30px;}
+.about .top-logo{text-align: center;}
+.about .top-logo img{width:197px;}
+.about .top-logo p{color: #292929;font-size: 15px;margin-top:10px;}
+.about .gift-desc{margin-top:34px; text-align: center;margin-bottom:30px;}
+.about .gift-desc p{margin-bottom:3px;}
+.about .gift-desc p a{color: #5397fc;}
+.about .gift-desc img{width:375px;margin-top:10px;}
+.about .desc{margin-bottom:65px;}
+.about .desc .tit{padding:0 21px;color: #4a4a4a;font-weight: 500;font-size: 16px;}
+.about .desc .tit img{margin-right:5px; position: relative; top:-2px;}
+.about .desc .info{color: #292929;font-size: 14px;  font-weight: 500;margin-top:17px;padding:0 21px;}
+.about .desc .img img{display: block;width:100%;margin-top:30px;}
+.about .footer-logo{ text-align: center;}
+.about .footer-logo img{width:60px;}
+.about .btn{width: 265px;  height: 42px;margin-top:35px;margin-bottom:30px;  border-radius: 29px;  border: solid 1px #292929; padding:0;line-height: 42px;color: #292929;font-size: 14px;  outline:none;font-weight: 500;}
+.about .btn:active{color: #fff;border-color: #e62565;}
+
 /*loading*/
 #loading{width:375px;height:100%; background: rgba(0, 0, 0, 0.27) url("../images/loading-gif.gif") center center no-repeat; background-size: 50px 50px; position: fixed; top:0;left:0; right:0;margin:0 auto; z-index: 10000;}

@@ -97,16 +97,22 @@ body,html{overflow: hidden;}
 .chart-content .input-bar  .gift-explain a{display: block; position: absolute;bottom:9px; right:15px;width: 46px;  height: 22px;  border-radius: 11px;  background-color: #dedddf; text-align: center; line-height: 22px;color: #2e57a6;font-size: 13px;font-weight: 500;}
 .chart-content .chart-desc{display: block;width:100%; height:100%;overflow: hidden; overflow-y: auto;-webkit-overflow-scrolling: touch;}
 .chart-content .chart-desc ul{ margin:0; padding:20px 0; }
-.chart-content .chart-desc .gift{width:100%; height:100px;padding-left:55px; position: relative; overflow: hidden;margin-bottom:10px;}
-.chart-content .chart-desc .gift .img-circle{width:31px;height:31px; position: absolute; left:15px!important;bottom:17px!important; top: inherit!important;}
-.chart-content .chart-desc .gift .gift-content{ float: left;}
-.chart-content .chart-desc .gift .gift-content img{width:100px;}
-.chart-content .chart-desc .gift .info{font-size: 13px;font-weight: 500;color: #9b9b9b;padding-top:48px;margin-left:10px; float: left;}
+.chart-content .chart-desc .gift{width:100%; padding-left:55px; position: relative; overflow: hidden;margin-bottom:10px;margin-bottom:20px;}
+.chart-content .chart-desc .gift .img-circle{width:31px;height:31px; position: absolute; left:15px!important;}
+.chart-content .chart-desc .gift .gift-content{ float: left;width: 294px;  height: 141px;  border-radius: 24px;  background-color: #f9f9f9;  border: solid 1px #dedddf;}
+.chart-content .chart-desc .gift .gift-content a{display: block; height:33px; line-height: 33px; text-decoration: none; width:100%; text-align: center;color: #4a4a4a;font-weight: 500;font-size: 13px;border-top: solid 1px #dedddf;}
+.chart-content .chart-desc .gift .gift-content img{width:90px;float: right;margin-top:10px;}
+.chart-content .chart-desc .gift .info{font-size: 14px;font-weight: 500;color: #292929;padding-top:10px;margin-left:20px; float: left;height: 105px;}
+.chart-content .chart-desc .gift .info p{font-size: 13px;  font-weight: 500;color: #7d7d7d;margin-top:7px;}
+.chart-content .chart-desc .gift .info .g{color: #4a4a4a;}
+.chart-content .chart-desc .gift .date{color: #9b9b9b;font-size: 12px; display: block;margin-top:5px;}
 .chart-content .chart-desc .gift .info div{margin-top:3px; overflow: hidden;}
-.chart-content .chart-desc .gift .info span{color: #4a4a4a;font-size: 12px;margin-left:25px; position: relative; float: right;}
-.chart-content .chart-desc .gift .info span::before{display: block;width:14px; height:14px; background: url("../images/icon-small-coin@2x.png") center center no-repeat; content: ''; background-size: 14px 14px; position: absolute;left:-18px;top:1px;}
+.chart-content .chart-desc .gift .info span{color: #4a4a4a;font-size: 14px;margin-left:25px; position: relative; float: right;}
+.chart-content .chart-desc .gift .info span::before{display: block;width:14px; height:14px; background: url("../images/icon-small-coin@2x.png") center center no-repeat; content: ''; background-size: 14px 14px; position: absolute;left:-18px;top:3px;}
 .chart-content .chart-desc .gift.me{padding-left:0; padding-right:14px;}
-.chart-content .chart-desc .gift.me .gift-content,.chart-content .chart-desc .gift.me .info{float: right;width:75px;}
+.chart-content .chart-desc .gift.me .gift-content{float: right;}
+.chart-content .chart-desc .gift.me .info{float: left; text-align: left;}
+.chart-content .chart-desc .gift.me .date{text-align: right;}
 .chart-content .chart-desc .invitation-tips{padding: 0 14px;margin-bottom:10px; text-align: center;}
 .chart-content .chart-desc .invitation-tips .info{width: 347px;  height: 46px;  border-radius: 18px;  background-color: #f9f9f9;font-weight: 500; text-align: center;padding-top:4px;}
 .chart-content .chart-desc .invitation-tips .info h3{font-size: 13px;color: #292929;margin:0;}
@@ -115,7 +121,7 @@ body,html{overflow: hidden;}
 .chart-content .chart-desc .me{text-align: right;padding:0 15px;margin-bottom:3px;position:relative; }
 .chart-content .chart-desc .me .message{width: auto; text-align: left; min-height: 32px;word-break: break-all;
     word-wrap: break-word;  border-radius: 16px;  background-color: #f86093; display: inline-block;max-width: 60%;padding:6px 15px;color: #ffffff;font-size: 14px;}
-.chart-content .chart-desc .he{text-align: left;padding:0 15px;margin-bottom:3px; position: relative;padding-left:56px;}
+.chart-content .chart-desc .he{text-align: left;padding:0 15px;position: relative;padding-left:56px;}
 .chart-content .chart-desc .he .message{width: auto; text-align: left;min-height: 32px;word-break: break-all;
     word-wrap: break-word;  border-radius: 16px;  background-color: #dedddf; position: relative; display: inline-block;max-width: 60%;padding:6px 15px;color: #292929;font-size: 14px;}
 .chart-content .chart-desc .he .img-circle{position: absolute; top:0; left:15px;}
@@ -136,6 +142,8 @@ body,html{overflow: hidden;}
 .chart-content .chart-desc .task .con{padding: 0 20px 0;color: #7d7d7d;font-size: 13px;font-weight: 500; position: relative;}
 .chart-content .chart-desc .task .con a{position: absolute; right:20px;text-decoration: none;color: #2e57a6;font-size: 13px;  font-weight: 500; outline: none; }
 .chart-content .chart-desc .task .date{color: #9b9b9b;font-size: 12px;  font-weight: 500;display: block; position: absolute; bottom:-20px; left:0;width:100%; text-align: center;}
+.chart-content .chart-desc .he .task .date{text-align: left;}
+.chart-content .chart-desc .me .task .date{text-align: right;}
 .chart-content .chart-desc .task .item-list{margin-top:15px; overflow: hidden;}
 .chart-content .chart-desc .task .item-list a{width:292px;height:292px;margin-bottom:4px;display:block; float: left;margin-right:4px; position: relative;}
 .chart-content .chart-desc .task .item-list a .video-play{display: block;height:100%; width:100%; background:rgba(0, 0, 0, 0.25) url("../images/paly-icon.png") center center no-repeat; background-size: 42px 42px; position: absolute; top:0;left:0;}
@@ -491,3 +499,34 @@ footer .member.active,footer .member:active{background: url("../images/ic3-membe
 
 /*loading*/
 #loading{width:375px;height:100%; background: rgba(0, 0, 0, 0.27) url("../images/loading-gif.gif") center center no-repeat; background-size: 50px 50px; position: fixed; top:0;left:0; right:0;margin:0 auto; z-index: 10000;}
+
+/*ranking-link*/
+.ranking-link{width: 363px;  height: 37px;  border-radius: 3px;  background-color: #f9f9f9;  border: solid 1px #4a4a4a; outline: none;color: #292929;	font-size: 13px;  font-weight: 500; display: block; margin: 10px auto 0;}
+
+/*ranking*/
+.ranking .nav-tabs{height:43px;border:0;}
+.ranking .nav-tabs li{width:50%; text-align: center; line-height: 43px;color: #9b9b9b;font-weight: 500;font-size: 14px;border-bottom:1px solid #ededed;}
+.ranking .nav-tabs li.active{border-color: #292929;  }
+.ranking .nav-tabs li a{color: #9b9b9b;border:0!important;}
+.ranking .nav-tabs li.active a{color: #292929;border:0;}
+.ranking .nav-tabs>li.active>a, .ranking .nav-tabs>li.active>a:focus, .ranking .nav-tabs>li.active>a:hover .ranking .nav-tabs li:hover{border:0!important; background: none!important;}
+.ranking .tab-content .tit{color: #292929;font-weight: 500;font-size: 14px;text-align: center;margin:15px 0;}
+.ranking .tab-content ul{display: block;margin:0;padding:0;}
+.ranking .tab-content ul li{width: 375px; height: 116px;background-color: #ffffff; list-style: none;}
+.ranking .tab-content ul li .number{display: block; float: left;width:50px;height:100%; position: relative;color: #292929;font-weight: 500;font-size: 15px; text-align: center; padding-top:42px;}
+.ranking .tab-content ul li .number:before{width:11px;height:12px;display: block; content: ''; position: absolute;top:0;bottom:0; right:0; left:0;margin: auto; background: url("../images/top-icon.png") 0 0 no-repeat; background-size: 11px 12px;margin-top: 65px;}
+.ranking .tab-content ul li .head-portrait{display: block; float: left; width:77px;height:100%; text-align: center;vertical-align: middle;padding-top:19px;}
+.ranking .tab-content ul li .info{padding-left:20px; float: left;padding-top:35px;width:248px;}
+.ranking .tab-content ul li .info a{color: #292929;font-size: 15px;  font-weight: 500; text-decoration: none;}
+.ranking .tab-content ul li .info a i{display: inline-block; width:8px;height:8px; border-radius: 50%; background-color: #e7427a;margin-left:5px;}
+.ranking .tab-content ul li .info span{display: block;color: #292929;font-size: 15px;  font-weight: 500;position: relative;padding-left:25px;}
+.ranking .tab-content ul li .info span:before{width:22px;height:22px; display: block; position: absolute; left:0; top:0; bottom:0; margin:auto 0;content: '';background: url("../images/gift-box.png") center center no-repeat;background-size: 17px 18px;}
+.ranking .tab-content ul li.one{height:auto;padding-bottom:21px;border-bottom: solid 1px #ededed;padding-top: 5px;}
+.ranking .tab-content ul li.one .number{float: none; width:100%;height:55px;padding-top:0;font-size: 15px;  color: #292929;font-weight: 500; text-align: left;padding-left:160px;padding-top:10px;}
+.ranking .tab-content ul li.one .number:before{background: url("../images/1@2x.png") center center no-repeat;width:16px; height:32px;  background-size: 16px 32px;margin-top:0; left:30px;}
+.ranking .tab-content ul li.one .head-portrait{float: none;width: 100%;margin-bottom:10px; height:129px; background:url("../images/one-bg1.png") center center no-repeat; background-size: 375px 129px;padding-top:5px;}
+.ranking .tab-content ul li.one .head-portrait img{width:118px;height:118px;}
+.ranking .tab-content ul li.one .info{float: none;width:100%;padding:0; text-align: center;}
+.ranking .tab-content ul li.one .info a:after{display: block;width: 100%;content: '';}
+.ranking .tab-content ul li.one .info span{display: inline-block;}
+.ranking .tab-content .tab-pane:last-child ul li.one .head-portrait{background:url("../images/one-bg2.png") center center no-repeat; background-size: 375px 129px;}

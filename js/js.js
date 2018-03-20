@@ -323,9 +323,9 @@ $(function(){
 
 // 计算chart-content的高度和重置滚动条
 function setChartContent(){
-    var ulHeight = $(".chart-desc ul").outerHeight();
+    var productHeight = $(".product-box").outerHeight();
     $(".chart-desc").css({'padding-bottom': $(".input-bar").outerHeight()});
-    $(".chart-desc").scrollTop(ulHeight - $(".chart-desc").outerHeight()+300);
+    $("body").scrollTop(productHeight - $("body").outerHeight()+300);
 }
 
 //me send message
@@ -347,30 +347,41 @@ function heSendMessage(content){
 
 //he sendGift
 function heSendGift(giftContent){
-    var gift = $('<li class="gift he">' +
-        '<img src="images/chart-tx.png" class="img-circle" alt="">' +
-        '<div class="gift-content">' +
-        '<img src="' +giftContent.imgUrl+ '" alt="">' +
-        '</div>' +
-        '<div class="info">' +
-        giftContent.text +
-        '<div>贈送 <span>' + giftContent.money + '</span></div>' +
-        '</div>' +
-        '</li>');
+    var gift = '<li class="tasks he">\n' +
+        '<img src="images/chart-tx.png" class="img-circle" alt="">'+
+        '\t\t\t\t\t\t\t\t<div class="gift-content">\n' +
+        '\t\t\t\t\t\t\t\t\t<img src="' + giftContent.imgUrl+ '" alt="">\n' +
+        '\t\t\t\t\t\t\t\t\t<div class="info">\n' +
+        '\t\t\t\t\t\t\t\t\t\tVincent Hsu 發任務\n' +
+        '\t\t\t\t\t\t\t\t\t\t<p>唱一首想念我的歌</p>\n' +
+        '\t\t\t\t\t\t\t\t\t\t<div class="g">禮物點數 <span>' + giftContent.money + '</span></div>\n' +
+        '\t\t\t\t\t\t\t\t\t</div>\n' +
+        '\t\t\t\t\t\t\t\t\t<div class="clearfix"></div>\n' +
+        '\t\t\t\t\t\t\t\t\t<a href="">查看任務內容</a>\n' +
+        '\t\t\t\t\t\t\t\t</div>\n' +
+        '\t\t\t\t\t\t\t\t<div class="clearfix"></div>\n' +
+        '\t\t\t\t\t\t\t\t<span class="date">2018/03/06</span>\n' +
+        '\t\t\t\t\t\t\t</li>'
+
     $(".chart-desc ul").append(gift);
 }
 
 //me sendGift
 function meSendGift(giftContent){
-    var gift = $('<li class="gift me">' +
-        '<div class="gift-content">' +
-        '<img src="' +giftContent.imgUrl+ '" alt="">' +
-        '</div>' +
-        '<div class="info">' +
-        giftContent.text +
-        '<div>贈送 <span>' + giftContent.money + '</span></div>' +
-        '</div>' +
-        '</li>');
+    var gift = '<li class="tasks me">\n' +
+        '\t\t\t\t\t\t\t\t<div class="gift-content">\n' +
+        '\t\t\t\t\t\t\t\t\t<img src="' + giftContent.imgUrl+ '" alt="">\n' +
+        '\t\t\t\t\t\t\t\t\t<div class="info">\n' +
+        '\t\t\t\t\t\t\t\t\t\tVincent Hsu 發任務\n' +
+        '\t\t\t\t\t\t\t\t\t\t<p>唱一首想念我的歌</p>\n' +
+        '\t\t\t\t\t\t\t\t\t\t<div class="g">禮物點數 <span>' + giftContent.money + '</span></div>\n' +
+        '\t\t\t\t\t\t\t\t\t</div>\n' +
+        '\t\t\t\t\t\t\t\t\t<div class="clearfix"></div>\n' +
+        '\t\t\t\t\t\t\t\t\t<a href="">查看任務內容</a>\n' +
+        '\t\t\t\t\t\t\t\t</div>\n' +
+        '\t\t\t\t\t\t\t\t<div class="clearfix"></div>\n' +
+        '\t\t\t\t\t\t\t\t<span class="date">2018/03/06</span>\n' +
+        '\t\t\t\t\t\t\t</li>'
     $(".chart-desc ul").append(gift);
 }
 

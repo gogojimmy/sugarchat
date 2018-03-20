@@ -106,22 +106,22 @@ body,html{overflow: hidden; overflow-y: auto;height: 100%;}
 .chart-content .input-bar  .gift-explain a{display: block; position: absolute;bottom:9px; right:15px;width: 46px;  height: 22px;  border-radius: 11px;  background-color: #dedddf; text-align: center; line-height: 22px;color: #2e57a6;font-size: 13px;font-weight: 500;}
 .chart-content .chart-desc{display: block;width:100%; height:100%;overflow: hidden; overflow-y: auto;-webkit-overflow-scrolling: touch;}
 .chart-content .chart-desc ul{ margin:0; padding:20px 0; }
-.chart-content .chart-desc .gift{width:100%; padding-left:55px; position: relative; overflow: hidden;margin-bottom:10px;margin-bottom:20px;}
-.chart-content .chart-desc .gift .img-circle{width:31px;height:31px; position: absolute; left:15px!important;}
-.chart-content .chart-desc .gift .gift-content{ float: left;width: 294px;  height: 141px;  border-radius: 24px;  background-color: #f9f9f9;  border: solid 1px #dedddf;}
-.chart-content .chart-desc .gift .gift-content a{display: block; height:33px; line-height: 33px; text-decoration: none; width:100%; text-align: center;color: #4a4a4a;font-weight: 500;font-size: 13px;border-top: solid 1px #dedddf;}
-.chart-content .chart-desc .gift .gift-content img{width:90px;float: right;margin-top:10px;}
-.chart-content .chart-desc .gift .info{font-size: 14px;font-weight: 500;color: #292929;padding-top:10px;margin-left:20px; float: left;height: 105px;}
-.chart-content .chart-desc .gift .info p{font-size: 13px;  font-weight: 500;color: #7d7d7d;margin-top:7px;}
-.chart-content .chart-desc .gift .info .g{color: #4a4a4a;}
-.chart-content .chart-desc .gift .date{color: #9b9b9b;font-size: 12px; display: block;margin-top:5px;}
-.chart-content .chart-desc .gift .info div{margin-top:3px; overflow: hidden;}
-.chart-content .chart-desc .gift .info span{color: #4a4a4a;font-size: 14px;margin-left:25px; position: relative; float: right;}
-.chart-content .chart-desc .gift .info span::before{display: block;width:14px; height:14px; background: url("../images/icon-small-coin@2x.png") center center no-repeat; content: ''; background-size: 14px 14px; position: absolute;left:-18px;top:3px;}
-.chart-content .chart-desc .gift.me{padding-left:0; padding-right:14px;}
-.chart-content .chart-desc .gift.me .gift-content{float: right;}
-.chart-content .chart-desc .gift.me .info{float: left; text-align: left;}
-.chart-content .chart-desc .gift.me .date{text-align: right;}
+.chart-content .chart-desc .tasks{width:100%; padding-left:55px; position: relative; overflow: hidden;margin-bottom:10px;margin-bottom:20px;}
+.chart-content .chart-desc .tasks .img-circle{width:31px;height:31px; position: absolute; left:15px!important;}
+.chart-content .chart-desc .tasks .gift-content{ float: left;width: 294px;  height: 141px;  border-radius: 24px;  background-color: #f9f9f9;  border: solid 1px #dedddf;}
+.chart-content .chart-desc .tasks .gift-content a{display: block; height:33px; line-height: 33px; text-decoration: none; width:100%; text-align: center;color: #4a4a4a;font-weight: 500;font-size: 13px;border-top: solid 1px #dedddf;}
+.chart-content .chart-desc .tasks .gift-content img{width:90px;float: right;margin-top:10px;}
+.chart-content .chart-desc .tasks .info{font-size: 14px;font-weight: 500;color: #292929;padding-top:10px;margin-left:20px; float: left;height: 105px;}
+.chart-content .chart-desc .tasks .info p{font-size: 13px;  font-weight: 500;color: #7d7d7d;margin-top:7px;}
+.chart-content .chart-desc .tasks .info .g{color: #4a4a4a;}
+.chart-content .chart-desc .tasks .date{color: #9b9b9b;font-size: 12px; display: block;margin-top:5px;}
+.chart-content .chart-desc .tasks .info div{margin-top:3px; overflow: hidden;}
+.chart-content .chart-desc .tasks .info span{color: #4a4a4a;font-size: 14px;margin-left:25px; position: relative; float: right;}
+.chart-content .chart-desc .tasks .info span::before{display: block;width:14px; height:14px; background: url("../images/icon-small-coin@2x.png") center center no-repeat; content: ''; background-size: 14px 14px; position: absolute;left:-18px;top:3px;}
+.chart-content .chart-desc .tasks.me{padding-left:0; padding-right:14px;}
+.chart-content .chart-desc .tasks.me .gift-content{float: right;}
+.chart-content .chart-desc .tasks.me .info{float: left; text-align: left;}
+.chart-content .chart-desc .tasks.me .date{text-align: right;}
 .chart-content .chart-desc .invitation-tips{padding: 0 14px;margin-bottom:10px; text-align: center;}
 .chart-content .chart-desc .invitation-tips .info{width: 347px;  height: 46px;  border-radius: 18px;  background-color: #f9f9f9;font-weight: 500; text-align: center;padding-top:4px;}
 .chart-content .chart-desc .invitation-tips .info h3{font-size: 13px;color: #292929;margin:0;}

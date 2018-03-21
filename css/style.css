@@ -195,30 +195,30 @@ body,html{overflow: hidden; overflow-y: auto;height: 100%;}
 .user-info .banner .popular-pagination{position: absolute; bottom:10px; left:0; right:0; margin: 0 auto; text-align: center; z-index: 9;}
 .user-info .banner .swiper-pagination-bullet{width: 7px;  height: 7px;   background-color: #292929; opacity: 1;}
 .user-info .banner .swiper-pagination-bullet-active{background-color: #dedddf;}
-.user-info .banner  .section{position: absolute;z-index: 10;height:80px;width:100%; top:285px;left:0; padding: 0 15px;}
-.user-info .banner  .section .username{	font-size: 20px;font-weight: 600;color: #ffffff;margin-bottom:9px;}
-.user-info .banner  .section p{color: #ffffff;	font-weight: 500;font-size: 13px;margin-bottom:3px; }
-.user-info .banner  .section .share{position: absolute; top:35px; right:15px;}
-.user-info .banner  .section .share a{margin-left: 20px;}
-.user-info .banner  .section .edit{display: block;position: absolute; top:35px; right:15px;width: 100px;  color: #ffffff;font-weight: 500;font-size: 13px; text-align:center; line-height: 34px; height: 34px;  border-radius: 17px;  background-color: rgba(74, 74, 74, 0.55);}
-.user-info .banner  .section .edit:hover{text-decoration: none;}
-.user-info .banner .operation{padding:15px;}
-.user-info .banner .operation .describe p{margin-bottom:3px;color: #292929;font-size: 13px;}
-.user-info .banner .operation .btn-cos{width: 335px;  height: 42px;  margin: 25px auto 0; }
-.user-info .banner .operation .account{width:100%;height:85px;margin: 43px 0 30px;}
-.user-info .banner .operation .account .item{	width: 165px;  height: 85px;  border-radius: 3px;  background-color: #f9f9f9; display:block; float: left;margin-right: 15px; text-align: center; position: relative;}
-.user-info .banner .operation .account .item:last-child{margin-right: 0;}
-.user-info .banner .operation .account .item .tip-btn{position: absolute;bottom:2px; right:2px;}
-.user-info .banner .operation .account h3{font-size: 17px;font-size: 17px;color: #292929;}
-.user-info .banner .operation .account a{color: #7d7d7d;font-weight: 500;font-size: 13px; text-decoration: none;}
-.user-info .banner .operation .account a img{width:14px; position: relative;top:-2px;margin-right:3px;}
-.user-info .banner .operation .sub-title{color: #292929;font-weight: 500;	font-size: 15px; text-align: center;}
-.user-info .banner .operation .sub-title+.btn-cos{margin-top:15px;}
-.user-info .banner .operation .tips{text-align: center;	color: #9b9b9b;font-weight: 500;font-size: 12px;margin-top:10px; margin-bottom:20px; position: relative;}
-.user-info .banner .operation .tips img{margin-right:3px; position: relative; top:-2px;}
-.user-info .banner .operation .btn-cos-group{margin-top:34px; text-align: center; overflow: hidden;}
-.user-info .banner .operation .btn-cos-group .btn-cos{width:165px; display: inline-block; float: left;margin-right: 15px;margin-top:0;}
-.user-info .banner .operation .btn-cos-group .btn-cos:last-child{margin-right: 0;}
+.user-info  .section{position: absolute;z-index: 10;height:80px;width:100%; top:285px;left:0; padding: 0 15px;}
+.user-info  .section .username{	font-size: 20px;font-weight: 600;color: #ffffff;margin-bottom:9px;}
+.user-info  .section p{color: #ffffff;	font-weight: 500;font-size: 13px;margin-bottom:3px; }
+.user-info  .section .share{position: absolute; top:35px; right:15px;}
+.user-info  .section .share a{margin-left: 20px;}
+.user-info  .section .edit{display: block;position: absolute; top:35px; right:15px;width: 100px;  color: #ffffff;font-weight: 500;font-size: 13px; text-align:center; line-height: 34px; height: 34px;  border-radius: 17px;  background-color: rgba(74, 74, 74, 0.55);}
+.user-info  .section .edit:hover{text-decoration: none;}
+.user-info .operation{padding:15px;}
+.user-info .operation .describe p{margin-bottom:3px;color: #292929;font-size: 13px;}
+.user-info .operation .btn-cos{width: 335px;  height: 42px;  margin: 25px auto 0; }
+.user-info .operation .account{width:100%;height:85px;margin: 43px 0 30px;}
+.user-info .operation .account .item{	width: 165px;  height: 85px;  border-radius: 3px;  background-color: #f9f9f9; display:block; float: left;margin-right: 15px; text-align: center; position: relative;}
+.user-info .operation .account .item:last-child{margin-right: 0;}
+.user-info .operation .account .item .tip-btn{position: absolute;bottom:2px; right:2px;}
+.user-info .operation .account h3{font-size: 17px;font-size: 17px;color: #292929;}
+.user-info .operation .account a{color: #7d7d7d;font-weight: 500;font-size: 13px; text-decoration: none;}
+.user-info .operation .account a img{width:14px; position: relative;top:-2px;margin-right:3px;}
+.user-info .operation .sub-title{color: #292929;font-weight: 500;	font-size: 15px; text-align: center;}
+.user-info .operation .sub-title+.btn-cos{margin-top:15px;}
+.user-info .operation .tips{text-align: center;	color: #9b9b9b;font-weight: 500;font-size: 12px;margin-top:10px; margin-bottom:20px; position: relative;}
+.user-info .operation .tips img{margin-right:3px; position: relative; top:-2px;}
+.user-info .operation .btn-cos-group{margin-top:34px; text-align: center; overflow: hidden;}
+.user-info .operation .btn-cos-group .btn-cos{width:165px; display: inline-block; float: left;margin-right: 15px;margin-top:0;}
+.user-info .operation .btn-cos-group .btn-cos:last-child{margin-right: 0;}
 
 /*user-edit*/
 .icheckbox_radio{display: inline-block; *display: inline;  vertical-align: middle;  margin: 0;  padding: 0;  width: 18px;  height: 18px;  background: url("../images/radio-defult.png") 0 0 no-repeat;  background-size: 18px 18px;  border: none;  cursor: pointer;}

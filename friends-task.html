@@ -6,7 +6,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta content="yes" name="apple-mobile-web-app-capable">
 		<meta name="viewport" content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;">
-		<title>已送出點數</title>
+		<title>好友任务</title>
 		<!-- Bootstrap -->
 		<link href="lib/bootstrap-3.3.7/css/bootstrap.min.css" rel="stylesheet">
 		<link href="lib/Swiper/css/swiper.min.css" rel="stylesheet">
@@ -25,52 +25,26 @@
 
 		<div class="product-box">
 			<div class="content">
-				<div class="give-out">
-					<div class="give-count">
-						總計送出
-						<span>5324</span>
-					</div>
-					<div class="balance">
-						儲值餘額: 25454點
-						<a href="">儲值</a>
-					</div>
-					<ul class="give-list">
-						<li class="no-data">尚無送禮物紀錄</li>
-						<li>
-							<img class="img-circle" src="images/tx.png" alt="">
-							<h3>Ann</h3>
-							<p><span>2018/03/23</span>最後一次送出</p>
-							<span class="b">130</span>
-						</li>
-						<li>
-							<img class="img-circle" src="images/tx.png" alt="">
-							<h3>Ann</h3>
-							<p><span>2018/03/23</span>最後一次送出</p>
-							<span class="b">130</span>
-						</li>
-						<li>
-							<img class="img-circle" src="images/tx.png" alt="">
-							<h3>Ann</h3>
-							<p><span>2018/03/23</span>最後一次送出</p>
-							<span class="b">130</span>
-						</li>
-						<li>
-							<img class="img-circle" src="images/tx.png" alt="">
-							<h3>Ann</h3>
-							<p><span>2018/03/23</span>最後一次送出</p>
-							<span class="b">130</span>
-						</li>
-						<li>
-							<img class="img-circle" src="images/tx.png" alt="">
-							<h3>Ann</h3>
-							<p><span>2018/03/23</span>最後一次送出</p>
-							<span class="b">130</span>
-						</li>
-					</ul>
+				<div class="friends-task">
+					<div class="step">STEP.1</div>
+					<h2>複製個人專屬連結</h2>
+					<button class="btn btn-cos copy" data-clipboard-text="个人链接"><img src="images/btn-icon2.png" alt="">分享專屬連結 點我複製連結</button>
+					<div class="step">STEP.2</div>
+					<h2 style="margin-bottom:15px;">在Instagram貼上專屬連結，然後螢幕截圖</h2>
+					<p>貼在Instagram「個人檔案」>「網站」裡，讓朋友粉絲可以跟你聊聊天、任務互動，賺禮物兌現。</p>
+					<p style="margin-bottom:60px;">
+						<img src="images/Instagram-JT.png" alt="">
+					</p>
+					<div class="step">STEP.3</div>
+					<h2>點此上傳給我們！</h2>
+					<button class="btn btn-cos upload">
+						<img src="images/ic1-camera@2x.png" width="18" alt="">
+						上傳截圖，領取點數
+						<input type="file" accept="video/mp4">
+					</button>
 				</div>
 			</div>
 		</div>
-
 
 		<footer>
 			<a class="home active" href=""></a>
@@ -78,30 +52,19 @@
 			<a class="member" href=""></a>
 		</footer>
 
-		<!--首次儲值 賺現金+點數 modal-->
-		<div class="modal fade first-give-modal" tabindex="-1" role="dialog" aria-labelledby="first-give-modal">
+		<!--上傳成功 modal-->
+		<div class="modal fade task-modal" tabindex="-1" role="dialog" aria-labelledby="task-modal">
 			<div class="modal-dialog modal-sm" role="document">
 				<div class="modal-content">
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 						<img src="images/close-iocn1.png" width="16" alt="">
 					</button>
 					<div class="desc">
-						<h2>首次儲值 賺現金+點數</h2>
-						<p>儲值點數可買禮物送對方表示誠意！</p>
-						<div class="give">
-							<span>
-								最高省<br>
-								<em>NT$</em>
-								<i>1250</i>
-							</span>
-							<span>
-								最高加贈<br>
-								<i>2000</i>
-							</span>
-						</div>
-						<a href="" data-dismiss="modal" data-toggle="modal" class="btn">確定檢舉</a>
+						<img src="images/success-modal-icon.png" width="121" alt="">
+						<h3>上傳成功</h3>
+						<p>我們確認後講發放點數200點<br>
+							可前往個人中心「儲值帳戶」查看</p>
 					</div>
-
 				</div>
 			</div>
 		</div>

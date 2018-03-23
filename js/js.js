@@ -3,8 +3,12 @@ $(function(){
     $(".copy").on('click', function(){
         var clipboard = new Clipboard('.copy');
         clipboard.on('success', function(e) {
-            $(".copy").html('<img src="images/btn-icon2.png" alt="">已複製到粘贴板').css('opacity', '0.5');
-            console.info(e.text);
+            $(".copy").html('專屬連結已複製').css('opacity', '0.5');
+            $(".copy").addClass('copy-complete')
+            setTimeout(function(){
+                $(".copy").html('<img src="images/btn-icon2.png" alt="">分享專屬連結 點我複製連結').css('opacity', '1');
+                $(".copy").removeClass('copy-complete')
+            },500)
             e.clearSelection();
         });
         clipboard.on('error', function(e) {
@@ -22,7 +26,7 @@ $(function(){
     });
 
     // 聊天列表显示删除按钮
-    new Swiper('.chart-list .item.swiper-container', {
+    new Swiper('.chat-list .item.swiper-container', {
         slidesPerView: 'auto',
         initialSlide: 0,
         height: 74,
@@ -32,7 +36,7 @@ $(function(){
     });
 
     // 删除聊天列表
-    $(".chart-list .item .delete").on('click', function(){
+    $(".chat-list .item .delete").on('click', function(){
         $(this).parent().parent().remove();
     })
 
@@ -72,17 +76,17 @@ $(function(){
         $(".gift-explain").hide();
         $(".gift-list").slideToggle(function(){
             $(".gift-explain").show();
-            setChartContent();
+            setChatContent();
         });
     });
 
     // 点击其他地方关闭礼物
-    $(".chart-content .chart-desc").on('click', function(){
+    $(".chat-content .chat-desc").on('click', function(){
         if($(".gift-list").css('display') == 'none') return;
         $(".gift-explain").hide();
         $(".gift-show").hide();
         $(".gift-list").slideUp(function(){
-            setChartContent();
+            setChatContent();
         });
         $(".gift-btn").show();
         $(".send-btn").hide();
@@ -121,7 +125,7 @@ $(function(){
         $(".gift-btn").show();
         $(".send-btn").hide();
         $(this).parent().hide();
-        setChartContent();
+        setChatContent();
     });
 
     // 接受礼物或拒绝
@@ -143,7 +147,7 @@ $(function(){
         }
         $(".invitation-open").removeClass('invitation-open');
         $(this).parent().hide();
-        setChartContent();
+        setChatContent();
     })
 
     // 判断消息框是否有内容
@@ -169,8 +173,9 @@ $(function(){
     $("#textarea").on('focus blur',function(){
         $(".gift-show").hide();
         $(".gift-list").hide();
-        setChartContent();
+        setChatContent();
     })
+
     // 复位输入框
     $(".tog-icon").on('click', function(){
         $(".input-bar .input").css({'width': '58%'});
@@ -195,7 +200,7 @@ $(function(){
             $(".gift-btn").show();
             $(".send-btn").hide();
             $('.gift-show').hide();
-            setChartContent();
+            setChatContent();
             return;
         }
 
@@ -205,7 +210,7 @@ $(function(){
         $(".gift-btn").show();
         $(".send-btn").hide();
         $('#textarea').text('').removeClass('hide-placeholder');;
-        setChartContent();
+        setChatContent();
     });
 
     // input-bar disabled
@@ -213,7 +218,6 @@ $(function(){
         $(this).blur();
     })
 
-    setChartContent();
 
     // 信用卡
     $(".card-number input").on('focus', function(){
@@ -242,19 +246,21 @@ $(function(){
     });
 
     //查看视频
-    $(".chart-desc").delegate('.video-play', 'click', function(){
-        var videoUrl = $(this).attr('data-video');
-        var video = document.getElementById('video');
-        video.src = videoUrl;
-        $(".show-video-modal").fadeIn(function(){
-            video.play();
-        });
-    });
+    // $(".chat-desc").delegate('.video-play', 'click', function(){
+    //     console.log(1)
+    //     var videoUrl = $(this).attr('data-video-uri');
+    //     // var video = document.getElementById('video');
+    //     // video.src = videoUrl;
+    //     // $(".show-video-modal").fadeIn(function(){
+    //     //     video.play();
+    //     // });
+    //     playVideo(videoUrl);
+    // });
 
     // 关闭查看视频
-    $(".show-video-modal .close").on('click', function(){
-        $(this).parent().fadeOut();
-    })
+    // $(".show-video-modal .close").on('click', function(){
+    //     $(this).parent().fadeOut();
+    // })
 
     //pop
     $(".tip-btn").on('click', function(){
@@ -316,16 +322,32 @@ $(function(){
     window.loading = loading;
 
     //首次儲值 賺現金+點數 modal
-    $(".first-give-modal").modal('show');
+    $(".first-give-modal,.task-modal").modal('show');
 
+    //视频播放
+    $(".video-play").on('click', function(){
+        var videoUri = $(this).attr('data-video-uri');
+        playVideo(videoUri,{
+            userName: 'Cherie Lin',
+            chatUrl: 'chatUrl'
+        });
+    });
+
+    // 设置聊天窗口当前的scrollTop
+    setChatContent("#msg-1020");
 })
 
 
-// 计算chart-content的高度和重置滚动条
-function setChartContent(){
+// 计算chat-content的高度和重置滚动条
+function setChatContent(selector){
+    if($("#chat").length==0)return;
     var productHeight = $(".product-box").outerHeight();
-    $(".chart-desc").css({'padding-bottom': $(".input-bar").outerHeight()});
-    $("body").scrollTop(productHeight - $("body").outerHeight()+300);
+    $(".chat-desc").css({'padding-bottom': $(".input-bar").outerHeight()});
+    var scrollTop = productHeight - $("body").outerHeight()+300;
+    if(selector && $(selector).length>0){
+        scrollTop = $(selector).offset().top-15;
+    }
+    $("body").scrollTop(scrollTop);
 }
 
 //me send message
@@ -333,22 +355,22 @@ function meSendMessage(content){
     var me = $('<li class="me">' +
         '<div class="message">'+ content +'</div>' +
         '</li>');
-    $(".chart-desc ul").append(me);
+    $(".chat-desc ul").append(me);
 }
 
 //he send message
 function heSendMessage(content){
     var he = $('<li class="he">' +
-        '<img src="images/chart-tx.png" class="img-circle" alt="">' +
+        '<img src="images/chat-tx.png" class="img-circle" alt="">' +
         '<div class="message">'+ content +'</div>' +
         '</li>');
-    $(".chart-desc ul").append(he);
+    $(".chat-desc ul").append(he);
 }
 
 //he sendGift
 function heSendGift(giftContent){
     var gift = $('<li class="gift he">' +
-        '<img src="images/chart-tx.png" class="img-circle" alt="">' +
+        '<img src="images/chat-tx.png" class="img-circle" alt="">' +
         '<div class="gift-content">' +
         '<img src="' +giftContent.imgUrl+ '" alt="">' +
         '</div>' +
@@ -357,7 +379,7 @@ function heSendGift(giftContent){
         '<div>贈送 <span>' + giftContent.money + '</span></div>' +
         '</div>' +
         '</li>');
-    $(".chart-desc ul").append(gift);
+    $(".chat-desc ul").append(gift);
 }
 
 //me sendGift
@@ -371,7 +393,7 @@ function meSendGift(giftContent){
         '<div>贈送 <span>' + giftContent.money + '</span></div>' +
         '</div>' +
         '</li>');
-    $(".chart-desc ul").append(gift);
+    $(".chat-desc ul").append(gift);
 }
 
 // sendTips
@@ -383,5 +405,55 @@ function sendTips(res){
         '</div>' +
         '<span class="date">'+ res.date+ '</span>' +
         '</li>');
-    $(".chart-desc ul").append(tip);
+    $(".chat-desc ul").append(tip);
 }
+
+
+/**
+ * play video
+ * @param uri
+ * @param parameter 显示头部用户信息
+ */
+function playVideo(uri,parameter){
+    // loding open
+    // loading.show();
+    if(!uri)return;
+    var userInfo = parameter ? '<div class="user-info clearfix">' +
+                        '<img src="images/tx.png" class="img-circle" alt="">' +
+                        '<span class="username">'+ parameter.userName+'</span>' +
+                        '<a class=\'chat-btn\' href="'+parameter.chatUrl+'">聊聊天</a>' +
+                    '</div>' : '';
+    var videoModal = $('<div class="video-modal">' +
+                    userInfo +
+                    '<video loop autoplay style="width:100%;height:120%;" src="'+uri+'"></video>' +
+                    '<span class="close">×</span>' +
+                '</div>');
+    videoModal.find('.close').on('click', function(){
+        videoModal.fadeOut(500,function(){
+            videoModal.remove();
+        });
+    })
+    var timer = null;
+    videoModal.on('click', function(){
+        var self = $(this);
+        self.find('.close').fadeIn(300);
+        if(timer){
+            clearTimeout(timer);
+        }
+        timer = setTimeout(function(){
+            self.find('.close').fadeOut(300);
+            timer = null;
+        },5000);
+    })
+    // loaing close
+    // var timer1 = setInterval(function(){
+    //     if(videoModal.find('video')[0].readyState == 4 && videoModal.find('video')[0].played.end(0) > 0){
+    //         loading.hide();
+    //         clearInterval(timer1);
+    //     }
+    // },1000);
+    $("body").append(videoModal);
+    videoModal.fadeIn(500);
+}
+
+

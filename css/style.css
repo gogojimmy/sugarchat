@@ -534,8 +534,11 @@ footer .member.active,footer .member:active{background: url("../images/ic3-membe
 .about .desc .img img{display: block;width:100%;margin-top:30px;}
 .about .footer-logo{ text-align: center;}
 .about .footer-logo img{width:60px;}
-.about .btn{width: 265px;  height: 42px;margin-top:35px;margin-bottom:30px;  border-radius: 29px;  border: solid 1px #292929; padding:0;line-height: 42px;color: #292929;font-size: 14px;  outline:none;font-weight: 500;}
+.about .btn{width: 265px;  height: 42px;margin-top:10px;margin-bottom:30px;  border-radius: 29px;  border: solid 1px #292929; padding:0;line-height: 42px;color: #292929;font-size: 14px;  outline:none;font-weight: 500;}
 .about .btn:active{color: #fff;border-color: #e62565;}
+.about .clause{padding: 0 78px; font-size: 13px; line-height: 25px; color:#292929; font-weight: 500;}
+.about .clause .icheckbox_radio{position: relative; top: -2px;}
+.about .clause a{margin-left:10px; color: #2E57A6;}
 
 /*loading*/
 #loading{width:375px;height:100%; background: rgba(0, 0, 0, 0.27) url("../images/loading.svg") center center no-repeat; background-size: 100px 100px; position: fixed; top:0;left:0; right:0;margin:0 auto; z-index: 10000;}
@@ -639,15 +642,27 @@ footer .member.active,footer .member:active{background: url("../images/ic3-membe
 .video-modal video{min-width:100%; min-height: 100%; width:auto;height:auto; display: block; position: absolute; top:0; left:0;right:0;bottom:0; margin:auto;padding:0;}
 .video-modal .close{width:50px;height:50px; animation: plsyCloseAni 0.7s infinite; position: absolute; bottom:0; left:0; right:0;margin: 0 auto;color: #fff; font-size:50px;color: #fff; font-weight: 100;text-align: center; line-height: 50px; display: none; opacity: 0.6;}
 .video-modal .user-info{position: absolute; top:20px; left:0; z-index: 99;padding-left:20px;color: #ffffff;padding-right:15px;width:100%; }
-.video-modal .user-info .img-circle{width: 44px; height: 44px; border: solid 1px #ffffff; float: left; box-shadow:2px 3px 18px 3px rgba(0, 0, 0, 0.32);}
-.video-modal .user-info .username{margin-left:15px;font-size: 18px;  font-weight: 600; float: left; line-height: 44px;text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);}
-.video-modal .user-info .chat-btn{width: 73px;  height: 32px;  border-radius: 16px; text-decoration: none;margin-top:7px;  background-color: rgba(41, 41, 41, 0.31); display: inline-block; float: right; text-align: center; line-height: 32px;color: #fff;	font-size: 13px;  font-weight: 500;}
+.video-modal .user-info .img-circle{width: 44px; height: 44px; border: solid 1px #ffffff; float: left; box-shadow:2px 3px 14px 1px rgba(0, 0, 0, 0.32);}
+.video-modal .user-info .username{margin-left:15px;font-size: 18px;  font-weight: 600; float: left; line-height: 44px;text-shadow:1px 1px 3px rgba(0, 0, 0, 0.5);}
+.video-modal .user-info .chat-btn{width: 38px;  height: 38px;   text-decoration: none;margin-top:7px;  display: inline-block; float: right; background: url("../images/message-icon@2x.png") center center no-repeat; background-size: 38px 38px;}
 .video-modal .user-info .chat-btn:active,.video-modal .user-info .chat-btn:hover{background-color: rgba(41, 41, 41, 0.54); }
 /*task-modal*/
 .task-modal{margin:0px auto;}
-.task-modal .modal-content{width: 281px;  height: 263px;position: relative;margin: 120px auto;border-radius: 3px;border:0;background-color: #fff;}
+.task-modal .modal-content{width: 100%;  height: 100%;position: relative;margin: 120px auto;border-radius: 3px;border:0;background-color: #fff;}
 .task-modal .modal-dialog{width: 281px;  height: 263px;margin: 0px auto; }
 .task-modal .modal-dialog .close{position: absolute; top:10px; right:10px; outline: none; opacity: 1;}
 .task-modal .desc{text-align: center;padding-top:57px;}
 .task-modal .desc h3{color: #292929;font-weight: 500;font-size: 20px;margin-top:25px;}
 .task-modal .desc p{margin-top:10px;color: #292929;font-weight: 500;font-size: 14px;}
+
+/*其他modal*/
+.clause-modal .modal-content{padding: 10px;margin-top:60px;}
+.clause-modal h3{color: #292929; font-size:15px!important;margin-top:15px!important;}
+.clause-modal .desc{padding-top:10px; text-align: left; }
+.clause-modal .desc p span{color:#D0021B;}
+.clause-modal .desc p{font-size:13px!important;}
+.qa-modal .modal-content{padding: 10px;margin-top:20px; background: #fff url("../images/qa-bg.png") center top no-repeat; background-size: 345px 757px;}
+.qa-modal .desc{padding-top:10px; color: #FFFFFF; }
+.qa-modal .desc .logo{margin-bottom:46px;}
+.qa-modal .desc .tit{font-size:16px;margin-bottom:15px;color: #FFFFFF; }
+.qa-modal .desc .text{font-size:13px!important;margin-bottom:40px;color: #FFFFFF; font-weight: 100;}

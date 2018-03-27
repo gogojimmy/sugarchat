@@ -1,3 +1,4 @@
+window.HELP_IMPROVE_VIDEOJS = false
 $(function(){
     // 复制链接
     $(".copy").on('click', function(){
@@ -416,7 +417,7 @@ function sendTips(res){
  */
 function playVideo(uri,parameter){
     // loding open
-    // loading.show();
+    loading.show();
     if (!uri) {return;}
     var width = $('body').width();
     var height = $('body').height();
@@ -426,11 +427,11 @@ function playVideo(uri,parameter){
     var userInfo = parameter ? '<div class="user-info clearfix">' +
                         '<img src="images/tx.png" class="img-circle" alt="">' +
                         '<span class="username">'+ parameter.userName+'</span>' +
-                        '<a class=\'chat-btn\' href="'+parameter.chatUrl+'">聊聊天</a>' +
+                        '<a class=\'chat-btn\' href="'+parameter.chatUrl+'"></a>' +
                     '</div>' : '';
     var videoModal = $('<div style="width:'+ width+'px;height:'+height+'px" class="video-modal">' +
                     userInfo +
-                    '<video loop autoplay  src="'+uri+'"></video>' +
+                    '<video loop  src="'+uri+'"></video>' +
                     '<span class="close">×</span>' +
                 '</div>');
     videoModal.find('.close').on('click', function(){
@@ -451,12 +452,18 @@ function playVideo(uri,parameter){
         },5000);
     })
     // loaing close
-    // var timer1 = setInterval(function(){
-    //     if(videoModal.find('video')[0].readyState == 4 && videoModal.find('video')[0].played.end(0) > 0){
-    //         loading.hide();
-    //         clearInterval(timer1);
-    //     }
-    // },1000);
+    var count = 0;
+    var timer1 = setInterval(function(){
+        if(videoModal.find('video')[0].readyState === 4){
+            loading.hide();
+            count++;
+            if(count === 5){
+                videoModal.find('video')[0].play();
+                clearInterval(timer1);
+            }
+
+        }
+    },1000);
     $("body").append(videoModal);
     videoModal.fadeIn(500);
 }

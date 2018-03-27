@@ -417,15 +417,20 @@ function sendTips(res){
 function playVideo(uri,parameter){
     // loding open
     // loading.show();
-    if(!uri)return;
+    if (!uri) {return;}
+    var width = $('body').width();
+    var height = $('body').height();
+    if(width>500){
+        width = 480;
+    }
     var userInfo = parameter ? '<div class="user-info clearfix">' +
                         '<img src="images/tx.png" class="img-circle" alt="">' +
                         '<span class="username">'+ parameter.userName+'</span>' +
                         '<a class=\'chat-btn\' href="'+parameter.chatUrl+'">聊聊天</a>' +
                     '</div>' : '';
-    var videoModal = $('<div class="video-modal">' +
+    var videoModal = $('<div style="width:'+ width+'px;height:'+height+'px" class="video-modal">' +
                     userInfo +
-                    '<video loop autoplay style="width:100%;height:120%;" src="'+uri+'"></video>' +
+                    '<video loop autoplay  src="'+uri+'"></video>' +
                     '<span class="close">×</span>' +
                 '</div>');
     videoModal.find('.close').on('click', function(){

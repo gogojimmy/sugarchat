@@ -647,6 +647,10 @@ footer .member.active,footer .member:active{background: url("../images/ic3-membe
 .video-modal .user-info .chat-btn{width: 38px;  height: 38px;   text-decoration: none;margin-top:7px;  display: inline-block; float: right; background: url("../images/message-icon@2x.png") center center no-repeat; background-size: 43px auto;}
 .video-swiper,.video-swiper .swiper-wrapper{width: 100%!important;height: 100%!important}
 .video-swiper .swiper-slide-active{z-index: 9999}
+@media (min-height: 800px) {
+    .video-modal video{height: auto!important;width: auto!important;}
+}
+
 /*task-modal*/
 .task-modal{margin:0px auto;}
 .task-modal .modal-content{width: 100%;  height: 100%;position: relative;margin: 120px auto;border-radius: 3px;border:0;background-color: #fff;}

@@ -640,12 +640,13 @@ footer .member.active,footer .member:active{background: url("../images/ic3-membe
 @keyframes plsyCloseAni { from{ font-size: 35px; opacity: 0.3; } to{ font-size: 50px ;opacity: 0.6; } }
 .video-modal{min-width:320px; max-width:480px; height:100%; position: fixed; top:0; left:0; right: 0;z-index: 999; display: none;margin: 0 auto; background-color: rgba(0, 0, 0, 0.66);overflow: hidden;}
 .video-modal video{min-width:100%; min-height: 100%; width:auto;height:auto; display: block; position: absolute; top:0; left:0;right:0;bottom:0; margin:auto;padding:0;}
-.video-modal .close{width:50px;height:50px; animation: plsyCloseAni 0.7s infinite; position: absolute; bottom:0; left:0; right:0;margin: 0 auto;color: #fff; font-size:50px;color: #fff; font-weight: 100;text-align: center; line-height: 50px; display: none; opacity: 0.6;}
+.video-modal .close{width:50px;height:50px; animation: plsyCloseAni 0.7s infinite; position: absolute; bottom:40px; left:0; right:0;margin: 0 auto;color: #fff; font-size:50px;color: #fff; font-weight: 100;text-align: center; line-height: 50px; display: none; opacity: 0.6; background: url("../images/video-close-icon.png") center center no-repeat; background-size: 50px 50px;z-index: 99999;}
 .video-modal .user-info{position: absolute; top:20px; left:0; z-index: 99;padding-left:20px;color: #ffffff;padding-right:15px;width:100%; }
 .video-modal .user-info .img-circle{width: 44px; height: 44px; border: solid 1px #ffffff; float: left; box-shadow:2px 3px 14px 1px rgba(0, 0, 0, 0.32);}
 .video-modal .user-info .username{margin-left:15px;font-size: 18px;  font-weight: 600; float: left; line-height: 44px;text-shadow:1px 1px 3px rgba(0, 0, 0, 0.5);}
-.video-modal .user-info .chat-btn{width: 38px;  height: 38px;   text-decoration: none;margin-top:7px;  display: inline-block; float: right; background: url("../images/message-icon@2x.png") center center no-repeat; background-size: 38px 38px;}
-.video-modal .user-info .chat-btn:active,.video-modal .user-info .chat-btn:hover{background-color: rgba(41, 41, 41, 0.54); }
+.video-modal .user-info .chat-btn{width: 38px;  height: 38px;   text-decoration: none;margin-top:7px;  display: inline-block; float: right; background: url("../images/message-icon@2x.png") center center no-repeat; background-size: 43px auto;}
+.video-swiper,.video-swiper .swiper-wrapper{width: 100%!important;height: 100%!important}
+.video-swiper .swiper-slide-active{z-index: 9999}
 /*task-modal*/
 .task-modal{margin:0px auto;}
 .task-modal .modal-content{width: 100%;  height: 100%;position: relative;margin: 120px auto;border-radius: 3px;border:0;background-color: #fff;}

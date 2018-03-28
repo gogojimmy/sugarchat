@@ -1,4 +1,3 @@
-window.HELP_IMPROVE_VIDEOJS = false
 $(function(){
     // 复制链接
     $(".copy").on('click', function(){
@@ -243,7 +242,7 @@ $(function(){
     });
     // 删除信用卡
     $(".purchase .card-list li .delete").on('click', function(){
-        $(this).parent().remove()
+        $(this).parent().remove();
     });
 
     //查看视频
@@ -328,10 +327,44 @@ $(function(){
     //视频播放
     $(".video-play").on('click', function(){
         var videoUri = $(this).attr('data-video-uri');
-        playVideo(videoUri,{
-            userName: 'Cherie Lin',
-            chatUrl: 'chatUrl'
-        });
+        // 播放单个
+        // playVideo([{
+        //     user: {
+        //         img: 'images/tx.png',
+        //         name: '李狗子',
+        //         url: 'index.html'
+        //     },
+        //     videoUrl: './images/WeChatSight81.mp4'
+        // }]);
+        // 播放多个
+        playVideo([
+            {
+                user: {
+                    img: 'images/tx.png',
+                    name: '李狗子',
+                    url: 'index.html'
+                },
+                videoUrl: './images/WeChatSight79.mp4'
+            },
+            {
+                user: {
+                    img: 'images/tx.png',
+                    name: 'keith',
+                    url: 'index.html'
+                },
+                videoUrl: './images/WeChatSight80.mp4'
+            },
+            {
+                user: {
+                    img: 'images/tx.png',
+                    name: '王八蛋',
+                    url: 'index.html'
+                },
+                videoUrl: './images/WeChatSight81.mp4'
+            },
+
+        ],1);
+
     });
 
     // 设置聊天窗口当前的scrollTop
@@ -341,7 +374,7 @@ $(function(){
 
 // 计算chat-content的高度和重置滚动条
 function setChatContent(selector){
-    if($("#chat").length==0)return;
+    if($("#chat").length===0){return;}
     var productHeight = $(".product-box").outerHeight();
     $(".chat-desc").css({'padding-bottom': $(".input-bar").outerHeight()});
     var scrollTop = productHeight - $("body").outerHeight()+300;
@@ -412,60 +445,119 @@ function sendTips(res){
 
 /**
  * play video
- * @param uri
- * @param parameter 显示头部用户信息
+ * @param videoArray [{}]
+ * @param playWhich int 不设置播放第几个默认第一个 从1开始
  */
-function playVideo(uri,parameter){
-    // loding open
-    loading.show();
-    if (!uri) {return;}
+function playVideo(videoArray,playWhich) {
+    var playWhich = playWhich ? playWhich : 0;
+    if(videoArray.length < 1) {return;}
     var width = $('body').width();
     var height = $('body').height();
     if(width>500){
         width = 480;
     }
-    var userInfo = parameter ? '<div class="user-info clearfix">' +
-                        '<img src="images/tx.png" class="img-circle" alt="">' +
-                        '<span class="username">'+ parameter.userName+'</span>' +
-                        '<a class=\'chat-btn\' href="'+parameter.chatUrl+'"></a>' +
-                    '</div>' : '';
-    var videoModal = $('<div style="width:'+ width+'px;height:'+height+'px" class="video-modal">' +
-                    userInfo +
-                    '<video loop  src="'+uri+'"></video>' +
-                    '<span class="close">×</span>' +
-                '</div>');
-    videoModal.find('.close').on('click', function(){
-        videoModal.fadeOut(500,function(){
-            videoModal.remove();
+    function closeVideoModal(){
+
+    }
+    function videoModal(){
+        return $('<div class="video-modal"><span class="close"></span></div>');
+    }
+    function setUserInfo(user){
+        return  $('<div class="user-info clearfix">\n' +
+            '\t\t\t\t\t\t<img src="'+ user.img +'" class="img-circle" alt="">\n' +
+            '\t\t\t\t\t\t<span class="username">'+user.name+'</span>\n' +
+            '\t\t\t\t\t\t<a class="chat-btn" href="'+ user.url +'"></a>\n' +
+            '\t\t\t\t\t</div>');
+    }
+    function setVideo(videoUrl){
+        return $('<video style="width:'+width+'px;height:'+height+'px" loop="" src="'+ videoUrl +'"></video>');
+    }
+    if(videoArray.length===1){
+        loading.show();
+        var $userInfo = videoArray[0].user ? setUserInfo(videoArray[0].user) : '';
+        var $videoModal = videoModal().append($userInfo, setVideo(videoArray[0].videoUrl));
+        // loaing close
+        var timer1 = setInterval(function(){
+            if($videoModal.find('video')[0].readyState === 4){
+                loading.hide();
+                $videoModal.find('video')[0].play();
+                clearInterval(timer1);
+            }
+        },1000);
+        $("body").append($videoModal);
+        $videoModal.fadeIn(500);
+    }
+    else{
+        function swiperBox(){
+            return $('<div class="swiper-container video-swiper">\n' +
+                '\t\t\t<div class="swiper-wrapper">\n' +
+                '\t\t\t</div>\n' +
+                '\t\t</div>');
+        }
+        function swiperSlider(){
+            return $('<div class="swiper-slide"></div>');
+        }
+        var $videoModal = videoModal().prepend(swiperBox());
+        for(var b=0; b<videoArray.length; b++){
+            var $slider = swiperSlider();
+            if(videoArray[b].user){
+                var $userInfo =  setUserInfo(videoArray[b].user);
+                $slider.append($userInfo);
+            }
+            var $video = setVideo(videoArray[b].videoUrl);
+            $slider.append($video);
+            $videoModal.find('.swiper-wrapper').append($slider);
+        }
+
+        $("body").append($videoModal);
+        $videoModal.fadeIn(500);
+        var videoSwiper = new Swiper('.video-swiper',{
+            // direction: 'vertical',
+            slidesPerView: 1,
+            paginationClickable: true,
+            mousewheelControl: true,
+            onSlideChangeEnd: function(swiper){
+                videoPlay(swiper.activeIndex);
+            },
+            onInit: function(swiper){
+                // 开始播放
+                if(playWhich>0){
+                    swiper.slideTo(parseInt(playWhich-1),1,false);
+                    videoPlay(playWhich-1);
+                }else{
+                    videoPlay(0);
+                }
+            }
+        });
+        // 播放
+        function videoPlay(index){
+            var videoList= $videoModal.find('video');
+            for(var v = 0; v<videoList.length; v++){
+                videoList[v].pause();
+            }
+            var thisVideo = videoList[index];
+            thisVideo.currentTime = 0;
+            thisVideo.play();
+        }
+    }
+    // 公共关闭
+    $videoModal.find('.close').on('click', function(){
+        $videoModal.fadeOut(500,function(){
+            $videoModal.remove();
         });
     })
-    var timer = null;
-    videoModal.on('click', function(){
-        var self = $(this);
-        self.find('.close').fadeIn(300);
+    var timer;
+    $videoModal.on('click', function(){
+        $('.video-modal .close').fadeIn(300);
         if(timer){
             clearTimeout(timer);
         }
         timer = setTimeout(function(){
-            self.find('.close').fadeOut(300);
+            $('.video-modal .close').fadeOut(300);
             timer = null;
         },5000);
-    })
-    // loaing close
-    var count = 0;
-    var timer1 = setInterval(function(){
-        if(videoModal.find('video')[0].readyState === 4){
-            loading.hide();
-            count++;
-            if(count === 5){
-                videoModal.find('video')[0].play();
-                clearInterval(timer1);
-            }
+    });
 
-        }
-    },1000);
-    $("body").append(videoModal);
-    videoModal.fadeIn(500);
 }
 
 

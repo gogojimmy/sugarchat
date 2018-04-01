@@ -329,38 +329,62 @@ $(function(){
         var videoUri = $(this).attr('data-video-uri');
         // 播放单个
         // playVideo([{
+        //     id: 154853,
         //     user: {
         //         img: 'images/tx.png',
         //         name: '李狗子',
         //         url: 'index.html'
         //     },
-        //     videoUrl: './images/WeChatSight81.mp4'
+        //     videoPoster:  './images/video.jpg',
+        //     videoUrl: {
+        //         mp4: './images/video.mp4',
+        //         ogg: './images/video.ogg',
+        //         webm: './images/video.webm'
+        //     }
         // }]);
         // 播放多个
         playVideo([
             {
+                id: 15483,
                 user: {
                     img: 'images/tx.png',
                     name: '李狗子',
                     url: 'index.html'
                 },
-                videoUrl: './images/WeChatSight79.mp4'
+                videoPoster:  './images/video.jpg',
+                videoUrl: {
+                    mp4: './images/video.mp4',
+                    ogg: './images/video.ogg',
+                    webm: './images/video.webm'
+                }
             },
             {
+                id: 15485,
                 user: {
                     img: 'images/tx.png',
                     name: 'keith',
                     url: 'index.html'
                 },
-                videoUrl: './images/WeChatSight80.mp4'
+                videoPoster:  './images/vide(1).jpg',
+                videoUrl: {
+                    mp4: './images/video(1).mp4',
+                    ogg: './images/video(1).ogg',
+                    webm: './images/video (1).webm'
+                }
             },
             {
+                id: 155485,
                 user: {
                     img: 'images/tx.png',
                     name: '王八蛋',
                     url: 'index.html'
                 },
-                videoUrl: './images/WeChatSight81.mp4'
+                videoPoster:  './images/video(2).jpg',
+                videoUrl: {
+                    mp4: './images/video(2).mp4',
+                    ogg: './images/video(2).ogg',
+                    webm: './images/video(2).webm'
+                }
             },
 
         ],1);
@@ -449,6 +473,7 @@ function sendTips(res){
  * @param playWhich int 不设置播放第几个默认第一个 从1开始
  */
 function playVideo(videoArray,playWhich) {
+    window.HELP_IMPROVE_VIDEOJS = false;
     var playWhich = playWhich ? playWhich : 0;
     if(videoArray.length < 1) {return;}
     var width = $('body').width();
@@ -469,23 +494,32 @@ function playVideo(videoArray,playWhich) {
             '\t\t\t\t\t\t<a class="chat-btn" href="'+ user.url +'"></a>\n' +
             '\t\t\t\t\t</div>');
     }
-    function setVideo(videoUrl){
-        return $('<video style="width:'+width+'px;height:'+height+'px" loop="" src="'+ videoUrl +'"></video>');
+    function setVideo(id,videoUrl,videoPoster){
+        return $('<video class="video-js" style="width:'+width+'px;height:'+height+'px;" playsinline webkit-playsinline poster="'+videoPoster+'" id="'+id+'" loop> +' +
+            '<source src="'+videoUrl.mp4+'" type=\'video/mp4\' /></video>'+
+            '<source src="'+videoUrl.ogg+'" type=\'video/ogg\' /></video>'+
+            '<source src="'+videoUrl.webm+'" type=\'video/webm\' /></video>');
     }
     if(videoArray.length===1){
-        loading.show();
+        // loading.show();
         var $userInfo = videoArray[0].user ? setUserInfo(videoArray[0].user) : '';
-        var $videoModal = videoModal().append($userInfo, setVideo(videoArray[0].videoUrl));
+        var videoId = 'video-' + Math.ceil(Math.random()*parseInt(videoArray[0].id)*1000);
+        var $videoModal = videoModal().append($userInfo, setVideo(videoId, videoArray[0].videoUrl, videoArray[0].videoPoster));
         // loaing close
-        var timer1 = setInterval(function(){
-            if($videoModal.find('video')[0].readyState === 4){
-                loading.hide();
-                $videoModal.find('video')[0].play();
-                clearInterval(timer1);
-            }
-        },1000);
         $("body").append($videoModal);
         $videoModal.fadeIn(500);
+        videojs(videoId).play();
+        var timer;
+        $videoModal.on('click', function(){
+            $('.video-modal .close').fadeIn(300);
+            if(timer){
+                clearTimeout(timer);
+            }
+            timer = setTimeout(function(){
+                $('.video-modal .close').fadeOut(300);
+                timer = null;
+            },5000);
+        });
     }
     else{
         function swiperBox(){
@@ -498,28 +532,67 @@ function playVideo(videoArray,playWhich) {
             return $('<div class="swiper-slide"></div>');
         }
         var $videoModal = videoModal().prepend(swiperBox());
+        var videoListIDs = []; // 所有视频元素ID
         for(var b=0; b<videoArray.length; b++){
             var $slider = swiperSlider();
             if(videoArray[b].user){
                 var $userInfo =  setUserInfo(videoArray[b].user);
                 $slider.append($userInfo);
             }
-            var $video = setVideo(videoArray[b].videoUrl);
+            var videoID = 'video-' + Math.ceil(Math.random()*parseInt(videoArray[b].id)*1000);
+            videoListIDs.push(videoID);
+            var $video = setVideo(videoID, videoArray[b].videoUrl, videoArray[b].videoPoster);
             $slider.append($video);
             $videoModal.find('.swiper-wrapper').append($slider);
         }
-
         $("body").append($videoModal);
         $videoModal.fadeIn(500);
+        var videoObjList = []; // 实例化所有视频类
+        for(var o =0; o<videoListIDs.length; o++){
+            videoObjList.push(videojs(videoListIDs[o]));
+        }
+        // 播放
+        var prevVideoJsObj = null;
+        function videoPlay(index){
+            videoObjList[index].play();
+            if(prevVideoJsObj) {
+                prevVideoJsObj.pause();
+            }
+            prevVideoJsObj = videoObjList[index];
+        }
+
+        var previousIndex = null;
         var videoSwiper = new Swiper('.video-swiper',{
             // direction: 'vertical',
+            spaceBetween: 0,
+            // effect : 'cube',
+            // cube: {
+            //     slideShadows: false,
+            //     shadow: false,
+            //     shadowOffset: 100,
+            //     shadowScale: 0.6
+            // },
             slidesPerView: 1,
             paginationClickable: true,
             mousewheelControl: true,
-            onSlideChangeEnd: function(swiper){
+            onTransitionEnd: function (swiper) {
+                if(previousIndex === swiper.activeIndex) return;
                 videoPlay(swiper.activeIndex);
+                previousIndex = swiper.activeIndex;
+            },
+            onClick: function(){
+                var timer;
+                $('.video-modal .close').fadeIn(300);
+                if(timer){
+                    clearTimeout(timer);
+                }
+                timer = setTimeout(function(){
+                    $('.video-modal .close').fadeOut(300);
+                    timer = null;
+                },5000);
             },
             onInit: function(swiper){
+                previousIndex = swiper.activeIndex;
                 // 开始播放
                 if(playWhich>0){
                     swiper.slideTo(parseInt(playWhich-1),1,false);
@@ -529,34 +602,14 @@ function playVideo(videoArray,playWhich) {
                 }
             }
         });
-        // 播放
-        function videoPlay(index){
-            var videoList= $videoModal.find('video');
-            for(var v = 0; v<videoList.length; v++){
-                videoList[v].pause();
-            }
-            var thisVideo = videoList[index];
-            thisVideo.currentTime = 0;
-            thisVideo.play();
-        }
     }
-    // 公共关闭
+
+    // 关闭
     $videoModal.find('.close').on('click', function(){
         $videoModal.fadeOut(500,function(){
             $videoModal.remove();
         });
     })
-    var timer;
-    $videoModal.on('click', function(){
-        $('.video-modal .close').fadeIn(300);
-        if(timer){
-            clearTimeout(timer);
-        }
-        timer = setTimeout(function(){
-            $('.video-modal .close').fadeOut(300);
-            timer = null;
-        },5000);
-    });
 
 }
 

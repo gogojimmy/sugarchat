@@ -473,6 +473,7 @@ function sendTips(res){
  * @param playWhich int 不设置播放第几个默认第一个 从1开始
  */
 function playVideo(videoArray,playWhich) {
+    $(".video-modal").remove();
     window.HELP_IMPROVE_VIDEOJS = false;
     var playWhich = playWhich ? playWhich : 0;
     if(videoArray.length < 1) {return;}
@@ -485,7 +486,7 @@ function playVideo(videoArray,playWhich) {
 
     }
     function videoModal(){
-        return $('<div class="video-modal"><span class="close"></span></div>');
+        return $('<div class="video-modal animated"><span class="close"></span></div>');
     }
     function setUserInfo(user){
         return  $('<div class="user-info clearfix">\n' +
@@ -507,7 +508,7 @@ function playVideo(videoArray,playWhich) {
         var $videoModal = videoModal().append($userInfo, setVideo(videoId, videoArray[0].videoUrl, videoArray[0].videoPoster));
         // loaing close
         $("body").append($videoModal);
-        $videoModal.fadeIn(500);
+        $videoModal.addClass('zoomInDown').fadeIn(500);
         videojs(videoId).play();
         var timer;
         $videoModal.on('click', function(){
@@ -546,7 +547,7 @@ function playVideo(videoArray,playWhich) {
             $videoModal.find('.swiper-wrapper').append($slider);
         }
         $("body").append($videoModal);
-        $videoModal.fadeIn(500);
+        $videoModal.addClass('zoomInDown').fadeIn(500);
         var videoObjList = []; // 实例化所有视频类
         for(var o =0; o<videoListIDs.length; o++){
             videoObjList.push(videojs(videoListIDs[o]));
@@ -606,9 +607,7 @@ function playVideo(videoArray,playWhich) {
 
     // 关闭
     $videoModal.find('.close').on('click', function(){
-        $videoModal.fadeOut(500,function(){
-            $videoModal.remove();
-        });
+        $videoModal.addClass('zoomOut').fadeOut(500);
     })
 
 }

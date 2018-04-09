@@ -237,7 +237,8 @@ body,html{overflow: hidden; overflow-y: auto;height: 100%;}
 .user-info .operation .btn-cos-group{margin-top:34px; text-align: center; overflow: hidden;}
 .user-info .operation .btn-cos-group .btn-cos{width:165px; display: inline-block; float: left;margin-right: 15px;margin-top:0;}
 .user-info .operation .btn-cos-group .btn-cos:last-child{margin-right: 0;}
-
+.user-info .operation .share-btn{text-align: center;margin-top:10px;}
+.user-info .operation .share-btn a{margin:0 15px; display: inline-block;color: #292929;font-size: 13px;font-weight: 500;}
 /*user-edit*/
 .icheckbox_radio{display: inline-block; *display: inline;  vertical-align: middle;  margin: 0;  padding: 0;  width: 18px;  height: 18px;  background: url("../images/radio-defult.png") 0 0 no-repeat;  background-size: 18px 18px;  border: none;  cursor: pointer;}
 .icheckbox_radio.checked{background: url("../images/radio-checked.png") 0 0 no-repeat;  background-size: 18px 18px;}
@@ -720,7 +721,6 @@ footer .member.active,footer .member:active{background: url("../images/ic3-membe
 @media (min-height: 800px) {
     .video-modal video{transform: scale(1.23,1.23)!important;}
 }
-
 /*task-modal*/
 .task-modal{margin:0px auto;}
 .task-modal .modal-content{width: 100%;  height: 100%;position: relative;margin: 120px auto;border-radius: 3px;border:0;background-color: #fff;}
@@ -730,8 +730,6 @@ footer .member.active,footer .member:active{background: url("../images/ic3-membe
 .task-modal .desc h3{color: #292929;font-weight: 500;font-size: 20px;margin-top:25px;}
 .task-modal .desc p{margin-top:10px;color: #292929;font-weight: 500;font-size: 14px;}
 .task-modal .next-btn{width: 261px;  height: 46px;  border-radius: 25px;  background-color: #ffffff;  border: solid 1px #292929; outline: none!important;margin-top:10px;}
-
-
 
 /*其他modal*/
 .clause-modal .modal-content{padding: 10px;margin-top:60px;}
@@ -744,3 +742,27 @@ footer .member.active,footer .member:active{background: url("../images/ic3-membe
 .qa-modal .desc .logo{margin-bottom:46px;}
 .qa-modal .desc .tit{font-size:16px;margin-bottom:15px;color: #FFFFFF; }
 .qa-modal .desc .text{font-size:13px!important;margin-bottom:40px;color: #FFFFFF; font-weight: 100;}
+
+/*tips-modal-content*/
+.tips-modal-content{text-align: center;}
+.tips-modal-content h3{color: #292929;font-weight: 500;font-size: 15px;margin-top:0;}
+.tips-modal-content img{width:309px;}
+.tips-modal-content p{text-align: left;color: #292929;font-size: 13px;margin-top:30px;padding: 0 20px;}
+
+/*sign-modal-content*/
+.sign-modal-content{padding-top:20px;}
+.sign-modal-content h3{color: #292929;font-weight: 500;font-size: 18px;text-align: center;margin-top:0;}
+.sign-modal-content h3~p{color: #292929;font-size: 13px;  text-align: center;margin-top:10px;}
+.sign-modal-content i{display: inline-block;  width: 18px;  height: 18px;  background: url(../images/icon-small-coin@2x.png) center center no-repeat; background-size: 18px 18px;}
+.sign-modal-content .count{text-align: center;color: #292929;font-size: 12px;font-weight: 500;}
+.sign-modal-content .count i{margin: 0 5px 0 3px;position: relative; top:3px;}
+.sign-modal-content .count  span{color: #000000;font-size: 20px;position: relative; top:2px;}
+.sign-modal-content .line{width: 314px;  height: 0px;  border-bottom: solid 1px #ededed;margin: 13px auto 20px;}
+.sign-modal-content ul{padding: 0 20px;margin:0;}
+.sign-modal-content ul li{list-style: none;color: #292929;font-size: 14px;font-weight: 500;overflow: hidden;margin-bottom:15px;}
+.sign-modal-content ul li i{width:14px;height: 14px; background-size: 14px 14px;top:2px; position: relative;margin-left: 33px;margin-right:5px;}
+.sign-modal-content ul li a{display: inline-block; float: right;width: 77px;height: 26px;  border-radius: 13px;border: solid 1px #292929;background: #ffffff url("../images/icon/--@2x.png") center center no-repeat; background-size: 19px 2px;}
+.sign-modal-content ul li a.active{background:#dedddf url("../images/icon/yes-icon@2x.png") center center no-repeat; background-size: 14.7px auto; border-color: #dedddf;}
+.sign-modal-content ul li a.click{background: #fff;color: #292929;font-size: 13px; font-weight: 500;  text-align: center; line-height: 26px;}
+.sign-modal-content ul li em{color: #e7427a;font-style: normal;margin-left:3px;font-size: 14px;}
+.sign-modal-content p:last-child{text-align: left;padding: 15px 20px;}

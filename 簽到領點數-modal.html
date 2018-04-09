@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+	<head>
+		<meta charset="utf-8">
+		<meta content="yes" name="apple-mobile-web-app-capable">
+		<meta name="viewport" content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>簽到領點數-modal</title>
+		<!-- Bootstrap -->
+		<link href="lib/bootstrap-3.3.7/css/bootstrap.min.css" rel="stylesheet">
+		<link href="lib/Swiper/css/swiper.min.css" rel="stylesheet">
+		<link href="lib/select2/dist/css/select2.min.css" rel="stylesheet">
+		<link href="css/style.css?id=900" rel="stylesheet">
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	</head>
+
+	<body>
+
+
+		<!--簽到領點數-modal modal-->
+		<div class="modal fade task-modal" tabindex="-1" role="dialog" id="tips-modal" aria-labelledby="tips-modal">
+			<div class="modal-dialog modal-sm" style="width:335px;height: 539px;position: absolute; top:0; bottom:0; left:0; right:0; margin: auto;overflow: hidden;" role="document">
+				<div class="modal-content" style="margin-top:0px; overflow-y: auto;">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<img src="images/close-iocn1.png" width="16" alt="">
+					</button>
+					<div class="sign-modal-content">
+						<h3>簽到領點數</h3>
+						<p>開啟ONE PERCENT即可簽到獲得點數！</p>
+						<div class="count">儲值餘額  <i></i> <span>5</span></div>
+						<div class="line"></div>
+						<ul>
+							<li>
+								1天
+								<i></i>
+								<span>5</span>
+								<a class="active" href=""></a>
+							</li>
+							<li>
+								2天
+								<i></i>
+								<span>5</span>
+								<a class="click" href="">連續簽到</a>
+							</li>
+							<li>
+								3天
+								<i></i>
+								<span>5</span>
+								<a  href=""></a>
+							</li>
+							<li>
+								4天
+								<i></i>
+								<span>5</span>
+								<a  href=""></a>
+							</li>
+							<li>
+								5天
+								<i></i>
+								<span>5</span>
+								<em>+10</em>
+								<a  href=""></a>
+							</li>
+							<li>
+								6天
+								<i></i>
+								<span>5</span>
+								<em>+10</em>
+								<a  href=""></a>
+							</li>
+							<li>
+								7天
+								<i></i>
+								<span>5</span>
+								<em>+10</em>
+								<a  href=""></a>
+							</li>
+						</ul>
+						<p>
+							注意事項<br>
+							7天為一個週期，漏簽到1天則重新計算。<br>
+							每日凌晨00:00可重新簽到。<br>
+						</p>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="js/jquery.min.js"></script>
+		<script src="lib/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+		<script src="lib/Swiper/js/swiper.min.js"></script>
+		<script src="lib/icheck-1.x/icheck.min.js"></script>
+		<script src="lib/select2/dist/js/select2.min.js"></script>
+		<script src="js/clipboard.min.js"></script>
+		<script src="js/js.js?id=999"></script>
+	</body>
+
+</html>

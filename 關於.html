@@ -76,15 +76,21 @@
 					<div class="footer-logo">
 						<img src="images/1-logo.png" alt="">
 					</div>
-					<div class="clause">
-						<input type="radio" checked name="">
-						我瞭解了
-						<a href="">服務條款及隱私權政策</a>
+					<div class="clause-box">
+						<div class="clause">
+							<label>
+								<input type="radio" name="">
+								我瞭解了
+							</label>
+							<a  href="javascript:;" data-toggle="modal" data-target="#services">服務條款及隱私權政策</a>
+						</div>
+						<a href="javascript:void(0)" class="btn btn-cos">現在就加入</a>
 					</div>
-					<a href="javascript:void(0)" class="btn btn-cos">現在就加入</a>
+
 				</div>
 			</div>
 		</div>
+
 
 		<footer>
 			<a class="home active" href=""></a>
@@ -94,26 +100,26 @@
 
 
 		<!--modal 注释掉了打开即可看到-->
-		<!--<div class="modal fade task-modal clause-modal" tabindex="-1" role="dialog" aria-labelledby="clause-modal">-->
-			<!--<div class="modal-dialog modal-sm" style="width:320px;height:553px;" role="document">-->
-				<!--<div class="modal-content">-->
-					<!--<button type="button" class="close" data-dismiss="modal" aria-label="Close">-->
-						<!--<img src="images/close-iocn1.png" width="16" alt="">-->
-					<!--</button>-->
-					<!--<div class="desc">-->
-						<!--<h3 class="text-left">服務條款</h3>-->
-						<!--<p>本服務條款自2018年 01 月 01 日起生效，最新更新日期為 2018 年 03 月 26 日。<br>-->
-							<!--請您注意：ONEPERCENT, Inc.（以下簡稱「我們」或「OP」）有權隨時於我們認為必要時修改本服務條款。<br>-->
-							<!--<span>只要您連接或使用 OP 所有及營運的網站（以下簡稱「OP 網站」）、OP 的服務及/或任何相關的應用程式（包括但不限於智慧型手機應用程式，以下統稱為「OP 服務」），即表示您已明示同意接受以下所有條款（以下簡稱「本服務條款」）。</span>本服務條款規範了我們和使用者及其他與 OP 互動的相關人員之間的關係。只要您連接或使用 OP 服務，即表示您同意本服務條款。如有 OP服務的使用者（以下簡稱「OP 使用者」）不同意受此份服務條款中之任何條款拘束，則不應連接或使用 OP服務。</p>-->
-						<!--<h3>一、註冊及帳戶安全</h3>-->
-						<!--<p>1.依據您所適用的國家法律，您必須已達得使用 OP 服務且同意本服務條款的法定年齡。在某些國家，此法定年齡至少為 13 歲。<br>-->
-							<!--2.未經有權之人同意或充分授權的情形下，您不得擅自為除了您之外的任何人建立帳號。<br>-->
-							<!--3.您不得以未經授權的方式（包括但不限於使用自動裝置、惡意程式、機器人、蜘蛛程式、資料擷取程式或其他類似之方式）建立 OP 帳號。-->
-						<!--</p>-->
-					<!--</div>-->
-				<!--</div>-->
-			<!--</div>-->
-		<!--</div>-->
+		<div class="modal fade task-modal clause-modal" tabindex="-1" id="services" role="dialog" aria-labelledby="services">
+			<div class="modal-dialog modal-sm" style="width:320px;height:553px;" role="document">
+				<div class="modal-content">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<img src="images/close-iocn1.png" width="16" alt="">
+					</button>
+					<div class="desc">
+						<h3 class="text-left">服務條款</h3>
+						<p>本服務條款自2018年 01 月 01 日起生效，最新更新日期為 2018 年 03 月 26 日。<br>
+							請您注意：ONEPERCENT, Inc.（以下簡稱「我們」或「OP」）有權隨時於我們認為必要時修改本服務條款。<br>
+							<span>只要您連接或使用 OP 所有及營運的網站（以下簡稱「OP 網站」）、OP 的服務及/或任何相關的應用程式（包括但不限於智慧型手機應用程式，以下統稱為「OP 服務」），即表示您已明示同意接受以下所有條款（以下簡稱「本服務條款」）。</span>本服務條款規範了我們和使用者及其他與 OP 互動的相關人員之間的關係。只要您連接或使用 OP 服務，即表示您同意本服務條款。如有 OP服務的使用者（以下簡稱「OP 使用者」）不同意受此份服務條款中之任何條款拘束，則不應連接或使用 OP服務。</p>
+						<h3>一、註冊及帳戶安全</h3>
+						<p>1.依據您所適用的國家法律，您必須已達得使用 OP 服務且同意本服務條款的法定年齡。在某些國家，此法定年齡至少為 13 歲。<br>
+							2.未經有權之人同意或充分授權的情形下，您不得擅自為除了您之外的任何人建立帳號。<br>
+							3.您不得以未經授權的方式（包括但不限於使用自動裝置、惡意程式、機器人、蜘蛛程式、資料擷取程式或其他類似之方式）建立 OP 帳號。
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
 
 		<div class="modal fade task-modal qa-modal" tabindex="-1" role="dialog" aria-labelledby="clause-modal">
 			<div class="modal-dialog modal-sm" style="width:345px;height:757px;" role="document">
@@ -158,6 +164,14 @@
 		<script src="js/clipboard.min.js"></script>
 		<script src="js/jquery-smartphoto.min.js"></script>
 		<script src="js/js.js"></script>
+		<script>
+            $(function(){
+                //clause
+                $(".clause").on('click','input', function(){
+                    alert(1);
+                })
+            })
+		</script>
 	</body>
 
 </html>

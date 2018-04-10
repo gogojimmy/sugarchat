@@ -535,8 +535,9 @@ footer .member.active,footer .member:active{background: url("../images/ic3-membe
 .about .desc .img img{display: block;width:100%;margin-top:30px;}
 .about .footer-logo{ text-align: center;}
 .about .footer-logo img{width:60px;}
-.about .btn{width: 265px;  height: 42px;margin-top:10px;margin-bottom:30px;  border-radius: 29px;  border: solid 1px #292929; padding:0;line-height: 42px;color: #292929;font-size: 14px;  outline:none;font-weight: 500;}
+.about .btn{width: 265px;  height: 42px; border-radius: 29px;  border: solid 1px #292929; padding:0;line-height: 42px;color: #292929;font-size: 14px;  outline:none;font-weight: 500;}
 .about .btn:active{color: #fff;border-color: #e62565;}
+.about .clause-box{position: fixed; bottom:47px;left:0; right:0;margin: 0 auto; background: rgba(255, 255, 255, 0.6);padding: 10px 0;}
 .about .clause{padding: 0 78px; font-size: 13px; line-height: 25px; color:#292929; font-weight: 500;}
 .about .clause .icheckbox_radio{position: relative; top: -2px;}
 .about .clause a{margin-left:10px; color: #2E57A6;}
@@ -645,7 +646,7 @@ footer .member.active,footer .member:active{background: url("../images/ic3-membe
 .task-box2{padding-bottom: 50px;}
 .task-box2 .logo{width: 335px;  height: 107px;  border-radius: 15px;  background-color: #ffffff;  border: solid 1px #292929; position: relative;margin:20px auto 0;}
 .task-box2 .logo img{width: 284px; display: block; position: absolute; top:0;bottom:0; left:0; right:0; margin: auto;}
-.task-box2 .friends-list{margin-top:20px;padding:0 15px;font-size: 13px;  font-weight: 500; position: relative;}
+.task-box2 .friends-list{margin-top:30px;padding:0 15px;font-size: 13px;  font-weight: 400; position: relative;}
 .task-box2 .friends-list span{float: left;color: #292929;}
 .task-box2 .friends-list i{position:absolute ; left: 85px;top:-20px; font-style: normal;color: #e7427a;font-size: 33px;}
 .task-box2 .friends-list em{float: right; font-style: normal;color: #9b9b9b;}
@@ -662,7 +663,7 @@ footer .member.active,footer .member:active{background: url("../images/ic3-membe
 .task-box2 .friends-list li.luck-draw img{width:14px;position: relative; bottom:1px;margin: 0 2px;}
 .task-box2 .desc{padding: 20px 15px 0;}
 .task-box2 .desc h4{color: #292929;font-weight: 500;font-size: 13px;margin-bottom:5px;}
-.task-box2 .desc p{color: #292929;font-size: 13px; font-weight: 100;font-family: PingFangTC;}
+.task-box2 .desc p{color: #292929;font-size: 13px; font-weight: 300;font-family: PingFangTC;}
 .task-box2 .footer-btn{width: 375px;  height: 81px;  background-color: #ffffff; position: fixed; bottom:0; left:0; right:0; margin: 0 auto;border-top: solid 1px #ededed;}
 .task-box2 .footer-btn h3{color: #292929;font-weight: 500;font-size: 18px; text-align: center;margin-bottom:5px;margin-top:10px;}
 .task-box2 .footer-btn .btn-box{text-align: center;}
@@ -729,7 +730,7 @@ footer .member.active,footer .member:active{background: url("../images/ic3-membe
 .task-modal .desc{text-align: center;padding-top:57px;}
 .task-modal .desc h3{color: #292929;font-weight: 500;font-size: 20px;margin-top:25px;}
 .task-modal .desc p{margin-top:10px;color: #292929;font-weight: 500;font-size: 14px;}
-.task-modal .next-btn{width: 261px;  height: 46px;  border-radius: 25px;  background-color: #ffffff;  border: solid 1px #292929; outline: none!important;margin-top:10px;}
+.task-modal .next-btn{width: 251px;  height: 46px;  border-radius: 25px;  background-color: #ffffff;  border: solid 1px #292929; outline: none!important;margin-top:10px;}
 
 /*其他modal*/
 .clause-modal .modal-content{padding: 10px;margin-top:60px;}
@@ -745,7 +746,7 @@ footer .member.active,footer .member:active{background: url("../images/ic3-membe
 
 /*tips-modal-content*/
 .tips-modal-content{text-align: center;}
-.tips-modal-content h3{color: #292929;font-weight: 500;font-size: 15px;margin-top:0;}
+.tips-modal-content h3{color: #292929;font-weight: 500;font-size: 15px;margin-top:0;margin-bottom:30px;}
 .tips-modal-content img{width:309px;}
 .tips-modal-content p{text-align: left;color: #292929;font-size: 13px;margin-top:30px;padding: 0 20px;}
 

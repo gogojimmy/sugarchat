@@ -51,6 +51,11 @@ $(function(){
         radioClass: 'icheckbox_radio',
         increaseArea: '20%'
     });
+    $('.clause input').on('ifClicked', function(event){
+        if(event.type=="ifClicked"){
+            $('.clause input').iCheck('uncheck');
+        }
+    });
     // select2
     $(".select2").select2({minimumResultsForSearch: -1});
 
@@ -323,6 +328,8 @@ $(function(){
 
     //首次儲值 賺現金+點數 modal
     $(".first-give-modal,.task-modal").modal('show');
+
+
 
     //视频播放
     $(".video-play").on('click', function(){

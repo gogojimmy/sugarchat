@@ -25,6 +25,12 @@ $(function(){
         paginationClickable: true
     });
 
+    // task-swiper
+    new Swiper('.task-swiper', {
+        autoplay: 2000,
+        loop : true
+    });
+
     // 聊天列表显示删除按钮
     new Swiper('.chat-list .item.swiper-container', {
         slidesPerView: 'auto',

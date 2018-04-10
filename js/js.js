@@ -77,22 +77,25 @@ $(function(){
 
     // 显示礼物栏目
     $(".gift-btn").on('click', function(){
-        $(".gift-tips").hide();
-        $(".gift-explain").hide();
         $(".gift-list").slideToggle(function(){
-            $(".gift-explain").show();
             setChatContent();
         });
+        setTimeout(function(){
+            $(".gift-explain").slideToggle();
+        },10)
+
     });
 
     // 点击其他地方关闭礼物
     $(".chat-content .chat-desc").on('click', function(){
         if($(".gift-list").css('display') == 'none') return;
-        $(".gift-explain").hide();
-        $(".gift-show").hide();
         $(".gift-list").slideUp(function(){
             setChatContent();
         });
+        setTimeout(function(){
+            $(".gift-explain").slideUp();
+        },10)
+        $(".gift-show").hide();
         $(".gift-btn").show();
         $(".send-btn").hide();
     })

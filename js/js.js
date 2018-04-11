@@ -326,12 +326,16 @@ $(function(){
 
     // loading
     var loading = {}
-    loading.show = function(){
-        $("#loading").remove();
-        $('body').append('<div id="loading"></div>');
+    loading.show = function(content){
+        var $content = content || '';
+        if($("#loading").length>0) {
+            $("#loading").fadeIn().find('p').text($content);
+            return;
+        }
+        $('body').append('<div id="loading"><span><img src="./images/loading.svg" alt=""><p>'+$content+'</p></span></div>');
     }
     loading.hide = function(){
-        $("#loading").remove();
+        $("#loading").fadeOut();
     }
     window.loading = loading;
 
@@ -406,6 +410,16 @@ $(function(){
         ],1);
 
     });
+    var timer = 0;
+    var t = setInterval(function(){
+        timer++;
+        var p = Math.ceil(timer*10/100);
+        loading.show('上传中'+p+'%');
+        if(p>=100){
+            clearInterval(t);
+            loading.hide();
+        }
+    },1)
 
     // 设置聊天窗口当前的scrollTop
     setChatContent("#msg-1020");

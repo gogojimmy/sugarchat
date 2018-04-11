@@ -539,14 +539,16 @@ footer .member.active,footer .member:active{background: url("../images/ic3-membe
 .about .footer-logo img{width:60px;}
 .about .btn{width: 265px;  height: 42px; border-radius: 29px;  border: solid 1px #292929; padding:0;line-height: 42px;color: #292929;font-size: 14px;  outline:none;font-weight: 500;}
 .about .btn:active{color: #fff;border-color: #e62565;}
-.about .clause-box{position: fixed; bottom:47px;left:0; right:0;margin: 0 auto; background: rgba(255, 255, 255, 0.6);padding: 10px 0;}
+.about .clause-box{position: fixed; bottom:47px;left:0; right:0;margin: 0 auto; background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 0.93), #ffffff);padding: 10px 0;}
 .about .clause{padding: 0 78px; font-size: 13px; line-height: 25px; color:#292929; font-weight: 500;}
 .about .clause .icheckbox_radio{position: relative; top: -2px;}
 .about .clause a{margin-left:10px; color: #2E57A6;}
 
 /*loading*/
-#loading{width:375px;height:100%; background: rgba(0, 0, 0, 0.27) url("../images/loading.svg") center center no-repeat; background-size: 100px 100px; position: fixed; top:0;left:0; right:0;margin:0 auto; z-index: 10000;}
-
+#loading{width:375px;height:100%; background-color: rgba(0, 0, 0, 0.27) ;position: fixed; top:0;left:0; right:0;margin:0 auto; z-index: 10000;}
+#loading span{position: absolute; left:0; right:0; bottom:0;top:0;width: 300px; margin: auto; display: block;height:150px;}
+#loading span img{width:100px;height:100px;margin: 0 auto; display: block;}
+#loading span p{color: #fff; opacity: 0.9;text-align: center; }
 /*ranking-link*/
 .ranking-link{width: 363px;  height: 37px;  border-radius: 3px;  background-color: #f9f9f9;  border: solid 1px #4a4a4a; outline: none;color: #292929;padding: 0;  line-height: 37px;	font-size: 13px;  font-weight: 500; display: block; margin: 10px auto 0;}
 .ranking-link i{display:inline-block; width: 15px;height:15px; background: url("../images/ranking-icon@2x.png") center center no-repeat; background-size: 15px 14px; position: relative; top:1px; right:3px; }

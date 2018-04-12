@@ -277,18 +277,16 @@ $(function(){
     // })
 
     //pop
-    $(".tip-btn").on('click', function(){
+    $(".tip-btn").on('click',function(){
+        var div = $('<div></div>')
+        div.css({opacity: 0,width: '100%',height: '100%', display: 'block', position: 'fixed',top:0,bottom:0,left:0,right: 0,margin: 'auto', 'z-index': 90})
         $(".pop").hide();
         $(this).siblings(".pop").toggle();
-    });
-
-
-    // 关闭tips
-    $(document).on('click', function(e){
-        if($(e.target).closest('.tip-btn').length==1) return;
-        if($(e.target).closest('.pop').length==0){
+        $('body').append(div);
+        div.click(function(){
+            div.remove();
             $(".pop").hide();
-        }
+        })
     });
 
     // 弹出回应窗口

@@ -101,7 +101,7 @@ body,html{overflow: hidden; overflow-y: auto;height: 100%;}
 .chat-content .input-bar  .gift-explain h3{color: #292929;font-weight: 500;font-size: 14px;margin:0;margin-bottom:7px;}
 .chat-content .input-bar  .gift-explain h3 span{font-size: 12px;}
 .chat-content .input-bar  .gift-explain p{color: #7d7d7d;font-weight: 500;font-size: 12px;margin-bottom:5px;}
-.chat-content .input-bar  .gift-explain p img{width:14px; height:14px;marign-right:5px;position: relative; top:-1px;margin-left:5px;}
+.chat-content .input-bar  .gift-explain p img{width:14px; height:14px;margin-right:5px;position: relative; top:-1px;margin-left:5px;}
 .chat-content .input-bar  .gift-explain p i{font-style: normal;color: #292929;font-weight: 500;font-size: 16px;}
 .chat-content .input-bar  .gift-explain a{display: block; position: absolute;bottom:9px; right:15px;width: 46px;  height: 22px;  border-radius: 11px;  background-color: #dedddf; text-align: center; line-height: 22px;color: #2e57a6;font-size: 13px;font-weight: 500;}
 .chat-content .chat-desc{display: block;width:100%; height:100%;overflow: hidden; overflow-y: auto;-webkit-overflow-scrolling: touch;}
@@ -122,7 +122,7 @@ body,html{overflow: hidden; overflow-y: auto;height: 100%;}
 .chat-content .chat-desc .tasks .gift-content a{display: block; height:33px; line-height: 33px; text-decoration: none; width:100%; text-align: center;color: #4a4a4a;font-weight: 500;font-size: 13px;border-top: solid 1px #dedddf;}
 .chat-content .chat-desc .tasks .gift-content img{width:90px;float: right;margin-top:10px;}
 .chat-content .chat-desc .tasks .info{font-size: 14px;font-weight: 500;color: #292929;padding-top:10px;margin-left:20px; float: left;height: 105px;}
-.chat-content .chat-desc .tasks .info p{font-size: 13px;  font-weight: 500;color: #7d7d7d;margin-top:7px;}
+.chat-content .chat-desc .tasks .info p{font-size: 13px;  font-weight: 500;color: #7d7d7d;margin-top:7px;    overflow: hidden;  text-overflow: ellipsis;  white-space: nowrap;  width: 180px;  display: block;}
 .chat-content .chat-desc .tasks .info .g{color: #4a4a4a;}
 .chat-content .chat-desc .tasks .date{color: #9b9b9b;font-size: 12px; display: block;margin-top:5px;}
 .chat-content .chat-desc .tasks .info div{margin-top:3px; overflow: hidden;}
@@ -159,7 +159,11 @@ body,html{overflow: hidden; overflow-y: auto;height: 100%;}
 .chat-content .chat-desc .task .contain .tit i{width:28px;height:25px; display: block; float: right;}
 .chat-content .chat-desc .task .contain .tit i.video{background: url("../images/video-icon.png") center 2px no-repeat; background-size: 24px auto;}
 .chat-content .chat-desc .task .contain .tit i.photo{background: url("../images/ic12-camera@2x.png") center 2px no-repeat; background-size: 22px auto;}
-.chat-content .chat-desc .task .contain .con{padding: 0 20px 0;color: #7d7d7d;font-size: 13px;font-weight: 500; position: relative;}
+.chat-content .chat-desc .task .contain .con{padding: 0 20px 0;color: #7d7d7d;font-size: 13px;font-weight: 500; position: relative;overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+    display: block;}
 .chat-content .chat-desc .task .contain .con a{position: absolute; right:20px;text-decoration: none;color: #2e57a6;font-size: 13px;  font-weight: 500; outline: none; }
 .chat-content .chat-desc .task .date{color: #9b9b9b;font-size: 12px;  font-weight: 500;display: block; position: absolute; bottom:-20px; left:0;width:100%; text-align: center;}
 .chat-content .chat-desc .he .task .date{text-align: left;}
@@ -192,6 +196,12 @@ body,html{overflow: hidden; overflow-y: auto;height: 100%;}
 .chat-content .chat-desc .task .item-list.six a{width:95px;height:95px;}
 .chat-content .chat-desc .task .item-list.six a:nth-child(3n+0){width:94px;margin-right: 0;}
 .chat-content .chat-desc .task .item-list a img{width:100%;height:100%;}
+.chat-content .chat-desc .chat-menu-btn{display: block; position: fixed; top:0;  z-index:99;right:0; width:50px;height:50px; background: url("../images/icon/menu-icon@2x.png") center center no-repeat; background-size: 21px auto;}
+.chat-content .chat-desc .chat-menu-content{width: 100%;box-sizing:border-box;height:50px;z-index:100; position: fixed;padding-left:20px; top:0; text-decoration: none; left:0; right:0; margin: 0 auto; background-color: #F9F9F9; border-bottom: 1px solid #EFEFEF; display: none;}
+.chat-content .chat-desc .chat-menu-content a{width:80px; line-height: 50px;margin-right: 23px;color: #4A4A4A; font-size:13px;}
+.chat-content .chat-desc .chat-menu-content a:first-child{background: url("../images/icon/gdfgdgdgd.png") right center no-repeat;background-size: 1px 25px;}
+.chat-content .chat-desc .chat-menu-content a img{position: relative; top:-2px;}
+.chat-content .chat-desc .chat-menu-content span{width:50px;height:50px; position: absolute; right:0; background: url("../images/icon/chat-menu-close-icon@2x.png") center center no-repeat;background-size: 15px 15px;}
     /*btn-cos*/
 .btn-cos{width: 100%;  height: 42px;  border-radius: 29px;  border: solid 1px rgba(0, 0, 0, 0.76); margin:0 auto; display: block; outline: none!important; background-color: #fff;}
 .btn-cos img{margin-right:10px; position: relative; top:-2px;}

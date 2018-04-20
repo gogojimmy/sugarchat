@@ -408,16 +408,26 @@ $(function(){
         ],1);
 
     });
-    var timer = 0;
-    var t = setInterval(function(){
-        timer++;
-        var p = Math.ceil(timer*10/100);
-        loading.show('上传中'+p+'%');
-        if(p>=100){
-            clearInterval(t);
-            loading.hide();
-        }
-    },1)
+    // var timer = 0;
+    // var t = setInterval(function(){
+    //     timer++;
+    //     var p = Math.ceil(timer*10/100);
+    //     loading.show('上传中'+p+'%');
+    //     if(p>=100){
+    //         clearInterval(t);
+    //         loading.hide();
+    //     }
+    // },1)
+
+    // chat-menu
+    $(".chat-menu-btn").on('click', function(){
+        $(".chat-menu-content").css('display','flex').removeClass('slideOutRight').addClass('slideInRight');
+        $(this).hide();
+    })
+    $(".chat-menu-content").on('click','.close', function(){
+        $(".chat-menu-content").removeClass('slideInRight').addClass('slideOutRight');
+        $(".chat-menu-btn").fadeIn(1000);
+    })
 
     // 设置聊天窗口当前的scrollTop
     setChatContent("#msg-1020");

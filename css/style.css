@@ -73,15 +73,19 @@ body,html{overflow: hidden; overflow-y: auto;height: 100%;}
 .chat-content .input-bar .top-bar .right-icon .send-btn{width:36px; height:36px;background: url("../images/send@2x.png") center center no-repeat;background-size: 26px 21px;border:0; outline: none}
 .chat-content .input-bar.disabled{background-color: rgba(222, 221, 223, 0.7);}
 .chat-content .input-bar.disabled .left-icon,.chat-content .input-bar.disabled .input{opacity: 0.3;}
-.chat-content .input-bar .gift-tips{width:100%; height:61px;background-color: rgba(41, 41, 41, 0.9); position: absolute; bottom:47px;left:0; text-align: center;}
+.chat-content .input-bar .gift-tips{width:100%; height:61px;background-color: #E7427A; position: absolute; bottom:47px;left:0; text-align: center;}
 .chat-content .input-bar .gift-tips h3{color: #ffffff;font-weight: 500;font-size: 14px;margin-top:10px;margin-bottom:5px;}
-.chat-content .input-bar .gift-tips p{color: #b9b9b9;font-weight: 500;font-size: 13px;margin:0;}
-.chat-content .input-bar .gift-tips b{border-color: rgba(41, 41, 41, 0.9) transparent transparent transparent;  border-style: solid;  border-width: 6px 5px 0 5px;  height: 0;  right:25px;  margin-left: -4px;  position: absolute;  bottom:-6px;  width: 0;}
-.chat-content .input-bar .input-tips{width:100%; height:34px;line-height:34px;background-color: rgba(41, 41, 41, 0.9); position: absolute; bottom:47px;left:0; text-align: center;color: #ffffff;font-weight: 500;font-size: 14px;}
-.chat-content .input-bar .input-tips b{border-color: rgba(41, 41, 41, 0.9) transparent transparent transparent;  border-style: solid;  border-width: 6px 5px 0 5px;  height: 0;  right:245px;  margin-left: -4px;  position: absolute;  bottom:-6px;  width: 0;}
+.chat-content .input-bar .gift-tips p{color: #fff;font-weight: 500;font-size: 13px;margin:0;}
+.chat-content .input-bar .gift-tips b{border-color: #E7427A transparent transparent transparent;  border-style: solid;  border-width: 6px 5px 0 5px;  height: 0;  right:25px;  margin-left: -4px;  position: absolute;  bottom:-6px;  width: 0;}
+.chat-content .input-bar .input-tips{width:100%; height:34px;line-height:34px;background-color:#E7427A; position: absolute; bottom:47px;left:0; text-align: center;color: #ffffff;font-weight: 500;font-size: 14px;}
+.chat-content .input-bar .input-tips b{border-color: #E7427A transparent transparent transparent;  border-style: solid;  border-width: 6px 5px 0 5px;  height: 0;  right:245px;  margin-left: -4px;  position: absolute;  bottom:-6px;  width: 0;}
 .chat-content .input-bar .gift-show{width:100%;height:115px; text-align: center;position: absolute;top:-114px;border-radius: 16px 16px 0 0;  background-color: rgba(249, 249, 249, 0.85);  border: solid 1px #dedddf;border-bottom:0;}
 .chat-content .input-bar .gift-show span{display: block; width:15px; height:15px; background: url("../images/gift-show-close-icon.png") center center no-repeat; background-size: 15px 15px; position: absolute; top:21.5px; right:21.5px;}
 .chat-content .input-bar .gift-list{overflow: hidden;background-color: #f9f9f9;padding:8px 10px;height:306px;overflow-y: auto;padding-bottom:75px; position: relative;-webkit-overflow-scrolling: touch;}
+.chat-content .select-gift-tips{width:375px;height:36px; line-height: 36px; color: #fff; font-size: 14px; background-color: #EDEDED; position: fixed; top:0; left:0; right:0; margin: 0 auto; text-align: center;}
+.chat-content .user-head{text-align: center;padding-top:95px;}
+.chat-content .user-head img:nth-child(2){width: 24px;margin: 0 38px;}
+.chat-content .user-head img:first-child,.chat-content .user-head img:last-child{width:80px; height:80px; border:8px solid #EDEDED;}
 
 @media (min-width:375px) {
     .chat-content .input-bar .gift-list .gift{width:74px!important;}

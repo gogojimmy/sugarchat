@@ -200,6 +200,33 @@ $(function(){
     })
 
     // 发送消息
+    $("#textarea").keyup(function(e){
+        if(e.keyCode != 13 || detectmob()) return;
+      // 判断是否是发送礼物
+      if($(".gift-show").css('display') === 'block'){
+        var money = $('.gift-show').attr('data-money');
+        var imgUrl = $('.gift-show').parent().find('img').attr('src');
+        var text = 'Vincent Hsu';
+        meSendGift({
+          money : money,
+          imgUrl: imgUrl,
+          text: text
+        });
+        $(".gift-btn").show();
+        $(".send-btn").hide();
+        $('.gift-show').hide();
+        setChatContent();
+        return;
+      }
+
+      var content = $.trim($("#textarea").html());
+      if(!content) return;
+      meSendMessage(content);
+      $(".gift-btn").show();
+      $(".send-btn").hide();
+      $('#textarea').text('').removeClass('hide-placeholder');;
+      setChatContent();
+    })
     $(".input-bar .send-btn").on('click', function(e){
         // 判断是否是发送礼物
         if($(".gift-show").css('display') === 'block'){
@@ -433,7 +460,6 @@ $(function(){
     setChatContent("#msg-1020");
 })
 
-
 // 计算chat-content的高度和重置滚动条
 function setChatContent(selector){
     if($("#chat").length===0){return;}
@@ -648,6 +674,22 @@ function playVideo(videoArray,playWhich) {
         $videoModal.addClass('zoomOut').fadeOut(500);
     })
 
+}
+// 检测是否移动端
+function detectmob() {
+  if( navigator.userAgent.match(/Android/i)
+    || navigator.userAgent.match(/webOS/i)
+    || navigator.userAgent.match(/iPhone/i)
+    || navigator.userAgent.match(/iPad/i)
+    || navigator.userAgent.match(/iPod/i)
+    || navigator.userAgent.match(/BlackBerry/i)
+    || navigator.userAgent.match(/Windows Phone/i)
+  ){
+    return true;
+  }
+  else {
+    return false;
+  }
 }
 
 

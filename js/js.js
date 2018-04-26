@@ -458,6 +458,23 @@ $(function(){
 
     // 设置聊天窗口当前的scrollTop
     setChatContent("#msg-1020");
+
+    //signup 验证码
+    var time = 59;
+    var timer = setInterval(function(){
+        $(".v-btn").text('0:'+time+' 秒後重新寄驗證碼')
+        time--
+        if(time<0){
+            clearInterval(timer);
+            $(".v-btn").get(0).disabled = false
+            $(".v-btn").text('重新寄驗證碼')
+        }
+    }, 1000);
+    // select sex
+   $(".signup form .sex input").on('change', function(){
+    $(".next-btn").get(0).disabled = false
+   })
+
 })
 
 // 计算chat-content的高度和重置滚动条

@@ -5,10 +5,10 @@ body,html{overflow: hidden; overflow-y: auto;height: 100%;}
 /**::-webkit-scrollbar-thumb{border-radius: 10px; background-color: #ccc;  }*/
 
 /*product-box*/
-.product-box{width:375px; height:auto;overflow: hidden; margin: 0 auto;}
+.product-box{width:375px; height:100%;overflow: hidden; margin: 0 auto;}
 .product-box .content{background-color: #fff;height:100%; width:auto; overflow: hidden; padding-bottom:50px;-webkit-overflow-scrolling: touch; position:relative;}
 
-    /*user-list*/
+/*user-list*/
 .video-list{margin-bottom:15px;padding-top:10px;}
 .video-list ul{width:auto;margin:0;padding:0 6px;}
 .video-list ul li{	width: 80px;height: 127px;border-radius: 3px; list-style: none; overflow: hidden; position: relative;margin-right:5px;}
@@ -257,6 +257,10 @@ body,html{overflow: hidden; overflow-y: auto;height: 100%;}
 .icheckbox_radio{display: inline-block; *display: inline;  vertical-align: middle;  margin: 0;  padding: 0;  width: 18px;  height: 18px;  background: url("../images/radio-defult.png") 0 0 no-repeat;  background-size: 18px 18px;  border: none;  cursor: pointer;}
 .icheckbox_radio.checked{background: url("../images/radio-checked.png") 0 0 no-repeat;  background-size: 18px 18px;}
 .user-edit{}
+.user-edit .datoutie{width: 100%;height:171px; text-align: center;padding-top:20px; box-sizing: border-box;border-bottom: solid 1px #ededed;}
+.user-edit .datoutie img{width: 83px;  height: 83px;}
+.user-edit .datoutie .btn{width: 115px;  height: 28px;  border-radius: 14px; display: block;margin: 20px auto 0;overflow: hidden;padding:0;  background-color: #ffffff;  border: solid 1px #292929; text-align: center; line-height: 28px;color: #292929;font-weight: 500;font-size: 13px; position: relative;}
+.user-edit .datoutie .btn input{opacity: 0; position: absolute; top:0; left:0; font-size: 100px;}
 .user-edit .photo{border-bottom: solid 1px #dedddf;}
 .user-edit .photo .tit{color: #292929;font-weight: 500;font-size: 16px;padding:15px;}
 .user-edit .photo .photo-list{margin-top:5px;overflow: hidden;}
@@ -277,6 +281,8 @@ body,html{overflow: hidden; overflow-y: auto;height: 100%;}
 .form-control{border:0 !important; box-shadow: none!important;}
 .user-edit .form .form-control{width:100%;height:50px; line-height: 50px;border-radius: 3px;background-color: #f9f9f9;}
 .user-edit .form label{margin-bottom:10px;	font-size: 16px;font-weight: 500;color: #292929; display: block;}
+.user-edit .form label span{color: #9b9b9b;font-size: 13px;margin-left: 10px;}
+.user-edit .form textarea{min-height:81px; line-height: normal!important;}
 .user-edit .form .sex{margin-top:20px;}
 .user-edit .form .sex .icheckbox_radio{margin-right: 10px; position: relative; top:-1px;}
 .user-edit .form .sex .radio{display: inline-block;margin-right:40px;}
@@ -786,3 +792,34 @@ footer .member.active,footer .member:active{background: url("../images/ic3-membe
 .sign-modal-content ul li a.click{background: #fff;color: #292929;font-size: 13px; font-weight: 500;  text-align: center; line-height: 26px;}
 .sign-modal-content ul li em{color: #e7427a;font-style: normal;margin-left:3px;font-size: 14px;}
 .sign-modal-content p:last-child{text-align: left;padding: 15px 20px;}
+
+/*signup*/
+.signup{
+    padding: 30px 20px;
+}
+.signup .title{color: #292929;font-weight: 600;font-size: 20px;}
+.signup .title span{font-size: 16px;
+    font-weight: 500;}
+.signup .phone .btn-group{ float: left;}
+.signup .phone .btn-group button{border:0;padding-left:0;padding-top:5px;}
+.signup  .phone .btn-group.open .dropdown-toggle{box-shadow:none;}
+.signup .phone .btn .caret{color: #9b9b9b;    border-top: 5px dashed; border-right: 5px solid transparent;  border-left: 5px solid transparent;margin-left: 8px;}
+.signup .phone .btn-group .open>.dropdown-toggle.btn-default:hover,.signup .btn-default.active,.signup .btn-default:active,.signup .open>.dropdown-toggle.btn-default{background: none;}
+.signup .phone{border-bottom:1px solid #292929;padding-bottom:5px;padding-top:20px; zoom: 1; clear: both;}
+.signup .phone input{float: left;width:250px;padding-left:0;color: #292929;font-weight: 500;font-size: 16px; }
+.signup .phone .v-btn{float: right;border-radius: 16px;padding:0;padding: 0 10px;height: 26px; margin-top:5px;line-height: 26px;font-size: 12px;color: #292929; background: #fff;border: solid 1px #292929;}
+.signup .phone .v-btn:disabled{background-color: #dedddf;border: solid 1px #dedddf;}
+.signup form .next-btn{width: 192px;  height: 42px; line-height:42px;display: block; border-radius: 24.5px; font-weight: 600;font-size: 14px;padding:0;margin: 208px auto 0;border: solid 1px #292929; background: none; outline: none; }
+.signup form .next-btn:disabled{background-color: #dedddf;color: #9b9b9b;border: solid 1px #dedddf;}
+.signup form .error{color: #e7427a;font-size: 13px;  font-weight: 500;margin-top:10px;}
+.signup form .sex{margin-top:20px;}
+.signup form .sex input{display: none;}
+.signup form .sex span label{width: 105px;  height: 29px;  border-radius: 14.5px;  border: solid 1px #292929;margin-right:30px; display: inline-block; text-align: center; line-height: 29px;}
+.signup form .sex span input:checked+label{background-color: #e7427a;color: #fff;}
+.signup form .tips{color: #b9b9b9;font-size: 13px;margin-top:20px; display: block;}
+.signup .tiaokuan{margin-top:119px;color: #292929;font-size: 12px;  font-weight: 500;  text-align: center;}
+.signup .tiaokuan p{color: #e7427a;}
+.signup .logo{ text-align: center; padding-top: 191px;}
+.signup .btns{margin-top:160px;}
+.signup .btns a{display: block;width: 241px; position: relative;  height: 42px;  border-radius: 24.5px;margin: 0 auto; text-decoration: none;  border: solid 1px #292929; line-height: 42px; text-align: center;color: #292929;font-weight: 600;font-size: 14px;margin-bottom:15px;}
+.signup .btns a img{position: relative;left:-80px;}

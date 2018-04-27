@@ -811,7 +811,7 @@ footer .member.active,footer .member:active{background: url("../images/ic3-membe
 .signup .phone .v-btn:disabled{background-color: #dedddf;border: solid 1px #dedddf;}
 .signup form .next-btn{width: 192px;  height: 42px; line-height:42px;display: block; border-radius: 24.5px; font-weight: 600;font-size: 14px;padding:0;margin: 208px auto 0;border: solid 1px #292929; background: none; outline: none; }
 .signup form .next-btn:disabled{background-color: #dedddf;color: #9b9b9b;border: solid 1px #dedddf;}
-.signup form .error{color: #e7427a;font-size: 13px;  font-weight: 500;margin-top:10px;}
+.signup form .error{color: #e7427a;font-size: 13px;  font-weight: 500;margin-top:10px; display: block}
 .signup form .sex{margin-top:20px;}
 .signup form .sex input{display: none;}
 .signup form .sex span label{width: 105px;  height: 29px;  border-radius: 14.5px;  border: solid 1px #292929;margin-right:30px; display: inline-block; text-align: center; line-height: 29px;}
@@ -822,4 +822,4 @@ footer .member.active,footer .member:active{background: url("../images/ic3-membe
 .signup .logo{ text-align: center; padding-top: 191px;}
 .signup .btns{margin-top:160px;}
 .signup .btns a{display: block;width: 241px; position: relative;  height: 42px;  border-radius: 24.5px;margin: 0 auto; text-decoration: none;  border: solid 1px #292929; line-height: 42px; text-align: center;color: #292929;font-weight: 600;font-size: 14px;margin-bottom:15px;}
-.signup .btns a img{position: relative;left:-80px;}
+.signup .btns a img{position: absolute;top:0;bottom:0;left:10px; margin: auto 0; display: block}

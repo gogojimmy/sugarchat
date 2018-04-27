@@ -474,6 +474,16 @@ $(function(){
    $(".signup form .sex input").on('change', function(){
     $(".next-btn").get(0).disabled = false
    })
+   // 手机号输入下一步
+   $("#signup-phone").on('input', function(){
+       var val = $(this).val()
+      if(val.length>10){
+        $(".next-btn").removeAttr('disabled')
+      }else{
+        $(".next-btn").attr('disabled','disabled')
+      }
+   })
+
 
 })
 

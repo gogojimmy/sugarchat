@@ -1,4 +1,4 @@
-body,html{overflow: hidden; overflow-y: auto;height: 100%;}
+body,html{overflow: hidden; overflow-y: auto;}
 /*scrollbar*/
 /**::-webkit-scrollbar {width:4px;background-color: #F5F5F5;}*/
 /**::-webkit-scrollbar-track{ border-radius: 10px;  background-color: #F5F5F5; }*/

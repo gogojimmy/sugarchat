@@ -484,6 +484,15 @@ $(function(){
       }
    })
 
+  // navbar
+  $("nav .navbar-menu-btn").on('click', function(){
+      $("nav .slider").toggle();
+  })
+  $(document).click(function(event){
+      if(!$(event.target).closest('nav').length){
+        $("nav .slider").hide();
+      }
+  })
 
 })
 

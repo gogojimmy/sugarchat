@@ -357,17 +357,23 @@ body,html{overflow: hidden; overflow-y: auto;}
 .purchase .balance img{width:18px; height:18px;margin: 0 5px; position: relative; top:-2px;}
 .purchase .balance span{color: #000000;font-size: 20px; position: relative; top:3px;}
 .purchase .balance a{margin-left:10px; font-size:14px; font-weight: 500;color: #2E57A6;text-decoration: none}
-.purchase .balance i{float: right;margin-top:10px;margin-right:20px;}
+.purchase .balance i{float: right;margin-top:10px;margin-right:17px;}
 .purchase .balance i img{width:12px;height:12px;}
-.purchase .point .radio{width:100%; height:51px; border-bottom:1px solid #efefef;margin-bottom:0;margin-top:0;}
-.purchase .point .radio label{width:100%;font-size: 16px;font-weight: 500;color: #000000;padding: 15px 20px; display: block;}
+.purchase .point{padding-top: 20px;}
+.purchase .point .radio{width:100%; height:51px;margin-bottom:0;margin-top:0;}
+.purchase .point .radio label{display: block; width:100%;height: 100%;padding-left: 15px;}
+.purchase .point .radio .item{width:100%;font-size: 16px;font-weight: 500;color: #000000; display: block;height: 100%; line-height: 51px;}
 .purchase .point .radio .icheckbox_radio{ position: relative; top:-2px;margin-right:20px;}
 .purchase .point .radio em{ width:85px;position: absolute; right:7px;top:0; bottom:0; margin: auto 0;margin-left:25px; line-height: 51px; font-style: normal;}
-.purchase .point .radio span{position: relative;margin-left: 15px;}
-.purchase .point .radio span::before{display: block;width:14px; height:14px; background: url("../images/icon-small-coin@2x.png") center center no-repeat; content: ''; background-size: 14px 14px; position: absolute;left:-20px;top:3px;}
-.purchase .point .radio span i{color: #7D7D7D; font-size:12px; font-style: normal; font-weight: normal; position: relative;padding-left: 12px;margin-left:2px;}
-.purchase .point .radio span i.star::before{width:10px;height:10px; display: block; content: ''; position: absolute; left:0;top:0; background: url('../images/star.png')  0 0 no-repeat; background-size: 10px 10px;}
-.purchase .point .radio span i.tri::before{width:10px;height:9px; display: block; content: ''; position: absolute; left:0;top:1px; background: url('../images/triangle.png')  0 0 no-repeat; background-size: 10px 9px;}
+.purchase .point .radio span{position: relative;padding-left: 15px;}
+.purchase .point .radio span::before{display: block;width:14px; height:14px; background: url("../images/icon-small-coin@2x.png") center center no-repeat; content: ''; background-size: 14px 14px; position: absolute;left:18px;top:0px;bottom:0;margin: auto 0;}
+.purchase .point .radio i{color: #7D7D7D; font-size:12px; font-style: normal; font-weight: normal; position: relative;padding-left: 12px;margin-left:2px;}
+.purchase .point .radio i.star::before{width:10px;height:10px; display: block; content: ''; position: absolute; left:0;top:0; background: url('../images/star.png')  0 0 no-repeat; background-size: 10px 10px;}
+.purchase .point .radio i.tri::before{width:10px;height:9px; display: block; content: ''; position: absolute; left:0;top:1px; background: url('../images/triangle.png')  0 0 no-repeat; background-size: 10px 9px;}
+.purchase .point .radio input{display: none;}
+.purchase .point .radio label span{width: 102px;height: 39px;border: solid 1px #292929;background-color: #ffffff; border-radius: 19.5px; display: inline-block; line-height: 39px; text-align: center;margin-right: 15px;}
+.purchase .point .radio input:checked+label span{background-color: #e7427a;}
+
 .purchase .credit-card{padding: 20px;}
 .purchase .credit-card .tit{color: #191818;font-weight: 500;	font-size: 14px;margin-bottom:10px;}
 .purchase .credit-card .card-img{margin-bottom:15px;}

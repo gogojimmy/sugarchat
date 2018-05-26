@@ -25,6 +25,20 @@ $(function(){
         paginationClickable: true
     });
 
+      // banner-tab
+      new Swiper('.banner-tab .swiper-container', {
+        pagination: '.banner-tab .popular-pagination',
+        width: 186,
+        initialSlide: 1,
+        slidesOffsetBefore: 100,
+        spaceBetween: 15,
+        centeredSlides: true,
+        paginationClickable: true,
+        onSlideChangeEnd: function(swiper){
+          $(".upgrade-vip-desc .details").hide().eq(swiper.activeIndex).show()
+        }
+      });
+
     // task-swiper
     new Swiper('.task-swiper', {
         autoplay: 2000,

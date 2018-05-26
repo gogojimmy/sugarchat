@@ -253,6 +253,13 @@ body,html{overflow: hidden; overflow-y: auto;}
 .user-info .operation .btn-cos-group .btn-cos:last-child{margin-right: 0;}
 .user-info .operation .share-btn{text-align: center;margin-top:10px;}
 .user-info .operation .share-btn a{margin:0 15px; display: inline-block;color: #292929;font-size: 13px;font-weight: 500;}
+.user-info .add-member-btn{}
+.user-info .add-member-btn a{width: 345px;  height: 62px;  border-radius: 31px;  background-color: #f9f9f9; display: block; text-align: center;}
+.user-info .add-member-btn a div{display: inline-block;padding-top: 9px;}
+.user-info .add-member-btn p{display: inline-block; text-align: left;margin-left: 9px;color: #f8b71c; font-size: 18px;  font-weight: 500;}
+.user-info .add-member-btn p span{font-size: 13px; position: relative; top: -4px;}
+
+
 /*user-edit*/
 .icheckbox_radio{display: inline-block; *display: inline;  vertical-align: middle;  margin: 0;  padding: 0;  width: 18px;  height: 18px;  background: url("../images/radio-defult.png") 0 0 no-repeat;  background-size: 18px 18px;  border: none;  cursor: pointer;}
 .icheckbox_radio.checked{background: url("../images/radio-checked.png") 0 0 no-repeat;  background-size: 18px 18px;}
@@ -264,7 +271,7 @@ body,html{overflow: hidden; overflow-y: auto;}
 .user-edit .photo{border-bottom: solid 1px #dedddf;}
 .user-edit .photo .tit{color: #292929;font-weight: 500;font-size: 16px;padding:15px;}
 .user-edit .photo .photo-list{margin-top:5px;overflow: hidden;}
-.user-edit .photo .photo-list .item{width: 122px;  height: 122px;  border-radius: 2px;  background-color: #7d7d7d; float: left;margin-right:4px;margin-bottom:5px; position: relative;}
+.user-edit .photo .photo-list .item{width: 122px;  height: 122px;border-radius: 4px;  background: #f9f9f9 url("../images/add-icon.png")  center center no-repeat; float: left;margin-right:4px;margin-bottom:5px; position: relative;}
 .user-edit .photo .photo-list .item:nth-child(3n+0){margin-right: 0;}
 .user-edit .photo .photo-list .item .delete{position: absolute;width: 31px;  height: 31px; background: url("../images/delete-photo.png") 0 0 no-repeat; background-size: 31px 31px; display: block; bottom:0px; right:0px;}
 .user-edit .photo .add-btn{width:38px; height:38px; background: url("../images/add-icon.png")  0 0 no-repeat;background-size: 38px 38px; overflow: hidden; margin:30px auto;}
@@ -275,8 +282,22 @@ body,html{overflow: hidden; overflow-y: auto;}
 .user-edit .video .tit i{display: inline-block;width: 8px;  height: 8px;  background-color: #e7427a; border-radius: 50%; position: relative;top:-2px;}
 .user-edit .video .item{width:100%;height:179px;background-color: #7d7d7d; text-align: center;}
 .user-edit .video .item video{width:100%; height:100%;}
-.user-edit .video .add-btn{width:38px; height:38px; background: url("../images/add-icon.png")  0 0 no-repeat;background-size: 38px 38px; overflow: hidden; margin:30px auto;}
+.user-edit .video .add-btn{width:100%;overflow: hidden; margin:30px auto;}
 .user-edit .video .add-btn input{font-size: 100px;opacity: 0;}
+.user-edit .video .add-btn .file-btn{ width: 155px;
+    height: 207px;
+    border-radius: 9px;
+    border: solid 1px #dedddf;margin: 0 auto; position: relative;background: #f9f9f9 url("../images/add-icon.png")  center center no-repeat;background-size: 38px 38px; }
+.user-edit .video .add-btn .file-btn input{width:100%; height: 100%;position: absolute; top:0; bottom:0; left:0; right:0; margin: auto; z-index: 1;}
+.user-edit .video .add-btn .file-btn img{width: 100%;height: 100%; position: absolute; top:0; left:0; z-index: 2;}
+.user-edit .video .add-btn .file-btn .delete{position: absolute;
+    width: 31px;
+    height: 31px;
+    background: url(../images/delete-photo.png) 0 0 no-repeat;
+    background-size: 31px 31px;
+    display: block;
+    bottom: 0px;
+    right: 0px; z-index: 3}
 .user-edit .form{margin-top:20px;padding: 0 15px;}
 .form-control{border:0 !important; box-shadow: none!important;}
 .user-edit .form .form-control{width:100%;height:50px; line-height: 50px;border-radius: 3px;background-color: #f9f9f9;}
@@ -297,6 +318,10 @@ body,html{overflow: hidden; overflow-y: auto;}
 .user-edit .form .select-group .select2-container--open .select2-selection__arrow{transform: rotate(180deg)}
 .select2-container--default .select2-dropdown{border-bottom:1px solid #aaa;border-radius: 4px;}
 .user-edit .btn-cos{border: solid 1px #292929;border-radius: 29px;height: 42px;font-weight: 500;width: 244px; margin: 40px auto 0; line-height: 30px; display: block;}
+.user-edit .member-state{ width: 375px;  height: 79px;  background-color: #f9f9f9;padding: 13px 20px; box-sizing: border-box;}
+.user-edit .member-state img{margin-right: 20px;}
+.user-edit .member-state p{margin-bottom: 0;color: #292929;font-size: 14px;margin-top: 8px;}
+.user-edit .member-state p:last-child{margin-top:0;}
 
 /*get-money*/
 .get-money{position: relative;}
@@ -867,3 +892,71 @@ nav a img{vertical-align: middle;align-self: center;}
 .nav-bar1 .slider .item div img{align-self: center;}
 .nav-bar2 a:first-of-type{padding-right: 15px;}
 .nav-bar3 a{line-height: 45.5px;color: #292929;font-size: 17px;width:60px;}
+
+/*upgrade-vip*/
+.upgrade-vip{}
+.upgrade-vip .head{width:100%; height: 90px; box-sizing: border-box; text-align: center;}
+.upgrade-vip .head div{display: inline-block;padding: 20px;width: 280px;}
+.upgrade-vip .head div img{margin-right: 10px;}
+.upgrade-vip .head div p{margin:0;color: #292929;font-weight: 500; font-size: 18px; text-align: left;}
+.upgrade-vip .head div p:last-child{color: #4a4a4a;font-weight: normal;font-size: 13px;}
+.upgrade-vip .banner-tab{width: 100%;height:298px;background-color: #f9f9f9;  box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.05); position: relative;padding-top: 35px; box-sizing: border-box;}
+.upgrade-vip .banner-tab .xsj{width: 18px;height:18px; background-color: #fff; transform: rotate(45deg); position: absolute; bottom:-9px; left:0; right:0;margin: 0 auto;}
+.upgrade-vip .banner-tab .swiper-slide{width: 186px;
+    height: 217px;
+    border-radius: 31px;
+    background-color: #ffffff;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 2px 14px 0 #dedddf;}
+.upgrade-vip .swiper-container{overflow: visible !important;}
+.upgrade-vip .banner-tab .swiper-slide .tit{position: absolute; top: -13px; left:0; right:0; margin: 0 auto;}
+.upgrade-vip .banner-tab .popular-pagination{text-align: center;margin-top: 10px;}
+.upgrade-vip .banner-tab .swiper-slide .con{margin-top: 20px;}
+.upgrade-vip .banner-tab .swiper-slide p{color: #292929;font-weight: 500;font-size: 14px;margin-top: 15px;}
+.upgrade-vip .banner-tab .swiper-slide h3{font-weight: 500;  font-size: 18px;margin-top: 10px;margin-bottom:5px;}
+.upgrade-vip .banner-tab  .swiper-pagination-bullet{background-color: #dedddf; opacity: 1;}
+.upgrade-vip .banner-tab .swiper-pagination-bullet-active{background-color: #292929;}
+.upgrade-vip .upgrade-vip-desc{padding-top: 26px;}
+.upgrade-vip .upgrade-vip-desc .action{display: block; text-decoration: none; width: 276px;  height: 50px;  border-radius: 29px; text-align: center; margin: 0 auto;color: #ffffff;font-weight: 500;font-size: 16px; line-height: 50px;margin-bottom: 40px;}
+.flex{
+    display: -webkit-box;
+    display: -moz-box;
+    display:-webkit-flex;
+    display: -ms-flexbox;
+    display:flex;
+}
+.upgrade-vip .upgrade-vip-desc .list{
+    justify-content: flex-start;
+    margin-bottom: 30px;
+}
+.upgrade-vip .upgrade-vip-desc .list .icon{width: 95px; justify-content: center;}
+.upgrade-vip .upgrade-vip-desc .list .icon img{align-self: center;}
+.upgrade-vip .upgrade-vip-desc .list .info{width: 200px; flex-grow: 1; flex-direction: column; justify-content: space-around}
+.upgrade-vip .upgrade-vip-desc .list .info h4{font-size: 17px; font-weight: 500;margin:0;margin-bottom:5px;}
+.upgrade-vip .upgrade-vip-desc .list .info p{color: #4a4a4a;font-size: 14px;margin:0;}
+.upgrade-vip .upgrade-vip-desc .green .action{background-color: #2abb9b;}
+.upgrade-vip .upgrade-vip-desc .green .info{color: #2abb9b;}
+.upgrade-vip .upgrade-vip-desc .gold .action{background-color: #fabe58;}
+.upgrade-vip .upgrade-vip-desc .gold .info{color: #fabe58;}
+.upgrade-vip .upgrade-vip-desc .blue .action{background-color: #2e57a6;}
+.upgrade-vip .upgrade-vip-desc .blue .info{color: #2e57a6;}
+.upgrade-vip .rectangle{width: 375px;
+    height: 210px;
+    background-color: #f9f9f9;
+    box-shadow: 0 -1px 0 0 rgba(0, 0, 0, 0.05);padding: 20px; box-sizing: border-box}
+.upgrade-vip .rectangle h3{color: #292929;font-weight: 500;font-size: 14px;margin-top:0;}
+.upgrade-vip .rectangle p{color: #292929;font-size: 14px;margin-bottom:5px;}
+.upgrade-vip .rectangle p a{color: #2e57a6;font-weight: 500;margin-right: 10px;}
+
+/*upgrade-vip-pay*/
+.upgrade-vip-pay .member-state{ width: 375px;  height: 79px;  background-color: #f9f9f9;padding: 13px 20px; box-sizing: border-box;}
+.upgrade-vip-pay .member-state img{margin-right: 20px;}
+.upgrade-vip-pay .member-state p{margin-bottom: 0;color: #292929;font-size: 14px;margin-top: 8px;}
+.upgrade-vip-pay .member-state p:last-child{margin-top:0;}
+.upgrade-vip-pay .count-money{border-bottom:0;border-top: solid 1px #4a4a4a;padding-top:10px;}
+.upgrade-vip-pay .count-money i{color: #191818;font-style: normal;font-weight: 500;font-size: 14px;margin-right: 10px;}
+.upgrade-vip-pay  .lock{color: #9b9b9b;}
+.upgrade-vip-pay .tips{margin-top: 15px;}
+.upgrade-vip-pay .tips p{color: #292929;font-size: 13px;margin:0;margin-bottom:5px;}
+.upgrade-vip-pay .add-card-btn{ border: solid 1px #292929;color: #4a4a4a;}

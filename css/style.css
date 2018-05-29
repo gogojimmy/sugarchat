@@ -271,9 +271,11 @@ body,html{overflow: hidden; overflow-y: auto;}
 .user-edit .photo{border-bottom: solid 1px #dedddf;}
 .user-edit .photo .tit{color: #292929;font-weight: 500;font-size: 16px;padding:15px;}
 .user-edit .photo .photo-list{margin-top:5px;overflow: hidden;}
-.user-edit .photo .photo-list .item{width: 122px;  height: 122px;border-radius: 4px;  background: #f9f9f9 url("../images/add-icon.png")  center center no-repeat; float: left;margin-right:4px;margin-bottom:5px; position: relative;}
+.user-edit .photo .photo-list .item{width: 122px;  height: 122px;border-radius: 4px; position: relative;  background: #f9f9f9 url("../images/add-icon.png")  center center no-repeat; background-size: 31px 31px; float: left;margin-right:4px;margin-bottom:5px; position: relative;}
+.user-edit .photo .photo-list .item input{position: absolute; top:0; left:0; font-size: 100px; opacity: 0;}
+.user-edit .photo .photo-list .item img{width: 100%; height: 100%; position: absolute; top:0; left:0; z-index: 2;}
 .user-edit .photo .photo-list .item:nth-child(3n+0){margin-right: 0;}
-.user-edit .photo .photo-list .item .delete{position: absolute;width: 31px;  height: 31px; background: url("../images/delete-photo.png") 0 0 no-repeat; background-size: 31px 31px; display: block; bottom:0px; right:0px;}
+.user-edit .photo .photo-list .item .delete{position: absolute;width: 31px;  height: 31px; background: url("../images/delete-photo.png") 0 0 no-repeat; background-size: 31px 31px; display: block; bottom:0px; right:0px; z-index: 3;}
 .user-edit .photo .add-btn{width:38px; height:38px; background: url("../images/add-icon.png")  0 0 no-repeat;background-size: 38px 38px; overflow: hidden; margin:30px auto;}
 .user-edit .photo .add-btn input{font-size: 100px;opacity: 0;}
 .user-edit .video{border-bottom: solid 1px #dedddf;}

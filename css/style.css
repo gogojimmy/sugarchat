@@ -22,6 +22,7 @@ body,html{overflow: hidden; overflow-y: auto;}
 .user-list li:nth-child(2n+0){margin-right: 0;}
 .user-list li a{display: block; position: relative; color: #ffffff;}
 .user-list li h3{position: absolute;font-size: 15px;font-weight: 500; top:6px; left:10px;z-index: 3;margin:0;}
+.user-list li h3 img{width: 15px;}
 .user-list li p{position: absolute;font-size: 11px;font-weight: 500; top:27px; left:10px;z-index: 3;}
 .user-list li .mask{width: 179px; height: 190px; background-color:rgba(0, 0, 0, 0.3); z-index: 1;border-radius: 3px; position: absolute; top:0;left:0;}
 .user-list li img{width:100%; height:100%;border-radius: 3px;}
@@ -32,7 +33,9 @@ body,html{overflow: hidden; overflow-y: auto;}
 .chat-list .item{width:100%; height:74px;padding:0; float: left; display: block;}
 .chat-list .item a{width:100%; height:74px; display: block; position: relative;padding-left:81px;padding-right:6px;padding-top:16px;}
 .chat-list .item a:hover{text-decoration: none;}
-.chat-list .item .img-circle{position: absolute; top:0px; bottom:0; left:15px; margin: auto 0; width:46px;height:46px;}
+.chat-list .item  .img{ width:46px;height:46px;position: absolute; top:0px; bottom:0; left:15px; margin: auto 0;}
+.chat-list .item .img-circle{ width:46px;height:46px;}
+.chat-list .item .vip{width: 15px; position: absolute; bottom:0; right:-5px;}
 .chat-list .item .user{color: #000;font-size: 15px;font-weight: 500; float: left;width:100%;}
 .chat-list .item .date{color: #b9b9b9;font-weight: 500;font-size: 11px;margin-left:10px;}
 .chat-list .item .corner{width: 20px;  height: 18px;  border-radius: 9px;  background-color: #e7427a; text-align: center; line-height: 18px;color: #ffffff;font-size: 12px; position: absolute; right:20px; top:0;bottom:0; margin: auto 0;}
@@ -225,6 +228,7 @@ body,html{overflow: hidden; overflow-y: auto;}
 .user-info .banner .video-play:active,.user-info .banner .video-play:hover{    background: url(../images/paly-active-icon.png) center center no-repeat;background-size: 60px 60px;}
 .user-info  .section{position: absolute;z-index: 10;height:80px;width:100%; top:285px;left:0; padding: 0 15px;}
 .user-info  .section .username{	font-size: 20px;font-weight: 600;color: #ffffff;margin-bottom:9px;}
+.user-info  .section .username img{width: 20px;}
 .user-info  .section p{color: #ffffff;	font-weight: 500;font-size: 13px;margin-bottom:3px; }
 .user-info  .section .share{position: absolute; top:35px; right:15px;}
 .user-info  .section .share a{margin-left: 20px;}
@@ -769,6 +773,8 @@ footer .member.active,footer .member:active{background: url("../images/ic3-membe
 .video-modal video{min-width:100%;transform: scale(1.2,1.2);font-size:0; min-height: 100%; width:auto;height:auto; display: block; position: absolute; top:0; left:0;right:0;bottom:0; margin:auto;padding:0;}
 .video-modal .close{width:50px;height:50px; animation: plsyCloseAni 0.7s infinite; position: absolute; bottom:40px; left:0; right:0;margin: 0 auto;color: #fff; font-size:50px;color: #fff; font-weight: 100;text-align: center; line-height: 50px; display: none; opacity: 0.6; background: url("../images/video-close-icon.png") center center no-repeat; background-size: 50px 50px;z-index: 99999;}
 .video-modal .user-info{position: absolute; top:20px; left:0; z-index: 99;padding-left:20px;color: #ffffff;padding-right:15px;width:100%; }
+.video-modal .user-info .img{width: 44px; height: 44px; position: relative; float: left;}
+.video-modal .user-info .img .vip{position: absolute; right: -7px;bottom:3px; width: 15px;}
 .video-modal .user-info .img-circle{width: 44px; height: 44px; border: solid 1px #ffffff; float: left; box-shadow:2px 3px 14px 1px rgba(0, 0, 0, 0.32);}
 .video-modal .user-info .username{margin-left:15px;font-size: 18px;  font-weight: 600; float: left; line-height: 44px;text-shadow:1px 1px 3px rgba(0, 0, 0, 0.5);}
 .video-modal .user-info .chat-btn{width: 38px;  height: 38px;   text-decoration: none;margin-top:7px;  display: inline-block; float: right; background: url("../images/message-icon@2x.png") center center no-repeat; background-size: 43px auto;}
@@ -962,3 +968,34 @@ nav a img{vertical-align: middle;align-self: center;}
 .upgrade-vip-pay .tips{margin-top: 15px;}
 .upgrade-vip-pay .tips p{color: #292929;font-size: 13px;margin:0;margin-bottom:5px;}
 .upgrade-vip-pay .add-card-btn{ border: solid 1px #292929;color: #4a4a4a;}
+
+/*en-linea*/
+.en-linea{width: 146px;
+    height: 45px;
+    border-radius: 22.5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5); position: fixed; z-index: 99;left: 10px; bottom: 67px;}
+.en-linea .img{width: 40px; height:40px; margin:  auto 0; position: absolute; top:0;bottom:0;}
+.en-linea .img .img-circle{width: 100%;height: 100%;}
+.en-linea .img .vip{width: 15px; right: -7px;bottom: 3px; position: absolute;}
+.en-linea .info{position: absolute; left: 61px;margin-top: 5px;}
+.en-linea .info p{margin:0; color: #292929;font-weight: 500; font-size: 12px;width: 80px; overflow: hidden; text-overflow:ellipsis;white-space: nowrap;}
+
+/*se-recomienda*/
+.se-recomienda{ width: 118px;height: 180px; text-decoration: none; background: url("../images/icon/se-recomienda@2x.png") center center no-repeat; background-size: 118px 180px;position: fixed; bottom: 47px; right: 10px; z-index: 99; text-align: center;padding-top: 30px; box-sizing: border-box;}
+.se-recomienda p{color: #292929;font-weight: 500;font-size: 13px;margin-bottom: 7px;}
+.se-recomienda img{width: 53px;height: 53px;margin-bottom: 7px;}
+.se-recomienda span{width: 76px;
+    height: 23px;
+    border-radius: 11.5px;
+    background-color: #e7427a; display: inline-block;text-align: center; line-height: 23px; color: #ffffff;font-weight: 500;font-size: 12px;}
+
+/*s-modal*/
+.s-modal .desc{padding-top: 40px;}
+.s-modal .desc .btn{width: 244px;
+    height: 42px;
+    border-radius: 29px;
+    background-color: #ffffff;
+    border: solid 1px #292929;margin:25px auto 0; text-align: center; line-height: 42px;color: #292929;font-weight: 500;font-size: 14px;padding:0;}
+.s-modal .desc span{color: #9b9b9b;font-size: 13px;font-weight: normal; display: block;margin-top: 10px;}
+

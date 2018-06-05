@@ -508,6 +508,12 @@ $(function(){
       }
   })
 
+  // 上线
+  enLinea()
+
+  // 推荐
+  seRecomienda();
+
 })
 
 // 计算chat-content的高度和重置滚动条
@@ -604,7 +610,11 @@ function playVideo(videoArray,playWhich) {
     }
     function setUserInfo(user){
         return  $('<div class="user-info clearfix">\n' +
-            '\t\t\t\t\t\t<img src="'+ user.img +'" class="img-circle" alt="">\n' +
+            '\t\t\t\t\t\t<div class="img"><img src="'+ user.img +'" class="img-circle" alt="">' +
+              '<img src="images/icon/vip-gold.png" class="vip" alt="">' +
+              '<img src="images/icon/vip-green.png" class="vip" alt="">' +
+              '<img src="images/icon/vip-blue.png" class="vip" alt="">' +
+            '</div>\n' +
             '\t\t\t\t\t\t<span class="username">'+user.name+'</span>\n' +
             '\t\t\t\t\t\t<a class="chat-btn" href="'+ user.url +'"></a>\n' +
             '\t\t\t\t\t</div>');
@@ -742,4 +752,35 @@ function detectmob() {
   }
 }
 
+// 上线
+function enLinea(userInfo){
+  // $(".en-linea").remove()
+    var dom = $('<div class="en-linea animated slideInUp">\n' +
+      '\t\t\t<div class="img">\n' +
+      '\t\t\t\t<img class="img-circle" src="images/mod1.png" alt="">\n' +
+      '\t\t\t\t<img class="vip" src="images/icon/vip-gold.png" alt="">\n' +
+      '\t\t\t</div>\n' +
+      '\t\t\t<div class="info">\n' +
+      '\t\t\t\t<p>Vincent Hsu</p>\n' +
+      '\t\t\t\t<p>上線了</p>\n' +
+      '\t\t\t</div>\n' +
+      '\t\t</div>');
+    $('body').append(dom)
+    setTimeout(function(){
+      dom.removeClass('slideInUp').addClass('slideOutDown')
+    }, 3000)
+}
 
+function seRecomienda(userInfo){
+    // $(".se-recomienda").remove()
+    var dom = $('<a href="" class="se-recomienda animated slideInUp">\n' +
+      '\t\t\t<p>本日推薦</p>\n' +
+      '\t\t\t<img class="img-circle" src="images/mod1.png" alt="">\n' +
+      '\t\t\t<p>Bonnie Yu</p>\n' +
+      '\t\t\t<span>查看</span>\n' +
+      '\t\t</a>');
+      $('body').append(dom)
+      setTimeout(function(){
+        dom.removeClass('slideInUp').addClass('slideOutDown')
+      }, 3000)
+}

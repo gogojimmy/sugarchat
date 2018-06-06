@@ -509,10 +509,22 @@ $(function(){
   })
 
   // 上线
-  enLinea()
+  // enLinea()
 
   // 推荐
-  seRecomienda();
+  // seRecomienda();
+
+  // faq
+  $(".faq-list li").on('click','.flex', function(){
+    $(this).parent().toggleClass('active')
+    if($(this).parent().hasClass('active')){
+      $(this).siblings('.info').slideDown()
+    }else{
+      $(this).siblings('.info').slideUp()
+    }
+    $(this).parent().siblings('li').removeClass('active');
+    $(this).parent().siblings('li').children('.info').slideUp()
+  })
 
 })
 
@@ -755,7 +767,7 @@ function detectmob() {
 // 上线
 function enLinea(userInfo){
   // $(".en-linea").remove()
-    var dom = $('<div class="en-linea animated slideInUp">\n' +
+    var dom = $('<div class="en-linea animated slideInLeft">\n' +
       '\t\t\t<div class="img">\n' +
       '\t\t\t\t<img class="img-circle" src="images/mod1.png" alt="">\n' +
       '\t\t\t\t<img class="vip" src="images/icon/vip-gold.png" alt="">\n' +
@@ -767,13 +779,13 @@ function enLinea(userInfo){
       '\t\t</div>');
     $('body').append(dom)
     setTimeout(function(){
-      dom.removeClass('slideInUp').addClass('slideOutDown')
-    }, 3000)
+      dom.removeClass('slideInLeft').addClass('slideOutLeft')
+    }, 5000)
 }
 
 function seRecomienda(userInfo){
     // $(".se-recomienda").remove()
-    var dom = $('<a href="" class="se-recomienda animated slideInUp">\n' +
+    var dom = $('<a href="" class="se-recomienda animated slideInRight">\n' +
       '\t\t\t<p>本日推薦</p>\n' +
       '\t\t\t<img class="img-circle" src="images/mod1.png" alt="">\n' +
       '\t\t\t<p>Bonnie Yu</p>\n' +
@@ -781,6 +793,6 @@ function seRecomienda(userInfo){
       '\t\t</a>');
       $('body').append(dom)
       setTimeout(function(){
-        dom.removeClass('slideInUp').addClass('slideOutDown')
-      }, 3000)
+        dom.removeClass('slideInRight').addClass('slideOutRight')
+      }, 5000)
 }

@@ -22,7 +22,7 @@ body,html{overflow: hidden; overflow-y: auto;}
 .user-list li:nth-child(2n+0){margin-right: 0;}
 .user-list li a{display: block; position: relative; color: #ffffff;}
 .user-list li h3{position: absolute;font-size: 15px;font-weight: 500; top:6px; left:10px;z-index: 3;margin:0;}
-.user-list li h3 img{width: 15px;}
+.user-list li h3 img{width: 13px;margin-left: 3px;}
 .user-list li p{position: absolute;font-size: 11px;font-weight: 500; top:27px; left:10px;z-index: 3;}
 .user-list li .mask{width: 179px; height: 190px; background-color:rgba(0, 0, 0, 0.3); z-index: 1;border-radius: 3px; position: absolute; top:0;left:0;}
 .user-list li img{width:100%; height:100%;border-radius: 3px;}
@@ -228,7 +228,7 @@ body,html{overflow: hidden; overflow-y: auto;}
 .user-info .banner .video-play:active,.user-info .banner .video-play:hover{    background: url(../images/paly-active-icon.png) center center no-repeat;background-size: 60px 60px;}
 .user-info  .section{position: absolute;z-index: 10;height:80px;width:100%; top:285px;left:0; padding: 0 15px;}
 .user-info  .section .username{	font-size: 20px;font-weight: 600;color: #ffffff;margin-bottom:9px;}
-.user-info  .section .username img{width: 20px;}
+.user-info  .section .username img{width: 18px;margin-left: 3px;}
 .user-info  .section p{color: #ffffff;	font-weight: 500;font-size: 13px;margin-bottom:3px; }
 .user-info  .section .share{position: absolute; top:35px; right:15px;}
 .user-info  .section .share a{margin-left: 20px;}
@@ -435,7 +435,7 @@ body,html{overflow: hidden; overflow-y: auto;}
 
 
 /*footer*/
-footer{width: 375px;  height: 47px;  background-color: #ffffff; position: fixed;bottom:0; left:0; right:0; margin: 0 auto;padding: 0 40px;border-top: solid 1px #dedddf;}
+footer{width: 375px;  height: 47px;  background-color: #ffffff; position: fixed;bottom:0; left:0; right:0; margin: 0 auto;padding: 0 40px;border-top: solid 1px #dedddf;z-index: 99}
 footer a{display: inline-block; width: 47px;height:47px;margin-right: 72px; position: relative;}
 footer a:last-child{margin-right: 0;}
 footer a i{position: absolute; top:8px; left:25px; min-width:15px; min-height:15px; border-radius: 50%; text-align: center; display: block; font-style: normal; background-color: #ff307c; line-height: 15px; font-size:11px; color: #fff;}
@@ -998,4 +998,70 @@ nav a img{vertical-align: middle;align-self: center;}
     background-color: #ffffff;
     border: solid 1px #292929;margin:25px auto 0; text-align: center; line-height: 42px;color: #292929;font-weight: 500;font-size: 14px;padding:0;}
 .s-modal .desc span{color: #9b9b9b;font-size: 13px;font-weight: normal; display: block;margin-top: 10px;}
+
+/*landing*/
+.landing{padding-bottom: 0!important;}
+.landing .banner-box{
+    width: 375px;
+    color: #fff;
+    height: 412px;
+    background: url("../images/lamding-banner@2x.png") center center no-repeat; background-size: 375px 412px; text-align: center;padding-top: 47px; box-sizing: border-box;
+}
+.landing .banner-box h3{text-shadow: 0 1px 2px rgba(0, 0, 0, 0.76);font-weight: 600; font-size: 19px;margin-top: 39px;margin-bottom: 0;}
+.landing .banner-box p{text-shadow: 0 1px 2px rgba(0, 0, 0, 0.76);font-size: 12px;margin-top: 16px;margin-bottom: 0;}
+.landing .banner-box div{margin-top: 38px;}
+.landing .banner-box a{margin-top: 20.9px; display: inline-block;}
+.landing .chat-info{width: 375px; height: 691px;}
+.landing .chat-info .swiper-item{width: 375px; height: 691px;background: url("../images/Landing1-1@2x.png") center top no-repeat; background-size: 375px 691px;}
+.landing .chat-info .swiper-item:nth-child(2){background: url("../images/Landing1-2@2x.png") center top no-repeat; background-size: 375px 691px;}
+.landing .chat-info .swiper-item:nth-child(3){background: url("../images/Landing1-3@2x.png") center top no-repeat; background-size: 375px 691px;}
+.landing .chat-info .title{text-align: center;color: #292929;}
+.landing .chat-info .title h3{font-weight: 600;font-weight: 600;margin-top: 40px; margin-bottom: 0;}
+.landing .chat-info .title p{font-size: 15px;margin-top: 4px;}
+.landing .chat-info  .popular-pagination{text-align: center;bottom: 20px; position: absolute; z-index: 99;}
+.landing .chat-info .swiper-pagination-bullet-active{background-color: #292929;}
+/*landing-footer-box*/
+.landing-footer-box{width: 375px;
+    height: 154px;
+    padding: 28px 20px; box-sizing: border-box;background:  #292929 url("../images/icon/1-logo.png") 300px 30px no-repeat; background-size: 50px auto;
+}
+.landing-footer-box>.flex{font-size: 12px;font-weight: 500;}
+.landing-footer-box .a-link{flex-direction: column;width: 80px;}
+.landing-footer-box .a-link a{margin-bottom: 15px; display: inline-block;color: #9b9b9b; text-decoration: none;}
+.landing-footer-box>p{color: #9b9b9b;font-size: 11px;margin-top: 10px;}
+
+
+/*faq*/
+.faq{padding-bottom:0 !important;}
+.faq .logo{margin:0;padding: 30px 20px;}
+.faq  .title{color: #292929;font-weight: 500;font-size: 19px;padding: 0 20px;}
+.faq .faq-list{padding:0;padding-top: 23px;}
+.faq .faq-list li{padding: 0 20px;padding-bottom: 25px; box-sizing: border-box;background-color: #fff; z-index: 99;  }
+.faq .faq-list li .flex{justify-content: space-between; box-sizing: border-box;background-color: #fff; z-index: 99;}
+.faq .faq-list li .flex .flex{height: 30px; line-height: 30px;justify-content: flex-start; box-sizing: border-box; width: 200px;}
+.faq .faq-list li .flex .flex img{align-self: center;width: 27px;height: 27px; display: block;}
+.faq .faq-list li .flex .flex span{margin-left: 10px;color: #292929;font-weight: 500;font-size: 15px;}
+.faq .faq-list li .flex i{width: 7px;height: 13px; align-self: center; transition: all 0.3s; background: url("../images/icon/Triangle2@x.png") right center no-repeat; background-size: 7px 13px; align-items: flex-end;}
+.faq .faq-list li .info{padding: 17px 20px 0px; display: none;}
+.faq .faq-list li.active .flex i{transform: rotate(90deg)}
+
+/*clause-box*/
+.clause-box{padding-bottom:0!important;}
+.clause-box .logo{text-align: center; padding:0;margin:0;padding-top: 49px;padding-bottom: 46px;}
+.clause-box .logo img{width: 225px;}
+.clause-box .title{
+    justify-content: space-between;
+    padding: 0 20px;
+    line-height: 21px;
+    margin-bottom: 10px;
+}
+.clause-box .title strong{color: #292929;font-size: 15px;
+    font-weight: 500;}
+.clause-box .title span{color: #9b9b9b;font-size: 11px;}
+.clause-box .desc{padding: 0 20px;line-height: 22px;}
+.clause-box .desc p{ color: #292929;font-size: 13px;margin-bottom: 30px;}
+.clause-box .desc h3{color: #292929;font-size: 13px;
+    font-weight: 500;margin-bottom: 10px;margin-top:0;}
+
+
 

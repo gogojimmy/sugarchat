@@ -228,7 +228,7 @@ body,html{overflow: hidden; overflow-y: auto;}
 .user-info .banner .video-play:active,.user-info .banner .video-play:hover{    background: url(../images/paly-active-icon.png) center center no-repeat;background-size: 60px 60px;}
 .user-info  .section{position: absolute;z-index: 10;height:80px;width:100%; top:285px;left:0; padding: 0 15px;}
 .user-info  .section .username{	font-size: 20px;font-weight: 600;color: #ffffff;margin-bottom:9px;}
-.user-info  .section .username img{width: 18px;margin-left: 3px;}
+.user-info  .section .username img{width: 18px;margin-left: 3px; position: relative; top: -2px;}
 .user-info  .section p{color: #ffffff;	font-weight: 500;font-size: 13px;margin-bottom:3px; }
 .user-info  .section .share{position: absolute; top:35px; right:15px;}
 .user-info  .section .share a{margin-left: 20px;}
@@ -1016,7 +1016,7 @@ nav a img{vertical-align: middle;align-self: center;}
 .landing .chat-info .swiper-item:nth-child(2){background: url("../images/Landing1-2@2x.png") center top no-repeat; background-size: 375px 691px;}
 .landing .chat-info .swiper-item:nth-child(3){background: url("../images/Landing1-3@2x.png") center top no-repeat; background-size: 375px 691px;}
 .landing .chat-info .title{text-align: center;color: #292929;}
-.landing .chat-info .title h3{font-weight: 600;font-weight: 600;margin-top: 40px; margin-bottom: 0;}
+.landing .chat-info .title h3{font-weight: 600;font-weight: 600;margin-top: 40px; margin-bottom: 0; font-size: 19px;}
 .landing .chat-info .title p{font-size: 15px;margin-top: 4px;}
 .landing .chat-info  .popular-pagination{text-align: center;bottom: 20px; position: absolute; z-index: 99;}
 .landing .chat-info .swiper-pagination-bullet-active{background-color: #292929;}

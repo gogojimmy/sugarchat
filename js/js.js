@@ -22,7 +22,17 @@ $(function(){
     // userinfo-banner
     new Swiper('.user-info .swiper-container', {
         pagination: '.user-info .popular-pagination',
-        paginationClickable: true
+        paginationClickable: true,
+          onTouchMove: function(swiper){
+            if($(".chat-info .animated").length > 0){
+              $(".chat-info .swiper-item").eq(swiper.activeIndex).siblings().find('.animated').removeClass('slideInUp').hide()
+            }
+          },
+        onSlideChangeEnd: function(swiper){
+            if($(".chat-info .animated").length > 0){
+              $(".chat-info .swiper-item").eq(swiper.activeIndex).find('.animated').fadeIn().addClass('slideInUp');
+            }
+        }
     });
 
       // banner-tab

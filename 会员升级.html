@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta content="yes" name="apple-mobile-web-app-capable">
+		<meta name="viewport" content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;">
+		<title>会员升级</title>
+		<!-- Bootstrap -->
+		<link href="lib/bootstrap-3.3.7/css/bootstrap.min.css" rel="stylesheet">
+		<link href="lib/Swiper/css/swiper.min.css" rel="stylesheet">
+		<link href="lib/select2/dist/css/select2.min.css" rel="stylesheet">
+		<link href="lib/video6.6.22.js/css/video-js.min.css" rel="stylesheet">
+		<link href="css/animations.css" rel="stylesheet">
+		<link href="css/style.css?id=932" rel="stylesheet">
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		<!--<script src="lib/videojs/videojs-ie8.min.js"></script>-->
+		<script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      	<script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+	</head>
+
+	<body>
+
+		<div class="product-box">
+			<div class="content member-upgrade">
+				<div class="head flex">
+					<div class="vip-img flex">
+						<img src="images/icon/vip-blue.png" alt="">
+					</div>
+					<div class="vip-info">
+						<h3>目前為 藍色會員</h3>
+						<p>您的方案將在 2018/06/07 自動續約</p>
+					</div>
+				</div>
+				<div class="title flex">
+					<span>您的訂閱</span>
+				</div>
+				<div class="fee-info">
+					<div class="vip-fee flex">
+						<div class="left">
+							<h4>藍色會員</h4>
+							<p>下次扣款日：2018/06/07</p>
+						</div>
+						<div class="money flex">
+							<span>NT$99 /月</span>
+						</div>
+					</div>
+					<p class="tip">若要停止扣款，請於下次扣款日前24小時(含)取消訂閱。</p>
+				</div>
+				<div class="title flex">
+					<span>變更特級會員方案</span>
+					<a href="">查看會員特權</a>
+				</div>
+				<div class="vip-select">
+					<div class="radio-select">
+						<input checked type="radio" id="vip1" name="vip1" value="1">
+						<label class="flex" for="vip1">
+							<span>藍色會員</span>
+							<p class="blue">享2大特權</p>
+							<em>NT$99 /月</em>
+						</label>
+					</div>
+					<div class="radio-select">
+						<input type="radio" id="vip2" name="vip1" value="2">
+						<label class="flex" for="vip2">
+							<span>綠色會員</span>
+							<p class="green">享2大特權</p>
+							<em>NT$599 /月</em>
+						</label>
+					</div>
+					<div class="radio-select">
+						<input type="radio" id="vip3" name="vip1" value="3">
+						<label class="flex" for="vip3">
+							<span>金色會員</span>
+							<p class="gold">享2大特權</p>
+							<em>NT$2000 /月</em>
+						</label>
+					</div>
+				</div>
+				<div class="btn-box flex">
+					<a href="">取消訂閱</a>
+				</div>
+				<p class="tips" style="display: none">確認變更後，付費當日將為新訂閱特級會員的第一天。</p>
+			</div>
+		</div>
+
+		<!--取消特級會員 modal-->
+		<div class="modal fade task-modal member-upgrade-modal" tabindex="-1" role="dialog" aria-labelledby="task-modal">
+			<div class="modal-dialog modal-sm" style="width: 281px;height: 174px;" role="document">
+				<div class="modal-content">
+					<div class="desc">
+						<h3>取消特級會員</h3>
+						<p>您確定要取消特級會員訂閱項目嗎？</p>
+						<div class="flex">
+							<a class="btn" href="javascript:;" data-dismiss="modal" aria-label="Close">確認</a>
+							<a class="btn cancel" href="javascript:;" data-dismiss="modal" aria-label="Close">先不要</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--取消特級會員 modal-->
+		<div class="modal fade task-modal member-upgrade-modal" tabindex="-1" role="dialog" aria-labelledby="task-modal">
+			<div class="modal-dialog modal-sm" style="width: 281px;height: 174px;" role="document">
+				<div class="modal-content">
+					<div class="desc">
+						<h3 style="margin-top: 10px;">成功取消會員訂閱</h3>
+						<div class="flex" style="margin-top: 37px;">
+							<a class="btn" href="javascript:;" data-dismiss="modal" aria-label="Close">確認</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="js/jquery.min.js"></script>
+		<script src="lib/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+		<script src="lib/Swiper/js/swiper.min.js"></script>
+		<script src="lib/icheck-1.x/icheck.min.js"></script>
+		<script src="lib/select2/dist/js/select2.min.js"></script>
+		<script src="js/clipboard.min.js"></script>
+		<script src="lib/video6.6.22.js/js/video.min.js"></script>
+		<script src="js/js.js"></script>
+	</body>
+
+</html>

@@ -524,6 +524,19 @@ $(function(){
   // 推荐
   // seRecomienda();
 
+    // 升级会员
+    const checked = 1
+    $(".radio-select").on('change', 'input', function(){
+        var selectEd = $(this).val()
+        if(checked != selectEd){
+            $(".member-upgrade .tips").show()
+            $('.btn-box a').text('變更訂閱')
+        }else{
+            $(".member-upgrade .tips").hide()
+            $('.btn-box a').text('取消訂閱')
+        }
+    })
+
   // faq
   $(".faq-list li").on('click','.flex', function(){
     $(this).parent().toggleClass('active')

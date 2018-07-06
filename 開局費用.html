@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta content="yes" name="apple-mobile-web-app-capable">
+		<meta name="viewport" content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;">
+		<title>開局費用</title>
+		<!-- Bootstrap -->
+		<link href="lib/bootstrap-3.3.7/css/bootstrap.min.css" rel="stylesheet">
+		<link href="lib/Swiper/css/swiper.min.css" rel="stylesheet">
+		<link href="lib/select2/dist/css/select2.min.css" rel="stylesheet">
+		<link href="lib/video6.6.22.js/css/video-js.min.css" rel="stylesheet">
+		<link href="css/animations.css" rel="stylesheet">
+		<link href="css/style.css?id=932" rel="stylesheet">
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		<!--<script src="lib/videojs/videojs-ie8.min.js"></script>-->
+		<script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      	<script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+	</head>
+
+	<body style="background-color: #f9f9f9;">
+
+		<div class="product-box">
+			<div class="content create-activity" style="background: none;">
+				<form>
+                    <div class="form-group title flex">
+                        <span class="active">
+							費用支出
+							<em>場地費、餐飲費、旅費等...支出費用</em>
+						</span>
+                    </div>
+                    <div class="form-group radio-box flex">
+						<input checked type="radio" name="type" id="id1">
+                        <label for="id1" class="active">我請客</label>
+                    </div>
+                    <div class="form-group radio-box flex">
+						<input type="radio" name="type" id="id2">
+						<label for="id2" class="active">各付各的</label>
+                    </div>
+                    <div class="form-group title flex">
+                        <span class="active">
+							活動禮物
+							<em>完成活動即可獲得禮物，若一方取消則歸還點數。</em>
+						</span>
+                    </div>
+                    <div class="form-group gift-radio-box radio-box flex">
+                        <input data-index="0" checked type="radio" name="type1" id="id3">
+                        <label for="id3" class="flex active">
+                            我自己贈送禮物
+                            <a href="javascript:;" class="select-gift">請選擇禮物</a>
+                        </label>
+                    </div>
+                    <div class="form-group gift-radio-box radio-box flex">
+                        <input data-index="1" type="radio" name="type1" id="id4">
+                        <label for="id4" class="flex active">
+                            向參加者收取禮物
+                            <a  href="javascript:;" class="select-gift">請選擇禮物</a>
+                        </label>
+                    </div>
+                    <div class="form-group gift-radio-box radio-box flex">
+                        <input data-index="2" type="radio" name="type1" id="id5">
+                        <label for="id5" class="flex active">
+                            雙方無需支付禮物
+                        </label>
+                    </div>
+
+                    <div class="tips-box">
+                        <p style="display: block;">贈送誠意給對方，讓更多人有興趣加入。</p>
+                        <p>讓對方送禮物給你，獲得與你相處的機會。</p>
+                        <p></p>
+                    </div>
+
+                    <button id="submit" style="margin-top: 50px;" type="submit">確定</button>
+				</form>
+                <div class="top-tips animated">
+                    資料尚未編輯完全。
+                </div>
+			</div>
+		</div>
+
+        <!--礼物列表-->
+        <div class="gift-modal">
+            <div class="gift-modal-mask"></div>
+            <div class="gift-modal-content">
+                <div class="head flex">
+                    <span>取消</span>
+                    <p>禮物每人一份</p>
+                    <span data-type="ok">確定</span>
+                </div>
+                <div class="gift-list flex">
+                    <div class="gift active">
+                        <input checked type="radio" name="gift" id="m300">
+                        <label for="m300">
+                            <img src="images/stickers/ic2-rose.png" alt="">
+                            <span>130</span>
+                        </label>
+                    </div>
+                    <div class="gift">
+                        <input type="radio" name="gift" id="m140">
+                        <label for="m140">
+                            <img src="images/stickers/ic5-wine.png" alt="">
+                            <span>140</span>
+                        </label>
+                    </div>
+                    <div class="gift">
+                        <input type="radio" name="gift" id="m200">
+                        <label for="m200">
+                            <img src="images/stickers/ic9-diamond.png" alt="">
+                            <span>200</span>
+                        </label>
+                    </div>
+                    <div class="gift">
+                        <input type="radio" name="gift" id="m400">
+                        <label for="m400">
+                            <img src="images/stickers/ic6-champane.png" alt="">
+                            <span>400</span>
+                        </label>
+                    </div>
+                    <div class="gift">
+                        <input type="radio" name="gift" id="m530">
+                        <label for="m530">
+                            <img src="images/stickers/ic12-castle.png" alt="">
+                            <span>530</span>
+                        </label>
+                    </div>
+                    <div class="gift">
+                        <input type="radio" name="gift" id="m640">
+                        <label for="m640">
+                            <img src="images/stickers/ic11-car.png" alt="">
+                            <span>640</span>
+                        </label>
+                    </div>
+                    <div class="gift">
+                        <input type="radio" name="gift" id="m800">
+                        <label for="m800">
+                            <img src="images/stickers/ic8-bag.png" alt="">
+                            <span>800</span>
+                        </label>
+                    </div>
+                    <div class="gift">
+                        <input type="radio" name="gift" id="m900">
+                        <label for="m900">
+                            <img src="images/stickers/ic1-lolipop.png" alt="">
+                            <span>900</span>
+                        </label>
+                    </div>
+                    <div class="gift">
+                        <input type="radio" name="gift" id="m1000">
+                        <label for="m1000">
+                            <img src="images/stickers/ic3-chocolate.png" alt="">
+                            <span>1000</span>
+                        </label>
+                    </div>
+                    <div class="gift">
+                        <input type="radio" name="gift" id="m1200">
+                        <label for="m1200">
+                            <img src="images/stickers/ic10-ring.png" alt="">
+                            <span>1200</span>
+                        </label>
+                    </div>
+                    <div class="gift">
+                        <input type="radio" name="gift" id="m1500">
+                        <label for="m1500">
+                            <img src="images/stickers/ic4-cake.png" alt="">
+                            <span>1500</span>
+                        </label>
+                    </div>
+                    <div class="gift">
+                        <input type="radio" name="gift" id="m2000">
+                        <label for="m2000">
+                            <img src="images/stickers/ic7-lipstick.png" alt="">
+                            <span>2000</span>
+                        </label>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+		<script src="js/jquery.min.js"></script>
+		<script src="lib/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+		<script src="lib/Swiper/js/swiper.min.js"></script>
+		<script src="lib/icheck-1.x/icheck.min.js"></script>
+		<script src="lib/select2/dist/js/select2.min.js"></script>
+		<script src="js/clipboard.min.js"></script>
+		<script src="lib/video6.6.22.js/js/video.min.js"></script>
+		<script src="js/js.js"></script>
+	</body>
+
+</html>

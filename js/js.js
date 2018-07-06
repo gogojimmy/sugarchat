@@ -549,6 +549,110 @@ $(function(){
     $(this).parent().siblings('li').children('.info').slideUp()
   })
 
+    //20180704 参与者页面开始
+    // tips1 show
+    $(".see-activity .out").click(function(){
+        $('.see-activity .top-tips').show().removeClass('slideOutUp').addClass('slideInDown')
+        setTimeout(function(){
+            $('.see-activity .top-tips').removeClass('slideInDown').addClass('slideOutUp')
+        }, 2000)
+    })
+
+    // show tips
+    $(".tab-content button.complete").click(function(){
+        $('.see-activity .top-complete-tips').show().removeClass('slideOutUp').addClass('slideInDown')
+        setTimeout(function(){
+            $('.see-activity .top-complete-tips').removeClass('slideInDown').addClass('slideOutUp')
+        }, 2000)
+    })
+    // show bottom tab
+    $(".footer-tab-bar .nav-tabs li").click(function(){
+        if($(".footer-tab-bar-mask").css('display') == 'none'){
+            $(".footer-tab-bar-mask").show()
+            $(".footer-tab-bar .tab-container").animate({bottom: '0px'}, 300)
+        }
+    })
+    // hide botton tab
+    $(".footer-tab-bar-mask").click(function(){
+        $(".footer-tab-bar .tab-container").animate({bottom: '-375px'}, 300, function(){
+            $(".footer-tab-bar-mask").hide()
+        })
+    })
+
+    // delete
+    $("#wait").on('click', 'button.delete', function(){
+        $(this).parent().parent().remove()
+    })
+
+    // delete
+    var that
+    $("#complete").on('click', 'button.delete', function(){
+        that = $(this)
+        $("#removeModal").modal('show')
+    })
+    $("#removeModal .remove").click(function(){
+        $("#removeModal").modal('hide')
+        if(that){
+            that.parent().parent().remove()
+        }
+    })
+
+    // show action
+    $(".see-activity .head .top .menu").click(function(){
+        $(".share-modal").show()
+        $(".share-modal .share-modal-content").animate({bottom: '0px'}, 300)
+    })
+    $(".share-modal-content button").click(function(){
+        $(".share-modal .share-modal-content").animate({bottom: '-200px'}, 300, function(){
+            $(".share-modal").hide()
+        })
+    })
+
+    // 计算剩余字数
+    $(".ad-title").on('keyup keypress', function(){
+        var val = $(this).val()
+        if(val.length >= 30){
+            $(this).val(val.substr(0,29))
+        }
+        $(this).siblings('em').text(val.length + '/30')
+    })
+
+    // tips1 show
+    $("#submit").click(function(event){
+        $('.create-activity .top-tips').show().removeClass('slideOutUp').addClass('slideInDown')
+        setTimeout(function(){
+            $('.create-activity .top-tips').removeClass('slideInDown').addClass('slideOutUp')
+        }, 2000)
+        return false
+    })
+    // gift-radio-box change
+    $(".gift-radio-box").on('click', 'input', function(){
+        var index = $(this).data('index')
+        $(".tips-box p").hide()
+        $(".tips-box p").eq(index).show()
+    })
+    // show gift
+    $(".form-group label .select-gift").click(function(){
+        $(".gift-modal").show()
+        $(".gift-modal-content").animate({bottom: '0px'},300)
+    })
+    // hide gift
+    $(".gift-modal-content .head span").click(function(){
+        $(".gift-modal-content").animate({bottom: '-400px'},300, function(){
+            $(".gift-modal").hide()
+        })
+        // 选中的礼物
+        var gift = {}
+        if($(this).data('type') == 'ok'){
+            var label = $(".gift").find('input:checked').siblings('label')
+            gift.img = label.find('img').attr('src')
+            gift.money = label.find('span').text()
+            console.log(gift)
+        }
+    })
+
+    //20180704 参与者页面结束
+
 })
 
 // 计算chat-content的高度和重置滚动条

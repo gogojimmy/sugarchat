@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta content="yes" name="apple-mobile-web-app-capable">
+		<meta name="viewport" content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;">
+		<title>建立活動</title>
+		<!-- Bootstrap -->
+		<link href="lib/bootstrap-3.3.7/css/bootstrap.min.css" rel="stylesheet">
+		<link href="lib/Swiper/css/swiper.min.css" rel="stylesheet">
+		<link href="lib/select2/dist/css/select2.min.css" rel="stylesheet">
+        <link href="lib/video6.6.22.js/css/video-js.min.css" rel="stylesheet">
+        <link href="lib/Mobiscroll/css/mobiscroll.custom-3.0.0-beta6.min.css" rel="stylesheet">
+		<link href="css/animations.css" rel="stylesheet">
+		<link href="css/style.css?id=932" rel="stylesheet">
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		<!--<script src="lib/videojs/videojs-ie8.min.js"></script>-->
+		<script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      	<script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+	</head>
+
+	<body>
+
+		<div class="product-box">
+			<div class="content create-activity">
+				<form>
+
+                    <!--活動分類未选-->
+					<div class="form-group flex" id="selectType">
+                        <img class="icon" src="images/icon/ic-List@2x.png" alt="">
+                        <span>活動分類</span>
+                        <i></i>
+                    </div>
+
+                    <!--活動分類选中-->
+                    <div class="form-group flex" id="selectType">
+                        <img class="icon" src="images/icon/ic-KTV@2x.png" alt="">
+                        <span class="active">唱歌</span>
+                        <i></i>
+                    </div>
+
+                    <!--error 错误-->
+                    <div class="form-group error flex">
+                        <input class="ad-title" type="text" placeholder="給你的活動一個簡單的標題">
+                        <em>0/30</em>
+                    </div>
+
+                    <!--活時間未选-->
+                    <div class="form-group flex">
+                        <img class="icon" src="images/icon/ic-Time@2x.png" alt="">
+                        <input id="time" type="text" placeholder="時間">
+                        <i></i>
+                    </div>
+
+                    <!--活時間选中-->
+                    <div class="form-group flex">
+                        <img class="icon" src="images/icon/ic-Time@2x.png" alt="">
+                        <span class="active">2018/06/28 08:00開始</span>
+                        <i></i>
+                    </div>
+
+                    <!--地點未选-->
+                    <div class="form-group flex">
+                        <img class="icon" src="images/icon/ic-Place@2x.png" alt="">
+                        <input  type="text" placeholder="地點">
+                        <i></i>
+                    </div>
+
+                    <!--地點选中-->
+                    <div class="form-group flex">
+                        <img class="icon" src="images/icon/ic-Place@2x.png" alt="">
+                        <span class="active">
+                            陳根找茶 <br>
+                            台北市 信義區 莊敬路391巷7號
+                        </span>
+                        <i></i>
+                    </div>
+
+                    <!--要求未选-->
+                    <div class="form-group flex">
+                        <img class="icon" src="images/icon/ic-Ticket@2x.png" alt="">
+                        <input id="sex"  type="text" placeholder="要求">
+                        <i></i>
+                    </div>
+
+                    <!--要求选中-->
+                    <div class="form-group flex">
+                        <img class="icon" src="images/icon/ic-Ticket@2x.png" alt="">
+                        <span class="active">女性 2人</span>
+                        <i></i>
+                    </div>
+
+                    <!--費用未选-->
+                    <div class="form-group flex">
+                        <img class="icon" src="images/icon/ic-Gift@2x.png" alt="">
+                        <input  type="text" placeholder="費用">
+                        <i></i>
+                    </div>
+
+                    <!--費用已选-->
+                    <div class="form-group flex slected">
+                        <div class="flex">
+                            <div class="flex">
+                                <img class="icon" src="images/icon/ic-Coin@2x.png" alt="">
+                                <span class="active">費用各付各的</span>
+                            </div>
+                            <div class="flex">
+                                <img class="icon" src="images/icon/ic-Gift@2x.png" alt="">
+                                <span class="active">我贈送每人ㄧ份玫瑰</span>
+                            </div>
+                            <div class="flex">
+                                儲值點數不足 <a href="">儲值</a>
+                            </div>
+                        </div>
+                        <i></i>
+                    </div>
+                    <div class="form-group flex">
+                        <input  type="text" placeholder="更詳細說明活動內容">
+                    </div>
+                    <button type="submit">發佈活動</button>
+				</form>
+			</div>
+		</div>
+
+        <!--活动分类-->
+        <!--<div class="activity-type animated">-->
+            <!--<div class="activity-type-content flex">-->
+                <!--<a href="javascript:;">-->
+                    <!--<img src="images/icon/ic-Drink@2x.png" alt="">-->
+                    <!--<p>喝一杯</p>-->
+                <!--</a>-->
+                <!--<a href="javascript:;">-->
+                    <!--<img src="images/icon/ic-Restaurant@2x.png" alt="">-->
+                    <!--<p>吃美食</p>-->
+                <!--</a>-->
+                <!--<a href="javascript:;">-->
+                    <!--<img src="images/icon/ic-Travel@2x.png" alt="">-->
+                    <!--<p>旅行</p>-->
+                <!--</a>-->
+                <!--<a href="javascript:;">-->
+                    <!--<img src="images/icon/ic-Movie@2x.png" alt="">-->
+                    <!--<p>看電影</p>-->
+                <!--</a>-->
+                <!--<a href="javascript:;">-->
+                    <!--<img src="images/icon/ic-KTV@2x.png" alt="">-->
+                    <!--<p>唱歌</p>-->
+                <!--</a>-->
+                <!--<a href="javascript:;">-->
+                    <!--<img src="images/icon/ic-Swim@2x.png" alt="">-->
+                    <!--<p>運動</p>-->
+                <!--</a>-->
+                <!--<a href="javascript:;">-->
+                    <!--<img src="images/icon/ic-Poker@2x.png" alt="">-->
+                    <!--<p>打遊戲</p>-->
+                <!--</a>-->
+                <!--<a href="javascript:;">-->
+                    <!--<img src="images/icon/ic-Camera@2x.png" alt="">-->
+                    <!--<p>攝影約拍</p>-->
+                <!--</a>-->
+                <!--<a href="javascript:;">-->
+                    <!--<img src="images/icon/ic-Lesson@2x.png" alt="">-->
+                    <!--<p>課程參與</p>-->
+                <!--</a>-->
+                <!--<a href="javascript:;">-->
+                    <!--<img src="images/icon/ic-Model@2x.png" alt="">-->
+                    <!--<p>拍網美照</p>-->
+                <!--</a>-->
+                <!--<a href="javascript:;">-->
+                    <!--<img src="images/icon/ic-Invitation@2x.png" alt="">-->
+                    <!--<p>活動出席</p>-->
+                <!--</a>-->
+                <!--<a href="javascript:;">-->
+                    <!--<img src="images/icon/ic-Tv@2x.png" alt="">-->
+                    <!--<p>廣告邀約</p>-->
+                <!--</a>-->
+            <!--</div>-->
+        <!--</div>-->
+
+        <!--時間選單-一般-->
+        <div id="modal-box1" class="select-modal">
+            <div class="select-modal-mask"></div>
+            <div class="select-modal-content">
+                <div class="head flex">
+                    <span class="">取消</span>
+                    <span data-type="ok">確定</span>
+                </div>
+                <div class="start-date flex;">
+                    <div class="title">開始日期</div>
+                    <div class="border-top"></div>
+                    <div class="border-bottom"></div>
+                    <input id="start-date" type="hidden">
+                </div>
+                <div class="start-date flex;">
+                    <div class="title">结束日期</div>
+                    <div class="border-top"></div>
+                    <div class="border-bottom"></div>
+                    <input id="end-date" type="hidden">
+                </div>
+            </div>
+        </div>
+
+        <!--時間選單-一般-->
+        <div id="modal-box2" class="select-modal">
+            <div class="select-modal-mask"></div>
+            <div class="select-modal-content">
+                <div class="head flex">
+                    <span class="">取消</span>
+                    <span data-type="ok">確定</span>
+                </div>
+                <div class="start-date flex;">
+                    <div class="title">日期</div>
+                    <div class="border-top"></div>
+                    <div class="border-bottom"></div>
+                    <input id="date" type="hidden">
+                </div>
+                <div class="time flex">
+                    <div>
+                        <div class="title">開始时间</div>
+                        <div class="border-top"></div>
+                        <div class="border-bottom"></div>
+                        <input id="start-time" type="hidden">
+                    </div>
+                    <div>
+                        <div class="title">结束时间</div>
+                        <div class="border-top"></div>
+                        <div class="border-bottom"></div>
+                        <input id="end-time" type="hidden">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--要求-->
+        <div id="modal-box3" class="select-modal">
+            <div class="select-modal-mask"></div>
+            <div class="select-modal-content"  style="height: 373px;">
+                <div class="head flex">
+                    <span class="">取消</span>
+                    <span data-type="ok">確定</span>
+                </div>
+                <div class="sex flex;">
+                    <div class="title">選擇性別</div>
+                    <div class="flex">
+                        <input checked name="sex" id="s2" value="2" type="radio">
+                        <label for="s2">女性</label>
+                        <input name="sex" id="s1" value="1" type="radio">
+                        <label for="s1">男性</label>
+                        <input name="sex" id="s0" value="0" type="radio">
+                        <label for="s0">不限</label>
+                    </div>
+                </div>
+                <div class="people">
+                    <div class="title">選擇性別</div>
+                    <select name="people" id="selectPeople">
+                        <option value="1">1</option>
+                        <option selected value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                    <span class="b">人</span>
+                    <div class="border-top"></div>
+                    <div class="border-bottom"></div>
+                </div>
+            </div>
+        </div>
+
+
+		<script src="js/jquery.min.js"></script>
+		<script src="lib/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+		<script src="lib/Swiper/js/swiper.min.js"></script>
+		<script src="lib/icheck-1.x/icheck.min.js"></script>
+		<script src="lib/select2/dist/js/select2.min.js"></script>
+		<script src="js/clipboard.min.js"></script>
+        <script src="lib/video6.6.22.js/js/video.min.js"></script>
+        <script src="lib/Mobiscroll/js/mobiscroll.custom-3.0.0-beta6.min.js"></script>
+		<script src="js/js.js"></script>
+        <script>
+            $(function(){
+                // // 打开选择分类
+                // $("#selectType").click(function(){
+                //     $(".activity-type").removeClass('slideOutDown').addClass('slideInUp').show()
+                // })
+                // // 选择分类
+                // $(".activity-type").on('click', 'a', function(){
+                //     var icon = $(this).find('img').attr('src')
+                //     var title = $(this).find('p').text()
+                //     $("#selectType").find('img').attr('src', icon)
+                //     $("#selectType").find('span').addClass('active').text(title)
+                //     $(".activity-type").removeClass('slideInUp').addClass('slideOutDown').hide()
+                // })
+
+                // 时控件https://demo.mobiscroll.com/jquery/datetime/#
+                $('#start-date,#end-date, #date').mobiscroll().date({
+                    theme: 'material',
+                    lang: 'zh',
+                    display: 'inline',
+                    select: 'multiple',
+                    controls: ['calendar'],
+                    calendarHeight: 100
+                });
+                $('#start-time,#end-time').mobiscroll().time({
+                    theme: 'material',
+                    lang: 'zh',
+                    display: 'inline',
+                    select: 'multiple',
+                    controls: ['calendar']
+                });
+                $('#selectPeople').mobiscroll().select({
+                    theme: 'material',
+                    lang: 'zh',
+                    display: 'inline',
+                    controls: ['calendar']
+                });
+
+                // 開始日期 - 结束日期 show
+                $("#time").focus(function(){
+                    $(".select-modal").show();
+                    $(".select-modal-content").animate({bottom: '0px'}, 300)
+                })
+
+                // 開始日期 - 结束日期
+                $("#modal-box1 .head span").click(function () {
+                    $("#modal-box1 .select-modal-content").animate({bottom: '-450px'}, 300, function(){
+                        $("#modal-box1").hide();
+                    })
+                    if($(this).data('type') == 'ok'){
+                        let startDate = $("#start-date").val()
+                        let endDate = $("#end-date").val()
+                        // 得到的值
+                        console.log(startDate, endDate)
+                    }
+                })
+
+                // 開始时间 - 结束时间
+                $("#modal-box2 .head span").click(function () {
+                    $("#modal-box2  .select-modal-content").animate({bottom: '-450px'}, 300, function(){
+                    $("#modal-box2 ").hide();
+                    })
+                    if($(this).data('type') == 'ok'){
+                        let starTime = $("#start-time").val()
+                        let endTime = $("#end-time").val()
+                        let date = $("#date").val()
+                        // 得到的值
+                        console.log(starTime, endTime, date)
+                    }
+                })
+
+                // 選擇性別 show
+                $("#sex").focus(function(){
+                    $("#modal-box3").show();
+                    $(".select-modal-content").animate({bottom: '0px'}, 300)
+                })
+                // 開始时间 - 结束时间
+                $("#modal-box3 .head span").click(function () {
+                    $("#modal-box3  .select-modal-content").animate({bottom: '-450px'}, 300, function(){
+                        $("#modal-box3 ").hide();
+                    })
+                    if($(this).data('type') == 'ok'){
+                        let sex = ['不限', '男性', '女性'][$("#modal-box3 .sex input:checked").val()]
+                        let selectPeople = $("#selectPeople").val() + '人'
+
+                        // 得到的值
+                        console.log(sex + selectPeople)
+                    }
+                })
+            })
+        </script>
+	</body>
+
+</html>

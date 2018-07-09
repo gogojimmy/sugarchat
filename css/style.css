@@ -5,6 +5,25 @@ body,html{overflow: hidden; overflow-y: auto;}
 /**::-webkit-scrollbar-thumb{border-radius: 10px; background-color: #ccc;  }*/
 a{text-decoration: none !important;}
 button,input{outline: none;}
+input::-webkit-input-placeholder{color: #B9B9B9;}
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+    /* WebKit browsers */
+    color: #B9B9B9;
+}
+input:-moz-placeholder, textarea:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #B9B9B9;
+}
+input::-moz-placeholder, textarea::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #B9B9B9;
+}
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    color: #B9B9B9;
+}
+input::placeholder{color: #B9B9B9;}
+
 /*product-box*/
 .product-box{width:375px; height:100%;overflow: hidden; margin: 0 auto;}
 .product-box .content{background-color: #fff;height:100%; width:auto; overflow: hidden; padding-bottom:50px;-webkit-overflow-scrolling: touch; position:relative;}
@@ -1106,10 +1125,10 @@ nav a img{vertical-align: middle;align-self: center;}
 /*activity-footer*/
 .activity-footer{padding:0; justify-content: space-around;}
 .activity-footer a{margin-right: 0;}
-.activity-footer .activity{background: url("../images/icon/activity-icon@2x.png") center center no-repeat; background-size: 27px 27px; }
-.activity-footer .activity.active,.activity-footer .activity:active{background: url("../images/icon/activity-icon-active@2x.png") center center no-repeat; background-size: 27px 27px; }
-.activity-footer .notice{background: url("../images/icon/ic-notification@2x.png") center center no-repeat; background-size: 27px 27px; }
-.activity-footer .notice.active,.activity-footer .notice:active{background: url("../images/icon/ic-notification@2x.png") center center no-repeat; background-size: 27px 27px; }
+.activity-footer .activity{background: url("../images/icon/activity-icon@2x.png") center center no-repeat; background-size: 25px 25px; }
+.activity-footer .activity.active,.activity-footer .activity:active{background: url("../images/icon/activity-icon-active@2x.png") center center no-repeat; background-size: 25px 25px; }
+.activity-footer .notice{background: url("../images/icon/ic-notification@2x.png") center center no-repeat; background-size: 25px 25px; }
+.activity-footer .notice.active,.activity-footer .notice:active{background: url("../images/icon/ic-notification@2x.png") center center no-repeat; background-size: 25px 25px; }
 
 /*activity-box*/
 .activity-box{background: none!important;}

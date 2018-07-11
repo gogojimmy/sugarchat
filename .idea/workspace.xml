@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list id="0c21cf16-a53a-4990-bd85-08abd7f60caf" name="Revert: add IScroll plugin" comment="" />
-    <list default="true" id="13fc7e30-3c2a-4013-a602-5b2882e6bb25" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/參加者 查看活動.html" beforeDir="false" afterPath="$PROJECT_DIR$/參加者 查看活動.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/活动列表.html" beforeDir="false" afterPath="$PROJECT_DIR$/活动列表.html" afterDir="false" />
-    </list>
+    <list default="true" id="13fc7e30-3c2a-4013-a602-5b2882e6bb25" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,8 +15,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="1129" column="126" selection-start-line="1129" selection-start-column="126" selection-end-line="1129" selection-end-column="126" />
+            <state relative-caret-position="23">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
@@ -237,16 +232,6 @@
               <item name="sugarchat1" type="b2602c69:ProjectViewProjectNode" />
               <item name="sugarchat1" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="sugarchat1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sugarchat1" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sugarchat1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sugarchat1" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -386,7 +371,7 @@
       <workItem from="1530892056122" duration="15000" />
       <workItem from="1531137792752" duration="11000" />
       <workItem from="1531137817751" duration="3668000" />
-      <workItem from="1531149132529" duration="1346000" />
+      <workItem from="1531149132529" duration="1834000" />
     </task>
     <task id="LOCAL-00001" summary="The first version！">
       <created>1520846721463</created>
@@ -717,24 +702,30 @@
       <option name="project" value="LOCAL" />
       <updated>1529213678378</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="update 0709">
+      <created>1531151190796</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1531151190796</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="269817000" />
+    <option name="totallyTimeSpent" value="270305000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="131" y="23" width="1545" height="1004" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24540682" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24540682" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50190115" side_tool="true" weight="0.6608123" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49809885" weight="0.415656" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.33627343" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.53362733" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Thumbnails" order="11" weight="0.32930845" />
@@ -808,7 +799,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="The first version！" />
     <MESSAGE value="push new code!" />
     <MESSAGE value="btn toggle" />
     <MESSAGE value="add IScroll plugin" />
@@ -833,7 +823,8 @@
     <MESSAGE value="添" />
     <MESSAGE value="new page" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'" />
+    <MESSAGE value="update 0709" />
+    <option name="LAST_COMMIT_MESSAGE" value="update 0709" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1105,8 +1096,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="1129" column="126" selection-start-line="1129" selection-start-column="126" selection-end-line="1129" selection-end-column="126" />
+        <state relative-caret-position="23">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>

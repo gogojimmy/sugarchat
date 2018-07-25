@@ -1138,7 +1138,7 @@ nav a img{vertical-align: middle;align-self: center;}
 .activity-box .first-tab>li.active>a{height: 36px;line-height: 40px;}
 .activity-box .first-tab>li.active{border-bottom:solid 1.5px #292929;}
 .activity-box .first-tab>li.active>a{border:0;color: #292929;}
-.activity-box .tab-content{padding: 15px 10px; box-sizing:border-box;}
+.activity-box .tab-content{padding: 20px 10px; box-sizing:border-box;}
 .activity-box .tab-content #home .status{ color: #292929;font-weight: 500;font-size: 13px;margin-bottom: 10px;}
 .activity-box .tab-content .list{padding:0; margin:0;list-style: none;}
 .activity-box .tab-content .list .item{margin-bottom: 20px;}
@@ -1158,7 +1158,7 @@ nav a img{vertical-align: middle;align-self: center;}
 .activity-box .tab-content .list .item .banner img{width: 100%;height: 100%;}
 .activity-box .tab-content .list .item .foot{height: 60px; position: relative;padding-left: 66px; box-sizing: border-box; justify-content: space-between;padding-right:15px;}
 .activity-box .tab-content .list .item .foot .touxiang{width: 36px;height:36px;margin-right: 15px;align-self: center; position: absolute; left: 15px; top: 5px;}
-.activity-box .tab-content .list .item .foot .touxiang .img-circle{width: 36px;height:36px;}
+.activity-box .tab-content .list .item .foot .touxiang .img-circle{width: 38px;height:38px;}
 .activity-box .tab-content .list .item .foot .touxiang .vip{position: absolute;bottom:0; right: -10px;width: 16px;}
 .activity-box .tab-content .list .item .foot span{color: #292929;font-size: 14px;font-weight: 500;margin-right: 10px;margin-top:7px;}
 .activity-box .tab-content .list .item .foot span em{font-style: normal;color: #9b9b9b; font-size: 12px;font-weight: 500;}
@@ -1174,7 +1174,7 @@ nav a img{vertical-align: middle;align-self: center;}
 .activity-box  .no-data p:first-of-type{margin-top: 34px;font-size: 15px;}
 
 .activity-box  #participation{}
-.activity-box #participation .tab-content{padding: 25px 0;}
+.activity-box #participation .tab-content{padding: 20px 0;}
 .participation-tab{border:0!important;height: 26px!important;justify-content: space-around;padding: 0 50px; box-sizing: border-box;}
 .participation-tab li{width: 64px;height: 26px;border-radius: 13px;background-color: #ededed;border: solid 1px #dddddd; list-style: none;}
 .participation-tab li a{line-height: 26px; color: #b9b9b9;font-size: 12px;height: 26px;padding:0;text-align: center;background: none;border:0!important;}
@@ -1194,11 +1194,11 @@ nav a img{vertical-align: middle;align-self: center;}
 .see-activity .banner img{width: 100%;height: 100%;}
 .see-activity .head{width: 375px;border-bottom: solid 1px #ededed;margin-bottom: 15px;}
 .see-activity .head .top{padding: 20px; box-sizing: border-box;}
-.see-activity .head .top .date{width: 60px;height: 60px;border-radius: 3px;background-color: #ffffff;border: solid 1px #dedddf;border-top: solid 8px #dedddf;color: #e7427a; flex-direction: column; text-align: center;}
+.see-activity .head .top .date{width: 60px;height: 60px;border-radius: 3px;flex-shrink: 0;background-color: #ffffff;border: solid 1px #dedddf;border-top: solid 8px #dedddf;color: #e7427a; flex-direction: column; text-align: center;}
 .see-activity .head .top .date span:first-child{font-weight: 500;font-size: 13px;margin-top:3px;}
 .see-activity .head .top .date span:last-child{font-weight: 500; font-size: 22px;}
 .see-activity .head .top .tit{color: #292929;font-weight: 500;font-size: 20px;margin-left: 18px; flex-grow: 1;padding-right:20px;}
-.see-activity .head .top .tit p{color: #4a4a4a;font-size: 13px;font-weight: normal;margin-bottom:0;}
+.see-activity .head .top .tit p{color: #4a4a4a;font-size: 13px;font-weight: normal;margin-bottom:0;margin-top:2px;}
 .see-activity .head .top .menu{width: 18px;}
 .see-activity .head .user{padding: 0 20px 13px; box-sizing: border-box;}
 .see-activity .head .user div:first-child{margin-right: 8px;color: #292929;font-size: 13px;padding-top:3px;}
@@ -1225,7 +1225,7 @@ nav a img{vertical-align: middle;align-self: center;}
 .see-activity .desc h4{font-size: 13px;font-weight: 500;color: #292929;margin:0;margin-bottom:10px;}
 .see-activity .desc p{color: #292929;font-size: 14px;margin-bottom: 0;}
 .see-activity .footer-bar{width: 375px;height: 70px;background-color: #ffffff;box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.17); position: fixed; bottom:0;padding: 0 20px; box-sizing: border-box;}
-.see-activity .footer-bar .gift{width: 23px;height: 23px; align-self: center;}
+.see-activity .footer-bar .gift{width: 37px;height: 37px; align-self: center;}
 .see-activity .footer-bar .money{flex-grow: 1; align-self: center;flex-direction: column;padding-top: 10px;box-sizing: border-box;padding-left: 10px;}
 .see-activity .footer-bar .money span{padding-left: 18px;font-style: normal; position: relative;margin-left:10px;}
 .see-activity .footer-bar .money span::before{display: block;width:14px; height:14px; background: url("../images/icon-small-coin@2x.png") center center no-repeat; content: ''; background-size: 14px 14px; position: absolute;left:0px;top:3px;}
@@ -1292,7 +1292,7 @@ nav a img{vertical-align: middle;align-self: center;}
 
 
 /*activity-type*/
-.activity-type{padding: 15px; box-sizing: border-box;position: fixed; background-color: #fff; top:0; left:0; right:0; margin: 0 auto; display: none;}
+.activity-type{padding: 15px; box-sizing: border-box; background-color: #fff;margin: 0 auto; display: none;}
 .activity-type-content{ justify-content: space-between; flex-wrap: wrap; }
 .activity-type a{width: 165px;height: 93px; text-decoration: none;border-radius: 20px;background-color: #f9f9f9;border: solid 1px #ededed; margin-bottom: 15px;text-align: center;color: #4a4a4a;font-size: 16px;font-weight: 500;padding-top: 17px; box-sizing: border-box;}
 .activity-type a:active{background-color: #f2f2f2;}

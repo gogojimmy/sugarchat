@@ -21,819 +21,830 @@
       <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+		<style>
+			html{overflow: hidden;}
+			body{overflow: hidden;height: 100vh; background-color: #fff; flex-direction: column;}
+			#chat{flex-grow:1;}
+		</style>
+		<script>
+			window.onload = function(){
+			    var interval
+				$("#textarea").focus(function(){
+                    interval = setInterval(function(){
+                        document.body.scrollTop = document.body.scrollHeight;
+					},100)
+				})
+                $("#textarea").blur(function(){
+                    clearInterval(interval)
+                })
+			}
+		</script>
 	</head>
 
-	<body>
-
-		<div class="product-box ">
-			<div class="content" style="padding-bottom:0;overflow: hidden;">
-				<div class="chat-content">
-					<div class="warning hidden">OP幣餘額不足，請儲值</div>
-					<div class="invitation hidden">
-						<h3>Vincent Hsu 贈送禮物給 Cherie Lin</h3>
-						<p>接受禮物後，即可開啟雙方一對一聊天</p>
-						<button class="btn btn-yes">接受</button>
-						<button class="btn btn-deny">拒絕</button>
+	<body class="flex">
+		<div class="chat-content-warning hidden">OP幣餘額不足，請儲值</div>
+		<div class="chat-content-invitation hidden">
+			<h3>Vincent Hsu 贈送禮物給 Cherie Lin</h3>
+			<p>接受禮物後，即可開啟雙方一對一聊天</p>
+			<button class="btn btn-yes">接受</button>
+			<button class="btn btn-deny">拒絕</button>
+		</div>
+		<div id="chat" class="chat-desc">
+			<ul>
+				<li id="msg-1000" class="gift he">
+					<img src="images/chat-tx.png" class="img-circle" alt="">
+					<div class="gift-content">
+						<img src="images/stickers/ic2-rose.png" alt="">
 					</div>
-					<div id="chat" class="chat-desc">
-						<ul>
-							<li id="msg-1000" class="gift he">
-								<img src="images/chat-tx.png" class="img-circle" alt="">
-								<div class="gift-content">
-									<img src="images/stickers/ic2-rose.png" alt="">
-								</div>
-								<div class="info">
-									Vincent Hsu
-									<div>贈送 <span>130</span></div>
-								</div>
-							</li>
-							<li id="msg-1001" class="gift me">
-								<div class="gift-content">
-									<img src="images/stickers/ic2-rose.png" alt="">
-								</div>
-								<div class="info">
-									Vincent Hsu
-									<div>贈送 <span>130</span></div>
-								</div>
-							</li>
-							<li id="msg-1002" class="invitation-tips">
-								<div class="info">
-									<h3>Cherie Lin 接受聊天邀請</h3>
-									<p>禮物點數已贈送給 Cherie Lin</p>
-								</div>
-								<span class="date">2018/03/06</span>
-							</li>
-							<li id="msg-1003" class="invitation-tips">
-								<div class="info">
-									<h3>Cherie Lin 超過48小時未回應聊天邀請</h3>
-									<p>禮物點數已贈送給 Cherie Lin</p>
-								</div>
-								<span class="date">2018/03/06</span>
-							</li>
-							<li id="msg-1004" class="invitation-tips">
-								<div class="info">
-									<h3>Cherie Lin 拒絕聊天邀請</h3>
-									<p>禮物點數已贈送給 Cherie Lin</p>
-								</div>
-								<span class="date">2018/03/06</span>
-							</li>
-							<li id="msg-1005" class="me">
-								<div class="message">
-									你好
-								</div>
-							</li>
-							<li id="msg-1006" class="he">
-								<img src="images/chat-tx.png" class="img-circle" alt="">
-								<div class="message">
-									你好
-								</div>
-							</li>
-							<li id="msg-1007" class="me">
-								<div class="message">
-									你好可愛
-								</div>
-							</li>
-							<li id="msg-1008" class="me">
-								<div class="message">
-									給你10萬，<br>
-									任我擺佈好嗎？
-								</div>
-							</li>
-							<li id="msg-1009" class="he">
-								<img src="images/chat-tx.png" class="img-circle" alt="">
-								<div class="message">
-									是吗？
-								</div>
-							</li>
-							<li id="msg-1010" class="me">
-								<div class="message">
-									你好可愛
-								</div>
-							</li>
-							<li id="msg-1011" class="me">
-								<div class="message">
-									你好可愛
-									<a href="./images/Rectangle2Copy18.png" class="js-smartphoto" data-caption="bear1111" data-id="bear1">
-										<img src="images/Rectangle2Copy18.png" width="100"/>
-									</a>
-								</div>
-							</li>
-							<li id="msg-1012" class="he">
-								<img src="images/chat-tx.png" class="img-circle" alt="">
-								<div class="message">
-									是吗？
-								</div>
-							</li>
-							<li id="msg-1013" class="me">
-								<div class="message">
-									嗯；
-								</div>
-							</li>
-							<li id="msg-1014" class="he">
-								<img src="images/chat-tx.png" class="img-circle" alt="">
-								<div class="message">
-									来呀，互相伤害？
-								</div>
-							</li>
-							<li id="msg-1015" class="me">
-								<div class="message">
-									<a class="video" href="javascript:void(0);">
-										<img src="images/Rectangle2Copy18.png"/>
-										<span data-video-uri="./images/WeChatSight81.mp4" class="video-play"></span>
-									</a>
-								</div>
-							</li>
-							<li id="msg-1016" class="me">
-								<div class="task">
-									<div class="contain">
-										<div class="tit">
-											Cherie Lin 接受任務
-											<i class="video"></i>
-											<!--<i class="photo"></i>-->
-										</div>
-										<div class="con">唱一首想念我的歌</div>
-									</div>
-									<span class="date">2018/03/06</span>
-								</div>
-							</li>
-							<li id="msg-1017" class="he">
-								<img src="images/chat-tx.png" class="img-circle" alt="">
-								<div class="task">
-									<div class="contain">
-										<div class="tit">
-											Cherie Lin 接受任務
-											<i class="video"></i>
-											<!--<i class="photo"></i>-->
-										</div>
-										<div class="con">唱一首想念我的歌</div>
-									</div>
-
-									<span class="date">2018/03/06</span>
-								</div>
-							</li>
-							<!--不同图片的各种样式-->
-							<li id="msg-1018" class="he">
-								<img src="images/chat-tx.png" class="img-circle" alt="">
-								<div class="task">
-									<div class="contain">
-										<div class="tit">
-											Cherie Lin 已完成任務
-											<!--<i class="video"></i>-->
-											<i class="photo"></i>
-										</div>
-										<div class="con">
-											拍一張睡前素顏照
-											<a href="javascript:;"  data-toggle="modal" data-target=".confirm-report">檢舉</a>
-										</div>
-										<div class="item-list one">
-											<a href="./images/Rectangle2Copy18.png" class="photo-group" data-caption="bear" data-id="bear" data-group="0">
-												<img src="images/Rectangle2Copy18.png" width="292"/>
-											</a>
-										</div>
-									</div>
-
-									<div class="reward-state">
-										<div class="tit">禮物點數已贈送給 Cherie Lin</div>
-										<div class="reward-content">
-											<img src="images/stickers/ic2-rose.png" alt="">
-											<div class="desc">
-												<p>玫瑰花</p>
-												<p>禮物點數 <span>130</span></p>
-											</div>
-										</div>
-									</div>
-									<span class="date">2018/03/06</span>
-								</div>
-							</li>
-							<li id="msg-1019" class="he">
-								<img src="images/chat-tx.png" class="img-circle" alt="">
-								<div class="task">
-									<div class="contain">
-										<div class="tit">
-											Cherie Lin 已完成任務
-											<!--<i class="video"></i>-->
-											<i class="photo"></i>
-										</div>
-										<div class="con">
-											拍一張睡前素顏照
-											<a href="javascript:;"  data-toggle="modal" data-target=".confirm-report">檢舉</a>
-										</div>
-										<div class="item-list two">
-											<a href="./images/Rectangle2Copy18.png" class="photo-group" data-caption="bear" data-id="bear" data-group="1">
-												<img src="images/Rectangle2Copy18.png"/>
-											</a>
-											<a href="./images/Rectangle2Copy18.png" class="photo-group" data-caption="bear" data-id="bear" data-group="1">
-												<img src="images/Rectangle2Copy18.png"/>
-											</a>
-										</div>
-									</div>
-									<div class="reward-state">
-										<div class="tit">禮物點數已贈送給 Cherie Lin</div>
-										<div class="reward-content">
-											<img src="images/stickers/ic2-rose.png" alt="">
-											<div class="desc">
-												<p>玫瑰花</p>
-												<p>禮物點數 <span>130</span></p>
-											</div>
-										</div>
-									</div>
-									<span class="date">2018/03/06</span>
-								</div>
-							</li>
-							<li id="msg-1020" class="he">
-								<img src="images/chat-tx.png" class="img-circle" alt="">
-								<div class="task">
-									<div class="contain">
-										<div class="tit">
-											Cherie Lin 已完成任務
-											<!--<i class="video"></i>-->
-											<i class="photo"></i>
-										</div>
-										<div class="con">
-											拍一張睡前素顏照
-											<a href="javascript:;"  data-toggle="modal" data-target=".confirm-report">檢舉</a>
-										</div>
-										<div class="item-list three">
-											<a href="./images/Rectangle2Copy18.png" class="photo-group" data-caption="bear" data-id="bear" data-group="3">
-												<img src="images/Rectangle2Copy18.png"/>
-											</a>
-											<a href="./images/Rectangle2Copy18.png" class="photo-group" data-caption="bear" data-id="bear" data-group="3">
-												<img src="images/Rectangle2Copy18.png"/>
-											</a>
-											<a href="./images/Rectangle2Copy18.png" class="photo-group" data-caption="bear" data-id="bear" data-group="3">
-												<img src="images/Rectangle2Copy18.png"/>
-											</a>
-										</div>
-									</div>
-									<div class="reward-state">
-										<div class="tit">禮物點數已贈送給 Cherie Lin</div>
-										<div class="reward-content">
-											<img src="images/stickers/ic2-rose.png" alt="">
-											<div class="desc">
-												<p>玫瑰花</p>
-												<p>禮物點數 <span>130</span></p>
-											</div>
-										</div>
-									</div>
-									<span class="date">2018/03/06</span>
-								</div>
-							</li>
-							<li id="msg-1021" class="he">
-								<img src="images/chat-tx.png" class="img-circle" alt="">
-								<div class="task">
-									<div class="contain">
-										<div class="tit">
-											Cherie Lin 已完成任務
-											<!--<i class="video"></i>-->
-											<i class="photo"></i>
-										</div>
-										<div class="con">
-											拍一張睡前素顏照
-											<a href="javascript:;"  data-toggle="modal" data-target=".confirm-report">檢舉</a>
-										</div>
-										<div class="item-list four">
-											<a href="./images/Rectangle2Copy18.png" class="photo-group" data-caption="bear" data-id="bear" data-group="4">
-												<img src="images/Rectangle2Copy18.png"/>
-											</a>
-											<a href="./images/Rectangle2Copy18.png" class="photo-group" data-caption="bear" data-id="bear" data-group="4">
-												<img src="images/Rectangle2Copy18.png"/>
-											</a>
-											<a href="./images/Rectangle2Copy18.png" class="photo-group" data-caption="bear" data-id="bear" data-group="4">
-												<img src="images/Rectangle2Copy18.png"/>
-											</a>
-											<a href="./images/Rectangle2Copy18.png" class="photo-group" data-caption="bear" data-id="bear" data-group="4">
-												<img src="images/Rectangle2Copy18.png"/>
-											</a>
-										</div>
-									</div>
-
-									<div class="reward-state">
-										<div class="tit">禮物點數已贈送給 Cherie Lin</div>
-										<div class="reward-content">
-											<img src="images/stickers/ic2-rose.png" alt="">
-											<div class="desc">
-												<p>玫瑰花</p>
-												<p>禮物點數 <span>130</span></p>
-											</div>
-										</div>
-									</div>
-									<span class="date">2018/03/06</span>
-								</div>
-							</li>
-							<li id="msg-1022" class="he">
-								<img src="images/chat-tx.png" class="img-circle" alt="">
-								<div class="task">
-									<div class="contain">
-										<div class="tit">
-											Cherie Lin 已完成任務
-											<!--<i class="video"></i>-->
-											<i class="photo"></i>
-										</div>
-										<div class="con">
-											拍一張睡前素顏照
-											<a href="javascript:;"  data-toggle="modal" data-target=".confirm-report">檢舉</a>
-										</div>
-										<div class="item-list five">
-											<a href="./images/Rectangle2Copy18.png" class="photo-group" data-caption="bear" data-id="bear" data-group="5">
-												<img src="images/Rectangle2Copy18.png"/>
-											</a>
-											<a href="./images/Rectangle2Copy18.png" class="photo-group" data-caption="bear" data-id="bear" data-group="5">
-												<img src="images/Rectangle2Copy18.png"/>
-											</a>
-											<a href="./images/Rectangle2Copy18.png" class="photo-group" data-caption="bear" data-id="bear" data-group="5">
-												<img src="images/Rectangle2Copy18.png"/>
-											</a>
-											<a href="./images/Rectangle2Copy18.png" class="photo-group" data-caption="bear" data-id="bear" data-group="5">
-												<img src="images/Rectangle2Copy18.png"/>
-											</a>
-											<a href="./images/Rectangle2Copy18.png" class="photo-group" data-caption="bear" data-id="bear" data-group="5">
-												<img src="images/Rectangle2Copy18.png" />
-											</a>
-										</div>
-									</div>
-									<div class="reward-state">
-										<div class="tit">禮物點數已贈送給 Cherie Lin</div>
-										<div class="reward-content">
-											<img src="images/stickers/ic2-rose.png" alt="">
-											<div class="desc">
-												<p>玫瑰花</p>
-												<p>禮物點數 <span>130</span></p>
-											</div>
-										</div>
-									</div>
-									<span class="date">2018/03/06</span>
-								</div>
-							</li>
-							<li id="msg-1023" class="he">
-								<img src="images/chat-tx.png" class="img-circle" alt="">
-								<div class="task">
-									<div class="contain">
-										<div class="tit">
-											Cherie Lin 已完成任務
-											<!--<i class="video"></i>-->
-											<i class="photo"></i>
-										</div>
-										<div class="con">
-											拍一張睡前素顏照
-											<a href="javascript:;"  data-toggle="modal" data-target=".confirm-report">檢舉</a>
-										</div>
-										<div class="item-list six">
-											<a href="./images/Rectangle2Copy18.png" class="photo-group" data-caption="bear" data-id="bear" data-group="6">
-												<img src="images/Rectangle2Copy18.png"/>
-											</a>
-											<a href="./images/Rectangle2Copy18.png" class="photo-group" data-caption="bear" data-id="bear" data-group="6">
-												<img src="images/Rectangle2Copy18.png"/>
-											</a>
-											<a href="./images/Rectangle2Copy18.png" class="photo-group" data-caption="bear" data-id="bear" data-group="6">
-												<img src="images/Rectangle2Copy18.png"/>
-											</a>
-											<a href="./images/Rectangle2Copy18.png" class="photo-group" data-caption="bear" data-id="bear" data-group="6">
-												<img src="images/Rectangle2Copy18.png"/>
-											</a>
-											<a href="./images/Rectangle2Copy18.png" class="photo-group" data-caption="bear" data-id="bear" data-group="6">
-												<img src="images/Rectangle2Copy18.png" />
-											</a>
-											<a href="./images/Rectangle2Copy18.png" class="photo-group" data-caption="bear" data-id="bear" data-group="6">
-												<img src="images/Rectangle2Copy18.png" />
-											</a>
-										</div>
-									</div>
-
-									<div class="reward-state">
-										<div class="tit">禮物點數已贈送給 Cherie Lin</div>
-										<div class="reward-content">
-											<img src="images/stickers/ic2-rose.png" alt="">
-											<div class="desc">
-												<p>玫瑰花</p>
-												<p>禮物點數 <span>130</span></p>
-											</div>
-										</div>
-									</div>
-									<span class="date">2018/03/06</span>
-								</div>
-							</li>
-							<!--不同视频的各种样式-->
-							<li id="msg-1024" class="he">
-								<img src="images/chat-tx.png" class="img-circle" alt="">
-								<div class="task">
-									<div class="contain">
-										<div class="tit">
-											Cherie Lin 已完成任務
-											<!--<i class="video"></i>-->
-											<i class="photo"></i>
-										</div>
-										<div class="con">
-											拍一張睡前素顏照
-											<a href="javascript:;"  data-toggle="modal" data-target=".confirm-report">檢舉</a>
-										</div>
-										<div class="item-list one">
-											<a href="javascript:void(0);">
-												<img src="images/Rectangle2Copy18.png"/>
-												<span data-video-uri="./images/WeChatSight81.mp4" class="video-play"></span>
-											</a>
-										</div>
-									</div>
-									<div class="reward-state">
-										<div class="tit">禮物點數已贈送給 Cherie Lin</div>
-										<div class="reward-content">
-											<img src="images/stickers/ic2-rose.png" alt="">
-											<div class="desc">
-												<p>玫瑰花</p>
-												<p>禮物點數 <span>130</span></p>
-											</div>
-										</div>
-									</div>
-									<span class="date">2018/03/06</span>
-								</div>
-							</li>
-							<li id="msg-1025" class="he">
-								<img src="images/chat-tx.png" class="img-circle" alt="">
-								<div class="task">
-									<div class="contain">
-										<div class="tit">
-											Cherie Lin 已完成任務
-											<!--<i class="video"></i>-->
-											<i class="photo"></i>
-										</div>
-										<div class="con">
-											拍一張睡前素顏照
-											<a href="javascript:;"  data-toggle="modal" data-target=".confirm-report">檢舉</a>
-										</div>
-										<div class="item-list two">
-											<a href="javascript:void(0);">
-												<img src="images/Rectangle2Copy18.png"/>
-												<span data-video-uri="./images/WeChatSight81.mp4" class="video-play"></span>
-											</a>
-											<a href="javascript:void(0);">
-												<img src="images/Rectangle2Copy18.png"/>
-												<span data-video-uri="./images/WeChatSight81.mp4" class="video-play"></span>
-											</a>
-
-										</div>
-									</div>
-
-									<div class="reward-state">
-										<div class="tit">禮物點數已贈送給 Cherie Lin</div>
-										<div class="reward-content">
-											<img src="images/stickers/ic2-rose.png" alt="">
-											<div class="desc">
-												<p>玫瑰花</p>
-												<p>禮物點數 <span>130</span></p>
-											</div>
-										</div>
-									</div>
-									<span class="date">2018/03/06</span>
-								</div>
-							</li>
-							<li id="msg-1026" class="he">
-								<img src="images/chat-tx.png" class="img-circle" alt="">
-								<div class="task">
-									<div class="contain">
-										<div class="tit">
-											Cherie Lin 已完成任務
-											<!--<i class="video"></i>-->
-											<i class="photo"></i>
-										</div>
-										<div class="con">
-											拍一張睡前素顏照
-											<a href="javascript:;"  data-toggle="modal" data-target=".confirm-report">檢舉</a>
-										</div>
-										<div class="item-list three">
-											<a href="javascript:void(0);">
-												<img src="images/Rectangle2Copy18.png"/>
-												<span data-video-uri="./images/WeChatSight81.mp4" class="video-play"></span>
-											</a>
-											<a href="javascript:void(0);">
-												<img src="images/Rectangle2Copy18.png"/>
-												<span data-video-uri="./images/WeChatSight81.mp4" class="video-play"></span>
-											</a>
-											<a href="javascript:void(0);">
-												<img src="images/Rectangle2Copy18.png"/>
-												<span data-video-uri="./images/WeChatSight81.mp4" class="video-play"></span>
-											</a>
-										</div>
-									</div>
-									<div class="reward-state">
-										<div class="tit">禮物點數已贈送給 Cherie Lin</div>
-										<div class="reward-content">
-											<img src="images/stickers/ic2-rose.png" alt="">
-											<div class="desc">
-												<p>玫瑰花</p>
-												<p>禮物點數 <span>130</span></p>
-											</div>
-										</div>
-									</div>
-									<span class="date">2018/03/06</span>
-								</div>
-							</li>
-							<li id="msg-1027" class="he">
-								<img src="images/chat-tx.png" class="img-circle" alt="">
-								<div class="task">
-									<div class="contain">
-										<div class="tit">
-											Cherie Lin 已完成任務
-											<!--<i class="video"></i>-->
-											<i class="photo"></i>
-										</div>
-										<div class="con">
-											拍一張睡前素顏照
-											<a href="javascript:;"  data-toggle="modal" data-target=".confirm-report">檢舉</a>
-										</div>
-										<div class="item-list four">
-											<a href="javascript:void(0);">
-												<img src="images/Rectangle2Copy18.png"/>
-												<span data-video-uri="./images/WeChatSight81.mp4" class="video-play"></span>
-											</a>
-											<a href="javascript:void(0);">
-												<img src="images/Rectangle2Copy18.png"/>
-												<span data-video-uri="./images/WeChatSight81.mp4" class="video-play"></span>
-											</a>
-											<a href="javascript:void(0);">
-												<img src="images/Rectangle2Copy18.png"/>
-												<span data-video-uri="./images/WeChatSight81.mp4" class="video-play"></span>
-											</a>
-											<a href="javascript:void(0);">
-												<img src="images/Rectangle2Copy18.png"/>
-												<span data-video-uri="./images/WeChatSight81.mp4" class="video-play"></span>
-											</a>
-										</div>
-									</div>
-
-									<div class="reward-state">
-										<div class="tit">禮物點數已贈送給 Cherie Lin</div>
-										<div class="reward-content">
-											<img src="images/stickers/ic2-rose.png" alt="">
-											<div class="desc">
-												<p>玫瑰花</p>
-												<p>禮物點數 <span>130</span></p>
-											</div>
-										</div>
-									</div>
-									<span class="date">2018/03/06</span>
-								</div>
-							</li>
-							<li id="msg-1028" class="he">
-								<img src="images/chat-tx.png" class="img-circle" alt="">
-								<div class="task">
-									<div class="contain">
-										<div class="tit">
-											Cherie Lin 已完成任務
-											<!--<i class="video"></i>-->
-											<i class="photo"></i>
-										</div>
-										<div class="con">
-											拍一張睡前素顏照
-											<a href="javascript:;"  data-toggle="modal" data-target=".confirm-report">檢舉</a>
-										</div>
-										<div class="item-list five">
-											<a href="javascript:void(0);">
-												<img src="images/Rectangle2Copy18.png"/>
-												<span data-video-uri="./images/WeChatSight81.mp4" class="video-play"></span>
-											</a>
-											<a href="javascript:void(0);">
-												<img src="images/Rectangle2Copy18.png"/>
-												<span data-video-uri="./images/WeChatSight81.mp4" class="video-play"></span>
-											</a>
-											<a href="javascript:void(0);">
-												<img src="images/Rectangle2Copy18.png"/>
-												<span data-video-uri="./images/WeChatSight81.mp4" class="video-play"></span>
-											</a>
-											<a href="javascript:void(0);">
-												<img src="images/Rectangle2Copy18.png"/>
-												<span data-video-uri="./images/WeChatSight81.mp4" class="video-play"></span>
-											</a>
-											<a href="javascript:void(0);">
-												<img src="images/Rectangle2Copy18.png"/>
-												<span data-video-uri="./images/WeChatSight81.mp4" class="video-play"></span>
-											</a>
-
-										</div>
-									</div>
-									<div class="reward-state">
-										<div class="tit">禮物點數已贈送給 Cherie Lin</div>
-										<div class="reward-content">
-											<img src="images/stickers/ic2-rose.png" alt="">
-											<div class="desc">
-												<p>玫瑰花</p>
-												<p>禮物點數 <span>130</span></p>
-											</div>
-										</div>
-									</div>
-									<span class="date">2018/03/06</span>
-								</div>
-							</li>
-							<li id="msg-1029" class="he">
-								<img src="images/chat-tx.png" class="img-circle" alt="">
-								<div class="task">
-									<div class="contain">
-										<div class="tit">
-											Cherie Lin 已完成任務
-											<!--<i class="video"></i>-->
-											<i class="photo"></i>
-										</div>
-										<div class="con">
-											拍一張睡前素顏照
-											<a href="javascript:;"  data-toggle="modal" data-target=".confirm-report">檢舉</a>
-										</div>
-										<div class="item-list six">
-											<a href="javascript:void(0);">
-												<img src="images/Rectangle2Copy18.png"/>
-												<span data-video-uri="./images/WeChatSight81.mp4" class="video-play"></span>
-											</a>
-											<a href="javascript:void(0);">
-												<img src="images/Rectangle2Copy18.png"/>
-												<span data-video-uri="./images/WeChatSight81.mp4" class="video-play"></span>
-											</a>
-											<a href="javascript:void(0);">
-												<img src="images/Rectangle2Copy18.png"/>
-												<span data-video-uri="./images/WeChatSight81.mp4" class="video-play"></span>
-											</a>
-											<a href="javascript:void(0);">
-												<img src="images/Rectangle2Copy18.png"/>
-												<span data-video-uri="./images/WeChatSight81.mp4" class="video-play"></span>
-											</a>
-											<a href="javascript:void(0);">
-												<img src="images/Rectangle2Copy18.png"/>
-												<span data-video-uri="./images/WeChatSight81.mp4" class="video-play"></span>
-											</a>
-											<a href="javascript:void(0);">
-												<img src="images/Rectangle2Copy18.png"/>
-												<span data-video-uri="./images/WeChatSight81.mp4" class="video-play"></span>
-											</a>
-										</div>
-									</div>
-									<div class="reward-state">
-										<div class="tit">禮物點數已贈送給 Cherie Lin</div>
-										<div class="reward-content">
-											<img src="images/stickers/ic2-rose.png" alt="">
-											<div class="desc">
-												<p>玫瑰花</p>
-												<p>禮物點數 <span>130</span></p>
-											</div>
-										</div>
-									</div>
-									<span class="date">2018/03/06</span>
-								</div>
-							</li>
-
-							<li id="msg-1030" class="tasks he">
-								<img src="images/chat-tx.png" class="img-circle" alt="">
-								<div class="gift-content">
-									<img src="images/stickers/ic2-rose.png" alt="">
-									<div class="info">
-										Vincent Hsu 發任務
-										<p>唱一首想念我的歌唱一首想念我的歌唱一首想念我的歌唱一首想念我的歌唱一首想念我的歌</p>
-										<div class="g">禮物點數 <span>130</span></div>
-									</div>
-									<div class="clearfix"></div>
-									<a href="">查看任務內容</a>
-								</div>
-								<div class="clearfix"></div>
-								<span class="date">2018/03/06</span>
-							</li>
-							<li id="msg-1031" class="tasks me">
-								<div class="gift-content">
-									<img src="images/stickers/ic2-rose.png" alt="">
-									<div class="info">
-										Vincent Hsu 發任務
-										<p>唱一首想念我的歌</p>
-										<div class="g">禮物點數 <span>130</span></div>
-									</div>
-									<div class="clearfix"></div>
-									<a href="">查看任務內容</a>
-								</div>
-								<div class="clearfix"></div>
-								<span class="date">2018/03/06</span>
-							</li>
-
-							 <!--li 标签记得区分 me and he 两个类 如果是he 把头像标签删掉-->
-
-						</ul>
-						<span class="chat-menu-btn"></span>
-						<div class="chat-menu-content animated">
-							<a href="">
-								<img width="22" src="images/ic1-home/off@2x.png" alt="">
-								首页
-							</a>
-							<a href="">
-								<img  width="22" src="images/ic2-chatting/off@2x.png" alt="">
-								聊天</a>
-							<span class="close"></span>
+					<div class="info">
+						Vincent Hsu
+						<div>贈送 <span>130</span></div>
+					</div>
+				</li>
+				<li id="msg-1001" class="gift me">
+					<div class="gift-content">
+						<img src="images/stickers/ic2-rose.png" alt="">
+					</div>
+					<div class="info">
+						Vincent Hsu
+						<div>贈送 <span>130</span></div>
+					</div>
+				</li>
+				<li id="msg-1002" class="invitation-tips">
+					<div class="info">
+						<h3>Cherie Lin 接受聊天邀請</h3>
+						<p>禮物點數已贈送給 Cherie Lin</p>
+					</div>
+					<span class="date">2018/03/06</span>
+				</li>
+				<li id="msg-1003" class="invitation-tips">
+					<div class="info">
+						<h3>Cherie Lin 超過48小時未回應聊天邀請</h3>
+						<p>禮物點數已贈送給 Cherie Lin</p>
+					</div>
+					<span class="date">2018/03/06</span>
+				</li>
+				<li id="msg-1004" class="invitation-tips">
+					<div class="info">
+						<h3>Cherie Lin 拒絕聊天邀請</h3>
+						<p>禮物點數已贈送給 Cherie Lin</p>
+					</div>
+					<span class="date">2018/03/06</span>
+				</li>
+				<li id="msg-1005" class="me">
+					<div class="message">
+						你好
+					</div>
+				</li>
+				<li id="msg-1006" class="he">
+					<img src="images/chat-tx.png" class="img-circle" alt="">
+					<div class="message">
+						你好
+					</div>
+				</li>
+				<li id="msg-1007" class="me">
+					<div class="message">
+						你好可愛
+					</div>
+				</li>
+				<li id="msg-1008" class="me">
+					<div class="message">
+						給你10萬，<br>
+						任我擺佈好嗎？
+					</div>
+				</li>
+				<li id="msg-1009" class="he">
+					<img src="images/chat-tx.png" class="img-circle" alt="">
+					<div class="message">
+						是吗？
+					</div>
+				</li>
+				<li id="msg-1010" class="me">
+					<div class="message">
+						你好可愛
+					</div>
+				</li>
+				<li id="msg-1011" class="me">
+					<div class="message">
+						你好可愛
+						<a href="./images/Rectangle2Copy18.png" class="js-smartphoto" data-caption="bear1111" data-id="bear1">
+							<img src="images/Rectangle2Copy18.png" width="100"/>
+						</a>
+					</div>
+				</li>
+				<li id="msg-1012" class="he">
+					<img src="images/chat-tx.png" class="img-circle" alt="">
+					<div class="message">
+						是吗？
+					</div>
+				</li>
+				<li id="msg-1013" class="me">
+					<div class="message">
+						嗯；
+					</div>
+				</li>
+				<li id="msg-1014" class="he">
+					<img src="images/chat-tx.png" class="img-circle" alt="">
+					<div class="message">
+						来呀，互相伤害？
+					</div>
+				</li>
+				<li id="msg-1015" class="me">
+					<div class="message">
+						<a class="video" href="javascript:void(0);">
+							<img src="images/Rectangle2Copy18.png"/>
+							<span data-video-uri="./images/WeChatSight81.mp4" class="video-play"></span>
+						</a>
+					</div>
+				</li>
+				<li id="msg-1016" class="me">
+					<div class="task">
+						<div class="contain">
+							<div class="tit">
+								Cherie Lin 接受任務
+								<i class="video"></i>
+								<!--<i class="photo"></i>-->
+							</div>
+							<div class="con">唱一首想念我的歌</div>
 						</div>
+						<span class="date">2018/03/06</span>
 					</div>
-					<div class="input-bar">
-						<div class="top-bar">
-							<div class="gift-tips hidden">
-								<h3>想與欣賞的人一對一聊天，先選個禮物來表達心意吧！</h3>
-								<p>若對方拒絕或超過24小時未回應，將退還點數。</p>
-								<b></b>
+				</li>
+				<li id="msg-1017" class="he">
+					<img src="images/chat-tx.png" class="img-circle" alt="">
+					<div class="task">
+						<div class="contain">
+							<div class="tit">
+								Cherie Lin 接受任務
+								<i class="video"></i>
+								<!--<i class="photo"></i>-->
 							</div>
-							<div class="input-tips hidden">
-								可以開始與您欣賞的人一對一聊天了！
-								<b></b>
+							<div class="con">唱一首想念我的歌</div>
+						</div>
+
+						<span class="date">2018/03/06</span>
+					</div>
+				</li>
+				<!--不同图片的各种样式-->
+				<li id="msg-1018" class="he">
+					<img src="images/chat-tx.png" class="img-circle" alt="">
+					<div class="task">
+						<div class="contain">
+							<div class="tit">
+								Cherie Lin 已完成任務
+								<!--<i class="video"></i>-->
+								<i class="photo"></i>
 							</div>
-							<div class="left-icon">
-								<span class="camera">
-									<input type="file">
-								</span>
-								<span class="photo">
-									<input type="file" accept="image/*">
-								</span>
+							<div class="con">
+								拍一張睡前素顏照
+								<a href="javascript:;"  data-toggle="modal" data-target=".confirm-report">檢舉</a>
 							</div>
-							<div class="tog-icon">
-								<button class="btn"></button>
+							<div class="item-list one">
+								<a href="./images/Rectangle2Copy18.png" class="photo-group" data-caption="bear" data-id="bear" data-group="0">
+									<img src="images/Rectangle2Copy18.png" width="292"/>
+								</a>
 							</div>
-							<div class="input">
-								<!--<textarea  name="" placeholder="傳送聊天內容" id="" cols="30" rows="10"></textarea>-->
-								<div id="textarea" class="" contenteditable="true">
-									<!--<span class="placeholder">傳送聊天內容</span>-->
+						</div>
+
+						<div class="reward-state">
+							<div class="tit">禮物點數已贈送給 Cherie Lin</div>
+							<div class="reward-content">
+								<img src="images/stickers/ic2-rose.png" alt="">
+								<div class="desc">
+									<p>玫瑰花</p>
+									<p>禮物點數 <span>130</span></p>
 								</div>
 							</div>
-							<div class="right-icon">
-								<button class="gift-btn"></button>
-								<button class="send-btn" style="display: none;"></button>
+						</div>
+						<span class="date">2018/03/06</span>
+					</div>
+				</li>
+				<li id="msg-1019" class="he">
+					<img src="images/chat-tx.png" class="img-circle" alt="">
+					<div class="task">
+						<div class="contain">
+							<div class="tit">
+								Cherie Lin 已完成任務
+								<!--<i class="video"></i>-->
+								<i class="photo"></i>
 							</div>
+							<div class="con">
+								拍一張睡前素顏照
+								<a href="javascript:;"  data-toggle="modal" data-target=".confirm-report">檢舉</a>
+							</div>
+							<div class="item-list two">
+								<a href="./images/Rectangle2Copy18.png" class="photo-group" data-caption="bear" data-id="bear" data-group="1">
+									<img src="images/Rectangle2Copy18.png"/>
+								</a>
+								<a href="./images/Rectangle2Copy18.png" class="photo-group" data-caption="bear" data-id="bear" data-group="1">
+									<img src="images/Rectangle2Copy18.png"/>
+								</a>
+							</div>
+						</div>
+						<div class="reward-state">
+							<div class="tit">禮物點數已贈送給 Cherie Lin</div>
+							<div class="reward-content">
+								<img src="images/stickers/ic2-rose.png" alt="">
+								<div class="desc">
+									<p>玫瑰花</p>
+									<p>禮物點數 <span>130</span></p>
+								</div>
+							</div>
+						</div>
+						<span class="date">2018/03/06</span>
+					</div>
+				</li>
+				<li id="msg-1020" class="he">
+					<img src="images/chat-tx.png" class="img-circle" alt="">
+					<div class="task">
+						<div class="contain">
+							<div class="tit">
+								Cherie Lin 已完成任務
+								<!--<i class="video"></i>-->
+								<i class="photo"></i>
+							</div>
+							<div class="con">
+								拍一張睡前素顏照
+								<a href="javascript:;"  data-toggle="modal" data-target=".confirm-report">檢舉</a>
+							</div>
+							<div class="item-list three">
+								<a href="./images/Rectangle2Copy18.png" class="photo-group" data-caption="bear" data-id="bear" data-group="3">
+									<img src="images/Rectangle2Copy18.png"/>
+								</a>
+								<a href="./images/Rectangle2Copy18.png" class="photo-group" data-caption="bear" data-id="bear" data-group="3">
+									<img src="images/Rectangle2Copy18.png"/>
+								</a>
+								<a href="./images/Rectangle2Copy18.png" class="photo-group" data-caption="bear" data-id="bear" data-group="3">
+									<img src="images/Rectangle2Copy18.png"/>
+								</a>
+							</div>
+						</div>
+						<div class="reward-state">
+							<div class="tit">禮物點數已贈送給 Cherie Lin</div>
+							<div class="reward-content">
+								<img src="images/stickers/ic2-rose.png" alt="">
+								<div class="desc">
+									<p>玫瑰花</p>
+									<p>禮物點數 <span>130</span></p>
+								</div>
+							</div>
+						</div>
+						<span class="date">2018/03/06</span>
+					</div>
+				</li>
+				<li id="msg-1021" class="he">
+					<img src="images/chat-tx.png" class="img-circle" alt="">
+					<div class="task">
+						<div class="contain">
+							<div class="tit">
+								Cherie Lin 已完成任務
+								<!--<i class="video"></i>-->
+								<i class="photo"></i>
+							</div>
+							<div class="con">
+								拍一張睡前素顏照
+								<a href="javascript:;"  data-toggle="modal" data-target=".confirm-report">檢舉</a>
+							</div>
+							<div class="item-list four">
+								<a href="./images/Rectangle2Copy18.png" class="photo-group" data-caption="bear" data-id="bear" data-group="4">
+									<img src="images/Rectangle2Copy18.png"/>
+								</a>
+								<a href="./images/Rectangle2Copy18.png" class="photo-group" data-caption="bear" data-id="bear" data-group="4">
+									<img src="images/Rectangle2Copy18.png"/>
+								</a>
+								<a href="./images/Rectangle2Copy18.png" class="photo-group" data-caption="bear" data-id="bear" data-group="4">
+									<img src="images/Rectangle2Copy18.png"/>
+								</a>
+								<a href="./images/Rectangle2Copy18.png" class="photo-group" data-caption="bear" data-id="bear" data-group="4">
+									<img src="images/Rectangle2Copy18.png"/>
+								</a>
+							</div>
+						</div>
+
+						<div class="reward-state">
+							<div class="tit">禮物點數已贈送給 Cherie Lin</div>
+							<div class="reward-content">
+								<img src="images/stickers/ic2-rose.png" alt="">
+								<div class="desc">
+									<p>玫瑰花</p>
+									<p>禮物點數 <span>130</span></p>
+								</div>
+							</div>
+						</div>
+						<span class="date">2018/03/06</span>
+					</div>
+				</li>
+				<li id="msg-1022" class="he">
+					<img src="images/chat-tx.png" class="img-circle" alt="">
+					<div class="task">
+						<div class="contain">
+							<div class="tit">
+								Cherie Lin 已完成任務
+								<!--<i class="video"></i>-->
+								<i class="photo"></i>
+							</div>
+							<div class="con">
+								拍一張睡前素顏照
+								<a href="javascript:;"  data-toggle="modal" data-target=".confirm-report">檢舉</a>
+							</div>
+							<div class="item-list five">
+								<a href="./images/Rectangle2Copy18.png" class="photo-group" data-caption="bear" data-id="bear" data-group="5">
+									<img src="images/Rectangle2Copy18.png"/>
+								</a>
+								<a href="./images/Rectangle2Copy18.png" class="photo-group" data-caption="bear" data-id="bear" data-group="5">
+									<img src="images/Rectangle2Copy18.png"/>
+								</a>
+								<a href="./images/Rectangle2Copy18.png" class="photo-group" data-caption="bear" data-id="bear" data-group="5">
+									<img src="images/Rectangle2Copy18.png"/>
+								</a>
+								<a href="./images/Rectangle2Copy18.png" class="photo-group" data-caption="bear" data-id="bear" data-group="5">
+									<img src="images/Rectangle2Copy18.png"/>
+								</a>
+								<a href="./images/Rectangle2Copy18.png" class="photo-group" data-caption="bear" data-id="bear" data-group="5">
+									<img src="images/Rectangle2Copy18.png" />
+								</a>
+							</div>
+						</div>
+						<div class="reward-state">
+							<div class="tit">禮物點數已贈送給 Cherie Lin</div>
+							<div class="reward-content">
+								<img src="images/stickers/ic2-rose.png" alt="">
+								<div class="desc">
+									<p>玫瑰花</p>
+									<p>禮物點數 <span>130</span></p>
+								</div>
+							</div>
+						</div>
+						<span class="date">2018/03/06</span>
+					</div>
+				</li>
+				<li id="msg-1023" class="he">
+					<img src="images/chat-tx.png" class="img-circle" alt="">
+					<div class="task">
+						<div class="contain">
+							<div class="tit">
+								Cherie Lin 已完成任務
+								<!--<i class="video"></i>-->
+								<i class="photo"></i>
+							</div>
+							<div class="con">
+								拍一張睡前素顏照
+								<a href="javascript:;"  data-toggle="modal" data-target=".confirm-report">檢舉</a>
+							</div>
+							<div class="item-list six">
+								<a href="./images/Rectangle2Copy18.png" class="photo-group" data-caption="bear" data-id="bear" data-group="6">
+									<img src="images/Rectangle2Copy18.png"/>
+								</a>
+								<a href="./images/Rectangle2Copy18.png" class="photo-group" data-caption="bear" data-id="bear" data-group="6">
+									<img src="images/Rectangle2Copy18.png"/>
+								</a>
+								<a href="./images/Rectangle2Copy18.png" class="photo-group" data-caption="bear" data-id="bear" data-group="6">
+									<img src="images/Rectangle2Copy18.png"/>
+								</a>
+								<a href="./images/Rectangle2Copy18.png" class="photo-group" data-caption="bear" data-id="bear" data-group="6">
+									<img src="images/Rectangle2Copy18.png"/>
+								</a>
+								<a href="./images/Rectangle2Copy18.png" class="photo-group" data-caption="bear" data-id="bear" data-group="6">
+									<img src="images/Rectangle2Copy18.png" />
+								</a>
+								<a href="./images/Rectangle2Copy18.png" class="photo-group" data-caption="bear" data-id="bear" data-group="6">
+									<img src="images/Rectangle2Copy18.png" />
+								</a>
+							</div>
+						</div>
+
+						<div class="reward-state">
+							<div class="tit">禮物點數已贈送給 Cherie Lin</div>
+							<div class="reward-content">
+								<img src="images/stickers/ic2-rose.png" alt="">
+								<div class="desc">
+									<p>玫瑰花</p>
+									<p>禮物點數 <span>130</span></p>
+								</div>
+							</div>
+						</div>
+						<span class="date">2018/03/06</span>
+					</div>
+				</li>
+				<!--不同视频的各种样式-->
+				<li id="msg-1024" class="he">
+					<img src="images/chat-tx.png" class="img-circle" alt="">
+					<div class="task">
+						<div class="contain">
+							<div class="tit">
+								Cherie Lin 已完成任務
+								<!--<i class="video"></i>-->
+								<i class="photo"></i>
+							</div>
+							<div class="con">
+								拍一張睡前素顏照
+								<a href="javascript:;"  data-toggle="modal" data-target=".confirm-report">檢舉</a>
+							</div>
+							<div class="item-list one">
+								<a href="javascript:void(0);">
+									<img src="images/Rectangle2Copy18.png"/>
+									<span data-video-uri="./images/WeChatSight81.mp4" class="video-play"></span>
+								</a>
+							</div>
+						</div>
+						<div class="reward-state">
+							<div class="tit">禮物點數已贈送給 Cherie Lin</div>
+							<div class="reward-content">
+								<img src="images/stickers/ic2-rose.png" alt="">
+								<div class="desc">
+									<p>玫瑰花</p>
+									<p>禮物點數 <span>130</span></p>
+								</div>
+							</div>
+						</div>
+						<span class="date">2018/03/06</span>
+					</div>
+				</li>
+				<li id="msg-1025" class="he">
+					<img src="images/chat-tx.png" class="img-circle" alt="">
+					<div class="task">
+						<div class="contain">
+							<div class="tit">
+								Cherie Lin 已完成任務
+								<!--<i class="video"></i>-->
+								<i class="photo"></i>
+							</div>
+							<div class="con">
+								拍一張睡前素顏照
+								<a href="javascript:;"  data-toggle="modal" data-target=".confirm-report">檢舉</a>
+							</div>
+							<div class="item-list two">
+								<a href="javascript:void(0);">
+									<img src="images/Rectangle2Copy18.png"/>
+									<span data-video-uri="./images/WeChatSight81.mp4" class="video-play"></span>
+								</a>
+								<a href="javascript:void(0);">
+									<img src="images/Rectangle2Copy18.png"/>
+									<span data-video-uri="./images/WeChatSight81.mp4" class="video-play"></span>
+								</a>
+
+							</div>
+						</div>
+
+						<div class="reward-state">
+							<div class="tit">禮物點數已贈送給 Cherie Lin</div>
+							<div class="reward-content">
+								<img src="images/stickers/ic2-rose.png" alt="">
+								<div class="desc">
+									<p>玫瑰花</p>
+									<p>禮物點數 <span>130</span></p>
+								</div>
+							</div>
+						</div>
+						<span class="date">2018/03/06</span>
+					</div>
+				</li>
+				<li id="msg-1026" class="he">
+					<img src="images/chat-tx.png" class="img-circle" alt="">
+					<div class="task">
+						<div class="contain">
+							<div class="tit">
+								Cherie Lin 已完成任務
+								<!--<i class="video"></i>-->
+								<i class="photo"></i>
+							</div>
+							<div class="con">
+								拍一張睡前素顏照
+								<a href="javascript:;"  data-toggle="modal" data-target=".confirm-report">檢舉</a>
+							</div>
+							<div class="item-list three">
+								<a href="javascript:void(0);">
+									<img src="images/Rectangle2Copy18.png"/>
+									<span data-video-uri="./images/WeChatSight81.mp4" class="video-play"></span>
+								</a>
+								<a href="javascript:void(0);">
+									<img src="images/Rectangle2Copy18.png"/>
+									<span data-video-uri="./images/WeChatSight81.mp4" class="video-play"></span>
+								</a>
+								<a href="javascript:void(0);">
+									<img src="images/Rectangle2Copy18.png"/>
+									<span data-video-uri="./images/WeChatSight81.mp4" class="video-play"></span>
+								</a>
+							</div>
+						</div>
+						<div class="reward-state">
+							<div class="tit">禮物點數已贈送給 Cherie Lin</div>
+							<div class="reward-content">
+								<img src="images/stickers/ic2-rose.png" alt="">
+								<div class="desc">
+									<p>玫瑰花</p>
+									<p>禮物點數 <span>130</span></p>
+								</div>
+							</div>
+						</div>
+						<span class="date">2018/03/06</span>
+					</div>
+				</li>
+				<li id="msg-1027" class="he">
+					<img src="images/chat-tx.png" class="img-circle" alt="">
+					<div class="task">
+						<div class="contain">
+							<div class="tit">
+								Cherie Lin 已完成任務
+								<!--<i class="video"></i>-->
+								<i class="photo"></i>
+							</div>
+							<div class="con">
+								拍一張睡前素顏照
+								<a href="javascript:;"  data-toggle="modal" data-target=".confirm-report">檢舉</a>
+							</div>
+							<div class="item-list four">
+								<a href="javascript:void(0);">
+									<img src="images/Rectangle2Copy18.png"/>
+									<span data-video-uri="./images/WeChatSight81.mp4" class="video-play"></span>
+								</a>
+								<a href="javascript:void(0);">
+									<img src="images/Rectangle2Copy18.png"/>
+									<span data-video-uri="./images/WeChatSight81.mp4" class="video-play"></span>
+								</a>
+								<a href="javascript:void(0);">
+									<img src="images/Rectangle2Copy18.png"/>
+									<span data-video-uri="./images/WeChatSight81.mp4" class="video-play"></span>
+								</a>
+								<a href="javascript:void(0);">
+									<img src="images/Rectangle2Copy18.png"/>
+									<span data-video-uri="./images/WeChatSight81.mp4" class="video-play"></span>
+								</a>
+							</div>
+						</div>
+
+						<div class="reward-state">
+							<div class="tit">禮物點數已贈送給 Cherie Lin</div>
+							<div class="reward-content">
+								<img src="images/stickers/ic2-rose.png" alt="">
+								<div class="desc">
+									<p>玫瑰花</p>
+									<p>禮物點數 <span>130</span></p>
+								</div>
+							</div>
+						</div>
+						<span class="date">2018/03/06</span>
+					</div>
+				</li>
+				<li id="msg-1028" class="he">
+					<img src="images/chat-tx.png" class="img-circle" alt="">
+					<div class="task">
+						<div class="contain">
+							<div class="tit">
+								Cherie Lin 已完成任務
+								<!--<i class="video"></i>-->
+								<i class="photo"></i>
+							</div>
+							<div class="con">
+								拍一張睡前素顏照
+								<a href="javascript:;"  data-toggle="modal" data-target=".confirm-report">檢舉</a>
+							</div>
+							<div class="item-list five">
+								<a href="javascript:void(0);">
+									<img src="images/Rectangle2Copy18.png"/>
+									<span data-video-uri="./images/WeChatSight81.mp4" class="video-play"></span>
+								</a>
+								<a href="javascript:void(0);">
+									<img src="images/Rectangle2Copy18.png"/>
+									<span data-video-uri="./images/WeChatSight81.mp4" class="video-play"></span>
+								</a>
+								<a href="javascript:void(0);">
+									<img src="images/Rectangle2Copy18.png"/>
+									<span data-video-uri="./images/WeChatSight81.mp4" class="video-play"></span>
+								</a>
+								<a href="javascript:void(0);">
+									<img src="images/Rectangle2Copy18.png"/>
+									<span data-video-uri="./images/WeChatSight81.mp4" class="video-play"></span>
+								</a>
+								<a href="javascript:void(0);">
+									<img src="images/Rectangle2Copy18.png"/>
+									<span data-video-uri="./images/WeChatSight81.mp4" class="video-play"></span>
+								</a>
+
+							</div>
+						</div>
+						<div class="reward-state">
+							<div class="tit">禮物點數已贈送給 Cherie Lin</div>
+							<div class="reward-content">
+								<img src="images/stickers/ic2-rose.png" alt="">
+								<div class="desc">
+									<p>玫瑰花</p>
+									<p>禮物點數 <span>130</span></p>
+								</div>
+							</div>
+						</div>
+						<span class="date">2018/03/06</span>
+					</div>
+				</li>
+				<li id="msg-1029" class="he">
+					<img src="images/chat-tx.png" class="img-circle" alt="">
+					<div class="task">
+						<div class="contain">
+							<div class="tit">
+								Cherie Lin 已完成任務
+								<!--<i class="video"></i>-->
+								<i class="photo"></i>
+							</div>
+							<div class="con">
+								拍一張睡前素顏照
+								<a href="javascript:;"  data-toggle="modal" data-target=".confirm-report">檢舉</a>
+							</div>
+							<div class="item-list six">
+								<a href="javascript:void(0);">
+									<img src="images/Rectangle2Copy18.png"/>
+									<span data-video-uri="./images/WeChatSight81.mp4" class="video-play"></span>
+								</a>
+								<a href="javascript:void(0);">
+									<img src="images/Rectangle2Copy18.png"/>
+									<span data-video-uri="./images/WeChatSight81.mp4" class="video-play"></span>
+								</a>
+								<a href="javascript:void(0);">
+									<img src="images/Rectangle2Copy18.png"/>
+									<span data-video-uri="./images/WeChatSight81.mp4" class="video-play"></span>
+								</a>
+								<a href="javascript:void(0);">
+									<img src="images/Rectangle2Copy18.png"/>
+									<span data-video-uri="./images/WeChatSight81.mp4" class="video-play"></span>
+								</a>
+								<a href="javascript:void(0);">
+									<img src="images/Rectangle2Copy18.png"/>
+									<span data-video-uri="./images/WeChatSight81.mp4" class="video-play"></span>
+								</a>
+								<a href="javascript:void(0);">
+									<img src="images/Rectangle2Copy18.png"/>
+									<span data-video-uri="./images/WeChatSight81.mp4" class="video-play"></span>
+								</a>
+							</div>
+						</div>
+						<div class="reward-state">
+							<div class="tit">禮物點數已贈送給 Cherie Lin</div>
+							<div class="reward-content">
+								<img src="images/stickers/ic2-rose.png" alt="">
+								<div class="desc">
+									<p>玫瑰花</p>
+									<p>禮物點數 <span>130</span></p>
+								</div>
+							</div>
+						</div>
+						<span class="date">2018/03/06</span>
+					</div>
+				</li>
+
+				<li id="msg-1030" class="tasks he">
+					<img src="images/chat-tx.png" class="img-circle" alt="">
+					<div class="gift-content">
+						<img src="images/stickers/ic2-rose.png" alt="">
+						<div class="info">
+							Vincent Hsu 發任務
+							<p>唱一首想念我的歌唱一首想念我的歌唱一首想念我的歌唱一首想念我的歌唱一首想念我的歌</p>
+							<div class="g">禮物點數 <span>130</span></div>
 						</div>
 						<div class="clearfix"></div>
-						<div class="gift-show"  style="display: none;">
-							<img src="images/stickers/ic1-lolipop.png" alt="">
-							<span></span>
-						</div>
-						<div class="gift-list" style="display: none;">
-							<div class="gift">
-								<img src="images/stickers/ic2-rose.png" alt="">
-									<span>130</span>
-							</div>
-							<div class="gift">
-								<img src="images/stickers/ic5-wine.png" alt="">
-									<span>140</span>
-							</div>
-							<div class="gift">
-								<img src="images/stickers/ic9-diamond.png" alt="">
-									<span>200</span>
-							</div>
-							<div class="gift">
-								<img src="images/stickers/ic6-champane.png" alt="">
-									<span>400</span>
-							</div>
-							<div class="gift">
-								<img src="images/stickers/ic12-castle.png" alt="">
-									<span>530</span>
-							</div>
-							<div class="gift">
-								<img src="images/stickers/ic11-car.png" alt="">
-									<span>640</span>
-							</div>
-							<div class="gift">
-								<img src="images/stickers/ic8-bag.png" alt="">
-									<span>800</span>
-							</div>
-							<div class="gift">
-								<img src="images/stickers/ic1-lolipop.png" alt="">
-									<span>900</span>
-							</div>
-							<div class="gift">
-								<img src="images/stickers/ic3-chocolate.png" alt="">
-									<span>1000</span>
-							</div>
-							<div class="gift">
-								<img src="images/stickers/ic10-ring.png" alt="">
-									<span>1200</span>
-							</div>
-							<div class="gift">
-								<img src="images/stickers/ic4-cake.png" alt="">
-								<span>1500</span>
-							</div>
-							<div class="gift">
-								<img src="images/stickers/ic7-lipstick.png" alt="">
-								<span>2000</span>
-							</div>
-							<div class="gift-explain">
-								<h3>請選擇您想要贈送的禮物 <span>（對方可兌換現金）</span></h3>
-								<p>若對方超過24小時未領取將全額退還金幣。</p>
-								<p>剩餘代幣
-									<span>
-										<img src="images/icon-small-coin@2x.png" alt="">
-										<i>130</i>
-									</span>
-								</p>
-								<a href="">儲值</a>
-								<a class="tip-btn" href="javascript:;">
-									<img src="images/help-icon.png" width="12" alt="">
-								</a>
-								<div class="pop" style="top:-76px;padding-top:15px;width:311px;height:76px;left: initial;right:0;padding-left:20px;">
-									<p style="color:#fff;font-size:13px;">與欣賞的人聊聊天或發專屬任務，挑選禮物表示<br>
-										誠意，令對方留下好印象！誠意越高，被接受的<br>
-										機會也越高唷。</p>
-									<b style="transform: rotate(0deg);top:initial; bottom:-6px;right:18px;"></b>
-								</div>
-							</div>
-						</div>
-
+						<a href="">查看任務內容</a>
 					</div>
-				</div>
+					<div class="clearfix"></div>
+					<span class="date">2018/03/06</span>
+				</li>
+				<li id="msg-1031" class="tasks me">
+					<div class="gift-content">
+						<img src="images/stickers/ic2-rose.png" alt="">
+						<div class="info">
+							Vincent Hsu 發任務
+							<p>唱一首想念我的歌</p>
+							<div class="g">禮物點數 <span>130</span></div>
+						</div>
+						<div class="clearfix"></div>
+						<a href="">查看任務內容</a>
+					</div>
+					<div class="clearfix"></div>
+					<span class="date">2018/03/06</span>
+				</li>
+
+				<!--li 标签记得区分 me and he 两个类 如果是he 把头像标签删掉-->
+
+			</ul>
+			<span class="chat-menu-btn"></span>
+			<div class="chat-menu-content animated">
+				<a href="">
+					<img width="22" src="images/ic1-home/off@2x.png" alt="">
+					首页
+				</a>
+				<a href="">
+					<img  width="22" src="images/ic2-chatting/off@2x.png" alt="">
+					聊天</a>
+				<span class="close"></span>
 			</div>
 		</div>
+		<div class="input-bar">
+				<div class="top-bar">
+					<div class="gift-tips hidden">
+						<h3>想與欣賞的人一對一聊天，先選個禮物來表達心意吧！</h3>
+						<p>若對方拒絕或超過24小時未回應，將退還點數。</p>
+						<b></b>
+					</div>
+					<div class="input-tips hidden">
+						可以開始與您欣賞的人一對一聊天了！
+						<b></b>
+					</div>
+					<div class="left-icon">
+									<span class="camera">
+										<input type="file">
+									</span>
+						<span class="photo">
+										<input type="file" accept="image/*">
+									</span>
+					</div>
+					<div class="tog-icon">
+						<button class="btn"></button>
+					</div>
+					<div class="input">
+						<!--<textarea  name="" placeholder="傳送聊天內容" id="" cols="30" rows="10"></textarea>-->
+						<div id="textarea" class="" contenteditable="true">
+							<!--<span class="placeholder">傳送聊天內容</span>-->
+						</div>
+					</div>
+					<div class="right-icon">
+						<button class="gift-btn"></button>
+						<button class="send-btn" style="display: none;"></button>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+				<div class="gift-show"  style="display: none;">
+					<img src="images/stickers/ic1-lolipop.png" alt="">
+					<span></span>
+				</div>
+				<div class="gift-list" style="display: none;">
+					<div class="gift">
+						<img src="images/stickers/ic2-rose.png" alt="">
+						<span>130</span>
+					</div>
+					<div class="gift">
+						<img src="images/stickers/ic5-wine.png" alt="">
+						<span>140</span>
+					</div>
+					<div class="gift">
+						<img src="images/stickers/ic9-diamond.png" alt="">
+						<span>200</span>
+					</div>
+					<div class="gift">
+						<img src="images/stickers/ic6-champane.png" alt="">
+						<span>400</span>
+					</div>
+					<div class="gift">
+						<img src="images/stickers/ic12-castle.png" alt="">
+						<span>530</span>
+					</div>
+					<div class="gift">
+						<img src="images/stickers/ic11-car.png" alt="">
+						<span>640</span>
+					</div>
+					<div class="gift">
+						<img src="images/stickers/ic8-bag.png" alt="">
+						<span>800</span>
+					</div>
+					<div class="gift">
+						<img src="images/stickers/ic1-lolipop.png" alt="">
+						<span>900</span>
+					</div>
+					<div class="gift">
+						<img src="images/stickers/ic3-chocolate.png" alt="">
+						<span>1000</span>
+					</div>
+					<div class="gift">
+						<img src="images/stickers/ic10-ring.png" alt="">
+						<span>1200</span>
+					</div>
+					<div class="gift">
+						<img src="images/stickers/ic4-cake.png" alt="">
+						<span>1500</span>
+					</div>
+					<div class="gift">
+						<img src="images/stickers/ic7-lipstick.png" alt="">
+						<span>2000</span>
+					</div>
+					<div class="gift-explain">
+						<h3>請選擇您想要贈送的禮物 <span>（對方可兌換現金）</span></h3>
+						<p>若對方超過24小時未領取將全額退還金幣。</p>
+						<p>剩餘代幣
+							<span>
+											<img src="images/icon-small-coin@2x.png" alt="">
+											<i>130</i>
+										</span>
+						</p>
+						<a href="">儲值</a>
+						<a class="tip-btn" href="javascript:;">
+							<img src="images/help-icon.png" width="12" alt="">
+						</a>
+						<div class="pop" style="top:-76px;padding-top:15px;width:311px;height:76px;left: initial;right:0;padding-left:20px;">
+							<p style="color:#fff;font-size:13px;">與欣賞的人聊聊天或發專屬任務，挑選禮物表示<br>
+								誠意，令對方留下好印象！誠意越高，被接受的<br>
+								機會也越高唷。</p>
+							<b style="transform: rotate(0deg);top:initial; bottom:-6px;right:18px;"></b>
+						</div>
+					</div>
+				</div>
+
+			</div>
 
 
 		<!--视频查看-->

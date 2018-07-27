@@ -117,7 +117,7 @@ $(function(){
     });
 
     // 点击其他地方关闭礼物
-    $(".chat-content .chat-desc").on('click', function(){
+    $(" .chat-desc").on('click', function(){
         if($(".gift-list").css('display') == 'none') return;
         $(".gift-list").slideUp(function(){
             setChatContent();
@@ -167,7 +167,7 @@ $(function(){
     });
 
     // 接受礼物或拒绝
-    $(".invitation .btn").on('click', function(){
+    $(".chat-content-invitation .btn").on('click', function(){
         if($(this).hasClass('btn-yes')){
             sendTips({
                 title: '接受聊天邀請',
@@ -481,7 +481,8 @@ $(function(){
     })
 
     // 设置聊天窗口当前的scrollTop
-    setChatContent("#msg-1020");
+    // setChatContent("#msg-1020");
+    setChatContent();
 
     //signup 验证码
     var time = 59;
@@ -658,13 +659,14 @@ $(function(){
 // 计算chat-content的高度和重置滚动条
 function setChatContent(selector){
     if($("#chat").length===0){return;}
-    var productHeight = $(".product-box").outerHeight();
-    $(".chat-desc").css({'padding-bottom': $(".input-bar").outerHeight()});
-    var scrollTop = productHeight - $("body").outerHeight()+300;
+    var clintHeight = window.innerHeight
+    $("#chat ul").css({'padding-bottom': '50px'});
+    var productHeight = $("#chat ul").outerHeight();
+    var scrollTop = productHeight - clintHeight
     if(selector && $(selector).length>0){
         scrollTop = $(selector).offset().top-15;
     }
-    $("body").scrollTop(scrollTop);
+    $("#chat").scrollTop(scrollTop);
 }
 
 //me send message

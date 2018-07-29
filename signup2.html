@@ -21,6 +21,18 @@
 		<!--<script src="lib/videojs/videojs-ie8.min.js"></script>-->
 		<script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       	<script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+		<script>
+            function _resizeView() {
+                var html = document.documentElement;
+                var windowWidth = html.clientWidth;
+                if(windowWidth > 750){
+                    windowWidth = 750;
+                }
+                html.style.fontSize = windowWidth / 7.5 + 'px';
+            }
+            _resizeView()
+            window.addEventListener('resize', _resizeView, false);
+		</script>
 	</head>
 
 	<body>
@@ -34,12 +46,12 @@
 					<div class="phone clearfix">
 						<div class="btn-group">
 							<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-								<img width="28" src="images/icon/taiwan-flag-round-icon-128.png" alt=""> <span class="caret"></span>
+								<img style="width:.56rem;" src="images/icon/taiwan-flag-round-icon-128.png" alt=""> <span class="caret"></span>
 							</button>
 							<ul class="dropdown-menu">
-								<li><a href="#"><img width="28" src="images/icon/taiwan-flag-round-icon-128.png" alt="">美国</a></li>
+								<li><a href="#"><img style="width:.56rem;" src="images/icon/taiwan-flag-round-icon-128.png" alt="">美国</a></li>
 								<li role="separator" class="divider"></li>
-								<li><a href="#"><img width="28" src="images/icon/taiwan-flag-round-icon-128.png" alt="">中国</a></li>
+								<li><a href="#"><img style="width:.56rem;" src="images/icon/taiwan-flag-round-icon-128.png" alt="">中国</a></li>
 							</ul>
 						</div>
 						<input id="signup-phone" class="form-control" value="+86" type="text">

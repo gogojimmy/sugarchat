@@ -6,7 +6,7 @@ $(function(){
             $(".copy").html('專屬連結已複製').css('opacity', '0.5');
             $(".copy").addClass('copy-complete')
             setTimeout(function(){
-                $(".copy").html('<img src="images/btn-icon2.png" alt="">分享專屬連結 點我複製連結').css('opacity', '1');
+                $(".copy").html('<img src="images/icon/copyIcon@2x.png" alt="">分享個人連結<span>讓更多人找你聊聊天、玩任務</span>').css('opacity', '1');
                 $(".copy").removeClass('copy-complete')
             },500)
             e.clearSelection();
@@ -59,8 +59,6 @@ $(function(){
     new Swiper('.chat-list .item.swiper-container', {
         slidesPerView: 'auto',
         initialSlide: 0,
-        height: 74,
-        width: 375,
         resistanceRatio: 0,
         slideToClickedSlide: true
     });
@@ -84,6 +82,11 @@ $(function(){
     $('.clause input').on('ifClicked', function(event){
         if(event.type=="ifClicked"){
             $('.clause input').iCheck('uncheck');
+        }
+    });
+    $('.evaluate-send .input .tips input').on('ifClicked', function(event){
+        if(event.type=="ifClicked"){
+            $('.evaluate-send .input .tips input').iCheck('uncheck');
         }
     });
     // select2
@@ -201,7 +204,7 @@ $(function(){
         }
         // 判断是否超出换行
         if($(this).height()>36){
-            $(".left-icon").animate({'left': '-200px'}, 100).hide();
+            $(".left-icon").animate({'left': '-4rem'}, 100).hide();
             $(".tog-icon").show().animate({'left': '0px'}, 100)
             $(".input-bar .input").css({'width': '68%'})
         }
@@ -217,7 +220,7 @@ $(function(){
     // 复位输入框
     $(".tog-icon").on('click', function(){
         $(".input-bar .input").css({'width': '58%'});
-        $(".tog-icon").hide().animate({'left': '-200px'}, 100,function(){
+        $(".tog-icon").hide().animate({'left': '-4rem'}, 100,function(){
             $(".left-icon").show().animate({'left': '0px'}, 100);
         });
         // $("#textarea").focus();
@@ -341,7 +344,7 @@ $(function(){
     });
 
     // 弹出回应窗口
-    $(".mission-content .respond").animate({bottom: '47px'},500);
+    $(".mission-content .respond").animate({bottom: '.94rem'},500);
 
     // 删除上传任务文件
     $(".file-list .file").delegate('.delete', 'click', function(){
@@ -481,7 +484,8 @@ $(function(){
     })
 
     // 设置聊天窗口当前的scrollTop
-    setChatContent("#msg-1020");
+    // setChatContent("#msg-1020");
+    setChatContent();
 
     //signup 验证码
     var time = 59;
@@ -574,7 +578,7 @@ $(function(){
     })
     // hide botton tab
     $(".footer-tab-bar-mask").click(function(){
-        $(".footer-tab-bar .tab-container").animate({bottom: '-375px'}, 300, function(){
+        $(".footer-tab-bar .tab-container").animate({bottom: '-7.5rem'}, 300, function(){
             $(".footer-tab-bar-mask").hide()
         })
     })
@@ -603,7 +607,7 @@ $(function(){
         $(".share-modal .share-modal-content").animate({bottom: '0px'}, 300)
     })
     $(".share-modal-content button").click(function(){
-        $(".share-modal .share-modal-content").animate({bottom: '-200px'}, 300, function(){
+        $(".share-modal .share-modal-content").animate({bottom: '-4rem'}, 300, function(){
             $(".share-modal").hide()
         })
     })
@@ -638,7 +642,7 @@ $(function(){
     })
     // hide gift
     $(".gift-modal-content .head span").click(function(){
-        $(".gift-modal-content").animate({bottom: '-400px'},300, function(){
+        $(".gift-modal-content").animate({bottom: '-8rem'},300, function(){
             $(".gift-modal").hide()
         })
         // 选中的礼物
@@ -658,13 +662,16 @@ $(function(){
 // 计算chat-content的高度和重置滚动条
 function setChatContent(selector){
     if($("#chat").length===0){return;}
-    var productHeight = $(".product-box").outerHeight();
-    $(".chat-desc").css({'padding-bottom': $(".input-bar").outerHeight()});
-    var scrollTop = productHeight - $("body").outerHeight()+300;
-    if(selector && $(selector).length>0){
-        scrollTop = $(selector).offset().top-15;
-    }
-    $("body").scrollTop(scrollTop);
+    setTimeout(function(){
+        var clintHeight = window.innerHeight;
+        var productBoxHeight = $("#chat ul").height()
+        $(".chat-desc").css({'padding-bottom': '.8rem'});
+        var scrollTop = productBoxHeight - clintHeight + 80;
+        if(selector && $(selector).length>0){
+            scrollTop = $(selector).offset().top-15;
+        }
+        $("#chat").scrollTop(scrollTop);
+    },100)
 }
 
 //me send message
@@ -923,3 +930,122 @@ function seRecomienda(userInfo){
         dom.removeClass('slideInRight').addClass('slideOutRight')
       }, 5000)
 }
+
+//个人页面侧边菜单
+function memberDragMenu(){
+    // open
+    $(".user-info.self .banner .menu").click(function(){
+        $(".user-info.self .banner .menu .c,.user-info.self .banner .menu .tips").hide()
+        $(".member-drag-box").show()
+        $(".member-drag-box .content").animate({right: '0px'},300)
+    })
+    // close
+    $(".member-drag-box .content .head span,.member-drag-box .mask").click(function(){
+        $(".member-drag-box .content").animate({right: '-6.5rem'},300, function(){
+            $(".member-drag-box").hide()
+        })
+    })
+
+
+}
+memberDragMenu()
+
+// 评价星星
+function star(){
+    var xing = $('.xing')
+    for(var i =0; i<xing.length; i++){
+        var num = xing.eq(i).data('index') || 0
+        var red = "<img src=\"images/icon/Rectangle-red@2x.png\">"
+        var ban = "<img src=\"images/icon/Rectangle-ban@2x.png\">"
+        var no = "<img src=\"images/icon/Rectangle-no@2x.png\">"
+        var temp = ''
+        switch(num){
+            case 0:
+                temp = no+no+no+no+no
+            break;
+            case 0.5:
+                temp = ban+no+no+no+no
+            break;
+            case 1:
+                temp = red+no+no+no+no
+            break;
+            case 1.5:
+                temp = red+ban+no+no+no
+            break;
+            case 2:
+                temp = red+red+no+no+no
+                break;
+            case 2.5:
+                temp = red+red+ban+no+no
+                break;
+            case 3:
+                temp = red+red+red+no+no
+                break;
+            case 3.5:
+                temp = red+red+red+ban+no
+                break;
+            case 4:
+                temp = red+red+red+red+no
+                break;
+            case 4.5:
+                temp = red+red+red+red+ban
+                break;
+            case 5:
+                temp = red+red+red+red+red
+                break;
+            default:
+                temp = no+no+no+no+no
+
+        }
+        xing.eq(i).html(temp)
+    }
+
+}
+star()
+
+// 评价设置星星
+function setStar(){
+    $(".xing-box .xing").on('click', 'img', function(){
+        var index = $(this).index()
+        var oldIndex = $(".xing-box .xing").data('index')
+        index += .5
+        if(oldIndex%1 != 0){
+            index += .5
+        }
+        if($(this).index() == 0 && oldIndex == 1){
+            index = 0
+        }
+        if(index == 3){
+            $(".xing-box h3").text('尚可')
+        }
+        if(index >= 3 && index < 4){
+            $(".xing-box h3").text('滿意')
+        }
+        if(index > 4){
+            $(".xing-box h3").text('非常滿意')
+        }
+        if(index > 0 && index <= 2.5){
+            $(".xing-box h3").text('不满意')
+        }
+        if(index == 0){
+            $(".xing-box h3").text('整體滿意度')
+        }
+        if(index<=3){
+            $(".evaluate-send .checkbox-box").eq(1).hide()
+            $(".evaluate-send .checkbox-box").eq(0).show()
+        }
+        if(index>3){
+            $(".evaluate-send .checkbox-box").eq(1).show()
+            $(".evaluate-send .checkbox-box").eq(0).hide()
+        }
+        if(index==0){
+            $(".evaluate-send .checkbox-box").hide()
+        }
+
+        $(".xing-box .xing").data('index', index)
+        star()
+    })
+}
+setStar()
+
+

@@ -19,6 +19,18 @@
       <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+		<script>
+            function _resizeView() {
+                var html = document.documentElement;
+                var windowWidth = html.clientWidth;
+                if(windowWidth > 750){
+                    windowWidth = 750;
+                }
+                html.style.fontSize = windowWidth / 7.5 + 'px';
+            }
+            _resizeView()
+            window.addEventListener('resize', _resizeView, false);
+		</script>
 	</head>
 
 	<body>
@@ -26,17 +38,17 @@
 
 	<!--新手必知--modal.html-->
 	<div class="modal fade task-modal" tabindex="-1" role="dialog" aria-labelledby="task-modal">
-		<div class="modal-dialog modal-sm" style="width: 307px;height:370px;" role="document">
+		<div class="modal-dialog modal-sm" style="width: 6.14rem;height:7.4rem;" role="document">
 			<div class="modal-content">
-				<button type="button" style="right:20px;top:16px;" class="close" data-dismiss="modal" aria-label="Close">
-					<img src="images/close-iocn1.png" width="16" alt="">
+				<button type="button" style="right:.4rem;top:.32rem;" class="close" data-dismiss="modal" aria-label="Close">
+					<img src="images/close-iocn1.png" style="width:.32rem" alt="">
 				</button>
-				<div class="desc" style="padding-top:10px;">
+				<div class="desc" style="padding-top:.2rem;">
 					<h3>新手必知</h3>
-					<p style="margin-top:20px;">收到的禮物可以換成台幣現金</p>
-					<img style="margin-top:20px;" width="248" src="images/icon/new-act.png" alt="">
-					<p style="margin-top:20px;">提領現金請至個人中心</p>
-					<a style="width:244px;height:42px; color: #292929;margin-top:20px; line-height: 42px;padding:0; border:1px solid #292929; border-radius: 35px;	" class="btn" href="">我知道了</a>
+					<p style="margin-top:.4rem;">收到的禮物可以換成台幣現金</p>
+					<img style="margin-top:.4rem; width: 4.56rem;"  src="images/icon/new-act.png" alt="">
+					<p style="margin-top:.4rem;">提領現金請至個人中心</p>
+					<a style="width:4.88rem;height:.94rem; color: #292929;margin-top:.4rem; line-height: .84rem;padding:0; border:1px solid #292929; border-radius: .7rem;	" class="btn" href="">我知道了</a>
 				</div>
 			</div>
 		</div>

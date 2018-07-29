@@ -19,6 +19,18 @@
       <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+		<script>
+            function _resizeView() {
+                var html = document.documentElement;
+                var windowWidth = html.clientWidth;
+                if(windowWidth > 750){
+                    windowWidth = 750;
+                }
+                html.style.fontSize = windowWidth / 7.5 + 'px';
+            }
+            _resizeView()
+            window.addEventListener('resize', _resizeView, false);
+		</script>
 	</head>
 
 	<body>
@@ -72,9 +84,11 @@
 		</div>
 
 
-		<footer>
+		<footer class="flex">
 			<a class="home active" href=""></a>
+			<a class="activity" href=""></a>
 			<a class="message" href=""><i>2</i></a>
+			<a class="notice" href=""></a>
 			<a class="member" href=""></a>
 		</footer>
 
@@ -83,7 +97,7 @@
 			<div class="modal-dialog modal-sm" role="document">
 				<div class="modal-content">
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-						<img src="images/close-iocn1.png" width="16" alt="">
+						<img src="images/close-iocn1.png" style="width:.32rem" alt="">
 					</button>
 					<div class="desc">
 						<h2>首次儲值 賺現金+點數</h2>

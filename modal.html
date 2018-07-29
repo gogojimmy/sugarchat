@@ -21,6 +21,18 @@
 		<!--<script src="lib/videojs/videojs-ie8.min.js"></script>-->
 		<script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       	<script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+		<script>
+            function _resizeView() {
+                var html = document.documentElement;
+                var windowWidth = html.clientWidth;
+                if(windowWidth > 750){
+                    windowWidth = 750;
+                }
+                html.style.fontSize = windowWidth / 7.5 + 'px';
+            }
+            _resizeView()
+            window.addEventListener('resize', _resizeView, false);
+		</script>
 	</head>
 
 	<body>
@@ -28,13 +40,13 @@
 
 		<!--点数回馈1 modal-->
 		<div class="modal fade task-modal s-modal" tabindex="-1" role="dialog" aria-labelledby="task-modal">
-			<div class="modal-dialog modal-sm" style="width: 307px;height: 364px;" role="document">
+			<div class="modal-dialog modal-sm" style="width: 6.14rem;height: 7.28rem" role="document">
 				<div class="modal-content">
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-						<img src="images/close-iocn1.png" width="16" alt="">
+						<img src="images/close-iocn1.png" style="width:.32rem" alt="">
 					</button>
 					<div class="desc">
-						<img src="images/icon/vip-modal1@2x.png" width="122" alt="">
+						<img src="images/icon/vip-modal1@2x.png" style="width:2.44rem" alt="">
 						<h3>贈送1200點</h3>
 						<p>綠色會員點數回饋</p>
 						<a class="btn" href="">領取點數</a>
@@ -46,13 +58,13 @@
 
 		<!--点数回馈2 modal-->
 		<div class="modal fade task-modal s-modal" tabindex="-1" role="dialog" aria-labelledby="task-modal">
-			<div class="modal-dialog modal-sm" style="width: 307px;height: 364px;" role="document">
+			<div class="modal-dialog modal-sm" style="width:6.14rem;height: 7.28rem;" role="document">
 				<div class="modal-content">
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-						<img src="images/close-iocn1.png" width="16" alt="">
+						<img src="images/close-iocn1.png" style="width:.32rem" alt="">
 					</button>
 					<div class="desc">
-						<img src="images/icon/vip-modal2@2x.png" width="122" alt="">
+						<img src="images/icon/vip-modal2@2x.png" style="width:2.44rem" alt="">
 						<h3>贈送1200點</h3>
 						<p>綠色會員點數回饋</p>
 						<a class="btn" href="">領取點數</a>
@@ -65,13 +77,13 @@
 
 		<!--点数回馈3 modal-->
 		<div class="modal fade task-modal s-modal" tabindex="-1" role="dialog" aria-labelledby="task-modal">
-			<div class="modal-dialog modal-sm" style="width: 307px;height: 364px;" role="document">
+			<div class="modal-dialog modal-sm" style="width:  6.14rem;height: 7.28rem;" role="document">
 				<div class="modal-content">
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-						<img src="images/close-iocn1.png" width="16" alt="">
+						<img src="images/close-iocn1.png" style="width:.32rem" alt="">
 					</button>
 					<div class="desc">
-						<img src="images/icon/vip-modal3@2x.png" width="122" alt="">
+						<img src="images/icon/vip-modal3@2x.png" style="width:2.44rem" alt="">
 						<h3>贈送1200點</h3>
 						<p>綠色會員點數回饋</p>
 						<a class="btn" href="">領取點數</a>

@@ -3,10 +3,94 @@
   <component name="ChangeListManager">
     <list id="0c21cf16-a53a-4990-bd85-08abd7f60caf" name="Revert: add IScroll plugin" comment="" />
     <list default="true" id="13fc7e30-3c2a-4013-a602-5b2882e6bb25" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/images/adv-banner@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icon/Icon1left@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icon/Rectangle-ban@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icon/Rectangle-no@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icon/Rectangle-red@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icon/copyIcon@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icon/datesd@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icon/ic-arrow-left@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icon/ic-event1@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icon/menu12@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icon/modal-iconsdf@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icon/pD@2X.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icon/profile-empty copy@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icon/seting@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icon/tips-bg@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/刪除評價confirm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/參加者 加入後.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/參加者 活動結束後 已評價.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/參加者 活動結束後.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/填寫評價.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/填寫評價4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/本人聚會popup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/粉絲人數.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/编辑评价.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/評價 預設.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/追蹤中.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/非本人聚會popup.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/505.html" beforeDir="false" afterPath="$PROJECT_DIR$/505.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FAQ.html" beforeDir="false" afterPath="$PROJECT_DIR$/FAQ.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account.html" beforeDir="false" afterPath="$PROJECT_DIR$/account.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/chat-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-watch.html" beforeDir="false" afterPath="$PROJECT_DIR$/chat-watch.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat.html" beforeDir="false" afterPath="$PROJECT_DIR$/chat.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/friends-task.html" beforeDir="false" afterPath="$PROJECT_DIR$/friends-task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ico.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/ico.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/js.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/js.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/landing.html" beforeDir="false" afterPath="$PROJECT_DIR$/landing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modal.html" beforeDir="false" afterPath="$PROJECT_DIR$/modal.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/navbar1.html" beforeDir="false" afterPath="$PROJECT_DIR$/navbar1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/navbar2.html" beforeDir="false" afterPath="$PROJECT_DIR$/navbar2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/navbar3.html" beforeDir="false" afterPath="$PROJECT_DIR$/navbar3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ranking.html" beforeDir="false" afterPath="$PROJECT_DIR$/ranking.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/signup2.html" beforeDir="false" afterPath="$PROJECT_DIR$/signup2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/signup4.html" beforeDir="false" afterPath="$PROJECT_DIR$/signup4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/signup6.html" beforeDir="false" afterPath="$PROJECT_DIR$/signup6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/signup8.html" beforeDir="false" afterPath="$PROJECT_DIR$/signup8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upgrade-vip.html" beforeDir="false" afterPath="$PROJECT_DIR$/upgrade-vip.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/主辦人 瀏覽活動.html" beforeDir="false" afterPath="$PROJECT_DIR$/主辦人 瀏覽活動.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/会员升级.html" beforeDir="false" afterPath="$PROJECT_DIR$/会员升级.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/個人-本人.html" beforeDir="false" afterPath="$PROJECT_DIR$/個人-本人.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/個人-非本人.html" beforeDir="false" afterPath="$PROJECT_DIR$/個人-非本人.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/儲值1  預設.html" beforeDir="false" afterPath="$PROJECT_DIR$/儲值1  預設.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/儲值2.html" beforeDir="false" afterPath="$PROJECT_DIR$/儲值2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/升级会员付款5.html" beforeDir="false" afterPath="$PROJECT_DIR$/升级会员付款5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/升级会员付款6.html" beforeDir="false" afterPath="$PROJECT_DIR$/升级会员付款6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/參加者 查看活動.html" beforeDir="false" afterPath="$PROJECT_DIR$/參加者 查看活動.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/地址.html" beforeDir="false" afterPath="$PROJECT_DIR$/地址.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/官方任務2 預設.html" beforeDir="false" afterPath="$PROJECT_DIR$/官方任務2 預設.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/官方任務4 邀請紀錄.html" beforeDir="false" afterPath="$PROJECT_DIR$/官方任務4 邀請紀錄.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/官方任務5 LINE邀請函.html" beforeDir="false" afterPath="$PROJECT_DIR$/官方任務5 LINE邀請函.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/已送出點數.html" beforeDir="false" afterPath="$PROJECT_DIR$/已送出點數.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/建立活動.html" beforeDir="false" afterPath="$PROJECT_DIR$/建立活動.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/提領現金1-第一次使用(預設).html" beforeDir="false" afterPath="$PROJECT_DIR$/提領現金1-第一次使用(預設).html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/提領現金2.html" beforeDir="false" afterPath="$PROJECT_DIR$/提領現金2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/提領現金3.html" beforeDir="false" afterPath="$PROJECT_DIR$/提領現金3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/提領現金4.html" beforeDir="false" afterPath="$PROJECT_DIR$/提領現金4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/新手必知-modal.html" beforeDir="false" afterPath="$PROJECT_DIR$/新手必知-modal.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/旅遊-地點選單.html" beforeDir="false" afterPath="$PROJECT_DIR$/旅遊-地點選單.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/服务条款.html" beforeDir="false" afterPath="$PROJECT_DIR$/服务条款.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/活动分类.html" beforeDir="false" afterPath="$PROJECT_DIR$/活动分类.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/活动列表.html" beforeDir="false" afterPath="$PROJECT_DIR$/活动列表.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/發任務1 編輯新任務.html" beforeDir="false" afterPath="$PROJECT_DIR$/發任務1 編輯新任務.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/發任務3-2發任務者打開內容.html" beforeDir="false" afterPath="$PROJECT_DIR$/發任務3-2發任務者打開內容.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/發任務3接收者打開內容.html" beforeDir="false" afterPath="$PROJECT_DIR$/發任務3接收者打開內容.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/發任務4上傳任務.html" beforeDir="false" afterPath="$PROJECT_DIR$/發任務4上傳任務.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/簽到領點數-modal.html" beforeDir="false" afterPath="$PROJECT_DIR$/簽到領點數-modal.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/编辑.html" beforeDir="false" afterPath="$PROJECT_DIR$/编辑.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/送禮物1-disabled状态.html" beforeDir="false" afterPath="$PROJECT_DIR$/送禮物1-disabled状态.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/通知.html" beforeDir="false" afterPath="$PROJECT_DIR$/通知.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/開局費用.html" beforeDir="false" afterPath="$PROJECT_DIR$/開局費用.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/關於.html" beforeDir="false" afterPath="$PROJECT_DIR$/關於.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/隱私權政策.html" beforeDir="false" afterPath="$PROJECT_DIR$/隱私權政策.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,79 +100,38 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+    <leaf>
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="683">
+              <caret line="189" selection-start-line="189" selection-end-line="189" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="chat.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/chat.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="343">
+              <caret line="765" column="8" selection-start-line="765" selection-start-column="8" selection-end-line="765" selection-end-column="8" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#a#1;n#div#12;n#div#3;n#div#3;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#12;n#div#3;n#div#3;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#0;n#div#12;n#div#3;n#div#3;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#b#0;n#div#0;n#div#12;n#div#3;n#div#3;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="1294" column="77" selection-start-line="1294" selection-start-column="77" selection-end-line="1294" selection-end-column="77" />
+            <state relative-caret-position="593">
+              <caret line="219" column="63" selection-start-line="219" selection-start-column="63" selection-end-line="219" selection-end-column="63" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="主辦人 瀏覽活動.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/主辦人 瀏覽活動.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="140" column="80" selection-start-line="140" selection-start-column="80" selection-end-line="140" selection-end-column="80" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="地址.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/地址.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="518">
-              <caret line="39" column="39" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="建立活動.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/建立活動.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="294" selection-start-line="294" selection-end-line="294" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="已送出點數.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/已送出點數.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="旅遊-地點選單.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/旅遊-地點選單.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="39" column="47" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="活动分类.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/活动分类.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="account.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/account.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="friends-task.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/friends-task.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="upgrade-vip.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/upgrade-vip.html">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -98,52 +141,44 @@
       <list>
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>transform:translate3d</find>
-      <find>translate3d</find>
-      <find>transform-origin</find>
-      <find>wrapperClass</find>
-      <find>swiper-wrapper</find>
-      <find>s.wrapper.transform</find>
-      <find>zFactor</find>
-      <find>transform</find>
-      <find>friends-task</find>
-      <find>ppl2-1@2x.png</find>
-      <find>task-box</find>
-      <find>invitations-box</find>
-      <find>Modal</find>
-      <find>loading</find>
-      <find>tip-btn</find>
-      <find>textarea</find>
-      <find>animati</find>
-      <find>menu</find>
-      <find>document</find>
-      <find>clause-modal</find>
-      <find>banner</find>
-      <find>member-upgrade</find>
-      <find>href=&quot;&quot;</find>
-      <find>message-box</find>
-      <find>Demo</find>
-      <find>activity-type</find>
-      <find>datetimeDate-demo</find>
-      <find>time</find>
-      <find>select-date-time</find>
-      <find>select2</find>
+      <find>: 67px</find>
+      <find>:5px;</find>
+      <find>radio</find>
+      <find>750</find>
+      <find>width=&quot;16&quot;</find>
+      <find>width=&quot;122&quot;</find>
+      <find>width=&quot;77&quot;</find>
+      <find>width=&quot;28&quot;</find>
+      <find>width=&quot;85&quot;</find>
+      <find>width=&quot;25&quot;</find>
+      <find>upgrade-vip</find>
+      <find>width=&quot;53&quot;</find>
+      <find>width=&quot;12&quot;</find>
+      <find>width=&quot;284&quot;</find>
+      <find>width=&quot;21&quot;</find>
+      <find>width=&quot;20&quot;</find>
+      <find>width=&quot;163&quot;</find>
+      <find>width=&quot;89&quot;</find>
+      <find>width=&quot;24&quot;</find>
+      <find>width=&quot;22&quot;</find>
+      <find>width=&quot;18&quot;</find>
+      <find>style=&quot;</find>
+      <find>刪除</find>
+      <find>编辑</find>
+      <find>確定要</find>
+      <find>取消</find>
+      <find>追蹤</find>
+      <find>px</find>
+      <find>width=&quot;</find>
+      <find>height=&quot;</find>
     </findStrings>
     <replaceStrings>
-      <replace>item-list</replace>
-      <replace>id=&quot;content&quot;</replace>
-      <replace>class=&quot;content&quot;</replace>
-      <replace>iscroll-probe.js</replace>
-      <replace>setChartIscroll</replace>
-      <replace>data-video-uri</replace>
-      <replace>&lt;a class=&quot;message&quot; href=&quot;&quot;&gt;				&lt;i&gt;2&lt;/i&gt;			&lt;/a&gt;</replace>
-      <replace>&lt;a class=&quot;message&quot; href=&quot;&quot;&gt;&lt;i&gt;2&lt;/i&gt;&lt;/a&gt;</replace>
-      <replace>./images/WeChatSight81.mp4</replace>
       <replace>chat</replace>
       <replace>setChatContent</replace>
       <replace>data-id=&quot;msg-</replace>
@@ -152,6 +187,28 @@
       <replace>javascript:;</replace>
       <replace>href=&quot;javascript:;&quot;</replace>
       <replace>select-modal</replace>
+      <replace>width: 7.5rem;</replace>
+      <replace>.72rem</replace>
+      <replace>.52rem</replace>
+      <replace>:1.34rem</replace>
+      <replace>2.82rem</replace>
+      <replace>:.66rem</replace>
+      <replace>style=&quot;width:.32rem&quot;</replace>
+      <replace>style=&quot;width:2.44rem&quot;</replace>
+      <replace>style=&quot;width:1.54rem&quot;</replace>
+      <replace>style=&quot;width:.56rem;&quot;</replace>
+      <replace>style=&quot;width:1.7rem;&quot;</replace>
+      <replace>style=&quot;width:.5rem;&quot;</replace>
+      <replace>style=&quot;width: 1.06rem&quot;</replace>
+      <replace>style=&quot;width: .24rem;&quot;</replace>
+      <replace>style=&quot;width:5.68rem&quot;</replace>
+      <replace>style=&quot;width:.42rem&quot;</replace>
+      <replace>style=&quot;width:.4rem&quot;</replace>
+      <replace>style=&quot;width: 3.26rem&quot;</replace>
+      <replace>style=&quot;width: .48rem;&quot;</replace>
+      <replace>style=&quot;width: 1.2rem;&quot;</replace>
+      <replace>style=&quot;width: .36rem;&quot;</replace>
+      <replace>style=&quot;width: .4rem;&quot;</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -172,57 +229,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/官方任務4 邀請紀錄.html" />
-        <option value="$PROJECT_DIR$/官方任務2 預設.html" />
-        <option value="$PROJECT_DIR$/官方任務5 LINE邀請函.html" />
-        <option value="$PROJECT_DIR$/css/animations.css" />
-        <option value="$PROJECT_DIR$/task.html" />
-        <option value="$PROJECT_DIR$/發任務1 編輯新任務.html" />
-        <option value="$PROJECT_DIR$/簽到領點數-modal.html" />
-        <option value="$PROJECT_DIR$/新手必知-modal.html" />
-        <option value="$PROJECT_DIR$/chat.html" />
-        <option value="$PROJECT_DIR$/chat-watch.html" />
         <option value="$PROJECT_DIR$/signup2.html" />
         <option value="$PROJECT_DIR$/signup4.html" />
         <option value="$PROJECT_DIR$/signup6.html" />
         <option value="$PROJECT_DIR$/signup8.html" />
-        <option value="$PROJECT_DIR$/navbar1.html" />
-        <option value="$PROJECT_DIR$/navbar2.html" />
-        <option value="$PROJECT_DIR$/navbar3.html" />
-        <option value="$PROJECT_DIR$/编辑.html" />
+        <option value="$PROJECT_DIR$/task.html" />
         <option value="$PROJECT_DIR$/upgrade-vip.html" />
+        <option value="$PROJECT_DIR$/js/js.js" />
+        <option value="$PROJECT_DIR$/会员升级.html" />
         <option value="$PROJECT_DIR$/儲值1  預設.html" />
         <option value="$PROJECT_DIR$/儲值2.html" />
-        <option value="$PROJECT_DIR$/升级会员付款.html" />
-        <option value="$PROJECT_DIR$/升级会员付款6.html" />
         <option value="$PROJECT_DIR$/升级会员付款5.html" />
-        <option value="$PROJECT_DIR$/送禮物1-disabled状态.html" />
-        <option value="$PROJECT_DIR$/chat-list.html" />
-        <option value="$PROJECT_DIR$/個人-本人.html" />
-        <option value="$PROJECT_DIR$/個人-非本人.html" />
-        <option value="$PROJECT_DIR$/home.html" />
-        <option value="$PROJECT_DIR$/modal.html" />
-        <option value="$PROJECT_DIR$/FAQ.html" />
-        <option value="$PROJECT_DIR$/服务条款.html" />
-        <option value="$PROJECT_DIR$/landing.html" />
-        <option value="$PROJECT_DIR$/隱私權政策.html" />
-        <option value="$PROJECT_DIR$/会员升级.html" />
-        <option value="$PROJECT_DIR$/activity-list.html" />
-        <option value="$PROJECT_DIR$/查看活动.html" />
-        <option value="$PROJECT_DIR$/主辦人 瀏覽活動.html" />
-        <option value="$PROJECT_DIR$/地址.html" />
-        <option value="$PROJECT_DIR$/旅遊-地點選單.html" />
-        <option value="$PROJECT_DIR$/通知.html" />
-        <option value="$PROJECT_DIR$/活动分类.html" />
-        <option value="$PROJECT_DIR$/js/js.js" />
-        <option value="$PROJECT_DIR$/js/mobiscroll.custom-3.0.0-beta6.min.js" />
-        <option value="$USER_HOME$/Downloads/Mobiscroll 2/index.html" />
-        <option value="$PROJECT_DIR$/建立活動.html" />
-        <option value="$PROJECT_DIR$/landing網美版.html" />
+        <option value="$PROJECT_DIR$/升级会员付款6.html" />
+        <option value="$PROJECT_DIR$/參加者 加入後.html" />
         <option value="$PROJECT_DIR$/參加者 查看活動.html" />
-        <option value="$PROJECT_DIR$/開局費用.html" />
+        <option value="$PROJECT_DIR$/參加者 活動結束後.html" />
+        <option value="$PROJECT_DIR$/參加者 活動結束後 已評價.html" />
+        <option value="$PROJECT_DIR$/地址.html" />
+        <option value="$PROJECT_DIR$/官方任務2 預設.html" />
+        <option value="$PROJECT_DIR$/官方任務5 LINE邀請函.html" />
+        <option value="$PROJECT_DIR$/已送出點數.html" />
+        <option value="$PROJECT_DIR$/建立活動.html" />
+        <option value="$PROJECT_DIR$/提領現金1-第一次使用(預設).html" />
+        <option value="$PROJECT_DIR$/提領現金2.html" />
+        <option value="$PROJECT_DIR$/提領現金3.html" />
+        <option value="$PROJECT_DIR$/提領現金4.html" />
+        <option value="$PROJECT_DIR$/新手必知-modal.html" />
+        <option value="$PROJECT_DIR$/服务条款.html" />
+        <option value="$PROJECT_DIR$/活动分类.html" />
         <option value="$PROJECT_DIR$/活动列表.html" />
+        <option value="$PROJECT_DIR$/發任務1 編輯新任務.html" />
+        <option value="$PROJECT_DIR$/發任務3-2發任務者打開內容.html" />
+        <option value="$PROJECT_DIR$/發任務3接收者打開內容.html" />
+        <option value="$PROJECT_DIR$/發任務4上傳任務.html" />
+        <option value="$PROJECT_DIR$/旅遊-地點選單.html" />
+        <option value="$PROJECT_DIR$/簽到領點數-modal.html" />
+        <option value="$PROJECT_DIR$/编辑.html" />
+        <option value="$PROJECT_DIR$/送禮物1-disabled状态.html" />
+        <option value="$PROJECT_DIR$/通知.html" />
+        <option value="$PROJECT_DIR$/開局費用.html" />
+        <option value="$PROJECT_DIR$/關於.html" />
+        <option value="$PROJECT_DIR$/隱私權政策.html" />
+        <option value="$PROJECT_DIR$/官方任務4 邀請紀錄.html" />
+        <option value="$PROJECT_DIR$/编辑评价.html" />
+        <option value="$PROJECT_DIR$/home.html" />
+        <option value="$PROJECT_DIR$/刪除評價confirm.html" />
+        <option value="$PROJECT_DIR$/追蹤中.html" />
+        <option value="$PROJECT_DIR$/粉絲人數.html" />
+        <option value="$PROJECT_DIR$/非本人聚會popup.html" />
+        <option value="$PROJECT_DIR$/本人聚會popup.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/chat.html" />
       </list>
     </option>
   </component>
@@ -244,11 +301,10 @@
     </packageJsonPaths>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds">
-    <option name="x" value="131" />
-    <option name="y" value="23" />
-    <option name="width" value="1545" />
-    <option name="height" value="1004" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="39" />
+    <option name="width" value="1920" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -268,7 +324,7 @@
             <path>
               <item name="sugarchat" type="b2602c69:ProjectViewProjectNode" />
               <item name="sugarchat" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -278,6 +334,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
@@ -299,13 +356,13 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
-    <property name="settings.editor.selected.configurable" value="application.passwordSafe" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/images" />
-      <recent name="$PROJECT_DIR$/images/icon" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/images/icon" />
+      <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$/lib" />
       <recent name="$PROJECT_DIR$/js" />
     </key>
@@ -417,14 +474,14 @@
       <workItem from="1531313728707" duration="178000" />
       <workItem from="1531314105222" duration="32000" />
       <workItem from="1532435022885" duration="4816000" />
-      <workItem from="1532521363225" duration="907000" />
-    </task>
-    <task id="LOCAL-00001" summary="The first version！">
-      <created>1520846721463</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1520846721463</updated>
+      <workItem from="1532521363225" duration="1004000" />
+      <workItem from="1532702183897" duration="2682000" />
+      <workItem from="1532706336187" duration="548000" />
+      <workItem from="1532707295033" duration="10976000" />
+      <workItem from="1532759992048" duration="11629000" />
+      <workItem from="1532776490500" duration="10434000" />
+      <workItem from="1532788122905" duration="7462000" />
+      <workItem from="1532827906016" duration="569000" />
     </task>
     <task id="LOCAL-00002" summary="push new code!">
       <created>1520932401183</created>
@@ -762,24 +819,32 @@
       <option name="project" value="LOCAL" />
       <updated>1532439477652</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="页面修改07-25">
+      <created>1532522368281</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1532522368282</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="276284000" />
+    <option name="totallyTimeSpent" value="320681000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="131" y="23" width="1545" height="1004" extended-state="0" />
+    <frame x="0" y="39" width="1920" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24540682" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15165877" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50190115" side_tool="true" weight="0.6608123" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49809885" weight="0.415656" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5026247" side_tool="true" weight="0.2734289" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32916668" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49737534" weight="0.27291667" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.53362733" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49868765" weight="0.53333336" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Thumbnails" order="11" weight="0.32930845" />
@@ -793,26 +858,25 @@
       <window_info anchor="bottom" id="Messages" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32930845" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17784877" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="ReactNative" order="7" weight="0.32930845" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Thumbnails" order="13" weight="0.32930845" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49809885" weight="0.41602635" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32930845" />
       <window_info anchor="bottom" id="Command Line Tools Console" order="12" visible="true" weight="0.32930845" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.20307355" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50190115" side_tool="true" weight="0.6608123" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49809885" weight="0.41602635" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Messages" order="8" />
@@ -853,7 +917,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add IScroll plugin" />
     <MESSAGE value="new Version" />
     <MESSAGE value="new code" />
     <MESSAGE value="new done" />
@@ -878,7 +941,8 @@
     <MESSAGE value="update 0709" />
     <MESSAGE value="1" />
     <MESSAGE value="页面修改07-24" />
-    <option name="LAST_COMMIT_MESSAGE" value="页面修改07-24" />
+    <MESSAGE value="页面修改07-25" />
+    <option name="LAST_COMMIT_MESSAGE" value="页面修改07-25" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -886,316 +950,511 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/個人-非本人.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="54" column="78" selection-start-line="54" selection-start-column="78" selection-end-line="54" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/簽到領點數-modal.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="842">
-          <caret line="96" column="48" lean-forward="true" selection-start-line="96" selection-start-column="48" selection-end-line="96" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/儲值2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="619">
-          <caret line="116" column="26" selection-start-line="116" selection-start-column="26" selection-end-line="116" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/關於.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="123" column="97" selection-start-line="123" selection-start-column="97" selection-end-line="123" selection-end-column="97" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/icon/1-logo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FAQ.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/服务条款.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="779">
-          <caret line="123" column="65" selection-start-line="123" selection-start-column="65" selection-end-line="123" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/個人-本人.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="55" column="78" lean-forward="true" selection-start-line="53" selection-start-column="28" selection-end-line="55" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/隱私權政策.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="37" column="34" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/landing.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="814">
-          <caret line="43" column="53" selection-start-line="43" selection-start-column="53" selection-end-line="43" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/icon/vip-gold.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/会员升级.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="577">
-          <caret line="117" column="18" lean-forward="true" selection-start-line="117" selection-start-column="18" selection-end-line="117" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="28" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/icon/yes-icon@2x.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/qa-bg.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/loading.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/message-icon@2x.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/icon/task-5bg@2x.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/icon/yaoqinghan-bg@2x.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/12fgdsf@2x.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/icon-small-coin@2x.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/icon/zhuanshi@2x.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="127" column="77" selection-start-line="127" selection-start-column="56" selection-end-line="127" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/升级会员付款5.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="61" column="47" lean-forward="true" selection-start-line="61" selection-start-column="47" selection-end-line="61" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modal.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="65" column="8" selection-start-line="65" selection-start-column="8" selection-end-line="81" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/close-iocn1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/close-iocn2.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/delete-bank-icon.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/delete-photo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/embed.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chat.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="712" column="62" selection-start-line="712" selection-start-column="54" selection-end-line="712" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/通知.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="52" column="61" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/jquery.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/mobiscroll.custom-3.0.0-beta6.min.js" />
-    <entry file="file://$PROJECT_DIR$/lib/Mobiscroll/js/mobiscroll.custom-3.0.0-beta6.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/Mobiscroll 2/index.html" />
-    <entry file="file://$PROJECT_DIR$/landing網美版.html" />
-    <entry file="file://$PROJECT_DIR$/js/js.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2024">
-          <caret line="88" column="4" selection-start-line="88" selection-start-column="4" selection-end-line="89" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/活动列表.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="36" selection-end-column="22" />
+        <state relative-caret-position="220">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="32" selection-end-column="13" />
           <folding>
-            <element signature="n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#1;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#2;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#3;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#4;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#5;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#6;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#7;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#8;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#9;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#0;n#ul#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#1;n#ul#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#2;n#ul#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#3;n#ul#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#4;n#ul#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#5;n#ul#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#6;n#ul#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#7;n#ul#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#8;n#ul#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#9;n#ul#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#1;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#2;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#3;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#4;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#5;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#6;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#7;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#8;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#9;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#0;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#1;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#2;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#3;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#4;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#5;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#6;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#7;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#8;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#9;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#0;n#ul#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#1;n#ul#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#2;n#ul#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#3;n#ul#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#4;n#ul#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#5;n#ul#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#6;n#ul#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#7;n#ul#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#8;n#ul#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#9;n#ul#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/開局費用.html">
+    <entry file="file://$PROJECT_DIR$/升级会员付款6.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="706">
-          <caret line="204" column="60" selection-start-line="204" selection-start-column="60" selection-end-line="204" selection-end-column="60" />
+        <state relative-caret-position="240">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="32" selection-end-column="17" />
           <folding>
-            <element signature="n#style#0;n#p#0;n#div#7;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#4;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/參加者 加入後.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="774">
+          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/參加者 查看活動.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="160" column="63" lean-forward="true" selection-start-line="160" selection-start-column="63" selection-end-line="160" selection-end-column="63" />
+        <state relative-caret-position="616">
+          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#button#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#1;n#ul#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/account.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/friends-task.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/upgrade-vip.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/主辦人 瀏覽活動.html">
+    <entry file="file://$PROJECT_DIR$/參加者 活動結束後.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="140" column="80" selection-start-line="140" selection-start-column="80" selection-end-line="140" selection-end-column="80" />
+        <state relative-caret-position="782">
+          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/參加者 活動結束後 已評價.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/地址.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="39" column="39" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
+        <state relative-caret-position="172">
+          <caret line="58" column="63" selection-start-line="58" selection-start-column="63" selection-end-line="58" selection-end-column="63" />
+          <folding>
+            <element signature="n#style#0;n#button#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/填寫評價.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2530">
+          <caret line="110" column="30" selection-start-line="110" selection-start-column="30" selection-end-line="110" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/填寫評價4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="619">
+          <caret line="41" column="42" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/官方任務2 預設.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="32" selection-end-column="17" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#4;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#1;n#div#0;n#div#4;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/官方任務5 LINE邀請函.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="32" selection-end-column="17" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#button#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/已送出點數.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="32" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/建立活動.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="294" selection-start-line="294" selection-end-line="294" />
+        <state relative-caret-position="540">
+          <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="35" selection-end-column="17" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/已送出點數.html">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/提領現金2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="19" column="85" lean-forward="true" selection-start-line="19" selection-start-column="85" selection-end-line="19" selection-end-column="85" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#i#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/提領現金3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="67" column="38" selection-start-line="67" selection-start-column="38" selection-end-line="67" selection-end-column="38" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#i#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#b#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/提領現金4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2840">
+          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#b#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/提領現金1-第一次使用(預設).html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="32" selection-end-column="17" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#i#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#b#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/發任務3-2發任務者打開內容.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="72" column="86" selection-start-line="72" selection-start-column="86" selection-end-line="72" selection-end-column="86" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#4;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#button#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/發任務1 編輯新任務.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="32" selection-end-column="17" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#i#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#b#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#label#0;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/新手必知-modal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-251">
+          <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="32" selection-end-column="17" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/旅遊-地點選單.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="39" column="47" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
+        <state relative-caret-position="479">
+          <caret line="54" column="63" selection-start-line="54" selection-start-column="63" selection-end-line="54" selection-end-column="63" />
+          <folding>
+            <element signature="n#style#0;n#button#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/服务条款.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2229">
+          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/活动分类.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="375">
+          <caret line="42" column="42" lean-forward="true" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="42" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/活动列表.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="34" selection-end-column="17" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/發任務3接收者打開內容.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="32" selection-end-column="17" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#4;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#b#0;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#button#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#button#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/發任務4上傳任務.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1392">
+          <caret line="156" column="52" selection-start-line="156" selection-start-column="52" selection-end-line="156" selection-end-column="52" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#button#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#button#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/簽到領點數-modal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="40" column="83" selection-start-line="40" selection-start-column="83" selection-end-line="40" selection-end-column="83" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#button#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/编辑.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="32" selection-end-column="17" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#2;n#div#4;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#3;n#div#4;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#button#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/送禮物1-disabled状态.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="32" selection-end-column="17" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/通知.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2418">
+          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/開局費用.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="34" selection-end-column="17" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#button#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#1;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/關於.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="32" selection-end-column="17" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#button#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#button#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/隱私權政策.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="710">
+          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/官方任務4 邀請紀錄.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="30" column="24" lean-forward="true" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-987">
+          <caret line="79" column="30" lean-forward="true" selection-start-line="79" selection-start-column="30" selection-end-line="79" selection-end-column="30" />
+          <folding>
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/编辑评价.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="77" column="7" selection-start-line="77" selection-start-column="7" selection-end-line="77" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/s/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" lean-forward="true" selection-end-line="179" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/404.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="32" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/505.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/主辦人 瀏覽活動.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="495" column="20" lean-forward="true" selection-start-line="495" selection-start-column="20" selection-end-line="495" selection-end-column="20" />
+          <folding>
+            <element signature="n#style#0;n#li#1;n#ul#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="143" column="8" selection-start-line="143" selection-start-column="8" selection-end-line="149" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/会员升级.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="118" column="8" selection-start-line="118" selection-start-column="8" selection-end-line="130" selection-end-column="14" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/刪除評價confirm.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="42" column="89" selection-start-line="42" selection-start-column="89" selection-end-line="42" selection-end-column="89" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/粉絲人數.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-195">
+          <caret line="170" column="43" selection-start-line="170" selection-start-column="41" selection-end-line="170" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/追蹤中.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-475">
+          <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="56" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/非本人聚會popup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="691">
+          <caret line="48" column="60" selection-start-line="48" selection-start-column="60" selection-end-line="48" selection-end-column="60" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#button#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/本人聚會popup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="50" column="35" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="683">
+          <caret line="189" selection-start-line="189" selection-end-line="189" selection-end-column="58" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="1294" column="77" selection-start-line="1294" selection-start-column="77" selection-end-line="1294" selection-end-column="77" />
+        <state relative-caret-position="593">
+          <caret line="219" column="63" selection-start-line="219" selection-start-column="63" selection-end-line="219" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chat.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="765" column="8" selection-start-line="765" selection-start-column="8" selection-end-line="765" selection-end-column="8" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#1;n#div#12;n#div#3;n#div#3;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#12;n#div#3;n#div#3;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#12;n#div#3;n#div#3;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#b#0;n#div#0;n#div#12;n#div#3;n#div#3;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

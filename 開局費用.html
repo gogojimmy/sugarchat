@@ -21,6 +21,18 @@
 		<!--<script src="lib/videojs/videojs-ie8.min.js"></script>-->
 		<script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       	<script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+        <script>
+            function _resizeView() {
+                var html = document.documentElement;
+                var windowWidth = html.clientWidth;
+                if(windowWidth > 750){
+                    windowWidth = 750;
+                }
+                html.style.fontSize = windowWidth / 7.5 + 'px';
+            }
+            _resizeView()
+            window.addEventListener('resize', _resizeView, false);
+        </script>
 	</head>
 
 	<body style="background-color: #f9f9f9;">
@@ -80,7 +92,7 @@
                         <p>完成活動即可獲得禮物，若一方取消則歸還點數。</p>
                     </div>
 
-                    <button id="submit" style="margin-top: 50px;" type="submit">確定</button>
+                    <button id="submit" style="margin-top: 1rem;" type="submit">確定</button>
 				</form>
                 <div class="top-tips animated">
                     資料尚未編輯完全。
@@ -190,18 +202,18 @@
 
         <!--象徵什麼呢？ modal-->
         <div id="SymbolismModal" class="modal fade task-modal s-modal see-activity-modal1 upgrade-vip" tabindex="-1" role="dialog" aria-labelledby="task-modal">
-            <div class="modal-dialog modal-sm" style="width: 297px;height: 494px;" role="document">
+            <div class="modal-dialog modal-sm" style="width: 5.94rem;height: 9.88rem;" role="document">
                 <div class="modal-content">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <img src="images/close-iocn1.png" width="16" alt="">
+                        <img src="images/close-iocn1.png" style="width:.32rem" alt="">
                     </button>
                     <div class="desc">
                         <h3>成為特級會員，即可再發活動時</h3>
                         <p>贈送禮物給成員</p>
-                        <img width="100" src="images/icon/u-vip1@2x.png" alt="">
+                        <img style="width: 2rem" src="images/icon/u-vip1@2x.png" alt="">
                         <p>或是，<br>
                             向成員收取禮物</p>
-                        <img width="145" src="images/icon/u-vip2@2x.png" alt="">
+                        <img style="width: 2.9rem" src="images/icon/u-vip2@2x.png" alt="">
                         <a class="action" href="javascript:;">升級特級會員</a>
                     </div>
                 </div>

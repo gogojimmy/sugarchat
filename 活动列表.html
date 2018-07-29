@@ -21,6 +21,18 @@
 		<!--<script src="lib/videojs/videojs-ie8.min.js"></script>-->
 		<script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       	<script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+		<script>
+            function _resizeView() {
+                var html = document.documentElement;
+                var windowWidth = html.clientWidth;
+                if(windowWidth > 750){
+                    windowWidth = 750;
+                }
+                html.style.fontSize = windowWidth / 7.5 + 'px';
+            }
+            _resizeView()
+            window.addEventListener('resize', _resizeView, false);
+		</script>
 	</head>
 
 	<body style="background-color: #f9f9f9;">
@@ -33,7 +45,7 @@
 					<li><a href="#organizer" data-toggle="tab">主辦</a></li>
 				</ul>
 				<div class="adv-banner">
-					<img width="375" src="images/adv-banner@2x.png" alt="">
+					<img style="width:7.5rem"  src="images/adv-banner@2x.png" alt="">
 				</div>
 				<div class="tab-content">
                     <!--首頁-->
@@ -391,7 +403,7 @@
 								</a>
 							</li>
 						</ul>
-						<div style="color: #b9b9b9;margin-top: 50px;" class="status">已結束</div>
+						<div style="color: #b9b9b9;margin-top: 1rem;" class="status">已結束</div>
 						<ul class="list">
 							<li class="item">
 								<a href="" class="flex">
@@ -1827,7 +1839,7 @@
 					</div>
                     <!--主辦-->
 					<div class="tab-pane fade" id="organizer">
-                        <div class="add-btn" style="margin-top: 15px;">
+                        <div class="add-btn" style="margin-top: .3rem;">
                             <a href="">建立活動</a>
                         </div>
 						<div class="no-data">

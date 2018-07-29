@@ -19,6 +19,18 @@
       <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+		<script>
+            function _resizeView() {
+                var html = document.documentElement;
+                var windowWidth = html.clientWidth;
+                if(windowWidth > 750){
+                    windowWidth = 750;
+                }
+                html.style.fontSize = windowWidth / 7.5 + 'px';
+            }
+            _resizeView()
+            window.addEventListener('resize', _resizeView, false);
+		</script>
 	</head>
 
 	<body>
@@ -28,7 +40,7 @@
 				<div class="mission-content">
 					<div class="tit">
 						指定任務格式
-						<span><img width="24" src="images/video-icon.png" alt="">影片</span>
+						<span><img style="width: .48rem;" src="images/video-icon.png" alt="">影片</span>
 						<a href="javascript:void(0);" data-toggle="modal" data-target=".confirm-report">檢舉</a>
 					</div>
 					<div class="sub-tit">任務內容</div>
@@ -50,10 +62,10 @@
 					</div>
 					<div class="tips">
 						<a class="tip-btn" href="javascript:;">
-							<img src="images/help-icon.png" width="12" alt="">
+							<img src="images/help-icon.png" style="width: .24rem;" alt="">
 							詳細規範
 						</a>
-						<div class="pop" style="padding-top:20px">
+						<div class="pop" style="padding-top:.4rem">
 							<p>提醒您：</p>
 							<p>- 如若接受任務後未實際完成任務，卻濫用「已完成任務」來賺取任務獎勵，發任務者可向本公司檢舉。</p>
 							<p>- 被檢舉次數達３次者，將被封禁帳戶1~6個月，且無法使用相關服務。</p>
@@ -108,9 +120,11 @@
 			</div>
 		</div>
 
-		<footer>
+		<footer class="flex">
 			<a class="home active" href=""></a>
+			<a class="activity" href=""></a>
 			<a class="message" href=""><i>2</i></a>
+			<a class="notice" href=""></a>
 			<a class="member" href=""></a>
 		</footer>
 
@@ -119,7 +133,7 @@
 			<div class="modal-dialog modal-sm report-modal" role="document">
 				<div class="modal-content">
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-						<img src="images/modal-close.png" width="16" alt="">
+						<img src="images/modal-close.png" style="width:.32rem" alt="">
 					</button>
 					<div class="desc">
 						若內容不當或並未確實完成任務，
@@ -135,12 +149,12 @@
 			<div class="modal-dialog modal-sm report-modal" role="document">
 				<div class="modal-content">
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-						<img src="images/modal-close.png" width="16" alt="">
+						<img src="images/modal-close.png" style="width:.32rem" alt="">
 					</button>
 					<div class="desc text-center">
 						檢舉成功
 					</div>
-					<button style="margin-top:95px;" data-dismiss="modal" class="btn btn-report">關閉</button>
+					<button style="margin-top:1.9rem" data-dismiss="modal" class="btn btn-report">關閉</button>
 				</div>
 			</div>
 		</div>

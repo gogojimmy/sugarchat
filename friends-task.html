@@ -19,6 +19,18 @@
       <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+		<script>
+            function _resizeView() {
+                var html = document.documentElement;
+                var windowWidth = html.clientWidth;
+                if(windowWidth > 750){
+                    windowWidth = 750;
+                }
+                html.style.fontSize = windowWidth / 7.5 + 'px';
+            }
+            _resizeView()
+            window.addEventListener('resize', _resizeView, false);
+		</script>
 	</head>
 
 	<body>
@@ -30,15 +42,15 @@
 					<h2>複製個人專屬連結</h2>
 					<button class="btn btn-cos copy" data-clipboard-text="个人链接"><img src="images/btn-icon2.png" alt="">分享專屬連結 點我複製連結</button>
 					<div class="step">STEP.2</div>
-					<h2 style="margin-bottom:15px;">在Instagram貼上專屬連結，然後螢幕截圖</h2>
+					<h2 style="margin-bottom:.3rem;">在Instagram貼上專屬連結，然後螢幕截圖</h2>
 					<p>貼在Instagram「個人檔案」>「網站」裡，讓朋友粉絲可以跟你聊聊天、任務互動，賺禮物兌現。</p>
-					<p style="margin-bottom:60px;">
+					<p style="margin-bottom:1.2rem">
 						<img src="images/Instagram-JT.png" alt="">
 					</p>
 					<div class="step">STEP.3</div>
 					<h2>點此上傳給我們！</h2>
 					<button class="btn btn-cos upload">
-						<img src="images/ic1-camera@2x.png" width="18" alt="">
+						<img src="images/ic1-camera@2x.png" style="width: .36rem;"alt="">
 						上傳截圖，領取點數
 						<input type="file" accept="video/mp4">
 					</button>
@@ -46,9 +58,11 @@
 			</div>
 		</div>
 
-		<footer>
+		<footer class="flex">
 			<a class="home active" href=""></a>
+			<a class="activity" href=""></a>
 			<a class="message" href=""><i>2</i></a>
+			<a class="notice" href=""></a>
 			<a class="member" href=""></a>
 		</footer>
 
@@ -57,10 +71,10 @@
 			<div class="modal-dialog modal-sm" role="document">
 				<div class="modal-content">
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-						<img src="images/close-iocn1.png" width="16" alt="">
+						<img src="images/close-iocn1.png" style="width:.32rem" alt="">
 					</button>
 					<div class="desc">
-						<img src="images/success-modal-icon.png" width="121" alt="">
+						<img src="images/success-modal-icon.png" style="width: 2.42rem;"  alt="">
 						<h3>上傳成功</h3>
 						<p>我們確認後講發放點數200點<br>
 							可前往個人中心「儲值帳戶」查看</p>

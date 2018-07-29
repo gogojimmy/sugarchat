@@ -21,25 +21,37 @@
 		<!--<script src="lib/videojs/videojs-ie8.min.js"></script>-->
 		<script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       	<script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+		<script>
+            function _resizeView() {
+                var html = document.documentElement;
+                var windowWidth = html.clientWidth;
+                if(windowWidth > 750){
+                    windowWidth = 750;
+                }
+                html.style.fontSize = windowWidth / 7.5 + 'px';
+            }
+            _resizeView()
+            window.addEventListener('resize', _resizeView, false);
+		</script>
 	</head>
 
 	<body>
 
 		<nav class="nav-bar1">
 			<a class="navbar-menu-btn" href="javascript:;">
-				<img width="24" height="24" src="images/icon/navbar-left-icon1@2x.png" alt="">
+				<img style="width:.48rem;height:.48rem;" src="images/icon/navbar-left-icon1@2x.png" alt="">
 			</a>
 			<h1>
 				<img src="images/icon/navbar-logo@2x.png" alt="">
 			</h1>
 			<a href="javascript:;">
-				<img width="21" height="22" src="images/icon/navbar-right-icon1@2x.png" alt="">
+				<img style="width:.42rem;height:.42rem;" src="images/icon/navbar-right-icon1@2x.png" alt="">
 			</a>
 			<div class="slider">
 				<div class="item">
 					<a href="">
 						<div>
-							<img width="12" height="24" src="images/icon/call-icon@2x.png" alt="">
+							<img  style="width:.24rem;height:.48rem;" src="images/icon/call-icon@2x.png" alt="">
 						</div>
 						<span>LINE客服</span>
 					</a>
@@ -47,7 +59,7 @@
 				<div class="item">
 					<a href="">
 						<div>
-							<img width="22" height="22" src="images/icon/wenhao-icon@2x.png" alt="">
+							<img style="width:.44rem;height:.44rem;" src="images/icon/wenhao-icon@2x.png" alt="">
 						</div>
 						<span>常見問題</span>
 					</a>

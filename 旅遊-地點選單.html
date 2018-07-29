@@ -21,6 +21,18 @@
 		<!--<script src="lib/videojs/videojs-ie8.min.js"></script>-->
 		<script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       	<script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+		<script>
+            function _resizeView() {
+                var html = document.documentElement;
+                var windowWidth = html.clientWidth;
+                if(windowWidth > 750){
+                    windowWidth = 750;
+                }
+                html.style.fontSize = windowWidth / 7.5 + 'px';
+            }
+            _resizeView()
+            window.addEventListener('resize', _resizeView, false);
+		</script>
 	</head>
 
 	<body>
@@ -40,7 +52,7 @@
 						<span class="active">城市</span>
 						<i class="down"></i>
 					</div>
-                    <button id="submit" style="margin-top: 50px;" type="submit">確定</button>
+                    <button id="submit" style="margin-top: 1rem" type="submit">確定</button>
 				</form>
                 <div class="top-tips animated">
                     資料尚未編輯完全，請完成醒目提示的欄位。

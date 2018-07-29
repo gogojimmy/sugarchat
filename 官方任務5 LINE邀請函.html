@@ -19,6 +19,18 @@
       <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+		<script>
+            function _resizeView() {
+                var html = document.documentElement;
+                var windowWidth = html.clientWidth;
+                if(windowWidth > 750){
+                    windowWidth = 750;
+                }
+                html.style.fontSize = windowWidth / 7.5 + 'px';
+            }
+            _resizeView()
+            window.addEventListener('resize', _resizeView, false);
+		</script>
 	</head>
 
 	<body>
@@ -107,19 +119,19 @@
 
 		<!--任務完成 modal-->
 		<div class="modal fade task-modal" tabindex="-1" role="dialog" aria-labelledby="task-modal">
-			<div class="modal-dialog modal-sm" style="height: 387px;" role="document">
+			<div class="modal-dialog modal-sm" style="height:7.74rem" role="document">
 				<div class="modal-content">
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-						<img src="images/close-iocn1.png" width="16" alt="">
+						<img src="images/close-iocn1.png" style="width:.32rem" alt="">
 					</button>
 					<div class="desc">
-						<img src="images/success-modal-icon.png" width="121" alt="">
+						<img src="images/success-modal-icon.png" style="width:2.42rem" alt="">
 						<h3>闖關成功</h3>
 						<p>第10位好友邀請成功！<br>
 							已發放點數250點，<br>
 							並獲得1000點抽獎機會。<br>
 							請至個人中心「儲值帳戶」查看。</p>
-						<p style="margin-top:25px;">想再次闖關賺點數嗎？</p>
+						<p style="margin-top:.5rem;">想再次闖關賺點數嗎？</p>
 						<button class="btn next-btn">下一步</button>
 					</div>
 				</div>

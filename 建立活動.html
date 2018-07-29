@@ -22,6 +22,18 @@
 		<!--<script src="lib/videojs/videojs-ie8.min.js"></script>-->
 		<script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       	<script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+        <script>
+            function _resizeView() {
+                var html = document.documentElement;
+                var windowWidth = html.clientWidth;
+                if(windowWidth > 750){
+                    windowWidth = 750;
+                }
+                html.style.fontSize = windowWidth / 7.5 + 'px';
+            }
+            _resizeView()
+            window.addEventListener('resize', _resizeView, false);
+        </script>
 	</head>
 
 	<body>
@@ -238,7 +250,7 @@
         <!--要求-->
         <div id="modal-box3" class="select-modal">
             <div class="select-modal-mask"></div>
-            <div class="select-modal-content"  style="height: 373px;">
+            <div class="select-modal-content"  style="height: 7.46rem">
                 <div class="head flex">
                     <span class="">取消</span>
                     <span data-type="ok">確定</span>
@@ -324,7 +336,7 @@
 
                 // 開始日期 - 结束日期
                 $("#modal-box1 .head span").click(function () {
-                    $("#modal-box1 .select-modal-content").animate({bottom: '-450px'}, 300, function(){
+                    $("#modal-box1 .select-modal-content").animate({bottom: '-9rem'}, 300, function(){
                         $("#modal-box1").hide();
                     })
                     if($(this).data('type') == 'ok'){
@@ -337,7 +349,7 @@
 
                 // 開始时间 - 结束时间
                 $("#modal-box2 .head span").click(function () {
-                    $("#modal-box2  .select-modal-content").animate({bottom: '-450px'}, 300, function(){
+                    $("#modal-box2  .select-modal-content").animate({bottom: '-9rem'}, 300, function(){
                     $("#modal-box2 ").hide();
                     })
                     if($(this).data('type') == 'ok'){
@@ -356,7 +368,7 @@
                 })
                 // 開始时间 - 结束时间
                 $("#modal-box3 .head span").click(function () {
-                    $("#modal-box3  .select-modal-content").animate({bottom: '-450px'}, 300, function(){
+                    $("#modal-box3  .select-modal-content").animate({bottom: '-8rem'}, 300, function(){
                         $("#modal-box3 ").hide();
                     })
                     if($(this).data('type') == 'ok'){

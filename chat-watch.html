@@ -21,6 +21,18 @@
       <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+		<script>
+            function _resizeView() {
+                var html = document.documentElement;
+                var windowWidth = html.clientWidth;
+                if(windowWidth > 750){
+                    windowWidth = 750;
+                }
+                html.style.fontSize = windowWidth / 7.5 + 'px';
+            }
+            _resizeView()
+            window.addEventListener('resize', _resizeView, false);
+		</script>
 	</head>
 
 	<body>
@@ -44,11 +56,11 @@
 						<span class="chat-menu-btn"></span>
 						<div class="chat-menu-content animated">
 							<a href="">
-								<img width="22" src="images/ic1-home/off@2x.png" alt="">
+								<img style="width: .4rem;" src="images/ic1-home/off@2x.png" alt="">
 								首页
 							</a>
 							<a href="">
-								<img  width="22" src="images/ic2-chatting/off@2x.png" alt="">
+								<img  style="width: .4rem;" src="images/ic2-chatting/off@2x.png" alt="">
 								聊天</a>
 							<span class="close"></span>
 						</div>
@@ -157,13 +169,13 @@
 								</p>
 								<a href="">儲值</a>
 								<a class="tip-btn" href="javascript:;">
-									<img src="images/help-icon.png" width="12" alt="">
+									<img src="images/help-icon.png" style="width: .24rem;" alt="">
 								</a>
-								<div class="pop" style="top:-76px;padding-top:15px;width:311px;height:76px;left: initial;right:0;padding-left:20px;">
-									<p style="color:#fff;font-size:13px;">與欣賞的人聊聊天或發專屬任務，挑選禮物表示<br>
+								<div class="pop" style="top:-1.52rem;padding-top:.3rem;width:6.22rem;height:1.52rem;left: initial;right:0;padding-left:.4rem;">
+									<p style="color:#fff;font-size:.26rem;">與欣賞的人聊聊天或發專屬任務，挑選禮物表示<br>
 										誠意，令對方留下好印象！誠意越高，被接受的<br>
 										機會也越高唷。</p>
-									<b style="transform: rotate(0deg);top:initial; bottom:-6px;right:18px;"></b>
+									<b style="transform: rotate(0deg);top:initial; bottom:-.12rem;right:.36rem;"></b>
 								</div>
 							</div>
 						</div>
@@ -185,7 +197,7 @@
 			<div class="modal-dialog modal-sm report-modal" role="document">
 				<div class="modal-content">
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-						<img src="images/modal-close.png" width="16" alt="">
+						<img src="images/modal-close.png" style="width:.32rem" alt="">
 					</button>
 					<div class="desc">
 						若內容不當或並未確實完成任務，
@@ -201,7 +213,7 @@
 			<div class="modal-dialog modal-sm report-modal" role="document">
 				<div class="modal-content">
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-						<img src="images/modal-close.png" width="16" alt="">
+						<img src="images/modal-close.png" style="width:.32rem" alt="">
 					</button>
 					<div class="desc text-center">
 						檢舉成功

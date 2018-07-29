@@ -21,6 +21,18 @@
 		<!--<script src="lib/videojs/videojs-ie8.min.js"></script>-->
 		<script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       	<script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+		<script>
+            function _resizeView() {
+                var html = document.documentElement;
+                var windowWidth = html.clientWidth;
+                if(windowWidth > 750){
+                    windowWidth = 750;
+                }
+                html.style.fontSize = windowWidth / 7.5 + 'px';
+            }
+            _resizeView()
+            window.addEventListener('resize', _resizeView, false);
+		</script>
 	</head>
 
 	<body>
@@ -28,12 +40,12 @@
 		<div class="product-box">
 			<div class="content signup">
 				<div class="logo">
-					<img width="148" src="images/icon/signup-logo@@2x.png" alt="">
+					<img style="width:2.96rem;" src="images/icon/signup-logo@@2x.png" alt="">
 				</div>
 				<div class="btns">
 					<a class="new-user" href="">新用戶</a>
 					<a class="old-user" href="">
-						<img width="21" src="images/icon/facebook-messenger-icon@2x.png" alt="">
+						<img style="width:.42rem;" src="images/icon/facebook-messenger-icon@2x.png" alt="">
 						舊用戶
 					</a>
 				</div>

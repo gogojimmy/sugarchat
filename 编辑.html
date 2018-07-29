@@ -19,6 +19,18 @@
       <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+		<script>
+            function _resizeView() {
+                var html = document.documentElement;
+                var windowWidth = html.clientWidth;
+                if(windowWidth > 750){
+                    windowWidth = 750;
+                }
+                html.style.fontSize = windowWidth / 7.5 + 'px';
+            }
+            _resizeView()
+            window.addEventListener('resize', _resizeView, false);
+		</script>
 	</head>
 
 	<body>
@@ -27,7 +39,7 @@
 			<div class="content">
 				<div class="user-edit">
 						<div class="member-state">
-							<img width="53" align="left" src="images/icon/zhuanshi-lv@2x.png" alt="">
+							<img style="width: 1.06rem" align="left" src="images/icon/zhuanshi-lv@2x.png" alt="">
 							<p>您目前為 <strong>綠色會員</strong></p>
 							<p>本月到期日至2018/06/06 23:59</p>
 						</div>
@@ -111,9 +123,9 @@
 							</div>
 							<label>職業</label>
 							<input  class="form-control" type="text">
-							<label style="margin-top:20px;">自我介紹</label>
+							<label style="margin-top:.4rem;">自我介紹</label>
 							<textarea  class="form-control" type="text"></textarea>
-							<label style="margin-top:20px;">手機號碼 <span>只有自己看得到</span></label>
+							<label style="margin-top:.4rem;">手機號碼 <span>只有自己看得到</span></label>
 							<input  class="form-control" type="text">
 						</div>
 						<buttom class="btn btn-cos">储存</buttom>
@@ -126,10 +138,10 @@
 			<div class="modal-dialog modal-sm" role="document">
 				<div class="modal-content">
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-						<img src="images/close-iocn1.png" width="16" alt="">
+						<img src="images/close-iocn1.png" style="width:.32rem" alt="">
 					</button>
 					<div class="desc">
-						<img src="images/success-modal-icon.png" width="121" alt="">
+						<img src="images/success-modal-icon.png" style="width: 2.42rem;"  alt="">
 						<h3>任務完成</h3>
 						<p>我們確認後講發放點數100點<br>
 							可前往個人中心「儲值帳戶」查看</p>

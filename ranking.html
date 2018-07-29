@@ -19,6 +19,18 @@
       <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+		<script>
+            function _resizeView() {
+                var html = document.documentElement;
+                var windowWidth = html.clientWidth;
+                if(windowWidth > 750){
+                    windowWidth = 750;
+                }
+                html.style.fontSize = windowWidth / 7.5 + 'px';
+            }
+            _resizeView()
+            window.addEventListener('resize', _resizeView, false);
+		</script>
 	</head>
 
 	<body>
@@ -42,7 +54,7 @@
 										TOP
 									</div>
 									<a href="" class="head-portrait">
-										<img src="images/asdfdasfsadf.png" class="img-circle" width="77" alt="">
+										<img src="images/asdfdasfsadf.png" class="img-circle" style="width:1.54rem" alt="">
 									</a>
 									<div class="info">
 										<a href="">Sam <i></i></a>
@@ -54,7 +66,7 @@
 											2
 									</div>
 									<a href="" class="head-portrait">
-										<img src="images/asdfdasfsadf.png" class="img-circle" width="77" alt="">
+										<img src="images/asdfdasfsadf.png" class="img-circle" style="width:1.54rem" alt="">
 									</a>
 									<div class="info">
 										<a href="">Sam <i></i></a>
@@ -66,7 +78,7 @@
 										3
 									</div>
 									<a href="" class="head-portrait">
-										<img src="images/asdfdasfsadf.png" class="img-circle" width="77" alt="">
+										<img src="images/asdfdasfsadf.png" class="img-circle" style="width:1.54rem" alt="">
 									</a>
 									<div class="info">
 										<a href="">Sam <i></i></a>
@@ -78,7 +90,7 @@
 										4
 									</div>
 									<a href="" class="head-portrait">
-										<img src="images/asdfdasfsadf.png" class="img-circle" width="77" alt="">
+										<img src="images/asdfdasfsadf.png" class="img-circle" style="width:1.54rem" alt="">
 									</a>
 									<div class="info">
 										<a href="">Sam <i></i></a>
@@ -90,7 +102,7 @@
 										5
 									</div>
 									<a href="" class="head-portrait">
-										<img src="images/asdfdasfsadf.png" class="img-circle" width="77" alt="">
+										<img src="images/asdfdasfsadf.png" class="img-circle" style="width:1.54rem" alt="">
 									</a>
 									<div class="info">
 										<a href="">Sam <i></i></a>
@@ -102,7 +114,7 @@
 										6
 									</div>
 									<a href="" class="head-portrait">
-										<img src="images/asdfdasfsadf.png" class="img-circle" width="77" alt="">
+										<img src="images/asdfdasfsadf.png" class="img-circle" style="width:1.54rem" alt="">
 									</a>
 									<div class="info">
 										<a href="">Sam <i></i></a>
@@ -119,7 +131,7 @@
 										TOP
 									</div>
 									<a href="" class="head-portrait">
-										<img src="images/asdfdasfsadf.png" class="img-circle" width="77" alt="">
+										<img src="images/asdfdasfsadf.png" class="img-circle" style="width:1.54rem" alt="">
 									</a>
 									<div class="info">
 										<a href="">Sam <i></i></a>
@@ -131,7 +143,7 @@
 										2
 									</div>
 									<a href="" class="head-portrait">
-										<img src="images/asdfdasfsadf.png" class="img-circle" width="77" alt="">
+										<img src="images/asdfdasfsadf.png" class="img-circle" style="width:1.54rem" alt="">
 									</a>
 									<div class="info">
 										<a href="">Sam2 <i></i></a>
@@ -143,7 +155,7 @@
 										3
 									</div>
 									<a href="" class="head-portrait">
-										<img src="images/asdfdasfsadf.png" class="img-circle" width="77" alt="">
+										<img src="images/asdfdasfsadf.png" class="img-circle" style="width:1.54rem" alt="">
 									</a>
 									<div class="info">
 										<a href="">Sam3</a>
@@ -155,7 +167,7 @@
 										4
 									</div>
 									<a href="" class="head-portrait">
-										<img src="images/asdfdasfsadf.png" class="img-circle" width="77" alt="">
+										<img src="images/asdfdasfsadf.png" class="img-circle" style="width:1.54rem" alt="">
 									</a>
 									<div class="info">
 										<a href="">Sam 4</a>
@@ -167,7 +179,7 @@
 										5
 									</div>
 									<a href="" class="head-portrait">
-										<img src="images/asdfdasfsadf.png" class="img-circle" width="77" alt="">
+										<img src="images/asdfdasfsadf.png" class="img-circle" style="width:1.54rem" alt="">
 									</a>
 									<div class="info">
 										<a href="">Sam <i></i></a>
@@ -179,7 +191,7 @@
 										6
 									</div>
 									<a href="" class="head-portrait">
-										<img src="images/asdfdasfsadf.png" class="img-circle" width="77" alt="">
+										<img src="images/asdfdasfsadf.png" class="img-circle" style="width:1.54rem" alt="">
 									</a>
 									<div class="info">
 										<a href="">Sam <i></i></a>
@@ -193,9 +205,11 @@
 			</div>
 		</div>
 
-		<footer>
+		<footer class="flex">
 			<a class="home active" href=""></a>
+			<a class="activity" href=""></a>
 			<a class="message" href=""><i>2</i></a>
+			<a class="notice" href=""></a>
 			<a class="member" href=""></a>
 		</footer>
 

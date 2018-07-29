@@ -21,6 +21,18 @@
 		<!--<script src="lib/videojs/videojs-ie8.min.js"></script>-->
 		<script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       	<script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+		<script>
+            function _resizeView() {
+                var html = document.documentElement;
+                var windowWidth = html.clientWidth;
+                if(windowWidth > 750){
+                    windowWidth = 750;
+                }
+                html.style.fontSize = windowWidth / 7.5 + 'px';
+            }
+            _resizeView()
+            window.addEventListener('resize', _resizeView, false);
+		</script>
 	</head>
 
 	<body>
@@ -44,7 +56,7 @@
 						當您註冊時表示您已同意註冊條款
 						<p>OP服務條款</p>
 					</div>
-					<button style="margin-top:26px;" disabled class="btn next-btn">下一步</button>
+					<button style="margin-top:.52rem;" disabled class="btn next-btn">下一步</button>
 				</form>
 			</div>
 		</div>

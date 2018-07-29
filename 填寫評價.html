@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta content="yes" name="apple-mobile-web-app-capable">
+		<meta name="viewport" content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;">
+		<title>填寫評價 預設</title>
+		<!-- Bootstrap -->
+		<link href="lib/bootstrap-3.3.7/css/bootstrap.min.css" rel="stylesheet">
+		<link href="lib/Swiper/css/swiper.min.css" rel="stylesheet">
+		<link href="lib/select2/dist/css/select2.min.css" rel="stylesheet">
+		<link href="lib/video6.6.22.js/css/video-js.min.css" rel="stylesheet">
+		<link href="css/animations.css" rel="stylesheet">
+		<link href="css/style.css?id=932" rel="stylesheet">
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		<!--<script src="lib/videojs/videojs-ie8.min.js"></script>-->
+		<script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      	<script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+        <script>
+            function _resizeView() {
+                var html = document.documentElement;
+                var windowWidth = html.clientWidth;
+                if(windowWidth > 750){
+                    windowWidth = 750;
+                }
+                html.style.fontSize = windowWidth / 7.5 + 'px';
+            }
+            _resizeView()
+            window.addEventListener('resize', _resizeView, false);
+        </script>
+	</head>
+
+	<body>
+
+		<div class="product-box">
+			<div class="content evaluate-send">
+                <div class="head">
+                    <img class="img-circle" src="images/mod1.png" alt="">
+                    <p>你對 Vincent Hsu 參與這次的聚會表現<br>
+                        有什麼評價與想法？</p>
+                </div>
+                <div class="xing-box">
+                    <h3>整體滿意度</h3>
+                    <div data-index="0" class="xing"></div>
+                </div>
+                <div class="checkbox-box">
+                    <h3>需要改進的地方？</h3>
+                    <div class="flex">
+                        <input type="checkbox" id="#1">
+                        <label for="#1">態度敷衍</label>
+                        <input type="checkbox" id="#2">
+                        <label for="#2">出爾反爾</label>
+                        <input type="checkbox" id="#3">
+                        <label for="#3">虛偽做作</label>
+                        <input type="checkbox" id="#4">
+                        <label for="#4">妝容很差</label>
+                        <input type="checkbox" id="#5">
+                        <label for="#5">與照片不符</label>
+                        <input type="checkbox" id="#6">
+                        <label for="#6">不守時</label>
+                        <input type="checkbox" id="#7">
+                        <label for="#7">毛手毛腳</label>
+                        <input type="checkbox" id="#8">
+                        <label for="#8">糾纏不休</label>
+                        <input type="checkbox" id="#9">
+                        <label for="#9">無理取鬧</label>
+                    </div>
+                </div>
+                <div class="checkbox-box">
+                    <h3>覺得滿意的地方？</h3>
+                    <div class="flex">
+                        <input type="checkbox" id="#11">
+                        <label for="#11">幽默風趣</label>
+                        <input type="checkbox" id="#12">
+                        <label for="#12">性情直爽</label>
+                        <input type="checkbox" id="#13">
+                        <label for="#13">陽光愛笑</label>
+                        <input type="checkbox" id="#14">
+                        <label for="#14">心思細膩</label>
+                        <input type="checkbox" id="#15">
+                        <label for="#15">身材養眼</label>
+                        <input type="checkbox" id="#16">
+                        <label for="#16">本人好看</label>
+                        <input type="checkbox" id="#17">
+                        <label for="#17">氣質脫俗</label>
+                        <input type="checkbox" id="#18">
+                        <label for="#18">溫文有禮</label>
+                        <input type="checkbox" id="#19">
+                        <label for="#19">開朗健談</label>
+                        <input type="checkbox" id="#119">
+                        <label for="#119">活躍氣氛</label>
+                        <input type="checkbox" id="#1119">
+                        <label for="#1119">才華洋溢</label>
+                        <input type="checkbox" id="#11119">
+                        <label for="#11119">大方得體</label>
+                    </div>
+                </div>
+                <div class="input">
+                    <textarea placeholder="留言"></textarea>
+                    <div class="tips">
+                        <input class="radio" type="radio">
+                        <span class="t">當對方舉辦新聚會時，請通知我。</span>
+                    </div>
+                </div>
+
+                <a class="btn action-btn" href="">送出評價</a>
+
+			</div>
+		</div>
+
+		<script src="js/jquery.min.js"></script>
+		<script src="lib/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+		<script src="lib/Swiper/js/swiper.min.js"></script>
+		<script src="lib/icheck-1.x/icheck.min.js"></script>
+		<script src="lib/select2/dist/js/select2.min.js"></script>
+		<script src="js/clipboard.min.js"></script>
+		<script src="lib/video6.6.22.js/js/video.min.js"></script>
+		<script src="js/js.js"></script>
+
+	</body>
+
+</html>

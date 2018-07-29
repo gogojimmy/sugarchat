@@ -19,6 +19,18 @@
       <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+		<script>
+            function _resizeView() {
+                var html = document.documentElement;
+                var windowWidth = html.clientWidth;
+                if(windowWidth > 750){
+                    windowWidth = 750;
+                }
+                html.style.fontSize = windowWidth / 7.5 + 'px';
+            }
+            _resizeView()
+            window.addEventListener('resize', _resizeView, false);
+		</script>
 	</head>
 
 	<body>
@@ -29,25 +41,25 @@
 					<form action="">
 						<div class="tit">
 							任務格式
-							<i  class="tip-btn"><img width="12" src="images/help-icon.png" alt=""></i>
-							<div class="pop" style="width:310px;top:40px;right:0;left: inherit;height:120px;padding-top:20px;">
+							<i  class="tip-btn"><img style="width: .24rem;" src="images/help-icon.png" alt=""></i>
+							<div class="pop" style="width:6.4rem;top:.8rem;right:0;left: inherit;height:2.4rem;padding-top:.4rem;">
 								<p>如何發任務？<br>
 									1.先輸入您想要對方完成的任務內容。<br>
 									2.選擇您要收到的檔案格式。<br>
 									任務獎勵可依您發送的任務的難易度來決定！</p>
-								<b style="right: 16px;"></b>
+								<b style="right: .32rem;"></b>
 							</div>
 						</div>
 						<div class="resources-type">
 							<label class="radio">
 								<input checked name="resources-type" type="radio">
-								<img width="24" src="images/video-icon.png" alt="">
+								<img style="width: .48rem;" src="images/video-icon.png" alt="">
 								影片
 							</label>
 							<span>|</span>
 							<label class="radio">
 								<input name="resources-type" type="radio">
-								<img width="22" src="images/ic12-camera@2x.png" alt="">
+								<img style="width: .4rem;" src="images/ic12-camera@2x.png" alt="">
 								照片
 							</label>
 						</div>
@@ -56,7 +68,7 @@
 						</div>
 						<div class="tips">
 							<a class="tip-btn" href="javascript:;">
-								<img src="images/help-icon.png" width="12" alt="">
+								<img src="images/help-icon.png" style="width: .24rem;" alt="">
 								詳細規範
 							</a>
 							<div class="pop">
@@ -175,9 +187,11 @@
 			</div>
 		</div>
 
-		<footer>
+		<footer class="flex">
 			<a class="home active" href=""></a>
+			<a class="activity" href=""></a>
 			<a class="message" href=""><i>2</i></a>
+			<a class="notice" href=""></a>
 			<a class="member" href=""></a>
 		</footer>
 

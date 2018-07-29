@@ -21,19 +21,31 @@
 		<!--<script src="lib/videojs/videojs-ie8.min.js"></script>-->
 		<script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       	<script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+		<script>
+            function _resizeView() {
+                var html = document.documentElement;
+                var windowWidth = html.clientWidth;
+                if(windowWidth > 750){
+                    windowWidth = 750;
+                }
+                html.style.fontSize = windowWidth / 7.5 + 'px';
+            }
+            _resizeView()
+            window.addEventListener('resize', _resizeView, false);
+		</script>
 	</head>
 
 	<body>
 
 		<nav class="nav-bar2">
 			<a class="navbar-menu-btn" href="javascript:;">
-				<img width="10" height="15" src="images/icon/navbar-left-icon2@2x.png" alt="">
+				<img style="width:.2rem;height:.3rem;" src="images/icon/navbar-left-icon2@2x.png" alt="">
 			</a>
 			<h1>
 				Annie
 			</h1>
 			<a href="javascript:;">
-				<img width="21" height="4" src="images/icon/navbar-right-icon2@2x.png" alt="">
+				<img style="width:.42rem;height:.08rem;" src="images/icon/navbar-right-icon2@2x.png" alt="">
 			</a>
 		</nav>
 

@@ -21,21 +21,33 @@
 		<!--<script src="lib/videojs/videojs-ie8.min.js"></script>-->
 		<script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       	<script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+		<script>
+            function _resizeView() {
+                var html = document.documentElement;
+                var windowWidth = html.clientWidth;
+                if(windowWidth > 750){
+                    windowWidth = 750;
+                }
+                html.style.fontSize = windowWidth / 7.5 + 'px';
+            }
+            _resizeView()
+            window.addEventListener('resize', _resizeView, false);
+		</script>
 	</head>
 
 	<body>
 		<div class="product-box">
 			<div class="content landing">
 				<div class="banner-box">
-					<img class="animated slideInUp" width="226" src="images/logo-qa.png" alt="">
+					<img class="animated slideInUp" style="width: 4.52rem;" src="images/logo-qa.png" alt="">
 					<h3 class="animated slideInUp">跳動的世界裡，找到跟千位網美的頻率</h3>
 					<p class="animated slideInUp">你去過的地方、遇到的人、經歷的事情，都是最好的故事，<br>
 						找到相同頻率，有了新的碰撞和精彩的可能。</p>
 					<div class="animated slideInUp">
-						<img width="60" src="images/icon/AppIcon60x60@2x.png" alt="">
+						<img style="width: 1.2rem;" src="images/icon/AppIcon60x60@2x.png" alt="">
 					</div>
 					<a href="" class="animated slideInUp">
-						<img width="131.1" src="images/icon/Download_on_the_App_Store_Badge_US-UK_135x40.png" alt="">
+						<img style="width: 2.622rem;"src="images/icon/Download_on_the_App_Store_Badge_US-UK_135x40.png" alt="">
 					</a>
 				</div>
 				<div class="user-info chat-info">

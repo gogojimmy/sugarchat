@@ -21,6 +21,18 @@
 		<!--<script src="lib/videojs/videojs-ie8.min.js"></script>-->
 		<script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       	<script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+		<script>
+            function _resizeView() {
+                var html = document.documentElement;
+                var windowWidth = html.clientWidth;
+                if(windowWidth > 750){
+                    windowWidth = 750;
+                }
+                html.style.fontSize = windowWidth / 7.5 + 'px';
+            }
+            _resizeView()
+            window.addEventListener('resize', _resizeView, false);
+		</script>
 	</head>
 
 	<body>
@@ -90,7 +102,7 @@
 
 		<!--取消特級會員 modal-->
 		<div class="modal fade task-modal member-upgrade-modal" tabindex="-1" role="dialog" aria-labelledby="task-modal">
-			<div class="modal-dialog modal-sm" style="width: 281px;height: 174px;" role="document">
+			<div class="modal-dialog modal-sm" style="width: 5.62rem;height: 3.48rem;" role="document">
 				<div class="modal-content">
 					<div class="desc">
 						<h3>取消特級會員</h3>
@@ -106,11 +118,11 @@
 
 		<!--取消特級會員 modal-->
 		<div class="modal fade task-modal member-upgrade-modal" tabindex="-1" role="dialog" aria-labelledby="task-modal">
-			<div class="modal-dialog modal-sm" style="width: 281px;height: 174px;" role="document">
+			<div class="modal-dialog modal-sm" style="width: 5.62rem;height: 3.48rem;" role="document">
 				<div class="modal-content">
 					<div class="desc">
-						<h3 style="margin-top: 10px;">成功取消會員訂閱</h3>
-						<div class="flex" style="margin-top: 37px;">
+						<h3 style="margin-top: .2rem;">成功取消會員訂閱</h3>
+						<div class="flex" style="margin-top: .74rem">
 							<a class="btn" href="javascript:;" data-dismiss="modal" aria-label="Close">確認</a>
 						</div>
 					</div>

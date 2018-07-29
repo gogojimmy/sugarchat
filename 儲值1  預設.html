@@ -19,6 +19,18 @@
       <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+		<script>
+            function _resizeView() {
+                var html = document.documentElement;
+                var windowWidth = html.clientWidth;
+                if(windowWidth > 750){
+                    windowWidth = 750;
+                }
+                html.style.fontSize = windowWidth / 7.5 + 'px';
+            }
+            _resizeView()
+            window.addEventListener('resize', _resizeView, false);
+		</script>
 	</head>
 
 	<body>
@@ -32,9 +44,9 @@
 						<span>35</span>
 						<!--<a href="">+首儲值加贈300點</a>-->
 						<i  class="tip-btn"><img src="images/help-icon.png" alt=""></i>
-						<div class="pop" style="width:311px;top:40px;right:0;left: inherit;height:75px;padding-top:20px;">
+						<div class="pop" style="width:6.22rem;top:.8rem;right:0;left: inherit;height:1.5rem;padding-top:.4rem;">
 							<p>儲值的點數，可於跟別人聊聊天或發專屬任務<br>時，購買禮物贈送，與她(他)更近一步互動。</p>
-							<b style="right: 26px;"></b>
+							<b style="right: .52rem"></b>
 						</div>
 					</div>
 					<div class="point">

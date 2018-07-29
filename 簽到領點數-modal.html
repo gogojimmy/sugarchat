@@ -19,6 +19,18 @@
       <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+		<script>
+            function _resizeView() {
+                var html = document.documentElement;
+                var windowWidth = html.clientWidth;
+                if(windowWidth > 750){
+                    windowWidth = 750;
+                }
+                html.style.fontSize = windowWidth / 7.5 + 'px';
+            }
+            _resizeView()
+            window.addEventListener('resize', _resizeView, false);
+		</script>
 	</head>
 
 	<body>
@@ -26,10 +38,10 @@
 
 		<!--簽到領點數-modal.html-->
 		<div class="modal fade task-modal" tabindex="-1" role="dialog" id="tips-modal" aria-labelledby="tips-modal">
-			<div class="modal-dialog modal-sm" style="width:335px;height: 539px;position: absolute; top:0; bottom:0; left:0; right:0; margin: auto;overflow: hidden;" role="document">
+			<div class="modal-dialog modal-sm" style="width:6.7rem;height: 10.78rem;position: absolute; top:0; bottom:0; left:0; right:0; margin: auto;overflow: hidden;" role="document">
 				<div class="modal-content" style="margin-top:0px; overflow-y: auto;">
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-						<img src="images/close-iocn1.png" width="16" alt="">
+						<img src="images/close-iocn1.png" style="width:.32rem" alt="">
 					</button>
 					<div class="sign-modal-content">
 						<h3>簽到領點數</h3>

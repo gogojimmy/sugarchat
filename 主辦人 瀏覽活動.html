@@ -40,13 +40,15 @@
 							不想一個人喝酒
 						</div>
 						<span class="menu">
-							<img width="18" src="images/icon/menu-icon2@2x.png" alt="">
+							<img style="width: .36rem;" src="images/icon/menu-icon2@2x.png" alt="">
 						</span>
 					</div>
 					<div class="user flex">
 						<div>主辦人</div>
 						<div class="username">
-							<p>Vincent Hsu <img width="15" src="images/icon/ic-Pink Check@2x.png" alt=""></p>
+							<p>Vincent Hsu
+                                <!--<img style="width:.3rem;" src="images/icon/ic-Pink Check@2x.png" alt="">-->
+                            </p>
 							<span>CEO</span>
 						</div>
 						<div class="touxiang">
@@ -92,7 +94,7 @@
                     <p>在這裡，我們喝的不是酒也不是水，而是各種人生的滋味。</p>
                 </div>
                 <div class="list">
-                    <div class="item flex" style="margin-bottom: 10px;">
+                    <div class="item flex" style="margin-bottom: .2rem;">
                         <i><img src="images/icon/ic-Lock@2x.png" alt=""></i>
                         <span><b>加入成員</b></span>
                     </div>
@@ -107,7 +109,12 @@
                         <div class="bar flex"><span></span></div>
                         <ul class="nav nav-tabs flex">
                             <li class="active"><a href="#wait" data-toggle="tab">待同意</a></li>
-                            <li><a href="#complete" data-toggle="tab">已加入(1)</a></li>
+                            <li><a href="#complete" data-toggle="tab">已加入</a></li>
+                            <li><a href="#waitc" data-toggle="tab">待完成</a></li>
+                            <li>
+                                <a href="#evaluate" data-toggle="tab">評價
+                                    <i>6</i>
+                            </a></li>
                         </ul>
                         <div class="tab-content">
                             <!--待同意-->
@@ -354,6 +361,122 @@
                                     </li>
                                 </ul>
                             </div>
+                            <!--待完成-->
+                            <div class="tab-pane fade in" id="waitc">
+                                <div class="no-data">目前沒有待完成的成員</div>
+                                <ul>
+                                    <li class="flex">
+                                        <div class="left flex">
+                                            <img class="img-circle" src="images/m2.png" alt="">
+                                            <span>Bonnie Yu</span>
+                                        </div>
+                                        <div class="right flex">
+                                            <button>聊聊天</button>
+                                        </div>
+                                    </li>
+                                    <li class="flex">
+                                        <div class="left flex">
+                                            <img class="img-circle" src="images/m3.png" alt="">
+                                            <span>Bonnie Yu</span>
+                                        </div>
+                                        <div class="right flex">
+                                            <button>聊聊天</button>
+                                        </div>
+                                    </li>
+                                    <li class="flex">
+                                        <div class="left flex">
+                                            <img class="img-circle" src="images/mod5.png" alt="">
+                                            <span>Bonnie Yu</span>
+                                        </div>
+                                        <div class="right flex">
+                                            <button>聊聊天</button>
+                                        </div>
+                                    </li>
+                                    <li class="flex">
+                                        <div class="left flex">
+                                            <img class="img-circle" src="images/m4.png" alt="">
+                                            <span>Bonnie Yu</span>
+                                        </div>
+                                        <div class="right flex">
+                                            <button>聊聊天</button>
+                                        </div>
+                                    </li>
+                                    <li class="flex">
+                                        <div class="left flex">
+                                            <img class="img-circle" src="images/m4.png" alt="">
+                                            <span>Bonnie Yu</span>
+                                        </div>
+                                        <div class="right flex">
+                                            <button>聊聊天</button>
+                                        </div>
+                                    </li>
+                                    <li class="flex">
+                                        <div class="left flex">
+                                            <img class="img-circle" src="images/m4.png" alt="">
+                                            <span>Bonnie Yu</span>
+                                        </div>
+                                        <div class="right flex">
+                                            <button>聊聊天</button>
+                                        </div>
+                                    </li>
+                                    <li class="flex">
+                                        <div class="left flex">
+                                            <img class="img-circle" src="images/m4.png" alt="">
+                                            <span>Bonnie Yu</span>
+                                        </div>
+                                        <div class="right flex">
+                                            <button><img src="images/icon/delete-icon-new@2x.png" alt="">移除</button>
+                                            <button>聊聊天</button>
+                                        </div>
+                                    </li>
+                                    <li class="flex">
+                                        <div class="left flex">
+                                            <img class="img-circle" src="images/m4.png" alt="">
+                                            <span>Bonnie Yu</span>
+                                        </div>
+                                        <div class="right flex">
+                                            <button class="delete"><img src="images/icon/delete-icon-new@2x.png" alt="">移除</button>
+                                            <button>聊聊天</button>
+                                        </div>
+                                    </li>
+                                    <li class="flex">
+                                        <div class="left flex">
+                                            <img class="img-circle" src="images/m4.png" alt="">
+                                            <span>Bonnie Yu</span>
+                                        </div>
+                                        <div class="right flex">
+                                            <button class="delete"><img src="images/icon/delete-icon-new@2x.png" alt="">移除</button>
+                                            <button>聊聊天</button>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!--評價-->
+                            <div class="tab-pane fade in" id="evaluate">
+                                <div class="no-data">目前沒有待完成的成員</div>
+                                <ul>
+                                    <li class="flex">
+                                        <div class="left flex">
+                                            <img class="img-circle" src="images/m1.png" alt="">
+                                            <span>Bonnie Yu</span>
+                                        </div>
+                                        <div class="right flex">
+                                            <button class="delete">出席了</button>
+                                            <button>查看評價</button>
+                                        </div>
+                                    </li>
+                                    <li class="flex">
+                                        <div class="left flex">
+                                            <img class="img-circle" src="images/m1.png" alt="">
+                                            <span>Bonnie Yu</span>
+                                        </div>
+                                        <div class="right flex">
+                                            <button class="delete">未出席</button>
+                                            <button class="active">我要評價</button>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -380,7 +503,7 @@
 
         <!--移除资格？ modal-->
         <div id="removeModal" class="modal fade task-modal see-activity-modal" tabindex="-1" role="dialog" aria-labelledby="task-modal">
-            <div class="modal-dialog modal-sm" role="document" style="width: 297px;height: 174px;">
+            <div class="modal-dialog modal-sm" role="document" style="width: 5.94rem;height: 3.48rem;">
                 <div class="modal-content">
                     <div class="desc">
                         <h3>將此人踢出此活動？</h3>

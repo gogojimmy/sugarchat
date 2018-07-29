@@ -21,6 +21,18 @@
 		<!--<script src="lib/videojs/videojs-ie8.min.js"></script>-->
 		<script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       	<script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+		<script>
+            function _resizeView() {
+                var html = document.documentElement;
+                var windowWidth = html.clientWidth;
+                if(windowWidth > 750){
+                    windowWidth = 750;
+                }
+                html.style.fontSize = windowWidth / 7.5 + 'px';
+            }
+            _resizeView()
+            window.addEventListener('resize', _resizeView, false);
+		</script>
 	</head>
 
 	<body>
@@ -30,7 +42,7 @@
 				<div class="upgrade-vip">
 					<div class="head">
 						<div>
-							<img width="57" align="left" src="./images/icon/add-member@2x.png" alt="">
+							<img style="width:1.14rem;" align="left" src="./images/icon/add-member@2x.png" alt="">
 							<p>升級為特級會員</p>
 							<p>每月自動續費，可隨時取消。</p>
 						</div>
@@ -39,22 +51,22 @@
 						<div class="swiper-container">
 							<div class="swiper-wrapper">
 								<div class="swiper-slide">
-									<img class="tit" width="85" src="images/icon/gold-tit.png" alt="">
-									<img class="con" width="103" src="images/icon/gold-member.png" alt="">
+									<img class="tit" style="width:1.7rem;" src="images/icon/gold-tit.png" alt="">
+									<img class="con" style="width:2.06rem;" src="images/icon/gold-member.png" alt="">
 									<p>金色會員</p>
 									<h3 style="color: #fabe58;">每月 NT$ 2000</h3>
 									<span style="color: #fabe58;">享 9大特權</span>
 								</div>
 								<div class="swiper-slide">
-									<img class="tit" width="85" src="images/icon/green-tit.png" alt="">
-									<img class="con" width="103" src="images/icon/green-member.png" alt="">
+									<img class="tit" style="width:1.7rem;" src="images/icon/green-tit.png" alt="">
+									<img class="con"style="width:2.06rem;"src="images/icon/green-member.png" alt="">
 									<p>綠色會員</p>
 									<h3 style="color: #2abb9b;">每月 NT$ 599</h3>
 									<span style="color: #2abb9b;">享 6大特權</span>
 								</div>
 								<div class="swiper-slide">
-									<img class="tit" width="85" src="images/icon/blue-tit.png" alt="">
-									<img class="con" width="98" src="images/icon/blue-member.png" alt="">
+									<img class="tit" style="width:1.7rem;" src="images/icon/blue-tit.png" alt="">
+									<img class="con" style="width:1.96rem;" src="images/icon/blue-member.png" alt="">
 									<p>藍色會員</p>
 									<h3 style="color: #2e57a6;">每月 NT$ 99</h3>
 									<span style="color: #2e57a6;">享 2大特權</span>
@@ -69,7 +81,7 @@
 							<a class="action" href="">升級特級會員</a>
 							<div class="list flex">
 								<div class="icon flex">
-									<img width="25" src="images/icon/member-list-icon1@2x.png" alt="">
+									<img style="width:.5rem;" src="images/icon/member-list-icon1@2x.png" alt="">
 								</div>
 								<div class="info flex">
 									<h4>每月贈送 6000點</h4>
@@ -78,7 +90,7 @@
 							</div>
 							<div class="list flex">
 								<div class="icon flex">
-									<img width="25" src="images/icon/member-list-icon2@2x.png" alt="">
+									<img style="width:.5rem;" src="images/icon/member-list-icon2@2x.png" alt="">
 								</div>
 								<div class="info flex">
 									<h4>聊天邀請無限制</h4>
@@ -87,7 +99,7 @@
 							</div>
 							<div class="list flex">
 								<div class="icon flex">
-									<img width="25" src="images/icon/member-list-icon4@2x.png" alt="">
+									<img style="width:.5rem;" src="images/icon/member-list-icon4@2x.png" alt="">
 								</div>
 								<div class="info flex">
 									<h4>OP女神迎接你</h4>
@@ -96,7 +108,7 @@
 							</div>
 							<div class="list flex">
 								<div class="icon flex">
-									<img width="25" src="images/icon/member-list-icon6@2x.png" alt="">
+									<img style="width:.5rem;" src="images/icon/member-list-icon6@2x.png" alt="">
 								</div>
 								<div class="info flex">
 									<h4>無限觀看女神鎖定照</h4>
@@ -105,7 +117,7 @@
 							</div>
 							<div class="list flex">
 								<div class="icon flex">
-									<img width="25" src="images/icon/member-list-icon8@2x.png" alt="">
+									<img style="width:.5rem;" src="images/icon/member-list-icon8@2x.png" alt="">
 								</div>
 								<div class="info flex">
 									<h4>優先推薦優質女神</h4>
@@ -114,7 +126,7 @@
 							</div>
 							<div class="list flex">
 								<div class="icon flex">
-									<img width="25" src="images/icon/member-list-icon9@2x.png" alt="">
+									<img style="width:.5rem;" src="images/icon/member-list-icon9@2x.png" alt="">
 								</div>
 								<div class="info flex">
 									<h4>每日簽到加碼送 30點</h4>
@@ -123,7 +135,7 @@
 							</div>
 							<div class="list flex">
 								<div class="icon flex">
-									<img width="25" src="images/icon/member-list-icon5@2x.png" alt="">
+									<img style="width:.5rem;" src="images/icon/member-list-icon5@2x.png" alt="">
 								</div>
 								<div class="info flex">
 									<h4>讓女神一眼看到你</h4>
@@ -132,7 +144,7 @@
 							</div>
 							<div class="list flex">
 								<div class="icon flex">
-									<img width="25" src="images/icon/member-list-icon7@2x.png" alt="">
+									<img style="width:.5rem;" src="images/icon/member-list-icon7@2x.png" alt="">
 								</div>
 								<div class="info flex">
 									<h4 style="color: #292929;">專屬特級會員客服</h4>
@@ -141,7 +153,7 @@
 							</div>
 							<div class="list flex">
 								<div class="icon flex">
-									<img width="25" src="images/icon/vip-gold.png" alt="">
+									<img style="width:.5rem;" src="images/icon/vip-gold.png" alt="">
 								</div>
 								<div class="info flex">
 									<h4 style="color: #292929;">特級會員身份標示</h4>
@@ -153,7 +165,7 @@
 						<a class="action" href="">升級特級會員</a>
 						<div class="list flex">
 							<div class="icon flex">
-								<img width="25" src="images/icon/member-list-icon1@2x.png" alt="">
+								<img style="width:.5rem;" src="images/icon/member-list-icon1@2x.png" alt="">
 							</div>
 							<div class="info flex">
 								<h4>每月贈送 1200點</h4>
@@ -162,7 +174,7 @@
 						</div>
 						<div class="list flex">
 							<div class="icon flex">
-								<img width="25" src="images/icon/member-list-icon2@2x.png" alt="">
+								<img style="width:.5rem;" src="images/icon/member-list-icon2@2x.png" alt="">
 							</div>
 							<div class="info flex">
 								<h4>聊天邀請無限制</h4>
@@ -171,7 +183,7 @@
 						</div>
 						<div class="list flex">
 							<div class="icon flex">
-								<img width="25" src="images/icon/member-list-icon3@2x.png" alt="">
+								<img style="width:.5rem;" src="images/icon/member-list-icon3@2x.png" alt="">
 							</div>
 							<div class="info flex">
 								<h4>每日簽到加碼送 10點</h4>
@@ -180,7 +192,7 @@
 						</div>
 						<div class="list flex">
 							<div class="icon flex">
-								<img width="25" src="images/icon/member-list-icon5@2x.png" alt="">
+								<img style="width:.5rem;" src="images/icon/member-list-icon5@2x.png" alt="">
 							</div>
 							<div class="info flex">
 								<h4>讓女神一眼看到你</h4>
@@ -189,7 +201,7 @@
 						</div>
 						<div class="list flex">
 							<div class="icon flex">
-								<img width="25" src="images/icon/member-list-icon7@2x.png" alt="">
+								<img style="width:.5rem;" src="images/icon/member-list-icon7@2x.png" alt="">
 							</div>
 							<div class="info flex">
 								<h4 style="color: #292929;">專屬特級會員客服</h4>
@@ -198,7 +210,7 @@
 						</div>
 						<div class="list flex">
 							<div class="icon flex">
-								<img width="25" src="images/icon/vip-green.png" alt="">
+								<img style="width:.5rem;" src="images/icon/vip-green.png" alt="">
 							</div>
 							<div class="info flex">
 								<h4 style="color: #292929;">特級會員身份標示</h4>
@@ -210,7 +222,7 @@
 							<a class="action" href="">升級特級會員</a>
 							<div class="list flex">
 								<div class="icon flex">
-									<img width="25" src="images/icon/member-list-icon1@2x.png" alt="">
+									<img style="width:.5rem;" src="images/icon/member-list-icon1@2x.png" alt="">
 								</div>
 								<div class="info flex">
 									<h4>每月贈送 200點</h4>
@@ -219,7 +231,7 @@
 							</div>
 							<div class="list flex">
 								<div class="icon flex">
-									<img width="25" src="images/icon/vip-blue.png" alt="">
+									<img style="width:.5rem;" src="images/icon/vip-blue.png" alt="">
 								</div>
 								<div class="info flex">
 									<h4 style="color: #292929;">特級會員身份標示</h4>
@@ -239,9 +251,11 @@
 			</div>
 		</div>
 
-		<footer>
+		<footer class="flex">
 			<a class="home active" href=""></a>
+			<a class="activity" href=""></a>
 			<a class="message" href=""><i>2</i></a>
+			<a class="notice" href=""></a>
 			<a class="member" href=""></a>
 		</footer>
 

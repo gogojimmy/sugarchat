@@ -19,6 +19,18 @@
       <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+		<script>
+            function _resizeView() {
+                var html = document.documentElement;
+                var windowWidth = html.clientWidth;
+                if(windowWidth > 750){
+                    windowWidth = 750;
+                }
+                html.style.fontSize = windowWidth / 7.5 + 'px';
+            }
+            _resizeView()
+            window.addEventListener('resize', _resizeView, false);
+		</script>
 	</head>
 
 	<body>
@@ -46,10 +58,10 @@
 							<div class="tit">
 								銀行帳戶
 								<i class="tip-btn" href="javascript:;">
-									<img src="images/help-icon.png" width="12" alt="">
+									<img src="images/help-icon.png" style="width: .24rem;" alt="">
 								</i>
 								<span>最多3個帳戶</span>
-								<div class="pop" style="width: 297px; height:112px;padding-top:20px;">
+								<div class="pop" style="width: 5.94rem; height:2.24rem;padding-top:.4rem;">
 									<p>什麼是提領現金？<br>
 										將您收到的禮物收益提領成現金，匯款至您的銀行帳戶中。須將現有額度全額提領，無法部分提領。</p>
 									<b style="right:265px;"></b>

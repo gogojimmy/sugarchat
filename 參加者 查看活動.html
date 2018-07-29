@@ -21,6 +21,18 @@
 		<!--<script src="lib/videojs/videojs-ie8.min.js"></script>-->
 		<script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       	<script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+        <script>
+            function _resizeView() {
+                var html = document.documentElement;
+                var windowWidth = html.clientWidth;
+                if(windowWidth > 750){
+                    windowWidth = 750;
+                }
+                html.style.fontSize = windowWidth / 7.5 + 'px';
+            }
+            _resizeView()
+            window.addEventListener('resize', _resizeView, false);
+        </script>
 	</head>
 
 	<body style="background-color: #fff;">
@@ -41,14 +53,14 @@
                             <p>喝一杯聚會</p>
 						</div>
 						<span class="menu">
-							<img width="18" src="images/icon/menu-icon2@2x.png" alt="">
+							<img style="width: .36rem;" src="images/icon/menu-icon2@2x.png" alt="">
 						</span>
 					</div>
 					<div class="user flex">
 						<div>主辦人</div>
 						<div class="username">
 							<p>Vincent Hsu
-                                <!--<img width="15"  data-toggle="modal" data-target="#SymbolismModal" src="images/icon/ic-Pink Check@2x.png" alt="">-->
+                                <!--<img style="width:.3rem;"  data-toggle="modal" data-target="#SymbolismModal" src="images/icon/ic-Pink Check@2x.png" alt="">-->
                             </p>
 							<span>CEO</span>
 						</div>
@@ -140,7 +152,7 @@
 
         <!--退出此活動？ modal-->
         <div class="modal fade task-modal see-activity-modal" tabindex="-1" role="dialog" aria-labelledby="task-modal">
-            <div class="modal-dialog modal-sm" role="document" style="width: 297px;height: 174px;">
+            <div class="modal-dialog modal-sm" role="document" style="width: 5.94rem;height: 3.48rem;">
                 <div class="modal-content">
                     <div class="desc">
                         <h3>退出此活動？</h3>
@@ -156,9 +168,9 @@
 
         <!--取消此活動？ modal-->
         <div class="modal fade task-modal see-activity-modal" tabindex="-1" role="dialog" aria-labelledby="task-modal">
-            <div class="modal-dialog modal-sm" role="document" style="width: 297px;height: 230px;">
+            <div class="modal-dialog modal-sm" role="document" style="width: 5.94rem;height: 4.6rem;">
                 <div class="modal-content">
-                    <div class="desc" style="padding: 0 15px;">
+                    <div class="desc" style="padding: 0 .3rem;">
                         <h3>取消此活動？</h3>
                         <p>是否取消「我不想一個人喝酒」？</p>
                         <p>取消後，將無法恢復活動，若有活動禮物支出，將自動返還給會員。</p>
@@ -173,14 +185,14 @@
 
         <!--象徵什麼呢？ modal-->
         <div id="SymbolismModal" class="modal fade task-modal s-modal see-activity-modal1" tabindex="-1" role="dialog" aria-labelledby="task-modal">
-            <div class="modal-dialog modal-sm" style="width: 297px;height: 389px;" role="document">
+            <div class="modal-dialog modal-sm" style="width: 5.94rem;height: 7.78rem" role="document">
                 <div class="modal-content">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <img src="images/close-iocn1.png" width="16" alt="">
+                        <img src="images/close-iocn1.png" style="width: .32rem" alt="">
                     </button>
                     <div class="desc">
-                        <img src="images/icon/Event Graphic2@2x.png" width="40" alt="">
-                        <h3 style="margin-bottom: 25px;">象徵什麼呢？</h3>
+                        <img src="images/icon/Event Graphic2@2x.png" style="width: .8rem" alt="">
+                        <h3 style="margin-bottom: .25rem">象徵什麼呢？</h3>
                         <p>此為官方認證標章，表示用戶在每次開局活動中，獲得極佳評價，無論是親自舉辦或參加活動，皆能與成員同樂，並帶來十分難忘的美好聚會！</p>
                         <p>如果您想榮獲此標章，請高頻率使用開局活動，累積主辦人以及參與者對您的正面印象，官方審核後將為您的頭像加上標章，讓您在每一場活動中，吸引眾人目光。</p>
                     </div>

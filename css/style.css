@@ -1438,7 +1438,7 @@ nav a img{vertical-align: middle;align-self: center;}
 /*evaluate-desc*/
 .evaluate-desc{}
 .evaluate-desc .xing{}
-.evaluate-desc .xing img{width:.32rem;height:.32rem;margin-right:.12rem;}
+.evaluate-desc .xing img{width:.32rem;height:.32rem;margin-right:.05rem;}
 .evaluate-desc .head{width:7.5rem;height:1.88rem;background-color: #fafafa;border-bottom: solid 1px #ededed;padding: .2rem .4rem; box-sizing: border-box;}
 .evaluate-desc .head .head-content span{ font-weight: 600;color: #292929;font-size:.74rem;margin-right:.4rem;}
 .evaluate-desc .head .xing{padding-top:.4rem;}
@@ -1463,7 +1463,8 @@ nav a img{vertical-align: middle;align-self: center;}
 .evaluate-desc .list .item .con{padding-left:.9rem; box-sizing: border-box;}
 .evaluate-desc .list .item .con .text{color: #292929;font-size: .26rem;padding: .3rem 0;box-sizing: border-box;}
 .evaluate-desc .list .item .con .tag{flex-wrap: wrap;}
-.evaluate-desc .list .item .con .tag span{width:1.36rem;height:.46rem; text-align:center;line-height: .46rem;color: #292929;border: solid 1px #292929;border-radius:.25rem;font-size: .24rem;margin-right:.14rem;margin-bottom:.1rem;}
+.evaluate-desc .list .item .con .tag span{width:1.36rem;height:.46rem; text-align:center;line-height: .46rem;background-color: #ededed;color: #292929;border: solid 1px #ededed;border-radius:.25rem;font-size: .24rem;margin-right:.14rem;margin-bottom:.1rem;}
+.evaluate-desc .list .item .con .tag span.active{border: solid 1px #292929;background-color: #fff; }
 .evaluate-desc .list .item .con .date{color: #b9b9b9;font-size: .24rem;margin-top:.2rem;}
 .evaluate-desc .user-head{justify-content: space-between;padding: .3rem; box-sizing: border-box;border-bottom: solid 1px #ededed;}
 .evaluate-desc .user-head span{color: #292929;font-weight: 500; font-size: .32rem;}
@@ -1531,4 +1532,4 @@ nav a img{vertical-align: middle;align-self: center;}
     align-self: center;
     background-color: #ffffff;
     border: solid 1px #292929;}
-.fans-count ul li a .status.disabled{background-color: #f9f9f9;border-color: #f9f9f9;}
+.fans-count ul li a .status.disabled{background-color: #f9f9f9;border-color: #DEDDDF;}

@@ -1008,23 +1008,21 @@ function setStar(){
     $(".xing-box .xing").on('click', 'img', function(){
         var index = $(this).index()
         var oldIndex = $(".xing-box .xing").data('index')
-        index += .5
-        if(oldIndex%1 != 0){
-            index += .5
-        }
+        index += 1
+        console.log(index)
         if($(this).index() == 0 && oldIndex == 1){
             index = 0
         }
         if(index == 3){
             $(".xing-box h3").text('尚可')
         }
-        if(index >= 3 && index < 4){
+        if(index > 3){
             $(".xing-box h3").text('滿意')
         }
         if(index > 4){
             $(".xing-box h3").text('非常滿意')
         }
-        if(index > 0 && index <= 2.5){
+        if(index > 0 && index < 3){
             $(".xing-box h3").text('不满意')
         }
         if(index == 0){

@@ -1546,7 +1546,7 @@ nav a img{vertical-align: middle;align-self: center;}
 .teaching-box .tab-content{padding-top: .54rem; box-sizing: border-box;}
 .teaching-box .tab-content .change p{text-align: center;color: #292929;font-weight: 500;font-size: .26rem;margin-bottom:0;}
 .teaching-box .tab-content .change .tag{margin-top:.1rem; justify-content: center;position: relative;}
-.teaching-box .tab-content .change .tag span{color: #dedddf;font-size: .58rem;width:.8rem; height:1.02rem; line-height: 1.02rem; align-self: center; font-weight: 500;text-align: center;position: relative;}
+.teaching-box .tab-content .change .tag span{color: #dedddf;font-size: .58rem;width:.8rem; height:1.02rem; transition: all .3s; line-height: 1.02rem; align-self: center; font-weight: 500;text-align: center;position: relative;}
 .teaching-box .tab-content .change .tag.a0{left: 1rem;}
 .teaching-box .tab-content .change .tag span:after{width:.22rem;height:.32rem; content: ''; display: none; position: absolute; top:0; bottom:0; right:-.3rem; background: url("../images/icon/Triangle3@2x.png") center center no-repeat; background-size: .22rem .32rem; margin: auto 0;}
 .teaching-box .tab-content .change .tag.a0 span:nth-child(1){color:#E7427A;font-size: .72rem;margin-right: .44rem;}

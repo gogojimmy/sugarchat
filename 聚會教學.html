@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta name="viewport" content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;">
+    <title>聚會教學</title>
+    <!-- Bootstrap -->
+    <link href="lib/bootstrap-3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="lib/Swiper/css/swiper.min.css" rel="stylesheet">
+    <link href="lib/select2/dist/css/select2.min.css" rel="stylesheet">
+    <link href="lib/video6.6.22.js/css/video-js.min.css" rel="stylesheet">
+    <link href="css/animations.css" rel="stylesheet">
+    <link href="css/style.css?id=932" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <!--<script src="lib/videojs/videojs-ie8.min.js"></script>-->
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <script>
+        function _resizeView() {
+            var html = document.documentElement;
+            var windowWidth = html.clientWidth;
+            if(windowWidth > 750){
+                windowWidth = 750;
+            }
+            html.style.fontSize = windowWidth / 7.5 + 'px';
+        }
+        _resizeView()
+        window.addEventListener('resize', _resizeView, false);
+    </script>
+</head>
+
+<body>
+
+<div class="product-box">
+    <div class="content teaching-box">
+        <div class="head">
+            <h3>首先，我可以選擇...</h3>
+            <ul class="nav nav-tabs flex">
+                <li onclick="teachingSwiper()" class="active"><a  href="#tab1" data-toggle="tab">參加聚會</a></li>
+                <li onclick="teachingSwiper()"><a href="#tab2"  data-toggle="tab">主辦聚會</a></li>
+            </ul>
+        </div>
+        <div class="tab-content">
+            <div class="tab-pane fade in active" id="tab1">
+                <div class="change">
+                    <p>參加聚會</p>
+                    <div class="tag flex a0">
+                        <span class="active">1</span>
+                        <span>2</span>
+                        <span>3</span>
+                    </div>
+                </div>
+                <div class="swiper-container swiper-container-box1">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide flex">
+                            <h4>找聚會</h4>
+                            <p>在聚會列表上選擇感興趣的聚會</p>
+                            <img src="images/white1@2x.png" alt="">
+                        </div>
+                        <div class="swiper-slide flex">
+                            <h4>報名聚會</h4>
+                            <p>確定你想參加聚會後，點擊「我想加入」進行報名</p>
+                            <img src="images/white2@2x.png" alt="">
+                        </div>
+                        <div class="swiper-slide flex">
+                            <h4>等待主辦人審核</h4>
+                            <p>報名後，等待主辦人同意後，就可參加聚會了！</p>
+                            <img src="images/white3@2x.png" alt="">
+                        </div>
+                    </div>
+                    <div class="popular-pagination"></div>
+                </div>
+            </div>
+            <div class="tab-pane fade in" id="tab2">
+                <div class="change">
+                    <p>主辦聚會</p>
+                    <div class="tag flex a0">
+                        <span class="active">1</span>
+                        <span>2</span>
+                        <span>3</span>
+                    </div>
+                </div>
+                <div class="swiper-container swiper-container-box2">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide flex">
+                            <h4>發起聚會</h4>
+                            <p>點擊右下角「辦聚會」建立你的專屬聚會</p>
+                            <img src="images/white4@2x.png" alt="">
+                        </div>
+                        <div class="swiper-slide flex">
+                            <h4>編輯聚會內容</h4>
+                            <p>填寫完聚會內容，點擊「發佈聚會」，建立完成！</p>
+                            <img src="images/white5@2x.png" alt="">
+                        </div>
+                        <div class="swiper-slide flex">
+                            <h4>審核報名成員</h4>
+                            <p>在你的聚會頁面下方，選擇你最感興趣的對象</p>
+                            <img src="images/white6@2x.png" alt="">
+                        </div>
+                    </div>
+                    <div class="popular-pagination"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+
+<script src="js/jquery.min.js"></script>
+<script src="lib/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+<script src="lib/Swiper/js/swiper.min.js"></script>
+<script src="lib/icheck-1.x/icheck.min.js"></script>
+<script src="lib/select2/dist/js/select2.min.js"></script>
+<script src="js/clipboard.min.js"></script>
+<script src="lib/video6.6.22.js/js/video.min.js"></script>
+<script src="js/js.js"></script>
+<script>
+
+</script>
+
+
+</body>
+
+</html>

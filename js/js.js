@@ -657,6 +657,9 @@ $(function(){
 
     //20180704 参与者页面结束
 
+    // 聚會教學swiper
+    teachingSwiper()
+
 })
 
 // 计算chat-content的高度和重置滚动条
@@ -1045,5 +1048,44 @@ function setStar(){
     })
 }
 setStar()
+
+// 聚會教學swiper
+var swipercontainerbox1 = null
+var swipercontainerbox2 = null
+function teachingSwiper(){
+    if(swipercontainerbox1) swipercontainerbox1.destroy(false);
+    if(swipercontainerbox2) swipercontainerbox2.destroy(false);
+    $(".teaching-box .tab-content .change .tag").removeClass('a0 a1 a2')
+    $(".teaching-box .tab-content .change .tag").addClass('a0')
+    // userinfo-banner
+    setTimeout(function(){
+        swipercontainerbox1 = new Swiper('.swiper-container-box1', {
+            pagination: '.swiper-container-box1 .popular-pagination',
+            paginationClickable: true,
+            onTouchMove: function(swiper){
+                $(".teaching-box .tab-content .change .tag").removeClass('a0 a1 a2')
+                $(".teaching-box .tab-content .change .tag").addClass('a'+swiper.activeIndex)
+            },
+            onSlideChangeEnd: function(swiper){
+                $(".teaching-box .tab-content .change .tag").removeClass('a0 a1 a2')
+                $(".teaching-box .tab-content .change .tag").addClass('a'+swiper.activeIndex)
+            }
+        });
+        swipercontainerbox2 = new Swiper('.swiper-container-box2', {
+            pagination: '.swiper-container-box2 .popular-pagination',
+            paginationClickable: true,
+            onTouchMove: function(swiper){
+                $(".teaching-box .tab-content .change .tag").removeClass('a0 a1 a2')
+                $(".teaching-box .tab-content .change .tag").addClass('a'+swiper.activeIndex)
+            },
+            onSlideChangeEnd: function(swiper){
+                $(".teaching-box .tab-content .change .tag").removeClass('a0 a1 a2')
+                $(".teaching-box .tab-content .change .tag").addClass('a'+swiper.activeIndex)
+            }
+        });
+    },500)
+
+
+}
 
 

@@ -3,10 +3,18 @@
   <component name="ChangeListManager">
     <list id="0c21cf16-a53a-4990-bd85-08abd7f60caf" name="Revert: add IScroll plugin" comment="" />
     <list default="true" id="13fc7e30-3c2a-4013-a602-5b2882e6bb25" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/images/icon/Triangle3@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/white1@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/white2@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/white3@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/white4@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/white5@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/white6@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/white@2x 4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/聚會教學.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/填寫評價4.html" beforeDir="false" afterPath="$PROJECT_DIR$/填寫評價4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/評價 預設.html" beforeDir="false" afterPath="$PROJECT_DIR$/評價 預設.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/js.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/js.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,38 +25,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="672">
-              <caret line="1441" column="41" selection-start-line="1441" selection-start-column="41" selection-end-line="1441" selection-end-column="41" />
+            <state relative-caret-position="584">
+              <caret line="1564" column="60" selection-start-line="1564" selection-start-column="60" selection-end-line="1564" selection-end-column="60" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="評價 預設.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/評價 預設.html">
+      <file leaf-file-name="聚會教學.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/聚會教學.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="376" column="64" selection-start-line="376" selection-start-column="64" selection-end-line="376" selection-end-column="64" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="填寫評價4.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/填寫評價4.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="68" column="52" selection-start-line="68" selection-start-column="52" selection-end-line="68" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="追蹤中.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/追蹤中.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+            <state relative-caret-position="397">
+              <caret line="45" column="45" selection-start-line="45" selection-start-column="45" selection-end-line="45" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -56,8 +46,8 @@
       <file leaf-file-name="js.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/js.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="581">
-              <caret line="1025" column="41" lean-forward="true" selection-start-line="1025" selection-start-column="41" selection-end-line="1025" selection-end-column="41" />
+            <state relative-caret-position="308">
+              <caret line="1073" selection-start-line="1073" selection-end-line="1073" />
               <folding>
                 <element signature="n#style#0;n#video#0;n#!!top" expanded="true" />
                 <element signature="n#!!block;n#star#0" />
@@ -161,7 +151,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/task.html" />
         <option value="$PROJECT_DIR$/upgrade-vip.html" />
         <option value="$PROJECT_DIR$/会员升级.html" />
         <option value="$PROJECT_DIR$/儲值1  預設.html" />
@@ -208,10 +197,11 @@
         <option value="$PROJECT_DIR$/chat.html" />
         <option value="$PROJECT_DIR$/個人-本人.html" />
         <option value="$PROJECT_DIR$/個人-非本人.html" />
-        <option value="$PROJECT_DIR$/js/js.js" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/評價 預設.html" />
         <option value="$PROJECT_DIR$/填寫評價4.html" />
+        <option value="$PROJECT_DIR$/聚會教學.html" />
+        <option value="$PROJECT_DIR$/js/js.js" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
@@ -296,16 +286,16 @@
     <property name="settings.editor.selected.configurable" value="web.server" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/images/icon" />
-      <recent name="$PROJECT_DIR$/images" />
-      <recent name="$PROJECT_DIR$/lib" />
-      <recent name="$PROJECT_DIR$/js" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$/css" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images/icon" />
+      <recent name="$PROJECT_DIR$/images" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/lib" />
+      <recent name="$PROJECT_DIR$/js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -419,14 +409,8 @@
       <workItem from="1532776490500" duration="10434000" />
       <workItem from="1532788122905" duration="7462000" />
       <workItem from="1532827906016" duration="569000" />
-      <workItem from="1532918849404" duration="652000" />
-    </task>
-    <task id="LOCAL-00003" summary="push new code!">
-      <created>1521004071481</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1521004071481</updated>
+      <workItem from="1532918849404" duration="815000" />
+      <workItem from="1532921201452" duration="6637000" />
     </task>
     <task id="LOCAL-00004" summary="push new code!">
       <created>1521013726670</created>
@@ -764,11 +748,18 @@
       <option name="project" value="LOCAL" />
       <updated>1532916668528</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="页面修改07-30 +1">
+      <created>1532919579691</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1532919579691</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="322786000" />
+    <option name="totallyTimeSpent" value="329586000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1789" height="1004" extended-state="0" />
@@ -802,19 +793,19 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17784877" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="ReactNative" order="7" weight="0.32930845" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Thumbnails" order="13" weight="0.32930845" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49809885" weight="0.41602635" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32930845" />
       <window_info anchor="bottom" id="Command Line Tools Console" order="12" visible="true" weight="0.32930845" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.20307355" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50190115" side_tool="true" weight="0.6608123" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49809885" weight="0.41602635" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Messages" order="8" />
@@ -855,7 +846,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="new code" />
     <MESSAGE value="new done" />
     <MESSAGE value="add Chrome scrollbar" />
     <MESSAGE value="add Chrome scrollbar style" />
@@ -880,7 +870,8 @@
     <MESSAGE value="页面修改07-24" />
     <MESSAGE value="页面修改07-25" />
     <MESSAGE value="页面修改07-30" />
-    <option name="LAST_COMMIT_MESSAGE" value="页面修改07-30" />
+    <MESSAGE value="页面修改07-30 +1" />
+    <option name="LAST_COMMIT_MESSAGE" value="页面修改07-30 +1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -888,13 +879,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/官方任務2 預設.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="32" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/官方任務5 LINE邀請函.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
@@ -979,13 +963,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="667">
           <caret line="41" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/活动列表.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="34" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -1077,13 +1054,6 @@
     <entry file="file://$PROJECT_DIR$/505.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/主辦人 瀏覽活動.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3381">
-          <caret line="147" column="80" selection-start-line="147" selection-start-column="80" selection-end-line="147" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/account.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1149,42 +1119,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/個人-本人.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/個人-非本人.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/编辑评价.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1288">
-          <caret line="77" column="7" selection-start-line="77" selection-start-column="7" selection-end-line="77" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/粉絲人數.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
           <caret line="170" column="43" selection-start-line="170" selection-start-column="41" selection-end-line="170" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/js.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="581">
-          <caret line="1025" column="41" lean-forward="true" selection-start-line="1025" selection-start-column="41" selection-end-line="1025" selection-end-column="41" />
-          <folding>
-            <element signature="n#style#0;n#video#0;n#!!top" expanded="true" />
-            <element signature="n#!!block;n#star#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1202,13 +1140,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="1441" column="41" selection-start-line="1441" selection-start-column="41" selection-end-line="1441" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/評價 預設.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
@@ -1218,8 +1149,71 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/填寫評價4.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
+        <state relative-caret-position="937">
           <caret line="68" column="52" selection-start-line="68" selection-start-column="52" selection-end-line="68" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/個人-非本人.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/编辑评价.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1169">
+          <caret line="77" column="7" selection-start-line="77" selection-start-column="7" selection-end-line="77" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/活动列表.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="40" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/主辦人 瀏覽活動.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="118" column="24" selection-start-line="118" selection-start-column="24" selection-end-line="120" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/個人-本人.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="67" column="18" lean-forward="true" selection-start-line="38" selection-start-column="12" selection-end-line="67" selection-end-column="18" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/聚會教學.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="45" column="45" selection-start-line="45" selection-start-column="45" selection-end-line="45" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/js.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="1073" selection-start-line="1073" selection-end-line="1073" />
+          <folding>
+            <element signature="n#style#0;n#video#0;n#!!top" expanded="true" />
+            <element signature="n#!!block;n#star#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="584">
+          <caret line="1564" column="60" selection-start-line="1564" selection-start-column="60" selection-end-line="1564" selection-end-column="60" />
         </state>
       </provider>
     </entry>

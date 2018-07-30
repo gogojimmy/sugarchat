@@ -1439,6 +1439,7 @@ nav a img{vertical-align: middle;align-self: center;}
 .evaluate-desc{}
 .evaluate-desc .xing{}
 .evaluate-desc .xing img{width:.32rem;height:.32rem;margin-right:.05rem;}
+.evaluate-desc .head img{margin-right:.16rem;}
 .evaluate-desc .head{width:7.5rem;height:1.88rem;background-color: #fafafa;border-bottom: solid 1px #ededed;padding: .2rem .4rem; box-sizing: border-box;}
 .evaluate-desc .head .head-content span{ font-weight: 600;color: #292929;font-size:.74rem;margin-right:.4rem;}
 .evaluate-desc .head .xing{padding-top:.4rem;}

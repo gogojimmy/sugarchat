@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta content="yes" name="apple-mobile-web-app-capable">
+	<meta name="viewport" content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;">
+	<title>主辦人 瀏覽活動</title>
+	<!-- Bootstrap -->
+	<link href="lib/bootstrap-3.3.7/css/bootstrap.min.css" rel="stylesheet">
+	<link href="lib/Swiper/css/swiper.min.css" rel="stylesheet">
+	<link href="lib/select2/dist/css/select2.min.css" rel="stylesheet">
+	<link href="lib/video6.6.22.js/css/video-js.min.css" rel="stylesheet">
+	<link href="css/animations.css" rel="stylesheet">
+	<link href="css/style.css?id=932" rel="stylesheet">
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+	<script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+	<script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+	<script>
+        function _resizeView() {
+            var html = document.documentElement;
+            var windowWidth = html.clientWidth;
+            if(windowWidth > 750){
+                windowWidth = 750;
+            }
+            html.style.fontSize = windowWidth / 7.5 + 'px';
+        }
+        _resizeView()
+        window.addEventListener('resize', _resizeView, false);
+	</script>
+</head>
+
+<body style="background-color: #fff;">
+
+<div class="product-box">
+	<div class="content party-management" style="overflow: hidden;">
+		<div class="tab-container flex">
+				<ul class="nav nav-tabs flex">
+					<li class="active"><a href="#wait" data-toggle="tab">待同意<i>6</i></a></li>
+					<li><a href="#complete" data-toggle="tab">已加入</a></li>
+					<li><a href="#waitc" data-toggle="tab">待完成</a></li>
+					<li>
+						<a href="#evaluate" data-toggle="tab">評價
+						</a></li>
+				</ul>
+				<div class="tab-content">
+					<!--待同意-->
+					<div class="tab-pane fade in active" id="wait">
+
+						<!--default-->
+						<ul>
+							<li class="flex">
+								<div class="left flex">
+									<img class="img-circle" src="images/m2.png" alt="">
+									<span>Bonnie Yu</span>
+								</div>
+								<div class="right flex">
+									<button class="delete">婉拒</button>
+									<button class="complete active">同意</button>
+								</div>
+							</li>
+							<li class="flex">
+								<div class="left flex">
+									<img class="img-circle" src="images/m4.png" alt="">
+									<span>Bonnie Yu</span>
+								</div>
+								<div class="right flex">
+									<button class="delete">婉拒</button>
+									<button class="complete active">同意</button>
+								</div>
+							</li>
+							<li class="flex">
+								<div class="left flex">
+									<img class="img-circle" src="images/m1.png" alt="">
+									<span>Bonnie Yu</span>
+								</div>
+								<div class="right flex">
+									<button class="delete">婉拒</button>
+									<button class="complete active">同意</button>
+								</div>
+							</li>
+							<li class="flex">
+								<div class="left flex">
+									<img class="img-circle" src="images/m3.png" alt="">
+									<span>Bonnie Yu</span>
+								</div>
+								<div class="right flex">
+									<button class="delete">婉拒</button>
+									<button class="complete active">同意</button>
+								</div>
+							</li>
+							<li class="flex">
+								<div class="left flex">
+									<img class="img-circle" src="images/m4.png" alt="">
+									<span>Bonnie Yu</span>
+								</div>
+								<div class="right flex">
+									<button class="delete">婉拒</button>
+									<button class="complete active">同意</button>
+								</div>
+							</li>
+							<li class="flex">
+								<div class="left flex">
+									<img class="img-circle" src="images/m4.png" alt="">
+									<span>Bonnie Yu</span>
+								</div>
+								<div class="right flex">
+									<button class="delete">婉拒</button>
+									<button class="complete active">同意</button>
+								</div>
+							</li>
+							<li class="flex">
+								<div class="left flex">
+									<img class="img-circle" src="images/m4.png" alt="">
+									<span>Bonnie Yu</span>
+								</div>
+								<div class="right flex">
+									<button class="delete">婉拒</button>
+									<button class="complete active">同意</button>
+								</div>
+							</li>
+							<li class="flex">
+								<div class="left flex">
+									<img class="img-circle" src="images/m4.png" alt="">
+									<span>Bonnie Yu</span>
+								</div>
+								<div class="right flex">
+									<button class="delete">婉拒</button>
+									<button class="complete active">同意</button>
+								</div>
+							</li>
+							<li class="flex">
+								<div class="left flex">
+									<img class="img-circle" src="images/m4.png" alt="">
+									<span>Bonnie Yu</span>
+								</div>
+								<div class="right flex">
+									<button class="delete">婉拒</button>
+									<button class="complete active">同意</button>
+								</div>
+							</li>
+							<li class="flex">
+								<div class="left flex">
+									<img class="img-circle" src="images/m4.png" alt="">
+									<span>Bonnie Yu</span>
+								</div>
+								<div class="right flex">
+									<button class="delete">婉拒</button>
+									<button class="complete active">同意</button>
+								</div>
+							</li>
+						</ul>
+						<div class="no-data flex">
+							<img src="images/icon/graphic1@2x.png" alt="">
+							<span>目前尚無報名的成員</span>
+						</div>
+					</div>
+					<!--已加入-->
+					<div class="tab-pane fade in" id="complete">
+						<ul>
+							<li class="flex">
+								<div class="left flex">
+									<img class="img-circle" src="images/m1.png" alt="">
+									<span>Bonnie Yu</span>
+								</div>
+								<div class="right flex">
+									<button class="delete"><img src="images/icon/delete-icon-new@2x.png" alt="">移除</button>
+									<button>聊聊天</button>
+								</div>
+							</li>
+							<li class="flex">
+								<div class="left flex">
+									<img class="img-circle" src="images/m2.png" alt="">
+									<span>Bonnie Yu</span>
+								</div>
+								<div class="right flex">
+									<button class="delete"><img src="images/icon/delete-icon-new@2x.png" alt="">移除</button>
+									<button>聊聊天</button>
+								</div>
+							</li>
+							<li class="flex">
+								<div class="left flex">
+									<img class="img-circle" src="images/m3.png" alt="">
+									<span>Bonnie Yu</span>
+								</div>
+								<div class="right flex">
+									<button class="delete"><img src="images/icon/delete-icon-new@2x.png" alt="">移除</button>
+									<button>聊聊天</button>
+								</div>
+							</li>
+							<li class="flex">
+								<div class="left flex">
+									<img class="img-circle" src="images/mod5.png" alt="">
+									<span>Bonnie Yu</span>
+								</div>
+								<div class="right flex">
+									<button class="delete"><img src="images/icon/delete-icon-new@2x.png" alt="">移除</button>
+									<button>聊聊天</button>
+								</div>
+							</li>
+							<li class="flex">
+								<div class="left flex">
+									<img class="img-circle" src="images/m4.png" alt="">
+									<span>Bonnie Yu</span>
+								</div>
+								<div class="right flex">
+									<button class="delete"><img src="images/icon/delete-icon-new@2x.png" alt="">移除</button>
+									<button>聊聊天</button>
+								</div>
+							</li>
+							<li class="flex">
+								<div class="left flex">
+									<img class="img-circle" src="images/m4.png" alt="">
+									<span>Bonnie Yu</span>
+								</div>
+								<div class="right flex">
+									<button class="delete"><img src="images/icon/delete-icon-new@2x.png" alt="">移除</button>
+									<button>聊聊天</button>
+								</div>
+							</li>
+							<li class="flex">
+								<div class="left flex">
+									<img class="img-circle" src="images/m4.png" alt="">
+									<span>Bonnie Yu</span>
+								</div>
+								<div class="right flex">
+									<button class="delete"><img src="images/icon/delete-icon-new@2x.png" alt="">移除</button>
+									<button>聊聊天</button>
+								</div>
+							</li>
+							<li class="flex">
+								<div class="left flex">
+									<img class="img-circle" src="images/m4.png" alt="">
+									<span>Bonnie Yu</span>
+								</div>
+								<div class="right flex">
+									<button class="delete"><img src="images/icon/delete-icon-new@2x.png" alt="">移除</button>
+									<button>聊聊天</button>
+								</div>
+							</li>
+							<li class="flex">
+								<div class="left flex">
+									<img class="img-circle" src="images/m4.png" alt="">
+									<span>Bonnie Yu</span>
+								</div>
+								<div class="right flex">
+									<button class="delete"><img src="images/icon/delete-icon-new@2x.png" alt="">移除</button>
+									<button>聊聊天</button>
+								</div>
+							</li>
+						</ul>
+						<div class="no-data flex">
+							<img src="images/icon/graphic1@2x.png" alt="">
+							<span>目前尚無加入的成員</span>
+						</div>
+					</div>
+					<!--待完成-->
+					<div class="tab-pane fade in" id="waitc">
+						<div class="wait-av">
+							<p>若未主動點擊「完成聚會」，活動結束三天後系統將視為全員出席; 若有送禮物的情況，我們將自動發送禮物給所有的活動成員。</p>
+						</div>
+						<!--Radio Button-->
+						<ul>
+							<li class="flex">
+								<div class="left flex">
+									<img class="img-circle" src="images/m2.png" alt="">
+									<span>Bonnie Yu</span>
+								</div>
+								<div class="right flex">
+									<input checked type="radio" id="l1" name="l1" />
+									<label for="l1">未出席</label>
+									<input type="radio" id="l2" name="l1" />
+									<label for="l2">出席了</label>
+								</div>
+							</li>
+							<li class="flex">
+								<div class="left flex">
+									<img class="img-circle" src="images/m4.png" alt="">
+									<span>Bonnie Yu</span>
+								</div>
+								<div class="right flex">
+									<input type="radio" id="l3" name="l2" />
+									<label for="l3">未出席</label>
+									<input checked type="radio" id="l4" name="l2" />
+									<label for="l4">出席了</label>
+								</div>
+							</li>
+						</ul>
+						<div class="action-btn">
+							<a href="">完成聚會</a>
+						</div>
+						<div class="no-data flex">
+							<img src="images/icon/graphic1@2x.png" alt="">
+							<span>聚會尚未進行結束</span>
+						</div>
+					</div>
+					<!--評價-->
+					<div class="tab-pane fade in" id="evaluate">
+						<div class="wait-av">
+							<p>請於聚會結束後2-48小時內評價對方，時間超過將無法進行評價。</p>
+						</div>
+						<ul>
+							<li class="flex">
+								<div class="left flex">
+									<img class="img-circle" src="images/m1.png" alt="">
+									<span>Bonnie Yu</span>
+								</div>
+								<div class="right flex">
+									<button class="delete">出席了</button>
+									<button>查看評價</button>
+								</div>
+							</li>
+							<li class="flex">
+								<div class="left flex">
+									<img class="img-circle" src="images/m1.png" alt="">
+									<span>Bonnie Yu</span>
+								</div>
+								<div class="right flex">
+									<button class="delete">未出席</button>
+									<button class="active">我要評價</button>
+								</div>
+							</li>
+						</ul>
+						<div class="no-data flex">
+							<img src="images/icon/graphic1@2x.png" alt="">
+							<span>聚會尚未進行結束</span>
+						</div>
+					</div>
+				</div>
+			</div>
+	</div>
+</div>
+
+<div class="party-management-refusal-tips">
+	<p>設定的參加人數已達上限</p>
+	<span>建議到編輯裡調整活動參加人數名額。</span>
+</div>
+
+<script src="js/jquery.min.js"></script>
+<script src="lib/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+<script src="lib/Swiper/js/swiper.min.js"></script>
+<script src="lib/icheck-1.x/icheck.min.js"></script>
+<script src="lib/select2/dist/js/select2.min.js"></script>
+<script src="js/clipboard.min.js"></script>
+<script src="lib/video6.6.22.js/js/video.min.js"></script>
+<script src="js/js.js"></script>
+
+
+</body>
+
+</html>

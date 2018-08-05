@@ -555,7 +555,7 @@ $(function(){
 
     //20180704 参与者页面开始
     // tips1 show
-    $(".see-activity .out").click(function(){
+    $(".see-activity .action-btn a").click(function(){
         $('.see-activity .top-tips').show().removeClass('slideOutUp').addClass('slideInDown')
         setTimeout(function(){
             $('.see-activity .top-tips').removeClass('slideInDown').addClass('slideOutUp')
@@ -569,23 +569,17 @@ $(function(){
             $('.see-activity .top-complete-tips').removeClass('slideInDown').addClass('slideOutUp')
         }, 2000)
     })
-    // show bottom tab
-    $(".footer-tab-bar .nav-tabs li").click(function(){
-        if($(".footer-tab-bar-mask").css('display') == 'none'){
-            $(".footer-tab-bar-mask").show()
-            $(".footer-tab-bar .tab-container").animate({bottom: '0px'}, 300)
-        }
-    })
-    // hide botton tab
-    $(".footer-tab-bar-mask").click(function(){
-        $(".footer-tab-bar .tab-container").animate({bottom: '-7.5rem'}, 300, function(){
-            $(".footer-tab-bar-mask").hide()
-        })
-    })
 
     // delete
-    $("#wait").on('click', 'button.delete', function(){
+    $("#complete").on('click', 'button.delete', function(){
         $(this).parent().parent().remove()
+    })
+
+    $("#wait").on('click', '.complete', function(){
+        $(".party-management-refusal-tips").animate({top: 0+'px'},300)
+        setTimeout(function(){
+            $(".party-management-refusal-tips").animate({top: '-1.1rem'},300)
+        }, 2000)
     })
 
     // delete
@@ -602,7 +596,7 @@ $(function(){
     })
 
     // show action
-    $(".see-activity .head .top .menu").click(function(){
+    $(".see-activity .brn-group-box .menu,.see-activity .head .menu").click(function(){
         $(".share-modal").show()
         $(".share-modal .share-modal-content").animate({bottom: '0px'}, 300)
     })
@@ -1088,4 +1082,38 @@ function teachingSwiper(){
 
 }
 
+//touc滑动删除按钮
+function toucDelete(){
+    var posX
+    $(".message").on('touchmove touchstart touchend' , '.top', function(event){
+        event.stopPropagation()
+        let clientX = event.originalEvent.changedTouches[0].clientX
+        let btnWIDTH = $(this).siblings('.bg').find('button').outerWidth()
+        let left = posX-clientX
+        switch (event.type) {
+            case 'touchstart':
+                posX = clientX
+                break;
+            case 'touchmove':
+                if(parseInt($(this).css('left'))<= -(btnWIDTH)){
+                    return
+                }
+                if(left<0) left = 0
+                if(left>=btnWIDTH) left = btnWIDTH
+                $(this).css({left: -left +'px'})
+                break;
+            case 'touchend':
+                console.log(left)
+                if(left > btnWIDTH/1.5){
+                    $(this).animate({left: -btnWIDTH+'px'},300)
+                    $(this).parent().siblings().find('.top').animate({left: '0px'},300)
+                }else{
+                    $(this).animate({left: '0px'},300)
+                }
+                break;
+
+        }
+    })
+}
+toucDelete()
 

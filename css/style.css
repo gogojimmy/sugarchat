@@ -156,7 +156,7 @@ footer .notice.active,footer .notice:active{background: url("../images/icon/ic-n
 .chat-content .chat-desc .gift .img-circle{width:.62rem;height:.62rem; position: absolute; left:.3rem!important;bottom:.34rem!important; top: inherit!important;}
 .chat-content .chat-desc .gift .gift-content{ float: left;}
 .chat-content .chat-desc .gift .gift-content img{width:1rem;}
-.chat-content .chat-desc .gift .info{font-size:.26rem;font-weight: 500;color: #9b9b9b;padding-top:.96rem;margin-left:.2rem; float: left;}
+.chat-content .chat-desc .gift .info{font-size:.26rem;font-weight: 500;color: #9b9b9b;padding-top:.096rem;margin-left:.2rem; float: left;}
 .chat-content .chat-desc .gift .info div{margin-top:.06rem; overflow: hidden;}
 .chat-content .chat-desc .gift .info span{color: #4a4a4a;font-size: .24rem;margin-left:.5rem; position: relative; float: right;}
 .chat-content .chat-desc .gift .info span::before{display: block;width:.28rem; height:.28rem; background: url("../images/icon-small-coin@2x.png") center center no-repeat; content: ''; background-size: .28rem .28rem; position: absolute;left:-.36rem;top:1px;}
@@ -179,7 +179,7 @@ footer .notice.active,footer .notice:active{background: url("../images/icon/ic-n
 .chat-content .chat-desc .tasks.me .info{float: left; text-align: left;}
 .chat-content .chat-desc .tasks.me .date{text-align: right;}
 .chat-content .chat-desc .invitation-tips{padding: 0 .28rem;margin-bottom:.2rem; text-align: center;}
-.chat-content .chat-desc .invitation-tips .info{width: 6.94rem;  height: .82rem;  border-radius: .36rem;  background-color: #f9f9f9;font-weight: 500; text-align: center;padding-top:.08rem;}
+.chat-content .chat-desc .invitation-tips .info{width: 6.94rem;  height: .9rem;  border-radius: .36rem;  background-color: #f9f9f9;font-weight: 500; text-align: center;padding-top:.08rem;}
 .chat-content .chat-desc .invitation-tips .info h3{font-size:.26rem;color: #292929;margin:0;}
 .chat-content .chat-desc .invitation-tips .info p{font-size: .24rem;color: #9b9b9b;margin:0;}
 .chat-content .chat-desc .invitation-tips .date{font-size: .24rem;color: #9b9b9b;font-weight: 500;}
@@ -828,7 +828,7 @@ footer .notice.active,footer .notice:active{background: url("../images/icon/ic-n
 .task-modal .modal-dialog .close{position: absolute; top:.2rem; right:.2rem; outline: none; opacity: 1;}
 .task-modal .desc{text-align: center;padding-top:1.14rem;}
 .task-modal .desc h3{color: #292929;font-weight: 500;font-size: .4rem;margin-top:.5rem;}
-.task-modal .desc p{margin-top:.2rem;color: #292929;font-weight: 500;font-size:.28rem;}
+.task-modal .desc p{margin-top:.2rem;color: #292929;font-weight: 500;font-size:.28rem; font-weight: 300!important;}
 .task-modal .next-btn{width: 5.02rem;  height: .82rem;  border-radius: .5rem;  background-color: #ffffff;  border: solid 1px #292929; outline: none!important;margin-top:.2rem;}
 
 /*其他modal*/
@@ -1209,7 +1209,7 @@ nav a img{vertical-align: middle;align-self: center;}
 .see-activity .brn-group-box>div img{width:.46rem;height:.46rem;align-self: center;}
 .see-activity .brn-group-box>div input{display: none;}
 .see-activity .brn-group-box>div span{align-self: center;}
-.see-activity .brn-group-box>div label{position: relative;padding-left:.35rem;}
+.see-activity .brn-group-box>div label{position: relative;padding-left:.35rem;margin-bottom:0;}
 .see-activity .brn-group-box>div label:before{display: block; content: '';width:.3rem;height:.3rem;
     background: url("../images/icon/ic-star@2x.png") center center no-repeat; background-size: .3rem .3rem;
     position: absolute;left:0; top:0; bottom:0; margin: auto 0;
@@ -1271,8 +1271,8 @@ nav a img{vertical-align: middle;align-self: center;}
 .see-activity .message{padding-top:.24rem;}
 .see-activity .message .tit{color: #292929;font-size: .24rem;padding-left:.4rem;margin-bottom:.3rem;}
 .see-activity .message ul,.see-activity .message ul li{padding:0; margin:0;}
-.see-activity .message .item{width:100%;height:1.2rem; position: relative;}
-.see-activity .message .item .top{width:100%;height:1.2rem;position: absolute; top:0; left:0; z-index: 2; background-color: #fff;}
+.see-activity .message .item{width:100%;height:1.4rem; position: relative;}
+.see-activity .message .item .top{width:100%;height:1.4rem;position: absolute; top:0; left:0; z-index: 2; background-color: #fff;}
 .see-activity .message .item .top .img{position: relative;padding-left:.4rem; align-self: center;}
 .see-activity .message .item .top .img .img-circle{width:.84rem;height:.84rem;}
 .see-activity .message .item .top .img .vip{width:.35rem; height:.35rem; position: absolute; right:-.1rem; bottom:0;}
@@ -1280,8 +1280,8 @@ nav a img{vertical-align: middle;align-self: center;}
 .see-activity .message .item .top .user .name{color: #292929;font-weight: 500;font-size: .26rem;}
 .see-activity .message .item .top .user .con{ color: #292929;font-size: .26rem;margin-top:.12rem;}
 .see-activity .message .item .top .user .con span{color: #9b9b9b;font-size: .22rem;margin-left:.2rem;}
-.see-activity .message .item .bg{width:100%;height:1.2rem;position: absolute; top:0;left:0; z-index: 1; justify-content: flex-end;}
-.see-activity .message .item .bg button{width:1.2rem; height:1.2rem;
+.see-activity .message .item .bg{width:100%;height:1.4rem;position: absolute; top:0;left:0; z-index: 1; justify-content: flex-end;}
+.see-activity .message .item .bg button{width:1.4rem; height:1.4rem;
     background: #e7427a url("../images/icon/deletesd@2x.png") center center no-repeat;
     background-size: .44rem .44rem;
     border:0;border-radius: 0;
@@ -1299,7 +1299,7 @@ nav a img{vertical-align: middle;align-self: center;}
     border-radius: .39rem;
     background-color: #f9f9f9;
     align-self: center;
-    padding: .1rem; box-sizing: border-box;
+    padding: .1rem .16rem; box-sizing: border-box;
     font-size: .28rem;
     color: #333;
     border: solid 1px #dddddd;
@@ -1313,34 +1313,34 @@ nav a img{vertical-align: middle;align-self: center;}
 .see-activity .top-tips{width: 7.5rem;display:none;height: .68rem;background-color: rgba(231, 66, 122, 0.9); position: fixed; top:0;line-height: .68rem;color: #fff;font-size: .28rem;font-weight: 500;text-align: center;z-index: 99;}
 
 /*这部分修改过后注释*/
-/*.see-activity .footer-bar{width: 7.5rem;height: 1.4rem;background-color: #ffffff;box-shadow: 0 0 .04rem 0 rgba(0, 0, 0, 0.17); position: fixed; bottom:0;padding: 0 .4rem; box-sizing: border-box;}*/
-/*.see-activity .footer-bar .gift{width: .74rem;height: .74rem; align-self: center;}*/
-/*.see-activity .footer-bar .money{flex-grow: 1; align-self: center;flex-direction: column;padding-top: .2rem;box-sizing: border-box;padding-left: .2rem;}*/
-/*.see-activity .footer-bar .money span{padding-left: .36rem;font-style: normal; position: relative;margin-left:.2rem;}*/
-/*.see-activity .footer-bar .money span::before{display: block;width:.28rem; height:.28rem; background: url("../images/icon-small-coin@2x.png") center center no-repeat; content: ''; background-size: .28rem .28rem; position: absolute;left:0px;top:.06rem;}*/
-/*.see-activity .footer-bar .money p{padding-left: .2rem;}*/
-/*.see-activity .footer-bar a{width: 2.82rem;height: .84rem;border-radius: .58rem;background-color: #e7427a; color: #fff; font-weight: 500;font-size: .28rem; line-height: .84rem; text-align: center; text-decoration: none; align-self: center;}*/
-/*.see-activity .footer-bar a.disabled{background-color: #dedddf;color: #9b9b9b;}*/
-/*.see-activity .footer-bar a.out{border: solid 1px rgba(0, 0, 0, 0.76);background-color: #ffffff;color: #292929;}*/
-/*.see-activity .footer-bar a.out:active{background-color: #E7427A; border-color: #E7427A;color: #fff;}*/
-/*.see-activity .footer-bar a.outer{width:1.88rem;height:.84rem;margin-left: .24rem;}*/
-/*.see-activity .footer-bar a.outer.write{border: solid 1px rgba(0, 0, 0, 0.76);background-color: #ffffff;color: #292929;}*/
-/*.see-activity .footer-bar a.outer:active{background-color: #E7427A; border-color: #E7427A;color: #fff;}*/
-/*.see-activity .footer-bar a.outer.disabled:active{background-color:#dedddf; border-color: #dedddf;color:#9b9b9b;}*/
-/*.see-activity .footer-bar .touxiang{width: .9rem;height:.9rem;position: relative;align-self: center;}*/
-/*.see-activity .footer-bar .touxiang .img-circle{width: .9rem;height:.9rem;}*/
-/*.see-activity .footer-bar .touxiang .vip{position: absolute;bottom:0; right: -.1rem;width: .32rem;}*/
-/*.see-activity .footer-bar .chat{align-self: center;flex-grow: 1;}*/
-/*.see-activity .footer-bar .chat-btn{width: 1.24rem;height: .5rem;line-height:.5rem;border-radius: .25rem; display: inline-block;margin-left: .52rem;}*/
-/*.see-activity-modal .desc{padding-top: .6rem!important;}*/
-/*.see-activity-modal .desc h3{margin-top:0;}*/
-/*.see-activity-modal .btn-box{justify-content: center;margin-top:.4rem;}*/
-/*.see-activity-modal .btn-box a{width: 2.26rem;height: .84rem;border-radius: .58rem;background-color: #ffffff;border: solid 1px rgba(0, 0, 0, 0.76);margin:0 .15rem; text-decoration: none; text-align: center; line-height: .84rem;font-weight: 500;font-size: .28rem; color: #292929;}*/
-/*.see-activity-modal .btn-box a:last-child{background-color: #ededed;}*/
-/*.see-activity-modal .btn-box a:active{background-color: #E7427A; border-color: #E7427A;color: #fff;}*/
-/*.see-activity-modal1 .desc{padding-top: 1.28rem!important;padding: 0 .3rem;}*/
-/*.see-activity-modal1 h3{font-size: .32rem;color: #292929;}*/
-/*.see-activity-modal1 .desc p{color: #292929;font-size: .26rem;font-weight: normal;}*/
+.see-activity .footer-bar{width: 7.5rem;height: 1.4rem;background-color: #ffffff;box-shadow: 0 0 .04rem 0 rgba(0, 0, 0, 0.17); position: fixed; bottom:0;padding: 0 .4rem; box-sizing: border-box;}
+.see-activity .footer-bar .gift{width: .74rem;height: .74rem; align-self: center;}
+.see-activity .footer-bar .money{flex-grow: 1; align-self: center;flex-direction: column;padding-top: .2rem;box-sizing: border-box;padding-left: .2rem;}
+.see-activity .footer-bar .money span{padding-left: .36rem;font-style: normal; position: relative;margin-left:.2rem;}
+.see-activity .footer-bar .money span::before{display: block;width:.28rem; height:.28rem; background: url("../images/icon-small-coin@2x.png") center center no-repeat; content: ''; background-size: .28rem .28rem; position: absolute;left:0px;top:.06rem;}
+.see-activity .footer-bar .money p{padding-left: .2rem;}
+.see-activity .footer-bar a{width: 2.82rem;height: .84rem;border-radius: .58rem;background-color: #e7427a; color: #fff; font-weight: 500;font-size: .28rem; line-height: .84rem; text-align: center; text-decoration: none; align-self: center;}
+.see-activity .footer-bar a.disabled{background-color: #dedddf;color: #9b9b9b;}
+.see-activity .footer-bar a.out{border: solid 1px rgba(0, 0, 0, 0.76);background-color: #ffffff;color: #292929;}
+.see-activity .footer-bar a.out:active{background-color: #E7427A; border-color: #E7427A;color: #fff;}
+.see-activity .footer-bar a.outer{width:1.88rem;height:.84rem;margin-left: .24rem;}
+.see-activity .footer-bar a.outer.write{border: solid 1px rgba(0, 0, 0, 0.76);background-color: #ffffff;color: #292929;}
+.see-activity .footer-bar a.outer:active{background-color: #E7427A; border-color: #E7427A;color: #fff;}
+.see-activity .footer-bar a.outer.disabled:active{background-color:#dedddf; border-color: #dedddf;color:#9b9b9b;}
+.see-activity .footer-bar .touxiang{width: .9rem;height:.9rem;position: relative;align-self: center;}
+.see-activity .footer-bar .touxiang .img-circle{width: .9rem;height:.9rem;}
+.see-activity .footer-bar .touxiang .vip{position: absolute;bottom:0; right: -.1rem;width: .32rem;}
+.see-activity .footer-bar .chat{align-self: center;flex-grow: 1;}
+.see-activity .footer-bar .chat-btn{width: 1.24rem;height: .5rem;line-height:.5rem;border-radius: .25rem; display: inline-block;margin-left: .52rem;}
+.see-activity-modal .desc{padding-top: .6rem!important;}
+.see-activity-modal .desc h3{margin-top:0;}
+.see-activity-modal .btn-box{justify-content: center;margin-top:.4rem;}
+.see-activity-modal .btn-box a{width: 2.26rem;height: .84rem;border-radius: .58rem;background-color: #ffffff;border: solid 1px rgba(0, 0, 0, 0.76);margin:0 .15rem; text-decoration: none; text-align: center; line-height: .84rem;font-weight: 500;font-size: .28rem; color: #292929;}
+.see-activity-modal .btn-box a:last-child{background-color: #ededed;}
+.see-activity-modal .btn-box a:active{background-color: #E7427A; border-color: #E7427A;color: #fff;}
+.see-activity-modal1 .desc{padding-top: 1.28rem!important;padding: 0 .3rem;}
+.see-activity-modal1 h3{font-size: .32rem;color: #292929;}
+.see-activity-modal1 .desc p{color: #292929;font-size: .26rem;font-weight: normal;}
 
 
 /*party-management*/

@@ -1117,3 +1117,32 @@ function toucDelete(){
 }
 toucDelete()
 
+// 聚会问卷
+function PartyQuestionnaireModal(){
+    setTimeout(function(){
+        new Swiper('.PartyQuestionnaire-modal .swiper-container', {
+            onlyExternal : true,
+            pagination: '.PartyQuestionnaire-modal .swiper-pagination',
+            nextButton: '.PartyQuestionnaire-modal .swiper-button-next',
+            prevButton: '.PartyQuestionnaire-modal .swiper-button-prev',
+        });
+    }, 500)
+    $(".swiper-slide").on('change', '#outer1,#outer', function(event){
+        if(event.target.id == 'outer'){
+            if(event.target.checked){
+                $("#outer-content").show()
+            }else{
+                $("#outer-content").hide()
+            }
+        }else{
+            if(event.target.checked){
+                $("#outer1-content").show()
+            }else{
+                $("#outer1-content").hide()
+            }
+        }
+    })
+
+}
+PartyQuestionnaireModal()
+

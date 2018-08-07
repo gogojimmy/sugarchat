@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta content="yes" name="apple-mobile-web-app-capable">
+	<meta name="viewport" content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;">
+	<title>聚会问卷</title>
+	<!-- Bootstrap -->
+	<link href="lib/bootstrap-3.3.7/css/bootstrap.min.css" rel="stylesheet">
+	<link href="lib/Swiper/css/swiper.min.css" rel="stylesheet">
+	<link href="lib/select2/dist/css/select2.min.css" rel="stylesheet">
+	<link href="lib/video6.6.22.js/css/video-js.min.css" rel="stylesheet">
+	<link href="css/animations.css" rel="stylesheet">
+	<link href="css/style.css?id=932" rel="stylesheet">
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+	<script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+	<script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+	<script>
+        function _resizeView() {
+            var html = document.documentElement;
+            var windowWidth = html.clientWidth;
+            if(windowWidth > 750){
+                windowWidth = 750;
+            }
+            html.style.fontSize = windowWidth / 7.5 + 'px';
+        }
+        _resizeView()
+        window.addEventListener('resize', _resizeView, false);
+	</script>
+</head>
+
+<body>
+
+
+<!--問卷 網美 2x modal-->
+<div class="modal fade task-modal s-modal PartyQuestionnaire-modal" tabindex="-1" role="dialog" aria-labelledby="task-modal">
+	<div class="modal-dialog modal-sm" style="width:5.94rem;height: 6.08rem;" role="document">
+		<div class="modal-content">
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				<img src="images/close-iocn1.png" style="width:.32rem" alt="">
+			</button>
+			<div class="desc">
+				<img  class="img1"src="images/icon/sfghgfdhsfhfdgh.png" alt="">
+				<h3>送等值NT$300點數<br>
+					（可兌換現金）</h3>
+				<p>一分鐘的簡單問卷</p>
+				<a class="action" href="">好的</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--問卷 盤子2x modal-->
+<div class="modal fade task-modal s-modal PartyQuestionnaire-modal" tabindex="-1" role="dialog" aria-labelledby="task-modal">
+	<div class="modal-dialog modal-sm" style="width:5.94rem;height: 6.08rem;" role="document">
+		<div class="modal-content">
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				<img src="images/close-iocn1.png" style="width:.32rem" alt="">
+			</button>
+			<div class="desc">
+				<img class="img2" src="images/icon/sgfdsfgdsfg.png" alt="">
+				<h3>讓我們配對適合的對象給你</h3>
+				<p>一分鐘的簡單問卷</p>
+				<a class="action" href="">好的</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--聚會問卷4 modal-->
+<div class="modal fade task-modal s-modal PartyQuestionnaire-modal" tabindex="-1" role="dialog" aria-labelledby="task-modal">
+	<div class="modal-dialog modal-sm" style="width:5.94rem;height: 4.51rem;" role="document">
+		<div class="modal-content">
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				<img src="images/close-iocn1.png" style="width:.32rem" alt="">
+			</button>
+			<div class="desc" style="padding-top:.2rem;">
+				<h3>感謝您的回饋</h3>
+				<p style="margin-top:.5rem;">價值 NT$300 點數已存入<br>
+					您的儲值帳戶中</p>
+				<a class="action" data-dismiss="modal" aria-label="Close" href="javascript:;">關閉</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--聚會問卷2 modal-->
+<div class="modal fade task-modal s-modal PartyQuestionnaire-modal" tabindex="-1" role="dialog" aria-labelledby="task-modal">
+	<div class="modal-dialog modal-sm" style="width:6.9rem;height: 10.58rem;" role="document">
+		<div class="modal-content">
+			<button type="button" class="close" style="z-index: 999;" data-dismiss="modal" aria-label="Close">
+				<img src="images/close-iocn1.png" style="width:.32rem" alt="">
+			</button>
+			<div class="desc-form">
+				<div class="swiper-container">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<h3>只需一分鐘，簡單完成問卷，就送等值NT$300點數（可兌換現金）</h3>
+							<h4>我感興趣的聚會類型？（可複選）</h4>
+							<div class="check-radio-box-group flex">
+								<input id="ck1" type="checkbox">
+								<label for="ck1">吃美食</label>
+								<input id="ck2" type="checkbox">
+								<label for="ck2">看電影</label>
+								<input id="ck3" type="checkbox">
+								<label for="ck3">下午茶</label>
+								<input id="ck4" type="checkbox">
+								<label for="ck4">唱歌</label>
+								<input id="ck5" type="checkbox">
+								<label for="ck5">運動</label>
+								<input id="ck6" type="checkbox">
+								<label for="ck6">喝一杯</label>
+								<input id="ck7" type="checkbox">
+								<label for="ck7">見面會</label>
+								<input id="ck8" type="checkbox">
+								<label for="ck8">拍網美照</label>
+								<input id="ck9" type="checkbox">
+								<label for="ck9">課程講座</label>
+								<input id="ck10" type="checkbox">
+								<label for="ck10">活動出席</label>
+								<input id="outer" type="checkbox">
+								<label for="outer">其他</label>
+							</div>
+							<textarea id="outer-content" placeholder="還有其他你會感興趣的聚會主題嗎？"></textarea>
+						</div>
+						<div class="swiper-slide">
+							<h4>我習慣的聚會方式？</h4>
+							<div class="check-radio-box-group flex">
+								<input id="r1" type="radio" name="r">
+								<label for="r1">主辦聚會</label>
+								<input id="r2" type="radio" name="r">
+								<label for="r2">參加聚會</label>
+								<input id="r3" type="radio" name="r">
+								<label for="r3">兩者皆可</label>
+							</div>
+							<h4 style="margin-top:.57rem;">聚會時間我較偏向約在？</h4>
+							<div class="check-radio-box-group flex">
+								<input id="r4" type="radio" name="r1">
+								<label for="r4">假日</label>
+								<input id="r5" type="radio" name="r1">
+								<label for="r5">週末</label>
+								<input id="r6" type="radio" name="r1">
+								<label for="r6">兩者皆可</label>
+							</div>
+							<h4 style="margin-top:.57rem;">我在什麼樣的場合會感到自在？</h4>
+							<div class="check-radio-box-group flex">
+								<input id="r7" type="radio" name="r2">
+								<label for="r7">一對一單獨</label>
+								<input id="r8" type="radio" name="r2">
+								<label for="r8">多人聚會</label>
+								<input id="r9" type="radio" name="r2">
+								<label for="r9">都喜歡</label>
+							</div>
+							<h4 style="margin-top:.57rem;">對於現場支付費用較偏向於？</h4>
+							<div class="check-radio-box-group flex">
+								<input id="r10" type="radio" name="r3">
+								<label for="r10">我請客</label>
+								<input id="r11" type="radio" name="r3">
+								<label for="r11">被請客</label>
+								<input id="r12" type="radio" name="r3">
+								<label for="r12">各付各的</label>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<h4>我在這邊約聚會的原因？（可複選）</h4>
+							<div class="check-radio-box-group flex">
+								<input id="cck1" type="checkbox">
+								<label for="cck1">認識新朋友</label>
+								<input id="cck2" type="checkbox">
+								<label for="cck2">想認識網美</label>
+								<input id="cck3" type="checkbox">
+								<label for="cck3">豐富生活</label>
+								<input id="cck4" type="checkbox">
+								<label for="cck4">一時興起</label>
+								<input id="cck5" type="checkbox">
+								<label for="cck5">想有人陪</label>
+								<input id="cck6" type="checkbox">
+								<label for="cck6">閒暇娛樂</label>
+								<input id="cck7" type="checkbox">
+								<label for="cck7">臨時約不到人</label>
+								<input id="cck8" type="checkbox">
+								<label for="cck8">知識交流</label>
+								<input id="outer1" type="checkbox">
+								<label for="outer1">其他</label>
+							</div>
+							<textarea id="outer1-content" placeholder="想補充的其他原因？"></textarea>
+							<a class="action" data-dismiss="modal" aria-label="Close" href="javascript:;">完成</a>
+						</div>
+					</div>
+					<div class="swiper-pagination"></div>
+					<div class="swiper-button-prev"></div>
+					<div class="swiper-button-next"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<script src="js/jquery.min.js"></script>
+<script src="lib/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+<script src="lib/Swiper/js/swiper.min.js"></script>
+<script src="lib/icheck-1.x/icheck.min.js"></script>
+<script src="lib/select2/dist/js/select2.min.js"></script>
+<script src="js/clipboard.min.js"></script>
+<script src="lib/video6.6.22.js/js/video.min.js"></script>
+<script src="js/js.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta content="yes" name="apple-mobile-web-app-capable">
+		<meta name="viewport" content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;">
+		<title>shares </title>
+		<!-- Bootstrap -->
+		<link href="lib/bootstrap-3.3.7/css/bootstrap.min.css" rel="stylesheet">
+		<link href="lib/Swiper/css/swiper.min.css" rel="stylesheet">
+		<link href="lib/select2/dist/css/select2.min.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+		<script>
+            function _resizeView() {
+                var html = document.documentElement;
+                var windowWidth = html.clientWidth;
+                if(windowWidth > 750){
+                    windowWidth = 750;
+                }
+                html.style.fontSize = windowWidth / 7.5 + 'px';
+            }
+            _resizeView()
+            window.addEventListener('resize', _resizeView, false);
+		</script>
+		<style>
+			.swiper{width: 200px;height:100px; background-color: red; display: flex; transform: translate3d(-10px, 0, 0); margin: 0 auto;}
+			.swiper div{width:180px;height:100px; background-color: aquamarine;margin-right:20px;flex-grow: 0; flex-shrink: 0;}
+		</style>
+	</head>
+
+	<body>
+
+		<!--shares pop-->
+		<div class="modal fade task-modal s-modal PartyQuestionnaire-modal shares-modal" tabindex="-1" role="dialog" aria-labelledby="task-modal">
+			<div class="modal-dialog modal-sm" style="width:5.78rem;height: 5.58rem;" role="document">
+				<div class="modal-content">
+					<div class="title">
+						分享至
+					</div>
+					<div class="content flex">
+						<a class="flex" href="">
+							<img src="images/icon/sadfasdf@2x.png" alt="">
+							<p>Facebook</p>
+						</a>
+						<a class="flex" href="">
+							<img src="images/icon/asdfasdfas@2x.png" alt="">
+							<p>LINE</p>
+						</a>
+						<a class="flex" href="">
+							<img src="images/icon/adsfsadf@2x.png" alt="">
+							<p>Messenger</p>
+						</a>
+						<a class="flex" href="">
+							<img src="images/icon/asdfasdfas@2x.png" alt="">
+							<p>Wechat</p>
+						</a>
+						<a class="flex" href="">
+							<img src="images/icon/asdgfdfsd22x.png" alt="">
+							<p>Copy</p>
+						</a>
+						<a class="flex" href="">
+							<img src="images/icon/dsfgsdfgsf@2x.png" alt="">
+							<p>Mail</p>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+		<script src="js/jquery.min.js"></script>
+		<script src="lib/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+		<script src="lib/Swiper/js/swiper.min.js"></script>
+		<script src="lib/icheck-1.x/icheck.min.js"></script>
+		<script src="lib/select2/dist/js/select2.min.js"></script>
+		<script src="js/clipboard.min.js"></script>
+		<script src="js/js.js"></script>
+	</body>
+
+</html>

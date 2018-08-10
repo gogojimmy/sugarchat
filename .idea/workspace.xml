@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="13fc7e30-3c2a-4013-a602-5b2882e6bb25" name="Default" comment="页面调整0806">
-      <change afterPath="$PROJECT_DIR$/PartyQuestionnaire.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icon/action-left-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icon/action-right-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icon/sfghgfdhsfhfdgh.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icon/sgfdsfgdsfg.png" afterDir="false" />
+    <list default="true" id="13fc7e30-3c2a-4013-a602-5b2882e6bb25" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/images/icon/adsfsadf@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icon/asdfasdfas@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icon/asdgfdfsd22x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icon/dsfgsdfgsf@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icon/linedsfds@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icon/sadfasdf@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shares.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/js.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/js.js" afterDir="false" />
     </list>
     <list id="0c21cf16-a53a-4990-bd85-08abd7f60caf" name="Revert: add IScroll plugin" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,13 +23,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PartyQuestionnaire.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="219">
+              <caret line="1709" column="108" selection-start-line="1709" selection-start-column="108" selection-end-line="1709" selection-end-column="108" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PartyQuestionnaire.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PartyQuestionnaire.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="76" selection-start-line="76" selection-end-line="90" selection-end-column="6" />
+            <state relative-caret-position="-2">
+              <caret line="75" selection-start-line="75" selection-end-line="90" selection-end-column="6" />
               <folding>
-                <element signature="n#script#2;n#head#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#button#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -36,38 +46,19 @@
                 <element signature="n#style#0;n#img#0;n#button#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#button#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#style#0;n#h4#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h4#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h4#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="js.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/js.js">
+      <file leaf-file-name="shares.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/shares.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="683">
-              <caret line="1119" column="7" selection-start-line="1119" selection-start-column="7" selection-end-line="1119" selection-end-column="7" />
+            <state relative-caret-position="359">
+              <caret line="70" column="67" selection-start-line="70" selection-start-column="67" selection-end-line="70" selection-end-column="67" />
               <folding>
-                <element signature="n#style#0;n#video#0;n#!!top" expanded="true" />
-                <element signature="n#!!block;n#star#0" />
-                <element signature="n#!!block;n#teachingSwiper#0" />
-                <element signature="n#!!block;n#PartyQuestionnaireModal#0" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-216">
-              <caret line="1671" column="25" selection-start-line="1671" selection-start-column="1" selection-end-line="1671" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -85,7 +76,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>width=&quot;284&quot;</find>
       <find>width=&quot;21&quot;</find>
       <find>width=&quot;20&quot;</find>
       <find>width=&quot;163&quot;</find>
@@ -115,6 +105,7 @@
       <find>wait</find>
       <find>設定的參加人數已達上限</find>
       <find>快来</find>
+      <find>PartyQuestionnaire-modal</find>
     </findStrings>
     <replaceStrings>
       <replace>setChatContent</replace>
@@ -167,7 +158,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/儲值2.html" />
         <option value="$PROJECT_DIR$/升级会员付款5.html" />
         <option value="$PROJECT_DIR$/升级会员付款6.html" />
         <option value="$PROJECT_DIR$/參加者 加入後.html" />
@@ -215,9 +205,10 @@
         <option value="$PROJECT_DIR$/主辦人 瀏覽活動.html" />
         <option value="$PROJECT_DIR$/聚会管理.html" />
         <option value="$PROJECT_DIR$/參加者 查看活動.html" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/js/js.js" />
         <option value="$PROJECT_DIR$/PartyQuestionnaire.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/shares.html" />
       </list>
     </option>
   </component>
@@ -238,7 +229,6 @@
       <path value="$PROJECT_DIR$/lib/select2/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1920" />
@@ -257,22 +247,12 @@
           <expand>
             <path>
               <item name="sugarchat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sugarchat" type="462c0819:PsiDirectoryNode" />
+              <item name="sugarchat" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="sugarchat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sugarchat" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sugarchat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sugarchat" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sugarchat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sugarchat" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="sugarchat" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="images" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -307,11 +287,6 @@
     <property name="settings.editor.selected.configurable" value="web.server" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/images/icon" />
-      <recent name="$PROJECT_DIR$/images" />
-      <recent name="$PROJECT_DIR$/css" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/images/icon" />
       <recent name="$PROJECT_DIR$" />
@@ -319,6 +294,153 @@
       <recent name="$PROJECT_DIR$/lib" />
       <recent name="$PROJECT_DIR$/js" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images/icon" />
+      <recent name="$PROJECT_DIR$/images" />
+      <recent name="$PROJECT_DIR$/css" />
+    </key>
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/css/style.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/icon/ic-Coin@2x.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/icon/ic-Ticket@2x.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/js/js.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/主辦人 瀏覽活動.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/參加者 查看活動.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/活动列表.html</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/PartyQuestionnaire.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/icon/CombinedShapeBtn@2x.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/icon/action-left-icon.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/icon/action-right-icon.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/icon/add-icon1@2x.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/icon/deletesd@2x.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/icon/graphic1@2x.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/icon/ic-Place1@2x.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/icon/ic-Time2@2x.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/icon/ic-member2@2x.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/icon/ic-others@2x.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/icon/ic-share@2x.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/icon/ic-star12@2x.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/icon/ic-star1@2x.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/icon/ic-star@2x.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/icon/message-icon@2x.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/icon/sfghgfdhsfhfdgh.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/icon/sgfdsfgdsfg.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/icon/success-icon@2x.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/icon/users-icon@2x.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/icon/waite@2x.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/聚会管理.html</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/參加者 加入後.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/參加者 活動結束後 已評價.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/參加者 活動結束後.html</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -785,53 +907,65 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="358432000" />
+    <option name="totallyTimeSpent" value="359438000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="1057" extended-state="0" />
+    <frame x="103" y="23" width="1789" height="1004" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14112692" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5026247" side_tool="true" weight="0.2734289" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49737534" weight="0.27291667" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49737534" visible="true" weight="0.45093715" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49868765" weight="0.5325248" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="RNConsole" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15340585" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32916668" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Thumbnails" order="11" weight="0.32930845" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="ReactNative" order="7" weight="0.32930845" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14112692" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49737534" weight="0.27291667" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Command Line Tools Console" order="11" visible="true" weight="0.32930845" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Messages" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5026247" side_tool="true" weight="0.2734289" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32916668" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49868765" weight="0.5325248" />
+      <window_info id="Favorites" order="2" side_tool="true" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17784877" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="ReactNative" order="7" weight="0.32930845" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Thumbnails" order="13" weight="0.32930845" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49809885" weight="0.41602635" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32930845" />
       <window_info anchor="bottom" id="Command Line Tools Console" order="12" visible="true" weight="0.32930845" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.20307355" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50190115" side_tool="true" weight="0.6608123" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49809885" weight="0.41602635" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Messages" order="8" />
@@ -912,6 +1046,117 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/chat.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="765" column="8" selection-start-line="765" selection-start-column="8" selection-end-line="765" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/navbar3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="34" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/粉絲人數.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="170" column="43" selection-start-line="170" selection-start-column="41" selection-end-line="170" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/填寫評價.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="110" column="30" selection-start-line="110" selection-start-column="30" selection-end-line="110" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/追蹤中.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/評價 預設.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="376" column="64" selection-start-line="376" selection-start-column="64" selection-end-line="376" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/填寫評價4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="937">
+          <caret line="68" column="52" selection-start-line="68" selection-start-column="52" selection-end-line="68" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/個人-非本人.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/编辑评价.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1169">
+          <caret line="77" column="7" selection-start-line="77" selection-start-column="7" selection-end-line="77" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/活动列表.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="40" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/主辦人 瀏覽活動.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="118" column="24" selection-start-line="118" selection-start-column="24" selection-end-line="120" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/個人-本人.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="67" column="18" lean-forward="true" selection-start-line="38" selection-start-column="12" selection-end-line="67" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/js.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="1070" column="93" lean-forward="true" selection-start-line="1070" selection-start-column="93" selection-end-line="1070" selection-end-column="93" />
+          <folding>
+            <element signature="n#style#0;n#video#0;n#!!top" expanded="true" />
+            <element signature="n#!!block;n#star#0" />
+            <element signature="n#!!block;n#teachingSwiper#0" />
+            <element signature="n#!!block;n#PartyQuestionnaireModal#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/聚會教學.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="45" column="45" selection-start-line="45" selection-start-column="45" selection-end-line="45" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="1569" lean-forward="true" selection-start-line="1569" selection-end-line="1569" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/隱私權政策.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="710">
@@ -934,19 +1179,6 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/s/home.html" />
-    <entry file="file://$PROJECT_DIR$/404.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="32" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/505.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/account.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/会员升级.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="281">
@@ -967,12 +1199,6 @@
           <caret line="48" column="60" selection-start-line="48" selection-start-column="60" selection-end-line="48" selection-end-column="60" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/friends-task.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/upgrade-vip.html">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/粉絲人數.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -1032,30 +1258,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/images/ic-Coin@2x.png" />
     <entry file="file://$PROJECT_DIR$/images/ic-Place@2x.png" />
-    <entry file="file://$PROJECT_DIR$/images/icon/ic-Member@2x.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/icon/ic-List@2x.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/活动列表.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="687">
           <caret line="422" selection-start-line="422" selection-end-line="422" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/icon/ic-share@2x.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/icon/ic-star12@2x.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/icon/ic-star@2x.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/icon/ic-star1@2x.png">
-      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/個人-非本人.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -1064,40 +1272,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/icon/vip-gold.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/icon/vip-green.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/icon/vip-modal1@2x.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/icon/vip-modal2@2x.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/icon/zhuanshi@2x.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/主辦人 瀏覽活動.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7590">
           <caret line="330" column="28" selection-start-line="330" selection-start-column="20" selection-end-line="330" selection-end-column="28" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#6;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/聚会管理.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7774">
-          <caret line="338" column="41" selection-start-line="338" selection-start-column="12" selection-end-line="338" selection-end-column="41" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1134,17 +1312,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="874">
           <caret line="38" column="11" lean-forward="true" selection-start-line="38" selection-start-column="11" selection-end-line="48" selection-end-column="13" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#1;n#div#12;n#div#3;n#div#3;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#12;n#div#3;n#div#3;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#12;n#div#3;n#div#3;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#b#0;n#div#0;n#div#12;n#div#3;n#div#3;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chat-list.html">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/儲值1  預設.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -1171,16 +1340,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="44" column="48" lean-forward="true" selection-start-line="44" selection-start-column="48" selection-end-line="44" selection-end-column="48" />
-          <folding>
-            <element signature="n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-216">
-          <caret line="1671" column="25" selection-start-line="1671" selection-start-column="1" selection-end-line="1671" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -1197,12 +1356,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/404.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="32" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/聚会管理.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1718">
+          <caret line="338" column="41" selection-start-line="338" selection-start-column="12" selection-end-line="338" selection-end-column="41" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PartyQuestionnaire.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="76" selection-start-line="76" selection-end-line="90" selection-end-column="6" />
+        <state relative-caret-position="-2">
+          <caret line="75" selection-start-line="75" selection-end-line="90" selection-end-column="6" />
           <folding>
-            <element signature="n#script#2;n#head#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#button#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1211,13 +1387,23 @@
             <element signature="n#style#0;n#img#0;n#button#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#button#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#h4#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h4#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h4#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="1709" column="108" selection-start-line="1709" selection-start-column="108" selection-end-line="1709" selection-end-column="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shares.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="70" column="67" selection-start-line="70" selection-start-column="67" selection-end-line="70" selection-end-column="67" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

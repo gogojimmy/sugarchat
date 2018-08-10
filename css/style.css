@@ -1700,11 +1700,14 @@ z-index: 99;}
 .PartyQuestionnaire-modal .swiper-pagination-bullet-active{background-color: #E7427A;}
 .PartyQuestionnaire-modal .swiper-pagination{bottom: .45rem;}
 
-
-
-
-
-
+/*shares-modal*/
+.shares-modal .title{height:.82rem; line-height: .82rem; text-align: center; color: #292929;font-size: .3rem;
+    font-weight: 500;border-bottom: solid 1px #dedddf;}
+.shares-modal .content{padding-top:.25rem;box-sizing: border-box; flex-wrap: wrap; justify-content: center; }
+.shares-modal .content a{flex-direction: column; align-items: center;width:1rem;margin-right:.8rem;margin-bottom:.56rem;}
+.shares-modal .content a:nth-child(3n+0){margin-right:0;}
+.shares-modal .content a img{width:1rem; height:1rem;}
+.shares-modal .content a p{margin-top:.14rem;font-size:.24rem;font-weight: 500; color: #4a4a4a;margin-bottom:0;}
 
 
 

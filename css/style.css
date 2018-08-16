@@ -1710,11 +1710,20 @@ z-index: 99;}
 .shares-modal .content a p{margin-top:.14rem;font-size:.24rem;font-weight: 500; color: #4a4a4a;margin-bottom:0;}
 
 
-
-
-
-
-
-
-
+/*novice-box*/
+.novice-box{}
+.novice-box img{width:7.5rem; display: block;}
+.novice-box .btn-box{display: block; position: relative;}
+.novice-box .btn-box a{display: block; width:5.52rem; height:1rem;
+    text-align: center; line-height: 1rem; color: #fff; font-size:.28rem; position: absolute; top:.85rem;left:0; right:0; margin: 0 auto;
+    background-color: #2E57A6;border-radius: .58rem;
+}
+.novice-box .btn-box a:active{  background-color: #39A6CF;}
+.novice-box .head{text-align: center;padding: .52rem; box-sizing: border-box;padding-bottom:0;}
+.novice-box .head h3{color: #292929; font-size: .4rem;padding:0;}
+.novice-box .head p{color: #292929; font-size: .3rem; margin: .24rem 0 .76rem;  }
+.novice-box .head img{width:1.32rem;margin: 0 auto;}
+.novice-box .video{position: relative;height:10rem;}
+.novice-box .video .tit-bg{position: absolute; bottom:0; left:0; z-index: 2;}
+.novice-box .video .video-play{width:6.76rem; height:4.5rem; position: absolute; top:.7rem;left:0; right:0; margin: 0 auto;}
 

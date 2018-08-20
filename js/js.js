@@ -1146,3 +1146,11 @@ function PartyQuestionnaireModal(){
 }
 PartyQuestionnaireModal()
 
+// 关闭ad banner
+function closeAdBanner(){
+    $(".create-activity").on('click', '.ad span', function(){
+        $(this).parent().remove();
+    })
+}
+closeAdBanner();
+

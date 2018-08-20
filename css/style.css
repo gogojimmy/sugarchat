@@ -1419,6 +1419,9 @@ z-index: 99;}
 
 /*create-activity*/
 .create-activity{width: 7.5rem;}
+.create-activity .ad{width:7.5rem; position: relative;}
+.create-activity .ad a,.create-activity .ad a img{width:100%;}
+.create-activity .ad span{width:.5rem; height:.5rem; background: url("../images/icon/ad-close@2x.png") center center no-repeat; background-size: .24rem .24rem; position: absolute; right:0; top:0;}
 .create-activity .form-group{width:100%;height: 1.2rem;border-bottom: solid 1px #ededed;padding: 0 .4rem 0 .3rem; box-sizing: border-box;margin-bottom:0; background-color: #fff;}
 .create-activity .form-group .icon{width: .44rem;height: .44rem; align-self: center;margin-right: .3rem;}
 .create-activity .form-group span,.create-activity .form-group label{flex-grow: 1;align-self: center;color: #b9b9b9;font-weight: 500;font-size: .3rem;}

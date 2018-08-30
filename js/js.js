@@ -1154,3 +1154,38 @@ function closeAdBanner(){
 }
 closeAdBanner();
 
+// op_loading
+function op_loading(){
+    $("#op_loading").scroll(function(event){
+        var block2offsetTop = $(".op-loading-box .block2").offset().top
+        var block3offsetTop = $(".op-loading-box .block3").offset().top
+        var block4offsetTop = $(".op-loading-box .block4").offset().top
+        var block5offsetTop = $(".op-loading-box .block5").offset().top
+        if(block2offsetTop <= 150){
+            $(".op-loading-box .block2 .chat-block .animated").show().addClass('bounceInLeft')
+        }
+
+        if(block3offsetTop <= 150){
+            $(".op-loading-box .block3 .chat-block .animated").show().addClass('bounceInRight')
+        }
+
+        if(block4offsetTop <= 200){
+            $(".op-loading-box .block4 .c1").show().addClass('bounceInLeft').css('display', 'block')
+            $(".op-loading-box .block4 .c2").show().addClass('bounceInRight').css('display', 'block')
+            $(".op-loading-box .block4 .chat-block .c3").show().addClass('bounceInRight')
+            $(".op-loading-box .block4 .chat-block .c4").show().addClass('bounceInLeft')
+        }
+        if(block5offsetTop <= 380){
+            $(".op-loading-box .block5 .chat-block .c1").show().addClass('bounceInRight')
+            $(".op-loading-box .block5 .chat-block .c2").show().addClass('bounceInLeft')
+            $(".op-loading-box .block5 .chat-block .c3").show().addClass('bounceInRight')
+        }
+
+    })
+    $(".head-fixed").on('click', '.btn', function(){
+        var offsetTop = $(".op-loading-box .block6").offset().top
+        $("#op_loading").animate({scrollTop: offsetTop + 'px'}, 500)
+    })
+}
+op_loading()
+

@@ -1162,7 +1162,10 @@ function op_loading(){
         var block4offsetTop = $(".op-loading-box .block4").offset().top
         var block5offsetTop = $(".op-loading-box .block5").offset().top
         if(block2offsetTop <= 150){
-            $(".op-loading-box .block2 .chat-block .animated").show().addClass('bounceInLeft')
+            $(".op-loading-box .block2 .chat-block .c1").show().addClass('bounceInLeft')
+            setTimeout(function(){
+                $(".op-loading-box .block2 .chat-block .c2").show().addClass('bounceInLeft')
+            }, 100)
         }
 
         if(block3offsetTop <= 150){
@@ -1171,14 +1174,24 @@ function op_loading(){
 
         if(block4offsetTop <= 200){
             $(".op-loading-box .block4 .c1").show().addClass('bounceInLeft').css('display', 'block')
-            $(".op-loading-box .block4 .c2").show().addClass('bounceInRight').css('display', 'block')
-            $(".op-loading-box .block4 .chat-block .c3").show().addClass('bounceInRight')
-            $(".op-loading-box .block4 .chat-block .c4").show().addClass('bounceInLeft')
+            setTimeout(function(){
+                $(".op-loading-box .block4 .c2").show().addClass('bounceInRight').css('display', 'block')
+            },100)
+            setTimeout(function(){
+                $(".op-loading-box .block4 .chat-block .c3").show().addClass('bounceInRight')
+            },200)
+            setTimeout(function(){
+                $(".op-loading-box .block4 .chat-block .c4").show().addClass('bounceInLeft')
+            },300)
         }
         if(block5offsetTop <= 380){
             $(".op-loading-box .block5 .chat-block .c1").show().addClass('bounceInRight')
-            $(".op-loading-box .block5 .chat-block .c2").show().addClass('bounceInLeft')
-            $(".op-loading-box .block5 .chat-block .c3").show().addClass('bounceInRight')
+            setTimeout(function(){
+                $(".op-loading-box .block5 .chat-block .c2").show().addClass('bounceInLeft')
+            },100)
+            setTimeout(function(){
+                $(".op-loading-box .block5 .chat-block .c3").show().addClass('bounceInRight')
+            },200)
         }
 
     })

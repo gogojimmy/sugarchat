@@ -1826,15 +1826,15 @@ z-index: 99;}
 .op-loading-box .block6 .h3{color: #ffffff;font-size: .3rem; text-align: center;margin-top:.2rem;}
 .op-loading-box .block6 form{width:6.7rem; display: block; margin: .64rem auto 0;background-color: #ffffff;border-radius:.12rem;box-shadow: 0 .04rem .31rem 0 rgba(88, 96, 109, 0.34);padding: .6rem .35rem .6rem; box-sizing: border-box;}
 .op-loading-box .block6 form .input-box{flex-direction: column;margin-bottom:.45rem;}
-.op-loading-box .block6 form .input-box label{color: #4a4a4a;font-size: .26rem;}
+.op-loading-box .block6 form .input-box label{color: #4a4a4a;font-size: .26rem;font-weight: 400;}
 .op-loading-box .block6 form .input-box input{width:100%;height: .88rem; display: block; outline: none;font-size: .26rem; line-height: .88rem;border: solid .02rem #dedddf; border-radius: .06rem;padding: .24rem; box-sizing: border-box;}
 .op-loading-box .block6 form .radio-input-box{flex-direction: column;margin-bottom:.45rem;}
-.op-loading-box .block6 form .radio-input-box>label{margin-bottom: .31rem;color: #4a4a4a;font-size: .26rem;color: #4a4a4a;}
+.op-loading-box .block6 form .radio-input-box>label{margin-bottom: .31rem;color: #4a4a4a;font-size: .26rem;font-weight: 400;}
 .op-loading-box .block6 form .radio-input-box .radio-box{margin-right:.6rem;}
 .op-loading-box .block6 form .radio-input-box .radio-box:last-child{margin-right: 0;}
 .op-loading-box .block6 form .radio-input-box>.flex{margin-bottom:.5rem;}
 .op-loading-box .block6 form .radio-input-box>.flex:last-child{margin-bottom: 0;}
-.op-loading-box .block6 form .radio-input-box .radio-box>label{color: #4a4a4a;font-size: .26rem;}
+.op-loading-box .block6 form .radio-input-box .radio-box>label{color: #4a4a4a;font-size: .26rem;font-weight: 400;}
 .op-loading-box .block6 form .radio-input-box>.flex input[type=text]{width:4.67rem;height: .88rem; display: block; outline: none;font-size: .26rem; line-height: .88rem;border: solid .02rem #dedddf; border-radius: .06rem;padding: .24rem; box-sizing: border-box;}
 .op-loading-box .block6 form .tips{color: #4a90e2;font-size:.26rem;margin-top:.66rem; text-align: center;display: block;}
 .op-loading-box .block6 form .btn{width:5.76rem;

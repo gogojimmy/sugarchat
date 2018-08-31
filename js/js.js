@@ -1196,8 +1196,9 @@ function op_loading(){
 
     })
     $(".head-fixed").on('click', '.btn', function(){
-        var offsetTop = $(".op-loading-box .block6").offset().top
-        $("#op_loading").animate({scrollTop: offsetTop + 'px'}, 500)
+        var clintHeight = $(document).outerHeight()
+        var contenHeight = $("#op_loading .op-loading-box").outerHeight()
+        $("#op_loading").animate({scrollTop: contenHeight - clintHeight -150 + 'px'}, 500)
     })
 }
 op_loading()

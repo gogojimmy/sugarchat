@@ -1818,7 +1818,7 @@ z-index: 99;}
 .op-loading-box .block5 .flex{padding-left:2.08rem; box-sizing: border-box;height:.9rem;margin-bottom:.43rem;}
 .op-loading-box .block5 .flex img{width:.93rem; height:.93rem; display: block;margin-right:.4rem;}
 .op-loading-box .block5 .flex p{ align-self: center;color: #292929;font-weight: 500;font-size:.34rem;margin:0;}
-.op-loading-box .block6{margin-top:1.08rem; background: url("../images/icon/opbg5.png") center top no-repeat; background-size: 7.5rem 14.73rem;padding-top:1.41rem;}
+.op-loading-box .block6{margin-top:1.08rem; background: url("../images/icon/opbg5.png") center top no-repeat; background-size: 7.5rem 14.73rem;padding-top:1.41rem; box-sizing: border-box;}
 .op-loading-box .block6>.flex{justify-content: center;height:.53rem; }
 .op-loading-box .block6>.flex span{color: #ffffff;font-size: .27rem; align-self: center;}
 .op-loading-box .block6>.flex img{width:2.28rem;height:.53rem;align-self: center;margin-left: .08rem;}

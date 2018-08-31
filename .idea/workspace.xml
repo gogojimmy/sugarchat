@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="13fc7e30-3c2a-4013-a602-5b2882e6bb25" name="Default" comment="修改几个图片">
+    <list default="true" id="13fc7e30-3c2a-4013-a602-5b2882e6bb25" name="Default" comment="update position">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icon/chat3@2xcopy45.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/icon/chat3@2xcopy45.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/js.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/js.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op_loading.html" beforeDir="false" afterPath="$PROJECT_DIR$/op_loading.html" afterDir="false" />
     </list>
     <list id="0c21cf16-a53a-4990-bd85-08abd7f60caf" name="Revert: add IScroll plugin" comment="Revert: add IScroll plugin" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -65,29 +63,31 @@
           <entry key="css" value="2" />
           <entry key="html" value="4" />
           <entry key="js" value="1" />
-          <entry key="png" value="3" />
+          <entry key="png" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="2" />
           <entry key="HTML" value="4" />
-          <entry key="Image" value="3" />
+          <entry key="Image" value="4" />
           <entry key="JavaScript" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="44" />
+          <entry key="css" value="55" />
           <entry key="html" value="16" />
-          <entry key="js" value="121" />
+          <entry key="js" value="314" />
+          <entry key="txt" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="44" />
+          <entry key="CSS" value="55" />
           <entry key="HTML" value="16" />
-          <entry key="JavaScript" value="121" />
+          <entry key="JavaScript" value="314" />
+          <entry key="PLAIN_TEXT" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
@@ -105,13 +105,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/js.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="1180" column="45" lean-forward="true" selection-start-line="1180" selection-start-column="45" selection-end-line="1180" selection-end-column="45" />
+            <state relative-caret-position="804">
+              <caret line="1199" column="59" selection-start-line="1199" selection-start-column="59" selection-end-line="1199" selection-end-column="59" />
               <folding>
-                <element signature="n#style#0;n#video#0;n#!!top" expanded="true" />
                 <element signature="n#!!block;n#star#0" />
                 <element signature="n#!!block;n#teachingSwiper#0" />
                 <element signature="n#!!block;n#PartyQuestionnaireModal#0" />
@@ -120,11 +119,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="659">
-              <caret line="1792" column="106" selection-start-line="1792" selection-start-column="106" selection-end-line="1792" selection-end-column="106" />
+            <state relative-caret-position="740">
+              <caret line="1820" column="24" lean-forward="true" selection-start-line="1820" selection-start-column="24" selection-end-line="1820" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -133,7 +132,7 @@
         <entry file="file://$PROJECT_DIR$/op_loading.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="106" column="74" selection-start-line="106" selection-start-column="74" selection-end-line="106" selection-end-column="74" />
+              <caret line="106" column="67" selection-start-line="106" selection-start-column="67" selection-end-line="106" selection-end-column="67" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -295,8 +294,8 @@
         <option value="$PROJECT_DIR$/建立活動.html" />
         <option value="$PROJECT_DIR$/op_loading_success.html" />
         <option value="$PROJECT_DIR$/op_loading.html" />
-        <option value="$PROJECT_DIR$/js/js.js" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/js/js.js" />
       </list>
     </option>
   </component>
@@ -319,7 +318,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1920" />
+    <option name="width" value="1455" />
     <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -336,6 +335,16 @@
             <path>
               <item name="sugarchat" type="b2602c69:ProjectViewProjectNode" />
               <item name="sugarchat" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sugarchat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sugarchat" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sugarchat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sugarchat" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -507,21 +516,7 @@
       <workItem from="1534945040042" duration="690000" />
       <workItem from="1535629350701" duration="14423000" />
       <workItem from="1535681218000" duration="68000" />
-      <workItem from="1535681311829" duration="642000" />
-    </task>
-    <task id="LOCAL-00009" summary="btn toggle">
-      <created>1521037398658</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1521037398658</updated>
-    </task>
-    <task id="LOCAL-00010" summary="add IScroll plugin">
-      <created>1521125210893</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1521125210893</updated>
+      <workItem from="1535681311829" duration="1805000" />
     </task>
     <task id="LOCAL-00011" summary="new Version">
       <created>1521206542886</created>
@@ -852,11 +847,25 @@
       <option name="project" value="LOCAL" />
       <updated>1534944654014</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="update">
+      <created>1535682152535</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1535682152535</updated>
+    </task>
+    <task id="LOCAL-00059" summary="update position">
+      <created>1535682466252</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1535682466252</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="385376000" />
+    <option name="totallyTimeSpent" value="386539000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -868,10 +877,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="1057" extended-state="0" />
+    <frame x="0" y="23" width="1455" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19694576" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2608089" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -953,13 +962,11 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Modify Other page 0321" />
     <MESSAGE value="new pages and modify" />
     <MESSAGE value="modify video change video default loading img" />
     <MESSAGE value="new pages" />
     <MESSAGE value="add animations.css" />
     <MESSAGE value="loading update" />
-    <MESSAGE value="update" />
     <MESSAGE value="new update" />
     <MESSAGE value="navbar" />
     <MESSAGE value="储值修改" />
@@ -978,7 +985,9 @@
     <MESSAGE value="添加一个页面" />
     <MESSAGE value="修改几个页面" />
     <MESSAGE value="修改几个图片" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改几个图片" />
+    <MESSAGE value="update" />
+    <MESSAGE value="update position" />
+    <option name="LAST_COMMIT_MESSAGE" value="update position" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1223,26 +1232,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/js.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="1180" column="45" lean-forward="true" selection-start-line="1180" selection-start-column="45" selection-end-line="1180" selection-end-column="45" />
-          <folding>
-            <element signature="n#style#0;n#video#0;n#!!top" expanded="true" />
-            <element signature="n#!!block;n#star#0" />
-            <element signature="n#!!block;n#teachingSwiper#0" />
-            <element signature="n#!!block;n#PartyQuestionnaireModal#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/icon/chat3@2xcopy45.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/op_loading.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="106" column="74" selection-start-line="106" selection-start-column="74" selection-end-line="106" selection-end-column="74" />
+          <caret line="106" column="67" selection-start-line="106" selection-start-column="67" selection-end-line="106" selection-end-column="67" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -1261,8 +1257,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="659">
-          <caret line="1792" column="106" selection-start-line="1792" selection-start-column="106" selection-end-line="1792" selection-end-column="106" />
+        <state relative-caret-position="740">
+          <caret line="1820" column="24" lean-forward="true" selection-start-line="1820" selection-start-column="24" selection-end-line="1820" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/js.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="804">
+          <caret line="1199" column="59" selection-start-line="1199" selection-start-column="59" selection-end-line="1199" selection-end-column="59" />
+          <folding>
+            <element signature="n#!!block;n#star#0" />
+            <element signature="n#!!block;n#teachingSwiper#0" />
+            <element signature="n#!!block;n#PartyQuestionnaireModal#0" />
+          </folding>
         </state>
       </provider>
     </entry>
